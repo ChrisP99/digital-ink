@@ -32,5 +32,5 @@ Route::get('login', 'AuthController@index');
 Route::post('post-login', 'AuthController@postLogin');
 Route::get('register', 'AuthController@registration');
 Route::post('post-registration', 'AuthController@postRegistration');
-Route::get('profile', 'AuthController@dashboard');
+Route::get('profile', 'AuthController@profile');
 Route::get('logout', 'AuthController@logout');
