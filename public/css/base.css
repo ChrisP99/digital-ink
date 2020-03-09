@@ -1,12 +1,21 @@
 body {
-    margin: 0px;
+    background-color: white;
     font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
     background-color: black;
     position: sticky;
+    flex-shrink: 0;
     color: white;
+}
+
+label {
+    display: block;
+    width: 270px;
+    text-align: right;
 }
 
 .copyright {
@@ -24,8 +33,41 @@ footer a:hover {
 }
 
 .footer-option {
+     text-align: center;
+     padding: 40px 0px;
+ }
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-size: auto;
+    background-position: center;
+}
+
+.recent-stories{
     text-align: center;
-    padding: 40px 0px;
+    padding: 75px;
+}
+
+.story {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.login {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.login-form{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.banner{
+    background-image: url("../images/cover-image.jpg");
+    background-position: center;
+    color: white;
 }
 
 .main-body {

@@ -10,7 +10,27 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('base');
+    return view('welcome');
 });
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Auth::routes(['verify' => true]);
+// Adds authentication to check to see if a user is logged in
+
+Route::get('login', 'AuthController@index');
+Route::post('post-login', 'AuthController@postLogin');
+Route::get('register', 'AuthController@registration');
+Route::post('post-registration', 'AuthController@postRegistration');
+Route::get('profile', 'AuthController@dashboard');
+Route::get('logout', 'AuthController@logout');

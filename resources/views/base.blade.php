@@ -21,9 +21,7 @@
 @yield ('content')
 
 <footer>
-
         <div class = "container">
-
             <div class = "row">
                 <div class = "col footer-option">
                     About
