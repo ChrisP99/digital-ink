@@ -1,33 +1,33 @@
-body{
+body {
     margin: 0px;
     font-family: 'Rubik', sans-serif;
 }
 
-footer{
+footer {
     background-color: black;
     position: sticky;
     color: white;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     font-size: 0.8em;
 }
 
-.socialmedia{
+.socialmedia {
     width: 40px;
     padding: 5px;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: none;
 }
 
-.footer-option{
-    text-align: center; 
+.footer-option {
+    text-align: center;
     padding: 40px 0px;
 }
 
-.main-body{
+.main-body {
     margin: 40px 100px;
 }
