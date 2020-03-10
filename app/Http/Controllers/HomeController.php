@@ -9,5 +9,6 @@ class HomeController extends Controller
     public function __construct()
     {
         $this->middleware('verified');
+        //TODO: Remember Token
     }
 }
