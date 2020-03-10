@@ -1,6 +1,28 @@
 body {
     margin: 0px;
-    font-family: 'Rubik', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.65);
+    position: sticky;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-option {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+a {
+    vertical-align: bottom;
 }
 
 footer {
