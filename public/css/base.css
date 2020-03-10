@@ -1,7 +1,15 @@
+/*
+    main body styling
+*/
+
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*
+    header styling
+*/
 
 header {
     overflow: hidden;
@@ -11,29 +19,28 @@ header {
     text-align: center;
 }
 
-.logo {
-    font-size: 40px;
-    font-weight: bold;
-}
-
 .header-option {
     text-align: center;
     padding: 40px 0px;
 }
 
-a {
-    vertical-align: bottom;
+.logo {
+    font-size: 40px;
+    font-weight: bold;
 }
+
+/*
+    footer styling
+*/
 
 footer {
     background-color: black;
-    position: sticky;
     color: white;
 }
 
-.copyright {
+.footer-option {
     text-align: center;
-    font-size: 0.8em;
+    padding: 40px 0px;
 }
 
 .socialmedia {
@@ -41,14 +48,30 @@ footer {
     padding: 5px;
 }
 
-footer a:hover {
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/*
+    page link styling
+*/
+
+a {
+    color: white;
+    vertical-align: bottom;
+}
+
+a:hover {
+    color: plum;
     text-decoration: none;
 }
 
-.footer-option {
-    text-align: center;
-    padding: 40px 0px;
-}
+/*
+    styling for other elements across all pages - but not present in base.blade
+*/
+
+/* main body div for text under header */
 
 .main-body {
     margin: 40px 100px;

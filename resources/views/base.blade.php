@@ -3,72 +3,105 @@
 <html lang = "en">
 
 <head>
+
+    <!-- meta elements -->
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="online book publishing">
+    <meta name="keywords" content="book,author,reader">
+    <meta name="author" content="Team 41">
+
+    <!-- viewport -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-@yield('title')
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- additional head information relative to page to be added -->
+    
+    @yield('additionalHeadInfo')
 
-<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <!-- styling -->
 
-<link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <header>
-    <div class = "container">
-        <div class = "row">
-            <div class = "col header-option">
-                <a>Stories</a>
-            </div>
-            <div class = "col header-option">
-                <a class="col logo">Digital Ink.</a>
-            </div>
-            <div class = "col header-option">
-                <a>Account</a>
-            </div>
-        </div>
-    </div>
-</header>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+
+</head>
 
 <body>
 
-@yield ('content')
+    <!-- page header -->
 
-<footer>
-
+    <header>
         <div class = "container">
-
             <div class = "row">
-                <div class = "col footer-option">
-                    About
+                <!-- stories page link -->
+                <div class = "col header-option">
+                    <a href="{{ url('/stories') }}">Stories</a>
                 </div>
 
-                <div class = "col footer-option">
-                    Get In Touch
+                <!-- homepage link / logo -->
+                <div class = "col header-option">
+                    <a href="{{ url('/') }}" class="col logo">Digital Ink.</a>
                 </div>
 
+                <!-- profile page link -->
+                <div class = "col header-option">
+                    <a href="{{ url('/account') }}">Account</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- additional page content to be added -->
+
+    @yield ('content')
+
+    <!-- page footer -->
+
+    <footer>
+        <div class = "container">
+            <div class = "row">
+                <!-- link to about page -->
                 <div class = "col footer-option">
+                    <a href="{{ url('/about') }}">About</a>
+                </div>
+
+                <!-- link to contact page -->
+                <div class = "col footer-option">
+                    <a href="{{ url('/contact') }}">Get In Touch</a>
+                </div>
+
+                <!-- link to social media pages -->
+                <div class = "col footer-option">
+                    <!-- Facebook -->
                     <a href = "https://facebook.com" target = "_blank">
                         <img class = "socialmedia" alt = "facebook logo" src = "images/facebook.png">
                     </a>
 
+                    <!-- Twitter -->
                     <a href = "https://twitter.com" target = "_blank">
                         <img class = "socialmedia" alt = "twitter logo" src = "images/twitter.png">
                     </a>
 
+                    <!-- Instagram -->
                     <a href = "https://instagram.com" target = "_blank">
                         <img class = "socialmedia" alt = "instagram logo" src = "images/instagram.png">
                     </a>
-
+                    
+                    <!-- Pinterest -->
                     <a href = "https://pintrest.com" target = "_blank">
                         <img class = "socialmedia" alt = "pinterest logo" src = "images/pinterest.png">
                     </a>
                 </div>
-
             </div>
 
+            <!-- copyright message -->
             <p class = "copyright">© Digital Ink. 2020</p>
         </div>
 
-</footer>
+    </footer>
 
 </body>
 
