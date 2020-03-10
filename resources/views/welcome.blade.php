@@ -1,14 +1,12 @@
 @extends('base')
 
 @section('title')
-
-@endsection
-
     <title>Home | Digital Ink.</title>
+@endsection
 
 @section ('content')
 
-<header class="masthead">
+
     <div class="banner h-25">
 
     </div>
@@ -80,7 +78,6 @@
             </form>
         </div>
     </div>
-</header>
 
 @endsection
 
