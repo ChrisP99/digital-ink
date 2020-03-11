@@ -13,20 +13,24 @@ body {
 
 header {
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.65);
     position: sticky;
-    color: white;
     text-align: center;
+    background-color: white;
 }
 
 .header-option {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: steelblue;
     text-align: center;
     padding: 40px 0px;
+    font-size: 1.2em;
 }
 
 .logo {
-    font-size: 40px;
-    font-weight: bold;
+    width: 180px;
+    padding: 5px;
 }
 
 /*

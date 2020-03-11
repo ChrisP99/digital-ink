@@ -38,17 +38,17 @@
             <div class = "row">
                 <!-- stories page link -->
                 <div class = "col header-option">
-                    <a href="{{ url('/stories') }}">Stories</a>
+                    <a href="{{ url('/stories') }}" class = "header-option">Stories</a>
                 </div>
 
                 <!-- homepage link / logo -->
                 <div class = "col header-option">
-                    <a href="{{ url('/') }}" class="col logo">Digital Ink.</a>
+                    <a href="{{ url('/') }}"><img class="logo" alt = "Digital Ink logo" src = "images/digital-ink-logo.png" align="middle"></a>
                 </div>
 
                 <!-- profile page link -->
                 <div class = "col header-option">
-                    <a href="{{ url('/account') }}">Account</a>
+                    <a href="{{ url('/account') }}" class = "header-option">Account</a>
                 </div>
             </div>
         </div>
