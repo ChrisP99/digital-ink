@@ -5,7 +5,7 @@
 <head>
 
     <!-- meta elements -->
-    
+
     <meta charset="UTF-8">
     <meta name="description" content="online book publishing">
     <meta name="keywords" content="book,author,reader">
@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- additional head information relative to page to be added -->
-    
+
     @yield('additionalHeadInfo')
 
     <!-- styling -->
@@ -38,17 +38,17 @@
             <div class = "row">
                 <!-- stories page link -->
                 <div class = "col header-option">
-                    <a href="{{ url('/stories') }}" class = "header-option">Stories</a>
+                    <a href="/stories" class = "header-option">Stories</a>
                 </div>
 
                 <!-- homepage link / logo -->
                 <div class = "col header-option">
-                    <a href="{{ url('/') }}"><img class="logo" alt = "Digital Ink logo" src = "images/digital-ink-logo.png" align="middle"></a>
+                    <a href="/"><img class="logo" alt = "Digital Ink logo" src = "images/digital-ink-logo.png" align="middle"></a>
                 </div>
 
                 <!-- profile page link -->
                 <div class = "col header-option">
-                    <a href="{{ url('/account') }}" class = "header-option">Account</a>
+                    <a href="/account" class = "header-option">Account</a>
                 </div>
             </div>
         </div>
@@ -65,12 +65,12 @@
             <div class = "row">
                 <!-- link to about page -->
                 <div class = "col footer-option">
-                    <a href="{{ url('/about') }}">About</a>
+                    <a href="/about">About</a>
                 </div>
 
                 <!-- link to contact page -->
                 <div class = "col footer-option">
-                    <a href="{{ url('/contact') }}">Get In Touch</a>
+                    <a href="/contact">Get In Touch</a>
                 </div>
 
                 <!-- link to social media pages -->
@@ -89,7 +89,7 @@
                     <a href = "https://instagram.com" target = "_blank">
                         <img class = "socialmedia" alt = "instagram logo" src = "images/instagram.png">
                     </a>
-                    
+
                     <!-- Pinterest -->
                     <a href = "https://pintrest.com" target = "_blank">
                         <img class = "socialmedia" alt = "pinterest logo" src = "images/pinterest.png">
