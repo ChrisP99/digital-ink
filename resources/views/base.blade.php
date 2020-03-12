@@ -43,7 +43,8 @@
 
                 <!-- homepage link / logo -->
                 <div class = "col header-option">
-                    <a href="/"><img class="logo" alt = "Digital Ink logo" src = "images/digital-ink-logo.png" align="middle"></a>
+                    <a href="/">
+                        <img class="logo" alt = "Digital Ink logo" src = "images/digital-ink-logo.png" align="middle"></a>
                 </div>
 
                 <!-- profile page link -->
