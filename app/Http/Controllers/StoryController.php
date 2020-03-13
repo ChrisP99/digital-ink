@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Story;
 
 class StoryController extends Controller
 {
@@ -43,16 +44,15 @@ class StoryController extends Controller
             'content'=>'required',
             'published'=>'required'
         ]);
-        $contact = new Contact([
+        $story = new Story([
             'author_id'=>$request->get('author_id'),
             'title'=>$request->get('title'),
             'genre'=>$request->get('genre'),
             'blurb'=>$request->get('blurb'),
             'content'=>$request->get('content'),
             'published'=>$request->get('published'),
-
         ]);
-        $contact->save();
+        $story->save();
         return redirect('/stories')->with('success', 'Story saved!');
     }
 
@@ -75,7 +75,8 @@ class StoryController extends Controller
      */
     public function edit($id)
     {
-        //
+        $story = Story::find($id);
+        return view('stories.edit', compact('story'));
     }
 
     /**
@@ -87,7 +88,23 @@ class StoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'author_id'=>'required',
+            'title'=>'required',
+            'genre'=>'required',
+            'blurb'=>'required',
+            'content'=>'required',
+            'published'=>'required'
+        ]);
+        $story = Story::find($id);
+            $story->author_id = $request->get('author_id');
+            $story->title = $request->get('title');
+            $story->genre = $request->get('genre');
+            $story->blurb = $request->get('blurb');
+            $story->content= $request->get('content');
+            $story->published = $request->get('published');
+            $story->save();
+        return redirect('/stories')->with('success', 'Story saved!');
     }
 
     /**
@@ -98,6 +115,8 @@ class StoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $story = Story::find($id);
+        $story->delete();
+        return redirect('/stories')->with('success', 'Story deleted!');
     }
 }

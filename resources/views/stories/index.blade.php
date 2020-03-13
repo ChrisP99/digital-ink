@@ -34,7 +34,7 @@
                     <a href="{{ route('stories.edit',$story->id)}}" class="btn btn-primary">Edit</a>
                 </td>
                 <td>
-                    <form action="{{ route('stories.destroy',$contact->id)}}" method="post">
+                    <form action="{{ route('stories.destroy',$story->id)}}" method="post">
                         @csrf
                         @method('DELETE')
                         <button class="btn btn-danger" type="submit">Delete</button>
