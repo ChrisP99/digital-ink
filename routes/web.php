@@ -15,8 +15,18 @@ Route::get('/', function () {
     return view('base');
 });
 
-Route::get('/hello', function () {
-    return view('welcome');
+Route::get('/account', function () {
+    return view('account');
 });
 
+Route::get('/stories', function () {
+    return view('stories');
+});
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
