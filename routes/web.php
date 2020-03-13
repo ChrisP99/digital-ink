@@ -12,16 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('base');
+    return view('welcome');
 });
 
 Route::get('/account', function () {
     return view('account');
 });
 
-Route::get('/stories', function () {
-    return view('stories');
-});
+Route::resource('stories', 'StoryController');
+Route::get('stories/{story}', 'StoryController@show');
 
 Route::get('/about', function () {
     return view('about');
