@@ -7,17 +7,17 @@
 @section('content')
 <div class="row">
 <div class="col-sm-12">
-        <h1 class="display-3">Contacts</h1>
+        <h1 class="display-3">Stories</h1>
     <table class="table table-striped">
         <thread>
             <tr>
-                <td>id</td>
-                <td>author_id</td>
-                <td>title</td>
-                <td>genre</td>
-                <td>blurb</td>
-                <td>content</td>
-                <td>published</td>
+                <td>Story ID</td>
+                <td>Author ID</td>
+                <td>Title</td>
+                <td>Genre</td>
+                <td>Blurb</td>
+                <td>Content</td>
+                <td>Published</td>
             </tr>
         </thread>
         <tbody>
@@ -34,7 +34,7 @@
                     <a href="{{ route('stories.edit',$story->id)}}" class="btn btn-primary">Edit</a>
                 </td>
                 <td>
-                    <form action="{{ route('stories.destroy',$contact->id)}}" method="post">
+                    <form action="{{ route('stories.destroy',$story->id)}}" method="post">
                         @csrf
                         @method('DELETE')
                         <button class="btn btn-danger" type="submit">Delete</button>

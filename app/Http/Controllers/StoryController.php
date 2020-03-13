@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Story;
 
 class StoryController extends Controller
 {
@@ -43,7 +44,7 @@ class StoryController extends Controller
             'content'=>'required',
             'published'=>'required'
         ]);
-        $contact = new Contact([
+        $story = new Story([
             'author_id'=>$request->get('author_id'),
             'title'=>$request->get('title'),
             'genre'=>$request->get('genre'),
@@ -52,7 +53,7 @@ class StoryController extends Controller
             'published'=>$request->get('published'),
 
         ]);
-        $contact->save();
+        $story->save();
         return redirect('/stories')->with('success', 'Story saved!');
     }
 
@@ -64,7 +65,8 @@ class StoryController extends Controller
      */
     public function show($id)
     {
-        return view('stories.show', compact('id'));
+        $story = Story::find($id);
+        return view('stories.show', ['story'=>$story]);
     }
 
     /**
