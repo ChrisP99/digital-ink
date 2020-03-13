@@ -15,7 +15,7 @@ class StoryController extends Controller
     public function index()
     {
         $stories = Story::all();
-        return view('stories.index', compact('stories'));
+        return view('stories.index', ['stories'=>$stories]);
     }
 
     /**

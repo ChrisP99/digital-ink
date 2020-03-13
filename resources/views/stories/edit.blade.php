@@ -4,12 +4,6 @@
     <title>Stories | Digital ink.</title>
 @endsection
 
-@section('additionalHeadInfo')
-
-    <link rel="stylesheet" type="text/css" href={{ asset('css/base.css') }}>
-
-@endsection
-
 @section('content')
 
     <div class="row">
@@ -34,12 +28,24 @@
                     <div class="form-group">
                         <label for="genre">Genre:</label>
                         <select name="genre">
-                            <option value="Action and Adventure">Action and Adventure</option>
-                            <option value="Children's">Children's</option>
-                            <option value="Historical">Historical</option>
-                            <option value="Horror">Horror</option>
-                            <option value="Romance">Romance</option>
-                            <option value="Science Fiction">Science Fiction</option>
+                            <option value="Action and Adventure" @if(old('genre',$story->genre)=="Action and Adventure") selected @endif>
+                                Action and Adventure
+                            </option>
+                            <option value="Children's" @if(old('genre',$story->genre)=="Children's") selected @endif>
+                                Children's
+                            </option>
+                            <option value="Historical" @if(old('genre',$story->genre)=="Historical") selected @endif>
+                                Historical
+                            </option>
+                            <option value="Horror" @if(old('genre',$story->genre)=="Horror") selected @endif>
+                                Horror
+                            </option>
+                            <option value="Romance" @if(old('genre',$story->genre)=="Romance") selected @endif>
+                                Romance
+                            </option>
+                            <option value="Science Fiction" @if(old('genre',$story->genre)=="Science Fiction") selected @endif>
+                                Science Fiction
+                            </option>
                         </select>
                     </div>
 

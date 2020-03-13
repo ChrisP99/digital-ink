@@ -5,8 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="row">
-    <div class="col-sm-12">
+    <div>
 
     <h1>Story Details</h1>
     <div>
@@ -23,6 +22,6 @@
         <p>{{ $story->blurb }}</p>
         <strong>Content:</strong>
         <p>{{ $story->content }}</p>
-    </div>
+
     </div>
     @endsection

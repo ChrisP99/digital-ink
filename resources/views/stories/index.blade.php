@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="row">
+<div>
 <div class="col-sm-12">
         <h1 class="display-3">Stories</h1>
     <table class="table table-striped">
@@ -25,7 +25,7 @@
             <tr>
                 <td>{{$story->id}}</td>
                 <td>{{$story->author_id}}</td>
-                <td>{{$story->title}}</td>
+                <td><a href = "stories/{{ $story->id }}">{{ $story->title }}</a></td>
                 <td>{{$story->genre}}</td>
                 <td>{{$story->blurb}}</td>
                 <td>{{$story->content}}</td>
@@ -44,6 +44,5 @@
             @endforeach
         </tbody>
     </table>
-<div>
 </div>
 @endsection
