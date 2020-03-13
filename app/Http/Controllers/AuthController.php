@@ -34,7 +34,7 @@ class AuthController extends Controller
         // Requests the email and password from the database, so it can check if the user is valid.
         if (Auth::attempt($credentials)) {
             // If the user's information is found in the database...
-            return redirect()->intended('profile');
+            return redirect()->intended('account');
             //... Redirect them to their profile.
         }
         return Redirect::to("login")->withSuccess('You have entered invalid credentials.');
@@ -54,13 +54,13 @@ class AuthController extends Controller
 
         $check = $this->create($data);
 
-        return Redirect::to("profile")->withSuccess('You have Successfully logged in.');
+        return Redirect::to("account")->withSuccess('You have Successfully logged in.');
     }
 
-    public function profile()
+    public function account()
     {
         if(Auth::check()){
-            return view('profile');
+            return view('account');
         }
         return Redirect::to("login")->withSuccess('Oops! You do not have access');
     }

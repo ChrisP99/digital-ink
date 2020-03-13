@@ -19,7 +19,7 @@ class RedirectIfAuthenticated
     {
         if (Auth::guard($guard)->check()) {
             //If the user has been authenticated (i.e, they're already logged in)
-            return redirect('/profile');
+            return redirect('/account');
             // Redirect them to their profile, if they want to make a new account, they'll need to logout.
 
         }

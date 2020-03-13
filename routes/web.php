@@ -21,8 +21,8 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/profile', function () {
-    return view('profile');
+Route::get('/account', function () {
+    return view('account');
 });
 
 Auth::routes(['verify' => true]);
@@ -32,5 +32,5 @@ Route::get('login', 'AuthController@index');
 Route::post('post-login', 'AuthController@postLogin');
 Route::get('register', 'AuthController@registration');
 Route::post('post-registration', 'AuthController@postRegistration');
-Route::get('profile', 'AuthController@profile');
+Route::get('account', 'AuthController@account');
 Route::get('logout', 'AuthController@logout');
