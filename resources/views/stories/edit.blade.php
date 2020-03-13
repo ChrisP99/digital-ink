@@ -16,17 +16,18 @@
         <div class="col-sm-8 offset-sm-2">
             <h1 class="display-3">Create a Story!</h1>
             <div>
-                <form id="story_upload" method="post" action="{{ route('stories.store') }}">
+                <form id="story_upload" method="post" action="{{ route('stories.update', $story->id) }}">
+                    @method('PATCH')
                     @csrf
                     <div class="form-group">
                         <label for="author_id">Author ID:</label>
-                        <input type="text" class="form-control" name="author_id" autocomplete="off" value="{{ old('author_id') }}">
+                        <input type="text" class="form-control" name="author_id" autocomplete="off" value="{{ $story->author_id }}">
                     </div>
                     <span class="text-danger">{{ $errors->first('author_id') }}</span>
 
                     <div class="form-group">
                         <label for="title">Title:</label>
-                        <input type="text" class="form-control" name="title" autocomplete="off" value="{{ old('title') }}">
+                        <input type="text" class="form-control" name="title" autocomplete="off" value="{{ $story->title }}">
 
                     </div>
 
@@ -44,12 +45,12 @@
 
                     <div class="form-group">
                         <label for="blurb">Blurb:</label>
-                        <input type="textarea" class="form-control" name="blurb" autocomplete="off" value="{{ old('blurb') }}">
+                        <input type="textarea" class="form-control" name="blurb" autocomplete="off" value="{{ $story->blurb }}">
                     </div>
 
                     <div class="form-group">
                         <label for="content">Content:</label>
-                        <input type="textarea" class="form-control" name="content" autocomplete="off" value="{{ old('content') }}">
+                        <input type="textarea" class="form-control" name="content" autocomplete="off" value="{{ $story->content }}">
                     </div>
 
                     <div class="form-group">
