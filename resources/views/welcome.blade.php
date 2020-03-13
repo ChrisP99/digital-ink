@@ -10,20 +10,6 @@
     <div class="banner h-25">
 
     </div>
-    <div class="recent-stories">
-        <h2>Recent Stories.</h2>
-        <div class="row">
-            <div class="col story">
-                Story
-            </div>
-            <div class="col story">
-                Story
-            </div>
-            <div class="col story">
-                Story
-            </div>
-        </div>
-    </div>
     <div class="login">
         <h2>Login.</h2>
         <div class="card login-form">
