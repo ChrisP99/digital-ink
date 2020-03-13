@@ -1,13 +1,4 @@
 body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-header {
-    overflow: hidden;
-    position: sticky;
-    text-align: center;
     background-color: white;
 }
 
@@ -27,29 +18,23 @@ header {
     height: 180px;
 }
 
-footer {
+footer{
     background-color: black;
     color: white;
 }
 
-.footer-option {
-    text-align: center;
-    padding: 40px 0px;
-}
-
-
 label {
     display: block;
     width: 270px;
-    text-align: right;
+    text-align: center;
 }
 
-.copyright {
+.copyright{
     text-align: center;
     font-size: 0.8em;
 }
 
-.socialmedia {
+.socialmedia{
     width: 40px;
     padding: 5px;
 }
@@ -58,11 +43,37 @@ footer a:hover {
     text-decoration: none;
 }
 
-.footer-option {
+.footer-option{
      text-align: center;
      padding: 40px 0px;
  }
 
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-size: auto;
+    background-position: center;
+}
+
+.recent-stories{
+    text-align: center;
+    padding: 75px;
+}
+
+.story {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.login {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.login-form{
+    text-align: center;
+    padding: 40px 0;
+}
 
 .banner{
     background-image: url("../images/cover-image.jpg");
@@ -70,27 +81,6 @@ footer a:hover {
     color: white;
 }
 
-.main-body {
+.main-body{
     margin: 40px 100px;
 }
-
-/*
-    page link styling
-*/
-
-a {
-    color: white;
-    vertical-align: bottom;
-}
-
-a:hover {
-    color: plum;
-    text-decoration: none;
-}
-
-/*
-    styling for other elements across all pages - but not present in base.blade
-*/
-
-/* main body div for text under header */
-
