@@ -2,11 +2,11 @@
 
 @section('additionalHeadInfo')
     <title>Stories | Digital ink.</title>
+
+    <link rel="stylesheet" type="text/css" href="css/base.css">
 @endsection
 
-@section('additionalHeadInfo')
-
-    <link rel="stylesheet" type="text/css" href={{ asset('css/base.css') }}>
+@section('content')
 
 @endsection
 
