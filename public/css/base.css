@@ -1,29 +1,29 @@
-body {
+body{
     background-color: white;
     font-family: 'Rubik', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
-footer {
+footer{
     background-color: black;
     position: sticky;
     flex-shrink: 0;
     color: white;
 }
 
-label {
+label{
     display: block;
     width: 270px;
-    text-align: right;
+    text-align: center;
 }
 
-.copyright {
+.copyright{
     text-align: center;
     font-size: 0.8em;
 }
 
-.socialmedia {
+.socialmedia{
     width: 40px;
     padding: 5px;
 }
@@ -32,37 +32,10 @@ footer a:hover {
     text-decoration: none;
 }
 
-.footer-option {
+.footer-option{
      text-align: center;
      padding: 40px 0px;
  }
-
-.masthead {
-    height: 100vh;
-    min-height: 500px;
-    background-size: auto;
-    background-position: center;
-}
-
-.recent-stories{
-    text-align: center;
-    padding: 75px;
-}
-
-.story {
-    text-align: center;
-    padding: 40px 0;
-}
-
-.login {
-    text-align: center;
-    padding: 40px 0;
-}
-
-.login-form{
-    text-align: center;
-    padding: 40px 0;
-}
 
 .banner{
     background-image: url("../images/cover-image.jpg");
@@ -70,6 +43,30 @@ footer a:hover {
     color: white;
 }
 
-.main-body {
+.main-body{
     margin: 40px 100px;
+}
+
+#background {
+    background-image: url(pic.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+#form-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+#form1 {
+    width: 50%;
+    display: inline-block;
+    min-width:200px;
+}
+#form2 {
+    width: 50%;
+    display: inline-block;
+    min-width:200px;
 }
