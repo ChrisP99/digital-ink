@@ -1,5 +1,10 @@
 @extends('base')
-@section('main')
+
+@section('additionalHeadInfo')
+    <title>Index | Digital ink.</title>
+@endsection
+
+@section('content')
     <div class="row">
     <div class="col-sm-12">
 
@@ -20,3 +25,4 @@
         <p>{{ $story->content }}</p>
     </div>
     </div>
+    @endsection
