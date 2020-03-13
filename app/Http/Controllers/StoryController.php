@@ -24,7 +24,7 @@ class StoryController extends Controller
      */
     public function create()
     {
-        //
+        return view('stories.create');
     }
 
     /**
@@ -35,7 +35,25 @@ class StoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'author_id'=>'required',
+            'title'=>'required',
+            'genre'=>'required',
+            'blurb'=>'required',
+            'content'=>'required',
+            'published'=>'required'
+        ]);
+        $contact = new Contact([
+            'author_id'=>$request->get('author_id'),
+            'title'=>$request->get('title'),
+            'genre'=>$request->get('genre'),
+            'blurb'=>$request->get('blurb'),
+            'content'=>$request->get('content'),
+            'published'=>$request->get('published'),
+
+        ]);
+        $contact->save();
+        return redirect('/stories')->with('success', 'Story saved!');
     }
 
     /**
