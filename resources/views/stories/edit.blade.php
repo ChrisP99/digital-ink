@@ -27,7 +27,7 @@
 
                     <div class="form-group">
                         <label for="genre">Genre:</label>
-                        <select name="genre">
+                        <select class="form-control" name="genre">
                             <option value="Action and Adventure" @if(old('genre',$story->genre)=="Action and Adventure") selected @endif>
                                 Action and Adventure
                             </option>
@@ -61,9 +61,9 @@
 
                     <div class="form-group">
                         <input type="radio" id="draft" name="published" value="0">
-                        <label for="female">Save as a Draft</label><br>
+                        <label for="draft">Save as a Draft</label><br>
                         <input type="radio" id="upload" name="published" value="1">
-                        <label for="other">Upload</label>
+                        <label for="upload">Upload</label>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Complete</button>
