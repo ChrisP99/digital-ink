@@ -43,10 +43,18 @@
                     <a href="/stories" class = "header-option">Stories</a>
                 </div>
 
+                <div class = "col header-option">
+                    <a href="/stories/create" class = "header-option">Create</a>
+                </div>
+
                 <!-- homepage link / logo -->
                 <div class = "col header-option">
                     <a href="/">
                         <img class="logo" alt = "Digital Ink logo" src = "{{ asset('images/digital-ink-logo.png') }}" align="middle"></a>
+                </div>
+
+                <div class = "col header-option">
+                    <a href="/about" class = "header-option">About</a>
                 </div>
 
                 <!-- profile page link -->

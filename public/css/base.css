@@ -22,15 +22,15 @@ header {
     display: flex;
     justify-content:center;
     align-items:center;
-    color: steelblue;
+    color: #172b46;
     text-align: center;
     padding: 40px 0px;
     font-size: 1.2em;
 }
 
 .logo {
-    width: 180px;
-    height: 180px;
+    width: 125px;
+    height: 125px;
 }
 
 /*
