@@ -77,15 +77,32 @@ a:hover {
 
 /* main body div for text under header */
 
+
+/* styling for heading on pages */
+h1{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
 .main-body {
     margin: 60px 100px;
 }
 
+/* error styling */
+.form-error{
+    color: #FF0000;
+}
 
 /*
-    buttons
+    buttons - all CSS for buttons only work in base
 */
 
+/* button alignment if at centre at bottom of page */
+.main-button{
+    text-align: center;
+}
+
+/* general button styling */
 .button{
     border: none;
     border-radius: 30px;
@@ -102,12 +119,13 @@ a:hover {
 /* complete button on edit and create blades */
 
 .complete-button {
+    font-size: 1.2em;
     background-color: white;
     color: black;
-    border: 2px solid #23baba;
+    border: 2px solid #23BABA;
 }
 
 .complete-button:hover {
-    background-color: #23baba;
+    background-color: #23BABA;
     color: white;
 }
