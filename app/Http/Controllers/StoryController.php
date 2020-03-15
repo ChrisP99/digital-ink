@@ -53,7 +53,12 @@ class StoryController extends Controller
             'published'=>$request->get('published'),
         ]);
         $story->save();
-        return redirect('/stories')->with('success', 'Story saved!');
+
+        if($story->published == "0") {
+            return redirect('/stories')->with('success', 'Your story has been saved as a draft!');
+        }else{
+            return redirect('/stories')->with('success', 'Yay! Your story has been published!');
+        }
     }
 
     /**
@@ -104,8 +109,13 @@ class StoryController extends Controller
             $story->blurb = $request->get('blurb');
             $story->content= $request->get('content');
             $story->published = $request->get('published');
+
             $story->save();
-        return redirect('/stories')->with('success', 'Story saved!');
+            if($story->published == "0") {
+                return redirect('/stories')->with('success', 'Your story has been saved as a draft!');
+            }else{
+                return redirect('/stories')->with('success', 'Yay! Your story has been published!');
+            }
     }
 
     /**
@@ -118,6 +128,6 @@ class StoryController extends Controller
     {
         $story = Story::find($id);
         $story->delete();
-        return redirect('/stories')->with('success', 'Story deleted!');
+        return redirect('/stories')->with('success', 'Your story has been deleted!');
     }
 }
