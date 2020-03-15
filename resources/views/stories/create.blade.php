@@ -63,7 +63,7 @@
                 <div class="form-group">
                     <label for="content" class="input-heading"><strong>Your Story: *</strong></label>
                     <p>Add the content of your story below.</p>
-                    <textarea class="form-control" rows = "10" id="content" name="content" autocomplete="off" value="{{ old('content') }}"></textarea>
+                    <textarea class="form-control" rows = "10" id="content" name="content" autocomplete="off">{{ old('content') }}</textarea>
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('content') }}<br/></span>
@@ -78,7 +78,7 @@
                 <div class="form-group">
                     <label for="blurb" class="input-heading"><strong>Blurb: *</strong></label>
                     <p>Add a short description of your story!</p>
-                    <textarea class="form-control" rows = "3" id="blurb" name="blurb" autocomplete="off" value="{{ old('blurb') }}"></textarea>
+                    <textarea class="form-control" rows = "3" id="blurb" name="blurb" autocomplete="off">{{ old('blurb') }}</textarea>
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('blurb') }}<br/></span>
@@ -101,10 +101,12 @@
                 </div>
             </div>
             <br/>
-                <div class="main-button">
-            <!-- form submit button - activates error messages -->
-            <button type="submit" class="button complete-button">Complete</button>
-                </div>
+
+             <div class="main-button">
+             <!-- form submit button - activates error messages -->
+                <button type="submit" class="button complete-button">Complete</button>
+             </div>
+
         </form>
         <br/>
     </div>
