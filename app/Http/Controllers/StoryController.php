@@ -37,7 +37,6 @@ class StoryController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'author_id'=>'required',
             'title'=>'required',
             'genre'=>'required',
             'blurb'=>'required',
@@ -45,7 +44,7 @@ class StoryController extends Controller
             'published'=>'required'
         ]);
         $story = new Story([
-            'author_id'=>$request->get('author_id'),
+            'author_id'=>Auth()->user()->id ,
             'title'=>$request->get('title'),
             'genre'=>$request->get('genre'),
             'blurb'=>$request->get('blurb'),

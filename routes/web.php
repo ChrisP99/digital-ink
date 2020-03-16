@@ -24,7 +24,6 @@ Route::get('/account', function () {
 Route::resource('stories', 'StoryController');
 Route::get('stories/{story}', 'StoryController@show');
 
-
 Route::get('/about', function () {
     return view('about');
 });
