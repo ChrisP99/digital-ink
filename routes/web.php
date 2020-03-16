@@ -22,9 +22,6 @@ Route::get('/account', function () {
 
 })->middleware('verified');
 
-Auth::routes(['verify' => true]);
-// Adds authentication to check to see if a user is logged in
-
 Route::get('login', 'AuthController@index');
 Route::post('post-login', 'AuthController@postLogin');
 Route::post('post-registration', 'AuthController@postRegistration');
