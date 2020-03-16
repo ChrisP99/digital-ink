@@ -1,0 +1,10 @@
+/*
+    CSS for index and show forms
+ */
+
+/* styling for sections of form */
+.upload-section{
+    border-radius: 25px;
+    border: 2px solid #f7941d;
+    padding: 40px;
+}

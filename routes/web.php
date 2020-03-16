@@ -19,6 +19,22 @@ Route::get('/', function () {
 
 Route::get('/account', function () {
     return view('account');
+});
+
+Route::resource('stories', 'StoryController');
+Route::get('stories/{story}', 'StoryController@show');
+
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/account', function () {
+    return view('account');
 
 })->middleware('verified');
 

@@ -1,36 +1,50 @@
+/*
+    main body styling
+*/
+
 body {
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+    header styling
+*/
+
+header {
+    overflow: hidden;
+    position: sticky;
+    text-align: center;
     background-color: white;
 }
 
 .header-option {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: steelblue;
+    justify-content:center;
+    align-items:center;
+    color: #172b46;
     text-align: center;
     padding: 40px 0px;
     font-size: 1.2em;
 }
 
 .logo {
-    width: 180px;
-    height: 180px;
+    width: 125px;
+    height: 125px;
 }
 
-footer{
+/*
+    footer styling
+*/
+
+footer {
     background-color: black;
     color: white;
 }
 
-label {
-    display: block;
-    width: 270px;
-    text-align: left;
-}
-
-.copyright{
+.footer-option {
     text-align: center;
-    font-size: 0.8em;
+    padding: 40px 0px;
 }
 
 .socialmedia{
@@ -38,11 +52,80 @@ label {
     padding: 5px;
 }
 
-footer a:hover {
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/*
+    page link styling
+*/
+
+a {
+    color: white;
+    vertical-align: bottom;
+}
+
+a:hover {
+    color: plum;
     text-decoration: none;
 }
 
-.footer-option{
+/*
+    styling for other elements across all pages - but not present in base.blade
+*/
+
+/* main body div for text under header */
+
+
+/* styling for heading on pages */
+h1{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.main-body {
+    margin: 60px 100px;
+}
+
+/* error styling */
+.form-error{
+    color: #FF0000;
+}
+
+/*
+    buttons - all CSS for buttons only work in base
+*/
+
+/* button alignment if at centre at bottom of page */
+.main-button{
     text-align: center;
-    padding: 40px 0px;
+}
+
+/* general button styling */
+.button{
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* complete button on edit and create blades */
+
+.complete-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #23BABA;
+}
+
+.complete-button:hover {
+    background-color: #23BABA;
+    color: white;
 }
