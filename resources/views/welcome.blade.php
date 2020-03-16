@@ -8,51 +8,69 @@
 
 
     <div class="banner h-25">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/login.css') }}">
 
     </div>
+    <div class="box">
+        <form action="{{url('post-login')}}" method="POST">
+            {{ csrf_field() }}
+            <div class="container">
+                <label for="email"><b>Email</b></label>
+                <input type="text" id="inputEmail" placeholder="Enter Email" name="email">
 
-    <form action="{{url('post-login')}}" method="POST">
-        {{ csrf_field() }}
-        <div class="container">
-            <label for="email"><b>Email</b></label>
-            <input type="text" id="inputEmail" placeholder="Enter Email" name="email" required>
+                @if ($errors->has('email'))
+                    <small class="error">{{ $errors->first('email') }}</small>
+                @endif
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" id="inputPassword" placeholder="Enter Password" name="psw" required>
+                <label for="password"><b>Password</b></label>
+                <input type="password" id="inputPassword" placeholder="Enter Password" name="password">
 
-            <button type="submit">Login</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-        </div>
+                @if ($errors->has('password'))
+                    <small class="error">{{ $errors->first('password') }}</small>
+                @endif
 
+                <button type="submit">Login</button>
+                <p style="text-align:right"><a>Don't have an account already? Why not sign up?</a></p>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" value="1"> Remember me
+                </label>
+            </div>
+        </form>
+    </div>
 
-    </form>
-
-    <p> <br /> <br /> <br /> </p>
 
     <form action="{{url('post-registration')}}" method="POST" style="border:1px solid #ccc">
         {{ csrf_field() }}
         <div class="container">
             <h1>Sign Up</h1>
-            <p>Please fill in this form to create an account.</p>
-            <hr>
 
             <label for="name"><b>Name</b></label>
-            <input type="text" id="inputName" placeholder="Enter Name" name="name" required>
+            <input type="text" id="inputName" placeholder="Enter Name" name="name">
+
+            @if ($errors->has('name'))
+                <small class="error">{{ $errors->first('name') }}</small>
+            @endif
 
             <label for="email"><b>Email</b></label>
-            <input type="text" id="inputEmail" placeholder="Enter Email" name="email" required>
+            <input type="text" id="inputEmail" placeholder="Enter Email" name="email">
+
+            @if ($errors->has('email'))
+                <small class="error">{{ $errors->first('email') }}</small>
+            @endif
 
             <label for="password"><b>Password</b></label>
-            <input type="password" id="inputPassword" placeholder="Enter Password" name="password" required>
+            <input type="password" id="inputPassword" placeholder="Enter Password" name="password">
+
+            @if ($errors->has('password'))
+                <small class="error">{{ $errors->first('password') }}</small>
+            @endif
 
             <label for="password-repeat"><b>Repeat Password</b></label>
-            <input type="password" id="inputPassword" placeholder="Repeat Password" name="password-repeat" required>
+            <input type="password" id="inputPassword" placeholder="Repeat Password" name="password_confirmation">
 
-            <label>
-                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-            </label>
+            @if ($errors->has('password_confirm'))
+                <small class="error">️{{$errors->first('password_confirm') }}</small>
+            @endif
 
             <div class="clearfix">
                 <button type="submit" >Sign Up</button>

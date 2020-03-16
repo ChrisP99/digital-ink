@@ -49,7 +49,7 @@
                     <img class="logo" alt = "Digital Ink logo" src = "images/digital-ink-logo.png" align="middle"></a>
             </div>
 
-            <!-- profile page link -->
+            <!-- account page link -->
             <div class = "col header-option">
                 <a href="/account" class = "header-option">Account</a>
             </div>

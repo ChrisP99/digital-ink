@@ -15,40 +15,73 @@ class AuthController extends Controller
 {
     public function index()
     {
+        if (Auth::viaRemember()) {
+            return view('account');
+        }
         return view('welcome');
     }
 
-    public function registration()
-    {
-        return view('register');
-    }
 
     public function postLogin(Request $request)
     {
-        request()->validate([ //Sets the email and password fields to be required
+        $rules = [ //Sets the email and password fields to be required
             'email' => 'required',
             'password' => 'required',
-        ]);
+        ];
+
+        $customMessages = [
+            'email.required' => 'Please enter an email.',
+
+            'password.required' => 'Please enter a password.'
+            //Custom error messages for validation
+        ];
+
+        $this->validate($request, $rules, $customMessages);
+
+        $remember = $request->get('remember');
 
         $credentials = $request->only('email', 'password');
         // Requests the email and password from the database, so it can check if the user is valid.
-        if (Auth::attempt($credentials)) {
+        if (Auth::attempt($credentials, $remember)) {
             // If the user's information is found in the database...
             return redirect()->intended('account');
             //... Redirect them to their profile.
         }
-        return Redirect::to("login")->withSuccess('You have entered invalid credentials.');
+        return Redirect::to("login")
+            ->withInput()
+            ->with('message','You have entered invalid credentials.');
         // Else tell the user they have entered invalid credentials
     }
 
     public function postRegistration(Request $request)
         //POST Method for the registration page
     {
-        request()->validate([  // Validation so that the below fields are required
+        $rules = [  // Validation so that the below fields are required
             'name' => 'required',
             'email' => 'required|email|unique:users', //Sets the email to be unique, so checks the databse to see if its taken or not
-            'password' => 'required|min:6', //Password verification to 6 characters minimum
-        ]);
+            'password' => ['required',
+                            'min:6',
+                            'regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\X])(?=.*[!$#%]).*$/',
+                            'confirmed'], //Password verification to 6 characters minimum
+
+            'password_confirmation' => 'required|same:password'
+        ];
+
+        $customMessages = [
+            'name.required' => 'Please enter a name.',
+
+            'email.required' => 'Please enter an email.',
+
+            'password.required' => 'Please enter a password.',
+            'password.min' => 'Your password must be at least 6 characters long.',
+            'password.confirmed' => 'Your passwords need to match.',
+
+            'password_confirmation.required' => 'Please confirm your password.',
+            'password_confirmation.confirmed' => 'Your passwords do not match.',
+            //Custom error messages for validation
+        ];
+
+        $this->validate($request, $rules, $customMessages);
 
         $data = $request->all();
 
