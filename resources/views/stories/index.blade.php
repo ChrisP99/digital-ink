@@ -22,28 +22,22 @@
             </div>
 
         <table class="table table-striped">
-            <thread>
+            <thead>
                 <tr>
-                    <td>Story ID</td>
-                    <td>Author ID</td>
-                    <td>Title</td>
-                    <td>Genre</td>
-                    <td>Blurb</td>
-                    <td>Content</td>
-                    <td>Published</td>
+                    <th>Author ID</th>
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Blurb</th>
                 </tr>
-            </thread>
+            </thead>
             <tbody>
                 @foreach($stories as $story)
                 <tr>
-                    <td>{{$story->id}}</td>
                     <td>{{$story->author_id}}</td>
-                    <td><a href = "stories/{{ $story->id }}">{{ $story->title }}</a></td>
+                    <td><a class="a" href = "stories/{{ $story->id }}">{{ $story->title }}</a></td>
                     <td>{{$story->genre}}</td>
                     <td>{{$story->blurb}}</td>
-                    <td>{{$story->content}}</td>
-                    <td>{{$story->published}}</td>
-                    <td>
+                    <!--<td>
                         <a href="{{ route('stories.edit',$story->id)}}" class="btn btn-primary">Edit</a>
                     </td>
                     <td>
@@ -52,7 +46,7 @@
                             @method('DELETE')
                             <button class="btn btn-danger" type="submit">Delete</button>
                         </form>
-                    </td>
+                    </td>-->
                 </tr>
                 @endforeach
             </tbody>
