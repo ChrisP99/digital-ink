@@ -22,9 +22,6 @@ Route::get('/account', function () {
 
 })->middleware('verified');
 
-Auth::routes(['verify' => true]);
-// Adds authentication to check to see if a user is logged in
-
 Route::get('login', 'AuthController@index');
 Route::post('post-login', 'AuthController@postLogin');
 Route::post('post-registration', 'AuthController@postRegistration');
@@ -32,5 +29,3 @@ Route::get('account', 'AuthController@account');
 Route::get('logout', 'AuthController@logout');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
