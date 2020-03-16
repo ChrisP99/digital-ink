@@ -112,10 +112,6 @@
             <p class = "copyright">© Digital Ink. 2020</p>
         </div>
 
-        <!-- copyright message -->
-        <p class = "copyright">© Digital Ink. 2020</p>
-    </div>
-
 </footer>
 
 </body>

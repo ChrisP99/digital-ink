@@ -18,6 +18,7 @@
         <div class="card-body">
             Welcome,{{ ucfirst(Auth()->user()->name) }}!
         </div>
+
         <div class="card-body">
             <a class="small" href="{{url('logout')}}">Logout</a>
         </div>
