@@ -17,9 +17,9 @@
 
     <!-- additional head information relative to page to be added -->
 
-    @yield('additionalHeadInfo')
+@yield('additionalHeadInfo')
 
-    <!-- styling -->
+<!-- styling -->
 
     <link rel="icon" href="{{ asset('images/digital-ink-logo.png') }}">
 
@@ -33,7 +33,7 @@
 
 @yield('additionalHeadInfo')
 
-    <!-- page header -->
+<!-- page header -->
 
     <header>
         <div class = "container">
@@ -67,9 +67,9 @@
 
     <!-- additional page content to be added -->
 
-    @yield ('content')
+@yield ('content')
 
-    <!-- page footer -->
+<!-- page footer -->
 
     <footer>
         <div class = "container">
@@ -108,12 +108,13 @@
                 </div>
             </div>
 
-            <!-- copyright message -->
-            <p class = "copyright">© Digital Ink. 2020</p>
+
+        <!-- copyright message -->
+        <p class = "copyright">© Digital Ink. 2020</p>
         </div>
 
-</footer>
+    </footer>
 
-</body>
+    </body>
 
 </html>

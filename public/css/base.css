@@ -42,12 +42,10 @@ footer {
     color: white;
 }
 
-footer a {
-    color: white;
-    vertical-align: bottom;
-}
-
 .footer-option {
+    display: flex;
+    justify-content:center;
+    align-items:center;
     text-align: center;
     padding: 40px 0px;
 }
@@ -60,11 +58,17 @@ footer a {
 .copyright {
     text-align: center;
     font-size: 0.8em;
+    margin: 0 auto;
 }
 
 /*
     page link styling
 */
+
+a {
+    color: white;
+    vertical-align: bottom;
+}
 
 a:hover {
     color: plum;
