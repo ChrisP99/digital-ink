@@ -32,5 +32,3 @@ Route::get('account', 'AuthController@account');
 Route::get('logout', 'AuthController@logout');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
