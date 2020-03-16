@@ -47,7 +47,7 @@ class AuthController extends Controller
             return redirect()->intended('account');
             //... Redirect them to their profile.
         }
-        return Redirect::to("login")
+        return Redirect::to("/")
             ->withInput()
             ->with('message','You have entered invalid credentials.');
         // Else tell the user they have entered invalid credentials
@@ -87,7 +87,8 @@ class AuthController extends Controller
 
         $check = $this->create($data);
 
-        return Redirect::to("account")->withSuccess('You have Successfully logged in.');
+        Auth::login($check);
+        return view('account');
     }
 
     public function account()
@@ -95,7 +96,7 @@ class AuthController extends Controller
         if(Auth::check()){
             return view('account');
         }
-        return Redirect::to("login")->withSuccess('Oops! You do not have access');
+        return Redirect::to("/")->withSuccess('Oops! You do not have access');
     }
 
     public function create(array $data)
@@ -112,6 +113,6 @@ class AuthController extends Controller
     public function logout() { //Logout function
         Session::flush();
         Auth::logout();
-        return Redirect('login');
+        return Redirect('/');
     }
 }
