@@ -18,9 +18,11 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect('/home');
-        }
+            //If the user has been authenticated (i.e, they're already logged in)
+            return redirect('/account');
+            // Redirect them to their profile, if they want to make a new account, they'll need to logout.
 
+        }
         return $next($request);
     }
 }

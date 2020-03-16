@@ -29,9 +29,9 @@
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/base.css') }}">
 
-</head>
+    <!-- additional head information relative to page to be added -->
 
-<body>
+@yield('additionalHeadInfo')
 
     <!-- page header -->
 
@@ -112,7 +112,11 @@
             <p class = "copyright">© Digital Ink. 2020</p>
         </div>
 
-    </footer>
+        <!-- copyright message -->
+        <p class = "copyright">© Digital Ink. 2020</p>
+    </div>
+
+</footer>
 
 </body>
 
