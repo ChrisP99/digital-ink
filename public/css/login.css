@@ -33,7 +33,8 @@ button {
 
 
 /* Add padding to container elements */
-.container {
-    width: 800px;
+.signup-signin-form {
+    width: 80%;
     padding: 16px;
+    margin: 0 auto;
 }

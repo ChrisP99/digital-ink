@@ -42,6 +42,11 @@ footer {
     color: white;
 }
 
+footer a {
+    color: white;
+    vertical-align: bottom;
+}
+
 .footer-option {
     text-align: center;
     padding: 40px 0px;
@@ -60,11 +65,6 @@ footer {
 /*
     page link styling
 */
-
-a {
-    color: white;
-    vertical-align: bottom;
-}
 
 a:hover {
     color: plum;

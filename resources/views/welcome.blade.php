@@ -1,20 +1,16 @@
 @extends('base')
 
-@section('title')
+@section('additionalHeadInfo')
     <title>Home | Digital Ink.</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/login.css') }}">
 @endsection
 
 @section ('content')
 
-
-    <div class="banner h-25">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/login.css') }}">
-
-    </div>
-    <div class="box">
         <form action="{{url('post-login')}}" method="POST">
             {{ csrf_field() }}
-            <div class="container">
+            <div class="signup-signin-form">
                 <label for="email"><b>Email</b></label>
                 <input type="text" id="inputEmail" placeholder="Enter Email" name="email">
 
@@ -36,12 +32,11 @@
                 </label>
             </div>
         </form>
-    </div>
 
 
     <form action="{{url('post-registration')}}" method="POST" style="border:1px solid #ccc">
         {{ csrf_field() }}
-        <div class="container">
+        <div class="signup-signin-form">
             <h1>Sign Up</h1>
 
             <label for="name"><b>Name</b></label>
