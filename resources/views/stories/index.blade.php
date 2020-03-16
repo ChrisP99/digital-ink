@@ -21,7 +21,7 @@
                 @endif
             </div>
 
-        <table class="table table-striped">
+        <table class="table">
             <thead>
                 <tr>
                     <th>Author ID</th>
@@ -32,9 +32,9 @@
             </thead>
             <tbody>
                 @foreach($stories as $story)
-                <tr>
+                <tr class='clickable-row' onclick="window.location='stories/{{ $story->id }}';">
                     <td>{{$story->author_id}}</td>
-                    <td><a class="a" href = "stories/{{ $story->id }}">{{ $story->title }}</a></td>
+                    <td>{{ $story->title }}</td>
                     <td>{{$story->genre}}</td>
                     <td>{{$story->blurb}}</td>
                     <!--<td>

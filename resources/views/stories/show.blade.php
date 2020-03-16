@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div>
+    <div class="main-body">
 
     <h1>Story Details</h1>
     <div>
@@ -15,11 +15,9 @@
         <strong>Title:</strong>
         <p>{{ $story->title }}</p>
         <strong>Author:</strong>
-        <p>{{ $story->author }}</p>
+        <p>{{ $story->author_id }}</p>
         <strong>Genre:</strong>
         <p>{{ $story->genre }}</p>
-        <strong>Blurb:</strong>
-        <p>{{ $story->blurb }}</p>
         <strong>Content:</strong>
         <p>{{ $story->content }}</p>
 
