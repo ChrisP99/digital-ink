@@ -24,6 +24,10 @@
         </div>
     </div>
 
+@foreach($publishedStories as $publishedStory)
+    <p>{{ $publishedStory->title }}</p>
+@endforeach
+
 
 @endsection
 

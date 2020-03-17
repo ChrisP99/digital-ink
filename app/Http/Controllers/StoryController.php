@@ -129,4 +129,10 @@ class StoryController extends Controller
         $story->delete();
         return redirect('/stories')->with('success', 'Your story has been deleted!');
     }
+
+    public function accountIndex()
+    {
+        $publishedStories = Story::all();
+        return view('account', ['publishedStories'=>$publishedStories]);
+    }
 }

@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/account', function () {
-    return view('account');
-});
-
 Route::resource('stories', 'StoryController');
 Route::get('stories/{story}', 'StoryController@show');
 
