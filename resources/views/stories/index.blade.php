@@ -37,16 +37,6 @@
                     <td>{{ $story->title }}</td>
                     <td>{{$story->genre}}</td>
                     <td>{{$story->blurb}}</td>
-                    <!--<td>
-                        <a href="{{ route('stories.edit',$story->id)}}" class="btn btn-primary">Edit</a>
-                    </td>
-                    <td>
-                        <form action="{{ route('stories.destroy',$story->id)}}" method="post">
-                            @csrf
-                            @method('DELETE')
-                            <button class="btn btn-danger" type="submit">Delete</button>
-                        </form>
-                    </td>-->
                 </tr>
                 @endforeach
             </tbody>

@@ -81,6 +81,9 @@ a:hover {
 
 /* main body div for text under header */
 
+.main-body {
+    margin: 60px 100px;
+}
 
 /* styling for heading on pages */
 h1{
@@ -88,8 +91,15 @@ h1{
     font-weight: bold;
 }
 
-.main-body {
-    margin: 60px 100px;
+/* alignment for top and bottom elements on account page */
+.account-element{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+/* spacing between sections of user information eg. published stories, draft stories */
+.account-information{
+    margin: 20px 0px;
 }
 
 /* error styling */
@@ -120,6 +130,19 @@ h1{
     cursor: pointer;
 }
 
+.button-small{
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 /* complete button on edit and create blades */
 
 .complete-button {
@@ -131,5 +154,19 @@ h1{
 
 .complete-button:hover {
     background-color: #23BABA;
+    color: white;
+}
+
+/* logout button */
+
+.logout-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #0065B3;
+}
+
+.logout-button:hover {
+    background-color: #0065B3;
     color: white;
 }

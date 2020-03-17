@@ -1,35 +1,98 @@
 @extends('base')
 
-
-    @section('additionalHeadInfo')
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-    <title>Digital Ink.</title>
-    @endsection
-
+@section('additionalHeadInfo')
+    <title>Account</title>
+@endsection
 
 @section('content')
 
-<h1>Hello</h1>
+    <div class="main-body">
+        <!-- show welcome message to the user - include their name -->
+        <h1 class="account-element">Hi {{ ucfirst(Auth()->user()->name) }}!</h1>
+        <br/>
 
+        <!-- published stories section - only show if user has at least one story published -->
+        @if(count($publishedStories) >= 1)
+            <div class="account-information">
+                <h2>Your published stories</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th colspan = 2>Actions</th>
+                        </tr>
+                    </thead>
 
-    <div class="card">
-        <div class="card-body">
-            Welcome,{{ ucfirst(Auth()->user()->name) }}!
+                    <tbody>
+                        @foreach($publishedStories as $publishedStory)
+                        <tr>
+                            <td>{{$publishedStory->title}}</td>
+                            <td>{{$publishedStory->genre}}</td>
+                            <td>
+                                <a href="{{ route('stories.edit',$publishedStory->id)}}" class="btn btn-primary">Edit</a>
+                            </td>
+                            <td>
+                                <form action="{{ route('stories.destroy', $publishedStory->id)}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="btn btn-danger" type="submit">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                        @endforeach
+
+                    </tbody>
+                </table>
+
+            </div>
+        @endif
+        <br/>
+
+        <!-- drafts section - only show if user has at least one draft saved -->
+        @if(count($draftStories) >= 1)
+            <div class="account-information">
+                <h2>Your drafts</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Genre</th>
+                        <th colspan = 2>Actions</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach($draftStories as $draftStory)
+                        <tr>
+                            <td>{{$draftStory->title}}</td>
+                            <td>{{$draftStory->genre}}</td>
+                            <td>
+                                <a href="{{ route('stories.edit',$draftStory->id)}}" class="btn btn-primary">Edit</a>
+                            </td>
+                            <td>
+                                <form action="{{ route('stories.destroy', $draftStory->id)}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="btn btn-danger" type="submit">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                        @endforeach
+
+                    </tbody>
+                </table>
+
+            </div>
+        @endif
+        <br/>
+
+        <!-- logout button -->
+        <div class="account-element">
+            <input type="button" class="button-small logout-button" onclick="window.location.href='{{url('logout')}}'" value="Logout">
         </div>
 
-        <div class="card-body">
-            <a class="small" href="{{url('logout')}}">Logout</a>
-        </div>
     </div>
-
-@foreach($stories as $story)
-    <tr>
-        <th>{{$story->title}}</th>
-    </tr>
-@endforeach
-
 
 @endsection
 
