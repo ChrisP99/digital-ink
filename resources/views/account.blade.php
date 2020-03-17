@@ -24,8 +24,10 @@
         </div>
     </div>
 
-@foreach($publishedStories as $publishedStory)
-    <p>{{ $publishedStory->title }}</p>
+@foreach($stories as $story)
+    <tr>
+        <th>{{$story->title}}</th>
+    </tr>
 @endforeach
 
 

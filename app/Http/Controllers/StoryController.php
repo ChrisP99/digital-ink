@@ -2,21 +2,24 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use App\Story;
+use Illuminate\View\View;
 
 class StoryController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Factory|View
      */
     public function index()
     {
         $stories = Story::all();
         return view('stories.index', ['stories'=>$stories]);
     }
+
 
     /**
      * Show the form for creating a new resource.

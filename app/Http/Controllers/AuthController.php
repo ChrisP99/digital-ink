@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
@@ -94,7 +95,8 @@ class AuthController extends Controller
     public function account()
     {
         if(Auth::check()){
-            return view('account');
+            $stories=DB::select("select title from `stories`");
+            return view('account',['stories'=>$stories]);
         }
         return Redirect::to("/")->withSuccess('Oops! You do not have access');
     }
