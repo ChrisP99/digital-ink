@@ -78,7 +78,7 @@
                             <td>{{$draftStory->title}}</td>
                             <td>{{$draftStory->genre}}</td>
                             <td>
-                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$publishedStory->id)}}'" class="button-small edit-button" value="Edit">
+                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$draftStory->id)}}'" class="button-small edit-button" value="Edit">
                             </td>
                             <td>
                                 <form action="{{ route('stories.destroy', $draftStory->id)}}" method="post">

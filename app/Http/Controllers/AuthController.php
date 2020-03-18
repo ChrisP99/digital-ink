@@ -90,7 +90,7 @@ class AuthController extends Controller
         $check = $this->create($data);
 
         Auth::login($check);
-        return view('account');
+        return redirect('account');
     }
 
     // Function for showing the account page
