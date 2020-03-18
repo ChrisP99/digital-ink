@@ -11,6 +11,16 @@
         <h1 class="account-element">Hi {{ ucfirst(Auth()->user()->name) }}!</h1>
         <br/>
 
+        <!-- success message from uploading or deleting story -->
+        <div class="col-sm-12">
+            @if(session()->get('success'))
+                <div class="alert alert-success">
+                    {{ session()->get('success') }}
+                </div>
+            @endif
+        </div>
+        <br/>
+
         <!-- published stories section - only show if user has at least one story published -->
         @if(count($publishedStories) >= 1)
             <div class="account-information">

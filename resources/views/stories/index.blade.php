@@ -12,15 +12,6 @@
             <h1 class = "form-heading">Stories</h1>
             <br>
 
-            <!-- success message from uploading or deleting story -->
-            <div class="col-sm-12">
-                @if(session()->get('success'))
-                    <div class="alert alert-success">
-                        {{ session()->get('success') }}
-                    </div>
-                @endif
-            </div>
-
         <table class="table">
             <thead>
                 <tr>
