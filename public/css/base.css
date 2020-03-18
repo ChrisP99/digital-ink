@@ -24,7 +24,7 @@ header {
     align-items:center;
     color: #172b46;
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 0;
     font-size: 1.2em;
 }
 
@@ -47,7 +47,7 @@ footer {
     justify-content:center;
     align-items:center;
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 0;
 }
 
 .socialmedia{
@@ -105,7 +105,7 @@ h1{
 
 /* spacing between sections of user information eg. published stories, draft stories */
 .account-information{
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 /* error styling */
@@ -310,9 +310,6 @@ th {
     border: 1px solid #eee;
     padding: 12px 35px;
     border-collapse: collapse;
-    &.last {
-        border-right: none;
-    }
 }
 
 td {
@@ -326,14 +323,13 @@ td {
 tr:hover {background-color:#f5f5f5;}
 
 table {
-    font-family: 'Arial';
     margin: 25px auto;
     border-collapse: collapse;
     border: 1px solid #eee;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.05),
-    0px 10px 20px rgba(0,0,0,0.05),
-    0px 20px 20px rgba(0,0,0,0.05),
-    0px 30px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 0 20px rgba(0,0,0,0.05),
+    0 10px 20px rgba(0,0,0,0.05),
+    0 20px 20px rgba(0,0,0,0.05),
+    0 30px 20px rgba(0,0,0,0.05);
 }
 
 tr.clickable-row{
