@@ -24,17 +24,17 @@
         <!-- published stories section - only show if user has at least one story published -->
         @if(count($publishedStories) >= 1)
             <div class="account-information">
-                <h2>Your published stories</h2>
+                <h2 class="account-h2">Here are your published stories:</h2>
                 <table>
                     <thead>
                         <tr>
-                            <th>Title</th>
-                            <th>Genre</th>
-                            <th colspan = 2>Actions</th>
+                            <th class="headerAccount">Title</th>
+                            <th class="headerAccount">Genre</th>
+                            <th class="headerAccount" colspan = 2>Actions</th>
                         </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody class="tableAccount">
                         @foreach($publishedStories as $publishedStory)
                         <tr>
                             <td>{{$publishedStory->title}}</td>
@@ -72,7 +72,7 @@
                     </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody class="tableAccount">
                         @foreach($draftStories as $draftStory)
                         <tr>
                             <td>{{$draftStory->title}}</td>

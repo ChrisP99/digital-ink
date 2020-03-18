@@ -97,6 +97,12 @@ h1{
     margin: 20px 20px;
 }
 
+/* alignment for h2 on account page */
+.account-h2{
+    text-align: center;
+    margin: 20px 20px;
+}
+
 /* spacing between sections of user information eg. published stories, draft stories */
 .account-information{
     margin: 20px 0px;
@@ -198,3 +204,66 @@ h1{
     background-color: #FF0000;
     color: white;
 }
+
+/* index blade table styling */
+
+.tableStories {
+    border-bottom: 2px solid #EF1A76;
+}
+
+.headerStories{
+    background-color: #EF1A76;
+}
+
+/* account blade table styling */
+
+.tableAccount {
+    border-bottom: 2px solid #0065B3;
+    font-size: 20px;
+}
+
+.headerAccount{
+    background-color: #0065B3;
+    font-size: 22px;
+}
+
+/* tables being used throughout */
+th {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    &.last {
+        border-right: none;
+    }
+}
+
+td {
+    color: #555;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+table {
+    font-family: 'Arial';
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05),
+    0px 10px 20px rgba(0,0,0,0.05),
+    0px 20px 20px rgba(0,0,0,0.05),
+    0px 30px 20px rgba(0,0,0,0.05);
+}
+
+tr.clickable-row{
+    cursor: pointer;
+}
+
+
+
