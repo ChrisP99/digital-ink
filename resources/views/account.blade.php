@@ -8,7 +8,7 @@
 
     <div class="main-body">
         <!-- show welcome message to the user - include their name -->
-        <h1 class="account-element">Hi {{ ucfirst(Auth()->user()->name) }}!</h1>
+        <h1 class="center-element">Hi {{ ucfirst(Auth()->user()->name) }}!</h1>
         <br/>
 
         <!-- success message from uploading or deleting story -->
@@ -98,7 +98,7 @@
         <br/>
 
         <!-- logout button -->
-        <div class="account-element">
+        <div class="center-element">
             <input type="button" class="button-small logout-button" onclick="window.location.href='{{url('logout')}}'" value="Logout">
         </div>
 
