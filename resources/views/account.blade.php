@@ -40,13 +40,13 @@
                             <td>{{$publishedStory->title}}</td>
                             <td>{{$publishedStory->genre}}</td>
                             <td>
-                                <a href="{{ route('stories.edit',$publishedStory->id)}}" class="btn btn-primary">Edit</a>
+                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$publishedStory->id)}}'" class="button-small edit-button" value="Edit">
                             </td>
                             <td>
                                 <form action="{{ route('stories.destroy', $publishedStory->id)}}" method="post">
                                     @csrf
                                     @method('DELETE')
-                                    <button class="btn btn-danger" type="submit">Delete</button>
+                                    <button class="button-small delete-button" type="submit">Delete</button>
                                 </form>
                             </td>
                         </tr>
@@ -78,13 +78,13 @@
                             <td>{{$draftStory->title}}</td>
                             <td>{{$draftStory->genre}}</td>
                             <td>
-                                <a href="{{ route('stories.edit',$draftStory->id)}}" class="btn btn-primary">Edit</a>
+                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$publishedStory->id)}}'" class="button-small edit-button" value="Edit">
                             </td>
                             <td>
                                 <form action="{{ route('stories.destroy', $draftStory->id)}}" method="post">
                                     @csrf
                                     @method('DELETE')
-                                    <button class="btn btn-danger" type="submit">Delete</button>
+                                    <input class="button-small delete-button" type="submit" value="Delete">
                                 </form>
                             </td>
                         </tr>

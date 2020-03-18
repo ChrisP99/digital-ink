@@ -149,11 +149,11 @@ h1{
     font-size: 1.2em;
     background-color: white;
     color: black;
-    border: 2px solid #23BABA;
+    border: 2px solid #12A89D;
 }
 
 .complete-button:hover {
-    background-color: #23BABA;
+    background-color: #12A89D;
     color: white;
 }
 
@@ -168,5 +168,33 @@ h1{
 
 .logout-button:hover {
     background-color: #0065B3;
+    color: white;
+}
+
+/* edit button */
+
+.edit-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #AED135;
+}
+
+.edit-button:hover {
+    background-color: #AED135;
+    color: white;
+}
+
+/* delete button */
+
+.delete-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #FF0000;
+}
+
+.delete-button:hover {
+    background-color: #FF0000;
     color: white;
 }
