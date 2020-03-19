@@ -66,9 +66,9 @@
                 <table>
                     <thead>
                     <tr>
-                        <th>Title</th>
-                        <th>Genre</th>
-                        <th colspan = 2>Actions</th>
+                        <th class="headerAccount">Title</th>
+                        <th class="headerAccount">Genre</th>
+                        <th class="headerAccount" colspan = 2>Actions</th>
                     </tr>
                     </thead>
 
