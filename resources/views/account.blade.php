@@ -1,35 +1,108 @@
 @extends('base')
 
-
-    @section('additionalHeadInfo')
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-    <title>Digital Ink.</title>
-    @endsection
-
+@section('additionalHeadInfo')
+    <title>Account</title>
+@endsection
 
 @section('content')
 
-<h1>Hello</h1>
+    <div class="main-body">
+        <!-- show welcome message to the user - include their name -->
+        <h1 class="center-element">Hi {{ ucfirst(Auth()->user()->name) }}!</h1>
+        <br/>
 
+        <!-- success message from uploading or deleting story -->
+        <div class="col-sm-12">
+            @if(session()->get('success'))
+                <div class="alert alert-success">
+                    {{ session()->get('success') }}
+                </div>
+            @endif
+        </div>
+        <br/>
 
-    <div class="card">
-        <div class="card-body">
-            Welcome,{{ ucfirst(Auth()->user()->name) }}!
+        <!-- published stories section - only show if user has at least one story published -->
+        @if(count($publishedStories) >= 1)
+            <div class="account-information">
+                <h2 class="account-h2">Here are your published stories:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="headerAccount">Title</th>
+                            <th class="headerAccount">Genre</th>
+                            <th class="headerAccount" colspan = 2>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="tableAccount">
+                        @foreach($publishedStories as $publishedStory)
+                        <tr>
+                            <td>{{$publishedStory->title}}</td>
+                            <td>{{$publishedStory->genre}}</td>
+                            <td>
+                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$publishedStory->id)}}'" class="button-small edit-button" value="Edit">
+                            </td>
+                            <td>
+                                <form action="{{ route('stories.destroy', $publishedStory->id)}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="button-small delete-button" type="submit">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                        @endforeach
+
+                    </tbody>
+                </table>
+
+            </div>
+        @endif
+        <br/>
+
+        <!-- drafts section - only show if user has at least one draft saved -->
+        @if(count($draftStories) >= 1)
+            <div class="account-information">
+                <h2>Your drafts</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Genre</th>
+                        <th colspan = 2>Actions</th>
+                    </tr>
+                    </thead>
+
+                    <tbody class="tableAccount">
+                        @foreach($draftStories as $draftStory)
+                        <tr>
+                            <td>{{$draftStory->title}}</td>
+                            <td>{{$draftStory->genre}}</td>
+                            <td>
+                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$draftStory->id)}}'" class="button-small edit-button" value="Edit">
+                            </td>
+                            <td>
+                                <form action="{{ route('stories.destroy', $draftStory->id)}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <input class="button-small delete-button" type="submit" value="Delete">
+                                </form>
+                            </td>
+                        </tr>
+                        @endforeach
+
+                    </tbody>
+                </table>
+
+            </div>
+        @endif
+        <br/>
+
+        <!-- logout button -->
+        <div class="center-element">
+            <input type="button" class="button-small logout-button" onclick="window.location.href='{{url('logout')}}'" value="Logout">
         </div>
 
-        <div class="card-body">
-            <a class="small" href="{{url('logout')}}">Logout</a>
-        </div>
     </div>
-
-@foreach($stories as $story)
-    <tr>
-        <th>{{$story->title}}</th>
-    </tr>
-@endforeach
-
 
 @endsection
 

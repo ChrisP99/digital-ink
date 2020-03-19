@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 use App\User;
+use App\Story;
 
 
 // Adds relevant classes required for the Controller to function.
@@ -89,14 +90,22 @@ class AuthController extends Controller
         $check = $this->create($data);
 
         Auth::login($check);
-        return view('account');
+        return redirect('account');
     }
 
+    // Function for showing the account page
     public function account()
     {
         if(Auth::check()){
-            $stories=DB::select("select title from `stories`");
-            return view('account',['stories'=>$stories]);
+            $publishedStories=Story::where('published', '1')
+                ->where('author_id', Auth()->user()->id)
+                ->get();
+
+            $draftStories=Story::where('published', '0')
+                ->where('author_id', Auth()->user()->id)
+                ->get();
+
+            return view('account',['publishedStories'=>$publishedStories, 'draftStories'=>$draftStories]);
         }
         return Redirect::to("/")->withSuccess('Oops! You do not have access');
     }

@@ -24,7 +24,7 @@ header {
     align-items:center;
     color: #172b46;
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 0;
     font-size: 1.2em;
 }
 
@@ -47,7 +47,7 @@ footer {
     justify-content:center;
     align-items:center;
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 0;
 }
 
 .socialmedia{
@@ -81,6 +81,9 @@ a:hover {
 
 /* main body div for text under header */
 
+.main-body {
+    margin: 60px 100px;
+}
 
 /* styling for heading on pages */
 h1{
@@ -88,13 +91,87 @@ h1{
     font-weight: bold;
 }
 
-.main-body {
-    margin: 60px 100px;
+/* alignment for center elements on pages */
+.center-element{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+/* alignment for h2 on account page */
+.account-h2{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+/* spacing between sections of user information eg. published stories, draft stories */
+.account-information{
+    margin: 20px 0;
 }
 
 /* error styling */
 .form-error{
     color: #FF0000;
+}
+
+/*
+    About page
+ */
+
+/* styling for about page sections of text */
+
+.about-section{
+    font-size: 1.2em;
+}
+
+.about-section a{
+    color: #000000;
+}
+
+.about-section a:hover{
+    color: plum;
+}
+
+/* styling for about page circles - five key points*/
+
+/* stying to show circles on the same line*/
+.circle-alignment{
+    margin:20px;
+    display: inline;
+}
+
+/* styling for each circle */
+.circle {
+    height: 150px;
+    width: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* colour for imagination circle */
+#imagination{
+    background-color: #12A89D;
+}
+
+/* colour for platform circle */
+#platform{
+    background-color: #AED135;
+}
+
+/* colour for community circle */
+#community{
+    background-color: #FFDE15;
+}
+
+/* colour for journey circle */
+#journey{
+    background-color: #F7941D;
+}
+
+/* colour for talent circle */
+#talent{
+    background-color: #EF1A76;
 }
 
 /*
@@ -120,16 +197,144 @@ h1{
     cursor: pointer;
 }
 
+.button-small{
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 /* complete button on edit and create blades */
 
 .complete-button {
     font-size: 1.2em;
     background-color: white;
     color: black;
-    border: 2px solid #23BABA;
+    border: 2px solid #12A89D;
 }
 
 .complete-button:hover {
-    background-color: #23BABA;
+    background-color: #12A89D;
     color: white;
 }
+
+/* start your story button on about blade*/
+
+.create-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #F7941D;
+}
+
+.create-button:hover {
+    background-color: #F7941D;
+    color: white;
+}
+
+/* logout button */
+
+.logout-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #0065B3;
+}
+
+.logout-button:hover {
+    background-color: #0065B3;
+    color: white;
+}
+
+/* edit button */
+
+.edit-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #AED135;
+}
+
+.edit-button:hover {
+    background-color: #AED135;
+    color: white;
+}
+
+/* delete button */
+
+.delete-button {
+    font-size: 1.2em;
+    background-color: white;
+    color: black;
+    border: 2px solid #FF0000;
+}
+
+.delete-button:hover {
+    background-color: #FF0000;
+    color: white;
+}
+
+/* index blade table styling */
+
+.tableStories {
+    border-bottom: 2px solid #EF1A76;
+}
+
+.headerStories{
+    background-color: #EF1A76;
+}
+
+/* account blade table styling */
+
+.tableAccount {
+    border-bottom: 2px solid #0065B3;
+    font-size: 20px;
+}
+
+.headerAccount{
+    background-color: #0065B3;
+    font-size: 22px;
+}
+
+/* tables being used throughout */
+th {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+td {
+    color: #555;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05),
+    0 10px 20px rgba(0,0,0,0.05),
+    0 20px 20px rgba(0,0,0,0.05),
+    0 30px 20px rgba(0,0,0,0.05);
+}
+
+tr.clickable-row{
+    cursor: pointer;
+}
+
+
+

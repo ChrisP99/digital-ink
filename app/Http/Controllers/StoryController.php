@@ -16,7 +16,7 @@ class StoryController extends Controller
      */
     public function index()
     {
-        $stories = Story::all();
+        $stories = Story::where('published', '1')->get();
         return view('stories.index', ['stories'=>$stories]);
     }
 
@@ -57,9 +57,9 @@ class StoryController extends Controller
         $story->save();
 
         if($story->published == "0") {
-            return redirect('/stories')->with('success', 'Your story has been saved as a draft!');
+            return redirect('/account')->with('success', 'Your story has been saved as a draft!');
         }else{
-            return redirect('/stories')->with('success', 'Yay! Your story has been published!');
+            return redirect('/account')->with('success', 'Yay! Your story has been published!');
         }
     }
 
@@ -114,9 +114,9 @@ class StoryController extends Controller
 
             $story->save();
             if($story->published == "0") {
-                return redirect('/stories')->with('success', 'Your story has been saved as a draft!');
+                return redirect('/account')->with('success', 'Your story has been saved as a draft!');
             }else{
-                return redirect('/stories')->with('success', 'Yay! Your story has been published!');
+                return redirect('/account')->with('success', 'Yay! Your story has been published!');
             }
     }
 
@@ -130,12 +130,6 @@ class StoryController extends Controller
     {
         $story = Story::find($id);
         $story->delete();
-        return redirect('/stories')->with('success', 'Your story has been deleted!');
-    }
-
-    public function accountIndex()
-    {
-        $publishedStories = Story::all();
-        return view('account', ['publishedStories'=>$publishedStories]);
+        return redirect('/account')->with('success', 'Your story has been deleted!');
     }
 }
