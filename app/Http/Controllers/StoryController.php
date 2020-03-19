@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use App\Story;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
 
 class StoryController extends Controller
@@ -16,8 +18,11 @@ class StoryController extends Controller
      */
     public function index()
     {
-        $stories = Story::where('published', '1')->get();
-        return view('stories.index', ['stories'=>$stories]);
+        if(Auth::check()) {
+            $stories = Story::where('published', '1')->get();
+            return view('stories.index', ['stories'=>$stories]);
+        }
+        return Redirect::to("/")->withSuccess('Oops! You do not have access');
     }
 
 
@@ -28,7 +33,10 @@ class StoryController extends Controller
      */
     public function create()
     {
-        return view('stories.create');
+        if(Auth::check()) {
+            return view('stories.create');
+        }
+        return Redirect::to("/")->withSuccess('Oops! You do not have access');
     }
 
     /**
