@@ -105,7 +105,6 @@ class StoryController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'author_id'=>'required',
             'title'=>'required',
             'genre'=>'required',
             'blurb'=>'required',
@@ -113,7 +112,7 @@ class StoryController extends Controller
             'published'=>'required'
         ]);
         $story = Story::find($id);
-            $story->author_id = $request->get('author_id');
+            $story->author_id = Auth()->user()->id;
             $story->title = $request->get('title');
             $story->genre = $request->get('genre');
             $story->blurb = $request->get('blurb');

@@ -23,7 +23,7 @@
                 <!-- author ID field -->
                 <div class="form-group">
                     <label for="author_id" class = "input-heading"><strong>Author Reference Number: *</strong></label>
-                    <input type="text" class="form-control" name="author_id" autocomplete="off" value="{{ $story->author_id }}">
+                    <input type="text" class="form-control" name="author_id" autocomplete="off" disabled value="{{ $story->author_id }}">
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('author_id') }}<br/></span>
