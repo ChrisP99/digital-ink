@@ -57,17 +57,16 @@
                     <a href="/about" class = "header-option">About</a>
                 </div>
 
-                @if (is_null(Auth()->user()->name))
-                    <!-- profile page link -->
-                        <div class = "col header-option">
-                            <a href="/account" class = "header-option">Account</a>
-                        </div>
-                @else
+                @isset(Auth()->user()->name)
                     <!-- profile page link -->
                     <div class = "col header-option">
                         <a href="/account" class = "header-option">{{ ucfirst(Auth()->user()->name) }}</a>
                     </div>
-                @endif
+                @else
+                        <div class = "col header-option">
+                            <a href="/account" class = "header-option">Account</a>
+                        </div>
+                @endisset
             </div>
         </div>
     </header>
