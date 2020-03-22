@@ -10,11 +10,13 @@
 
     <div class="main-body">
         @if ($errors->any())
-            <div class="alert alert-danger">
+            @if(strpos($errors, 'Oops') !==false)
+                <div class="alert alert-danger">
                     @foreach ($errors->all() as $error)
                         {{ $error }}
                     @endforeach
-            </div><br />
+                </div><br />
+            @endif
         @endif
 
 
@@ -25,15 +27,17 @@
                 <input type="text" id="inputEmail" placeholder="Enter Email" name="email">
 
                 @if ($errors->has('email'))
-                    <small class="error">{{ $errors->first('email') }}</small>
+                    <small class="error">{{ $errors->first('email') }}</small><br/>
                 @endif
+                <br/>
 
                 <label for="password"><b>Password</b></label>
                 <input type="password" id="inputPassword" placeholder="Enter Password" name="password">
 
                 @if ($errors->has('password'))
-                    <small class="error">{{ $errors->first('password') }}</small>
+                    <small class="error">{{ $errors->first('password') }}</small><br/>
                 @endif
+                <br/>
 
                 <button type="submit">Login</button>
                 <p style="text-align:right"><a>Don't have an account already? Why not sign up?</a></p>
@@ -43,45 +47,48 @@
             </div>
         </form>
 
+        <form action="{{url('post-registration')}}" method="POST">
+            {{ csrf_field() }}
+            <div class="signup-signin-form">
+                <h1>Sign Up</h1>
 
-    <form action="{{url('post-registration')}}" method="POST">
-        {{ csrf_field() }}
-        <div class="signup-signin-form">
-            <h1>Sign Up</h1>
+                <label for="name"><b>Name</b></label>
+                <input type="text" id="inputName" placeholder="Enter Name" name="name">
 
-            <label for="name"><b>Name</b></label>
-            <input type="text" id="inputName" placeholder="Enter Name" name="name">
+                @if ($errors->has('name'))
+                    <small class="error">{{ $errors->first('name') }}</small><br/>
+                @endif
+                <br/>
 
-            @if ($errors->has('name'))
-                <small class="error">{{ $errors->first('name') }}</small>
-            @endif
+                <label for="email"><b>Email</b></label>
+                <input type="text" id="inputEmail" placeholder="Enter Email" name="email">
 
-            <label for="email"><b>Email</b></label>
-            <input type="text" id="inputEmail" placeholder="Enter Email" name="email">
+                @if ($errors->has('email'))
+                    <small class="error">{{ $errors->first('email') }}</small><br/>
+                @endif
+                <br/>
 
-            @if ($errors->has('email'))
-                <small class="error">{{ $errors->first('email') }}</small>
-            @endif
+                <label for="password"><b>Password</b></label>
+                <input type="password" id="inputPassword" placeholder="Enter Password" name="password">
 
-            <label for="password"><b>Password</b></label>
-            <input type="password" id="inputPassword" placeholder="Enter Password" name="password">
+                @if ($errors->has('password'))
+                    <small class="error">{{ $errors->first('password') }}</small><br/>
+                @endif
+                <br/>
 
-            @if ($errors->has('password'))
-                <small class="error">{{ $errors->first('password') }}</small>
-            @endif
+                <label for="password-repeat"><b>Repeat Password</b></label>
+                <input type="password" id="inputPassword" placeholder="Repeat Password" name="password_confirmation">
 
-            <label for="password-repeat"><b>Repeat Password</b></label>
-            <input type="password" id="inputPassword" placeholder="Repeat Password" name="password_confirmation">
+                @if ($errors->has('password_confirm'))
+                    <small class="error">️{{$errors->first('password_confirm') }}</small><br/>
+                @endif
+                <br/>
 
-            @if ($errors->has('password_confirm'))
-                <small class="error">️{{$errors->first('password_confirm') }}</small>
-            @endif
-
-            <div class="clearfix">
-                <button type="submit" >Sign Up</button>
+                <div class="clearfix">
+                    <button type="submit" >Sign Up</button>
+                </div>
             </div>
-        </div>
-    </form>
+        </form>
     </div>
 
 
