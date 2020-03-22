@@ -1,9 +1,18 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+// Variables
+@import 'variables';
+
+//Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
 /*
     main body styling
 */
 
 body {
-    padding-bottom: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,14 +24,14 @@ header {
     overflow: hidden;
     position: sticky;
     text-align: center;
-    background-color: white;
+    background-color: $white;
 }
 
 .header-option {
     display: flex;
     justify-content:center;
     align-items:center;
-    color: #172b46;
+    color: $navy;
     text-align: center;
     padding: 40px 0;
     font-size: 1.2em;
@@ -38,8 +47,8 @@ header {
 */
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
 }
 
 .footer-option {
@@ -66,7 +75,7 @@ footer {
 */
 
 a {
-    color: white;
+    color: $white;
     vertical-align: bottom;
 }
 
@@ -110,7 +119,7 @@ h1{
 
 /* error styling */
 .form-error{
-    color: #FF0000;
+    color: $red;
 }
 
 /*
@@ -124,7 +133,7 @@ h1{
 }
 
 .about-section a{
-    color: #000000;
+    color: $black;
 }
 
 .about-section a:hover{
@@ -151,27 +160,27 @@ h1{
 
 /* colour for imagination circle */
 #imagination{
-    background-color: #12A89D;
+    background-color: $teal;
 }
 
 /* colour for platform circle */
 #platform{
-    background-color: #AED135;
+    background-color: $green;
 }
 
 /* colour for community circle */
 #community{
-    background-color: #FFDE15;
+    background-color: $yellow;
 }
 
 /* colour for journey circle */
 #journey{
-    background-color: #F7941D;
+    background-color: $orange;
 }
 
 /* colour for talent circle */
 #talent{
-    background-color: #EF1A76;
+    background-color: $pink;
 }
 
 /*
@@ -187,7 +196,7 @@ h1{
 .button{
     border: none;
     border-radius: 30px;
-    color: white;
+    color: $white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -200,7 +209,7 @@ h1{
 .button-small{
     border: none;
     border-radius: 30px;
-    color: white;
+    color: $white;
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
@@ -214,41 +223,41 @@ h1{
 
 .complete-button {
     font-size: 1.2em;
-    background-color: white;
-    color: black;
-    border: 2px solid #12A89D;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $teal;
 }
 
 .complete-button:hover {
-    background-color: #12A89D;
-    color: white;
+    background-color: $teal;
+    color: $white;
 }
 
 /* start your story button on about blade*/
 
 .create-button {
     font-size: 1.2em;
-    background-color: white;
-    color: black;
-    border: 2px solid #F7941D;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $orange;
 }
 
 .create-button:hover {
-    background-color: #F7941D;
-    color: white;
+    background-color: $orange;
+    color: $white;
 }
 
 /* logout button */
 
 .logout-button {
     font-size: 1.2em;
-    background-color: white;
-    color: black;
-    border: 2px solid #0065B3;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $blue;
 }
 
 .logout-button:hover {
-    background-color: #0065B3;
+    background-color: $blue;
     color: white;
 }
 
@@ -256,55 +265,55 @@ h1{
 
 .edit-button {
     font-size: 1.2em;
-    background-color: white;
-    color: black;
-    border: 2px solid #AED135;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $green;
 }
 
 .edit-button:hover {
-    background-color: #AED135;
-    color: white;
+    background-color: $green;
+    color: $white;
 }
 
 /* delete button */
 
 .delete-button {
     font-size: 1.2em;
-    background-color: white;
-    color: black;
-    border: 2px solid #FF0000;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $red;
 }
 
 .delete-button:hover {
-    background-color: #FF0000;
-    color: white;
+    background-color: $red;
+    color: $white;
 }
 
 /* index blade table styling */
 
 .tableStories {
-    border-bottom: 2px solid #EF1A76;
+    border-bottom: 2px solid $pink;
 }
 
 .headerStories{
-    background-color: #EF1A76;
+    background-color: $pink;
 }
 
 /* account blade table styling */
 
 .tableAccount {
-    border-bottom: 2px solid #0065B3;
+    border-bottom: 2px solid $blue;
     font-size: 20px;
 }
 
 .headerAccount{
-    background-color: #0065B3;
+    background-color: $blue;
     font-size: 22px;
 }
 
 /* tables being used throughout */
 th {
-    color: #fff;
+    color: $white;
     text-transform: uppercase;
     font-size: 12px;
     border: 1px solid #eee;
@@ -336,5 +345,41 @@ tr.clickable-row{
     cursor: pointer;
 }
 
+/*
+    CSS for create and upload forms
+ */
 
+/* input heading styling */
+.input-heading{
+    font-size: 1.2em;
+}
 
+/* styling for sections of form */
+.upload-section{
+    border-radius: 25px;
+    border: 2px solid $orange;
+    padding: 40px;
+}
+
+/*
+    CSS for show form
+ */
+
+#story-title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.author {
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+.content-section{
+    border-radius: 25px;
+    border: 2px solid #12A89D;
+    padding: 40px;
+}

@@ -22,7 +22,7 @@ class StoryController extends Controller
             $stories = Story::where('published', '1')->get();
             return view('stories.index', ['stories'=>$stories]);
         }
-        return Redirect::to("/")->withSuccess('Oops! You do not have access');
+        return Redirect::to("/")->withErrors('Oops - You do not have access! To view this page please login or create an account.');
     }
 
 
@@ -36,7 +36,7 @@ class StoryController extends Controller
         if(Auth::check()) {
             return view('stories.create');
         }
-        return Redirect::to("/")->withSuccess('Oops! You do not have access');
+        return Redirect::to("/")->withErrors('Oops - You do not have access! To view this page please login or create an account.');
     }
 
     /**

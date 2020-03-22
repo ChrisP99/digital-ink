@@ -8,6 +8,16 @@
 
 @section ('content')
 
+    <div class="main-body">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                    @foreach ($errors->all() as $error)
+                        {{ $error }}
+                    @endforeach
+            </div><br />
+        @endif
+
+
         <form action="{{url('post-login')}}" method="POST">
             {{ csrf_field() }}
             <div class="signup-signin-form">
@@ -34,7 +44,7 @@
         </form>
 
 
-    <form action="{{url('post-registration')}}" method="POST" style="border:1px solid #ccc">
+    <form action="{{url('post-registration')}}" method="POST">
         {{ csrf_field() }}
         <div class="signup-signin-form">
             <h1>Sign Up</h1>
@@ -72,6 +82,7 @@
             </div>
         </div>
     </form>
+    </div>
 
 
 @endsection

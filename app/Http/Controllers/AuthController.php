@@ -51,7 +51,7 @@ class AuthController extends Controller
         }
         return Redirect::to("/")
             ->withInput()
-            ->with('message','You have entered invalid credentials.');
+            ->withErrors('You have entered invalid credentials.');
         // Else tell the user they have entered invalid credentials
     }
 
@@ -107,7 +107,7 @@ class AuthController extends Controller
 
             return view('account',['publishedStories'=>$publishedStories, 'draftStories'=>$draftStories]);
         }
-        return Redirect::to("/")->withSuccess('Oops! You do not have access');
+        return Redirect::to("/")->withErrors('Oops - You do not have access! To view this page please login or create an account.');
     }
 
     public function create(array $data)

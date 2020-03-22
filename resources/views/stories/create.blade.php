@@ -2,8 +2,6 @@
 
 @section('additionalHeadInfo')
     <title>Create | Digital ink.</title>
-
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/upload.css') }}">
 @endsection
 
 @section('content')
