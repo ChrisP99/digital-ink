@@ -17,21 +17,21 @@
 
     <!-- additional head information relative to page to be added -->
 
-    @yield('additionalHeadInfo')
+@yield('additionalHeadInfo')
 
-    <!-- styling -->
+<!-- styling -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="{{ asset('images/digital-ink-logo.png') }}">
 
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <!-- additional head information relative to page to be added -->
 
+@yield('additionalHeadInfo')
 </head>
 
 <body>
-
-    <!-- page header -->
+<!-- page header -->
 
     <header>
         <div class = "container">
@@ -41,25 +41,39 @@
                     <a href="/stories" class = "header-option">Stories</a>
                 </div>
 
+                <div class = "col header-option">
+                    <a href="/stories/create" class = "header-option">Create</a>
+                </div>
+
                 <!-- homepage link / logo -->
                 <div class = "col header-option">
                     <a href="/">
-                        <img class="logo" alt = "Digital Ink logo" src = "images/digital-ink-logo.png" align="middle"></a>
+                        <img class="logo" alt = "Digital Ink logo" src = "{{ asset('images/digital-ink-logo.png') }}" align="middle"></a>
                 </div>
 
-                <!-- profile page link -->
                 <div class = "col header-option">
-                    <a href="/account" class = "header-option">Account</a>
+                    <a href="/about" class = "header-option">About</a>
                 </div>
+
+                @isset(Auth()->user()->name)
+                    <!-- profile page link -->
+                    <div class = "col header-option">
+                        <a href="/account" class = "header-option">{{ ucfirst(Auth()->user()->name) }}</a>
+                    </div>
+                @else
+                        <div class = "col header-option">
+                            <a href="/account" class = "header-option">Account</a>
+                        </div>
+                @endisset
             </div>
         </div>
     </header>
 
     <!-- additional page content to be added -->
 
-    @yield ('content')
+@yield ('content')
 
-    <!-- page footer -->
+<!-- page footer -->
 
     <footer>
         <div class = "container">
@@ -78,31 +92,34 @@
                 <div class = "col footer-option">
                     <!-- Facebook -->
                     <a href = "https://facebook.com" target = "_blank">
-                        <img class = "socialmedia" alt = "facebook logo" src = "images/facebook.png">
+                        <img class = "socialmedia" alt = "facebook logo" src = "{{ asset('images/facebook.png') }}">
                     </a>
 
                     <!-- Twitter -->
                     <a href = "https://twitter.com" target = "_blank">
-                        <img class = "socialmedia" alt = "twitter logo" src = "images/twitter.png">
+                        <img class = "socialmedia" alt = "twitter logo" src = "{{ asset('images/twitter.png') }}">
                     </a>
 
                     <!-- Instagram -->
                     <a href = "https://instagram.com" target = "_blank">
-                        <img class = "socialmedia" alt = "instagram logo" src = "images/instagram.png">
+                        <img class = "socialmedia" alt = "instagram logo" src = "{{ asset('images/instagram.png') }}">
                     </a>
 
                     <!-- Pinterest -->
                     <a href = "https://pintrest.com" target = "_blank">
-                        <img class = "socialmedia" alt = "pinterest logo" src = "images/pinterest.png">
+                        <img class = "socialmedia" alt = "pinterest logo" src = "{{ asset('images/pinterest.png') }}">
                     </a>
                 </div>
             </div>
 
-            <!-- copyright message -->
-            <p class = "copyright">© Digital Ink. 2020</p>
+
+        <!-- copyright message -->
+        <p class = "copyright">© Digital Ink. 2020</p>
         </div>
 
     </footer>
+
+    @yield('validation')
 
 </body>
 

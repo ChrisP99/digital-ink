@@ -10,13 +10,33 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('base');
-});
-
-Route::get('/hello', function () {
     return view('welcome');
 });
 
+Route::resource('stories', 'StoryController');
+Route::get('stories/{story}', 'StoryController@show');
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/account', function () {
+    return view('account');
+
+})->middleware('verified');
+
+Route::get('login', 'AuthController@index');
+Route::post('post-login', 'AuthController@postLogin');
+Route::post('post-registration', 'AuthController@postRegistration');
+Route::get('account', 'AuthController@account');
+Route::get('logout', 'AuthController@logout');
+
+Auth::routes();

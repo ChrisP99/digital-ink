@@ -1,100 +1,108 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('base')
 
-    <title>Laravel</title>
+@section('additionalHeadInfo')
+    <title>Account</title>
+@endsection
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+@section('content')
 
-    <!-- Styles -->
-    <style>
-        html, body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
+    <div class="main-body">
+        <!-- show welcome message to the user - include their name -->
+        <h1 class="center-element">Hi {{ ucfirst(Auth()->user()->name) }}!</h1>
+        <br/>
 
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-<body>
-<div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ route('login') }}">Login</a>
-
-                @if (Route::has('register'))
-                    <a href="{{ route('register') }}">Register</a>
-                @endif
-            @endauth
+        <!-- success message from uploading or deleting story -->
+        <div class="col-sm-12">
+            @if(session()->get('success'))
+                <div class="alert alert-success">
+                    {{ session()->get('success') }}
+                </div>
+            @endif
         </div>
-    @endif
+        <br/>
 
-    <div class="content">
-        <div class="title m-b-md">
-            Laravel
+        <!-- published stories section - only show if user has at least one story published -->
+        @if(count($publishedStories) >= 1)
+            <div class="account-information">
+                <h2 class="account-h2">Here are your published stories:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="headerAccount">Title</th>
+                            <th class="headerAccount">Genre</th>
+                            <th class="headerAccount" colspan = 2>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="tableAccount">
+                        @foreach($publishedStories as $publishedStory)
+                        <tr>
+                            <td>{{$publishedStory->title}}</td>
+                            <td>{{$publishedStory->genre}}</td>
+                            <td>
+                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$publishedStory->id)}}'" class="button-small edit-button" value="Edit">
+                            </td>
+                            <td>
+                                <form action="{{ route('stories.destroy', $publishedStory->id)}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="button-small delete-button" type="submit">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                        @endforeach
+
+                    </tbody>
+                </table>
+
+            </div>
+        @endif
+        <br/>
+
+        <!-- drafts section - only show if user has at least one draft saved -->
+        @if(count($draftStories) >= 1)
+            <div class="account-information">
+                <h2>Your drafts</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="headerAccount">Title</th>
+                        <th class="headerAccount">Genre</th>
+                        <th class="headerAccount" colspan = 2>Actions</th>
+                    </tr>
+                    </thead>
+
+                    <tbody class="tableAccount">
+                        @foreach($draftStories as $draftStory)
+                        <tr>
+                            <td>{{$draftStory->title}}</td>
+                            <td>{{$draftStory->genre}}</td>
+                            <td>
+                                <input type="button" onclick="window.location.href='{{ route('stories.edit',$draftStory->id)}}'" class="button-small edit-button" value="Edit">
+                            </td>
+                            <td>
+                                <form action="{{ route('stories.destroy', $draftStory->id)}}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <input class="button-small delete-button" type="submit" value="Delete">
+                                </form>
+                            </td>
+                        </tr>
+                        @endforeach
+
+                    </tbody>
+                </table>
+
+            </div>
+        @endif
+        <br/>
+
+        <!-- logout button -->
+        <div class="center-element">
+            <input type="button" class="button-small logout-button" onclick="window.location.href='{{url('logout')}}'" value="Logout">
         </div>
 
-        <div class="links">
-            <a href="https://laravel.com/docs">Docs</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://blog.laravel.com">Blog</a>
-            <a href="https://nova.laravel.com">Nova</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://vapor.laravel.com">Vapor</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
-        </div>
     </div>
-</div>
-</body>
-</html>
+
+@endsection
+

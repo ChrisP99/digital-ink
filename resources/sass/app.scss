@@ -1,0 +1,385 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+// Variables
+@import 'variables';
+
+//Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/*
+    main body styling
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+    header styling
+*/
+
+header {
+    overflow: hidden;
+    position: sticky;
+    text-align: center;
+    background-color: $white;
+}
+
+.header-option {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: $navy;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 125px;
+    height: 125px;
+}
+
+/*
+    footer styling
+*/
+
+footer {
+    background-color: $black;
+    color: $white;
+}
+
+.footer-option {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.socialmedia{
+    width: 40px;
+    padding: 5px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0 auto;
+}
+
+/*
+    page link styling
+*/
+
+a {
+    color: $white;
+    vertical-align: bottom;
+}
+
+a:hover {
+    color: plum;
+    text-decoration: none;
+}
+
+/*
+    styling for other elements across all pages - but not present in base.blade
+*/
+
+/* main body div for text under header */
+
+.main-body {
+    margin: 60px 100px;
+}
+
+/* styling for heading on pages */
+h1{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+/* alignment for center elements on pages */
+.center-element{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+/* alignment for h2 on account page */
+.account-h2{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+/* spacing between sections of user information eg. published stories, draft stories */
+.account-information{
+    margin: 20px 0;
+}
+
+/* error styling */
+.error{
+    color: $red;
+}
+
+/*
+    About page
+ */
+
+/* styling for about page sections of text */
+
+.about-section{
+    font-size: 1.2em;
+}
+
+.about-section a{
+    color: $black;
+}
+
+.about-section a:hover{
+    color: plum;
+}
+
+/* styling for about page circles - five key points*/
+
+/* stying to show circles on the same line*/
+.circle-alignment{
+    margin:20px;
+    display: inline;
+}
+
+/* styling for each circle */
+.circle {
+    height: 150px;
+    width: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* colour for imagination circle */
+#imagination{
+    background-color: $teal;
+}
+
+/* colour for platform circle */
+#platform{
+    background-color: $green;
+}
+
+/* colour for community circle */
+#community{
+    background-color: $yellow;
+}
+
+/* colour for journey circle */
+#journey{
+    background-color: $orange;
+}
+
+/* colour for talent circle */
+#talent{
+    background-color: $pink;
+}
+
+/*
+    buttons - all CSS for buttons only work in base
+*/
+
+/* button alignment if at centre at bottom of page */
+.main-button{
+    text-align: center;
+}
+
+/* general button styling */
+.button{
+    border: none;
+    border-radius: 30px;
+    color: $white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-small{
+    border: none;
+    border-radius: 30px;
+    color: $white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* complete button on edit and create blades */
+
+.complete-button {
+    font-size: 1.2em;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $teal;
+}
+
+.complete-button:hover {
+    background-color: $teal;
+    color: $white;
+}
+
+/* start your story button on about blade*/
+
+.create-button {
+    font-size: 1.2em;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $orange;
+}
+
+.create-button:hover {
+    background-color: $orange;
+    color: $white;
+}
+
+/* logout button */
+
+.logout-button {
+    font-size: 1.2em;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $blue;
+}
+
+.logout-button:hover {
+    background-color: $blue;
+    color: white;
+}
+
+/* edit button */
+
+.edit-button {
+    font-size: 1.2em;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $green;
+}
+
+.edit-button:hover {
+    background-color: $green;
+    color: $white;
+}
+
+/* delete button */
+
+.delete-button {
+    font-size: 1.2em;
+    background-color: $white;
+    color: $black;
+    border: 2px solid $red;
+}
+
+.delete-button:hover {
+    background-color: $red;
+    color: $white;
+}
+
+/* index blade table styling */
+
+.tableStories {
+    border-bottom: 2px solid $pink;
+}
+
+.headerStories{
+    background-color: $pink;
+}
+
+/* account blade table styling */
+
+.tableAccount {
+    border-bottom: 2px solid $blue;
+    font-size: 20px;
+}
+
+.headerAccount{
+    background-color: $blue;
+    font-size: 22px;
+}
+
+/* tables being used throughout */
+th {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+td {
+    color: #555;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05),
+    0 10px 20px rgba(0,0,0,0.05),
+    0 20px 20px rgba(0,0,0,0.05),
+    0 30px 20px rgba(0,0,0,0.05);
+}
+
+tr.clickable-row{
+    cursor: pointer;
+}
+
+/*
+    CSS for create and upload forms
+ */
+
+/* input heading styling */
+.input-heading{
+    font-size: 1.2em;
+}
+
+/* styling for sections of form */
+.upload-section{
+    border-radius: 25px;
+    border: 2px solid $orange;
+    padding: 40px;
+}
+
+/*
+    CSS for show form
+ */
+
+#story-title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.author {
+    font-family: Arial, Helvetica, sans-serif;;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+.content-section{
+    border-radius: 25px;
+    border: 2px solid #12A89D;
+    padding: 40px;
+}
