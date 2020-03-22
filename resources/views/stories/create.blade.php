@@ -42,6 +42,7 @@
                     <p>What type of story are you creating?</p>
 
                     <select class="form-control" id="genre" name="genre">
+                        <option value="" disabled selected>Choose the genre</option>
                         <option value="Action and Adventure">Action and Adventure</option>
                         <option value="Children's">Children's</option>
                         <option value="Historical">Historical</option>
@@ -93,9 +94,9 @@
                     <input type="radio" id="upload" name="published" value="1">
                     <label for="upload">Upload</label>
                     <br/>
+                    <!-- ensures error message for radio buttons appears beneath them -->
+                    <label for="published" class="error"></label>
 
-                    <!-- error messages -->
-                    <span class="text-danger">{{ $errors->first('published') }}<br/></span>
                 </div>
             </div>
             <br/>
@@ -109,4 +110,8 @@
         <br/>
     </div>
 
+@endsection
+
+@section ('validation')
+    <script src="{{ asset('js/check_create_update_input.js') }}"></script>
 @endsection

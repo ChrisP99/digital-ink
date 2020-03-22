@@ -30,6 +30,7 @@
 @yield('additionalHeadInfo')
 </head>
 
+<body>
 <!-- page header -->
 
     <header>
@@ -118,6 +119,8 @@
 
     </footer>
 
-    </body>
+    @yield('validation')
+
+</body>
 
 </html>

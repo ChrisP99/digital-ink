@@ -13,3 +13,14 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
+
+mix.autoload({
+    jquery: ['$', 'window.jQuery']
+});
+
+mix.js([
+    'node_modules/jquery/dist/jquery.min.js',
+    'node_modules/jquery-validation/dist/jquery.validate.min.js',
+    'node_modules/jquery-validation/dist/additional-methods.min.js',
+    'resources/js/check_create_update_input.js'
+], 'public/js/check_create_update_input.js');

@@ -23,6 +23,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
-        "jquery-validate": "^2.0.0"
+        "jquery-validate": "^2.0.0",
+        "jquery-validation": "^1.19.1"
     }
 }
