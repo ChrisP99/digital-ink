@@ -20,6 +20,8 @@ Route::get('/', function () {
 Route::resource('stories', 'StoryController');
 Route::get('stories/{story}', 'StoryController@show');
 
+Route::get('/search', 'StoryController@search');
+
 Route::get('/about', function () {
     return view('about');
 });

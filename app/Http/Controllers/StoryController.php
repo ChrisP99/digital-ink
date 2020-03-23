@@ -8,6 +8,7 @@ use App\Story;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
+use DB;
 
 class StoryController extends Controller
 {
@@ -138,5 +139,18 @@ class StoryController extends Controller
         $story = Story::find($id);
         $story->delete();
         return redirect('/account')->with('success', 'Your story has been deleted!');
+    }
+
+
+    /**
+     * search function
+     */
+
+    public function search(Request $request){
+        $search = $request->get('search');
+        $stories = DB::table('stories')->where('title', 'like', '%'.$search.'%')
+            ->get();
+
+        return view('stories.index', ['stories'=>$stories]);
     }
 }

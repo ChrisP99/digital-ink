@@ -10903,6 +10903,8 @@ header {
   background-color: #ffffff;
 }
 
+/* page links in the header */
+
 .header-option {
   display: flex;
   justify-content: center;
@@ -10912,6 +10914,8 @@ header {
   padding: 40px 0;
   font-size: 1.2em;
 }
+
+/* logo size in header */
 
 .logo {
   width: 125px;
@@ -10927,6 +10931,8 @@ footer {
   color: #ffffff;
 }
 
+/* page links in the footer */
+
 .footer-option {
   display: flex;
   justify-content: center;
@@ -10935,10 +10941,14 @@ footer {
   padding: 40px 0;
 }
 
+/* social media image styling */
+
 .socialmedia {
   width: 40px;
   padding: 5px;
 }
+
+/* copyright message formatting */
 
 .copyright {
   text-align: center;
@@ -11013,6 +11023,8 @@ h1 {
   font-size: 1.2em;
 }
 
+/* styling for about page links */
+
 .about-section a {
   color: #000000;
 }
@@ -11081,7 +11093,7 @@ h1 {
   text-align: center;
 }
 
-/* general button styling */
+/* general button styling - bigger button*/
 
 .button {
   border: none;
@@ -11096,6 +11108,8 @@ h1 {
   cursor: pointer;
 }
 
+/* general button styling - smaller button*/
+
 .button-small {
   border: none;
   border-radius: 30px;
@@ -11109,7 +11123,7 @@ h1 {
   cursor: pointer;
 }
 
-/* complete button on edit and create blades */
+/* complete button styling */
 
 .complete-button {
   font-size: 1.2em;
@@ -11123,7 +11137,7 @@ h1 {
   color: #ffffff;
 }
 
-/* start your story button on about blade*/
+/* start your story button styling*/
 
 .create-button {
   font-size: 1.2em;
@@ -11137,7 +11151,7 @@ h1 {
   color: #ffffff;
 }
 
-/* logout button */
+/* logout button styling */
 
 .logout-button {
   font-size: 1.2em;
@@ -11151,7 +11165,7 @@ h1 {
   color: white;
 }
 
-/* edit button */
+/* edit button styling*/
 
 .edit-button {
   font-size: 1.2em;
@@ -11165,7 +11179,7 @@ h1 {
   color: #ffffff;
 }
 
-/* delete button */
+/* delete button styling*/
 
 .delete-button {
   font-size: 1.2em;
@@ -11178,6 +11192,10 @@ h1 {
   background-color: #FF0000;
   color: #ffffff;
 }
+
+/*
+    Table styling
+ */
 
 /* index blade table styling */
 
@@ -11236,7 +11254,36 @@ tr.clickable-row {
 }
 
 /*
-    CSS for create and upload forms
+    Styling for index blade
+ */
+
+/* index heading styling */
+
+.story-header {
+  width: 40%;
+  margin: 0 auto;
+  float: left;
+  display: inline;
+}
+
+/* search bar styling */
+
+.search-bar {
+  float: right;
+}
+
+/* styling for search error messages */
+
+.search-error {
+  margin: 50px;
+  padding: 40px;
+  font-size: 1.4em;
+  text-align: center;
+  color: #EF1A76;
+}
+
+/*
+    CSS for create and upload blades
  */
 
 /* input heading styling */
@@ -11257,11 +11304,15 @@ tr.clickable-row {
     CSS for show form
  */
 
+/* styling for story title */
+
 #story-title {
   text-align: center;
   font-size: 3em;
   font-weight: bold;
 }
+
+/* styling for additional story information */
 
 .author {
   font-family: Arial, Helvetica, sans-serif;
@@ -11269,6 +11320,8 @@ tr.clickable-row {
   font-size: 1.4em;
   font-weight: lighter;
 }
+
+/* styling for where story is shown */
 
 .content-section {
   border-radius: 25px;
