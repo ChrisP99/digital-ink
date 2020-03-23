@@ -11269,6 +11269,7 @@ tr.clickable-row {
 /* search bar styling */
 
 .search-bar {
+  padding: 10px;
   float: right;
 }
 
