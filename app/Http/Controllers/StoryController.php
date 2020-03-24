@@ -69,8 +69,9 @@ class StoryController extends Controller
         if(!$file == null){
             $new_file = rand().time().".".$file->getClientOriginalExtension();
             $file->move(storage_path('app/public/story_files'), $new_file);
+            $file_path = '../storage/story_files/'.$new_file;
         }else{
-            $new_file = $file;
+            $file_path = $file;
         }
 
         $story = new Story([
@@ -80,7 +81,7 @@ class StoryController extends Controller
             'blurb'=>$request->get('blurb'),
             'cover_image'=>$image_path,
             'content'=>$request->get('content'),
-            'file_upload'=>$new_file,
+            'file_upload'=>$file_path,
             'published'=>$request->get('published'),
         ]);
         $story->save();
