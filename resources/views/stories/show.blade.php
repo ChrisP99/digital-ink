@@ -7,6 +7,9 @@
 @section('content')
     <div class="main-body">
     <h1 id="story-title">{{ $story->title }}</h1>
+        <div>
+            <img src="{{ asset($story->cover_image) }}" width="125">
+        </div>
         <pre class="author">Written by: {{ $story->author_id }}     Genre: {{ $story->genre }}</pre>
         <p class="content-section">{{ $story->content }}</p>
         <div>

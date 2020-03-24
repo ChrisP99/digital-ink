@@ -66,6 +66,9 @@
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('content') }}<br/></span>
+
+                    <input type="file" accept=".pdf" id="file_upload" name="file_upload">
+                    <span class="text-danger">{{ $errors->first('file_upload') }}<br/></span>
                 </div>
                 <br/>
             </div>

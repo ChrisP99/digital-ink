@@ -58,10 +58,19 @@ class StoryController extends Controller
 
         $image = $request->file('cover_image');
         if(!$image == null){
-            $new_image = time().".".$image->getClientOriginalExtension();
+            $new_image = rand().time().".".$image->getClientOriginalExtension();
             $image->move(storage_path('app/public/cover_images'), $new_image);
+            $image_path = '../storage/cover_images/'.$new_image;
         }else{
-            $new_image = 'picture.png';
+            $image_path = 'images/digital-ink-logo.png';
+        }
+
+        $file = $request->file('file_upload');
+        if(!$file == null){
+            $new_file = rand().time().".".$file->getClientOriginalExtension();
+            $file->move(storage_path('app/public/story_files'), $new_file);
+        }else{
+            $new_file = $file;
         }
 
         $story = new Story([
@@ -69,8 +78,9 @@ class StoryController extends Controller
             'title'=>$request->get('title'),
             'genre'=>$request->get('genre'),
             'blurb'=>$request->get('blurb'),
-            'cover_image'=>$new_image,
+            'cover_image'=>$image_path,
             'content'=>$request->get('content'),
+            'file_upload'=>$new_file,
             'published'=>$request->get('published'),
         ]);
         $story->save();

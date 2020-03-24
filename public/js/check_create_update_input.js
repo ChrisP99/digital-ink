@@ -10762,7 +10762,14 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! jQuery v3.4.
         required: true
       },
       content: {
-        required: true
+        required: '#file_upload:blank'
+      },
+      file_upload: {
+        required: '#content:blank',
+        accept: 'pdf'
+      },
+      cover_image: {
+        accept: 'image/*'
       },
       blurb: {
         required: true
@@ -10780,6 +10787,13 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! jQuery v3.4.
       },
       content: {
         required: "Please add your story"
+      },
+      file_upload: {
+        required: "Please upload your story",
+        accept: "Please upload your story in a pdf format"
+      },
+      cover_image: {
+        accept: 'Please upload an cover in a image format'
       },
       blurb: {
         required: "Please add a blurb"
