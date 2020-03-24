@@ -27,6 +27,7 @@ header {
     background-color: $white;
 }
 
+/* page links in the header */
 .header-option {
     display: flex;
     justify-content:center;
@@ -37,6 +38,7 @@ header {
     font-size: 1.2em;
 }
 
+/* logo size in header */
 .logo {
     width: 125px;
     height: 125px;
@@ -51,6 +53,7 @@ footer {
     color: $white;
 }
 
+/* page links in the footer */
 .footer-option {
     display: flex;
     justify-content:center;
@@ -59,11 +62,13 @@ footer {
     padding: 40px 0;
 }
 
+/* social media image styling */
 .socialmedia{
     width: 40px;
     padding: 5px;
 }
 
+/* copyright message formatting */
 .copyright {
     text-align: center;
     font-size: 0.8em;
@@ -89,7 +94,6 @@ a:hover {
 */
 
 /* main body div for text under header */
-
 .main-body {
     margin: 60px 100px;
 }
@@ -127,11 +131,11 @@ h1{
  */
 
 /* styling for about page sections of text */
-
 .about-section{
     font-size: 1.2em;
 }
 
+/* styling for about page links */
 .about-section a{
     color: $black;
 }
@@ -192,7 +196,7 @@ h1{
     text-align: center;
 }
 
-/* general button styling */
+/* general button styling - bigger button*/
 .button{
     border: none;
     border-radius: 30px;
@@ -206,6 +210,7 @@ h1{
     cursor: pointer;
 }
 
+/* general button styling - smaller button*/
 .button-small{
     border: none;
     border-radius: 30px;
@@ -219,8 +224,7 @@ h1{
     cursor: pointer;
 }
 
-/* complete button on edit and create blades */
-
+/* complete button styling */
 .complete-button {
     font-size: 1.2em;
     background-color: $white;
@@ -233,8 +237,7 @@ h1{
     color: $white;
 }
 
-/* start your story button on about blade*/
-
+/* start your story button styling*/
 .create-button {
     font-size: 1.2em;
     background-color: $white;
@@ -247,8 +250,7 @@ h1{
     color: $white;
 }
 
-/* logout button */
-
+/* logout button styling */
 .logout-button {
     font-size: 1.2em;
     background-color: $white;
@@ -261,8 +263,7 @@ h1{
     color: white;
 }
 
-/* edit button */
-
+/* edit button styling*/
 .edit-button {
     font-size: 1.2em;
     background-color: $white;
@@ -275,8 +276,7 @@ h1{
     color: $white;
 }
 
-/* delete button */
-
+/* delete button styling*/
 .delete-button {
     font-size: 1.2em;
     background-color: $white;
@@ -289,8 +289,11 @@ h1{
     color: $white;
 }
 
-/* index blade table styling */
+/*
+    Table styling
+ */
 
+/* index blade table styling */
 .tableStories {
     border-bottom: 2px solid $pink;
 }
@@ -300,7 +303,6 @@ h1{
 }
 
 /* account blade table styling */
-
 .tableAccount {
     border-bottom: 2px solid $blue;
     font-size: 20px;
@@ -346,7 +348,34 @@ tr.clickable-row{
 }
 
 /*
-    CSS for create and upload forms
+    Styling for index blade
+ */
+
+/* index heading styling */
+.story-header{
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+    display: inline;
+}
+
+/* search bar styling */
+.search-bar{
+    padding: 10px;
+    float: right;
+}
+
+/* styling for search error messages */
+.search-error{
+    margin:50px;
+    padding: 40px;
+    font-size: 1.4em;
+    text-align: center;
+    color: $pink;
+}
+
+/*
+    CSS for create and upload blades
  */
 
 /* input heading styling */
@@ -365,12 +394,14 @@ tr.clickable-row{
     CSS for show form
  */
 
+/* styling for story title */
 #story-title {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
 }
 
+/* styling for additional story information */
 .author {
     font-family: Arial, Helvetica, sans-serif;;
     text-align: center;
@@ -378,6 +409,7 @@ tr.clickable-row{
     font-weight: lighter;
 }
 
+/* styling for where story is shown */
 .content-section{
     border-radius: 25px;
     border: 2px solid #12A89D;
