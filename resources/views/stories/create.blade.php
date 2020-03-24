@@ -63,6 +63,8 @@
                     <label for="content" class="input-heading"><strong>Your Story: *</strong></label>
                     <p>Add the content of your story below.</p>
                     <textarea class="form-control" rows = "10" id="content" name="content" autocomplete="off">{{ old('content') }}</textarea>
+                    <br>
+                    <input type="file" name="file_upload">
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('content') }}<br/></span>
@@ -78,6 +80,8 @@
                     <label for="blurb" class="input-heading"><strong>Blurb: *</strong></label>
                     <p>Add a short description of your story!</p>
                     <textarea class="form-control" rows = "3" id="blurb" name="blurb" autocomplete="off">{{ old('blurb') }}</textarea>
+                    <br>
+                    <input type="file" name="cover_image">
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('blurb') }}<br/></span>

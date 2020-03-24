@@ -17,10 +17,12 @@ class CreateStoriesTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('author_id');
             $table->foreign('author_id')->references('id')->on('users');
-            $table->string('title');
+            $table->string('title', 100);
             $table->string('genre');
             $table->text('blurb');
             $table->text('content');
+            $table->string('cover_image')->nullable();
+            $table->string('file_upload')->nullable();
             $table->boolean('published')->default('0');
             //TODO: Add Hashing
             $table->timestamps();
