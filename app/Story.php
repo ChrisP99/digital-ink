@@ -12,6 +12,8 @@ class Story extends Model
         'genre',
         'blurb',
         'content',
+        'cover_image',
+        'file_upload',
         'published'
     ];
 }

@@ -21,8 +21,8 @@ class CreateStoriesTable extends Migration
             $table->string('genre');
             $table->text('blurb');
             $table->text('content');
-            $table->string('cover_image')->nullable();
-            $table->string('file_upload')->nullable();
+            $table->string('cover_image');
+            $table->string('file_upload');
             $table->boolean('published')->default('0');
             //TODO: Add Hashing
             $table->timestamps();

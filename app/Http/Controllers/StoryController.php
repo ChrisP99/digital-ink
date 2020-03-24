@@ -53,22 +53,15 @@ class StoryController extends Controller
             'genre'=>'required',
             'blurb'=>'required',
             'cover_image'=>'image',
-            'file_upload'=>'mimes:pdf',
             'published'=>'required'
         ]);
 
-        $cover_image = $request->file('cover_image');
-        if(!$cover_image == null) {
-            $new_cover = rand().time() . '.' . $cover_image->getClientOriginalExtension();
-            $cover_image->move(storage_path('app/public/cover_images'), $new_cover);
+        $image = $request->file('cover_image');
+        if(!$image == null){
+            $new_image = time().".".$image->getClientOriginalExtension();
+            $image->move(storage_path('app/public/cover_images'), $new_image);
         }else{
-            $new_cover = 'singingintrain.jpg';
-        }
-
-        $file_upload = $request->file('file_upload');
-        if(!$file_upload == null) {
-            $new_file_upload = rand() . time() . '.' . $file_upload->getClientOriginalExtension();
-            $file_upload->move(storage_path('app/public/story_files'), $new_file_upload);
+            $new_image = 'picture.png';
         }
 
         $story = new Story([
@@ -76,9 +69,8 @@ class StoryController extends Controller
             'title'=>$request->get('title'),
             'genre'=>$request->get('genre'),
             'blurb'=>$request->get('blurb'),
-            'cover_image'=>$new_cover,
+            'cover_image'=>$new_image,
             'content'=>$request->get('content'),
-            'file_upload'=>$new_file_upload,
             'published'=>$request->get('published'),
         ]);
         $story->save();

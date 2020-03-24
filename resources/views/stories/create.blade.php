@@ -12,7 +12,7 @@
         <br/>
 
         <!-- form for story upload -->
-        <form id="story_upload" method="post" action="{{ route('stories.store') }}">
+        <form id="story_upload" method="post" action="{{ route('stories.store') }}" enctype="multipart/form-data">
             @csrf
 
             <!-- first section of the form -->
@@ -63,8 +63,6 @@
                     <label for="content" class="input-heading"><strong>Your Story: *</strong></label>
                     <p>Add the content of your story below.</p>
                     <textarea class="form-control" rows = "10" id="content" name="content" autocomplete="off">{{ old('content') }}</textarea>
-                    <br>
-                    <input type="file" name="file_upload">
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('content') }}<br/></span>
@@ -82,6 +80,7 @@
                     <textarea class="form-control" rows = "3" id="blurb" name="blurb" autocomplete="off">{{ old('blurb') }}</textarea>
                     <br>
                     <input type="file" name="cover_image">
+                    <span class="text-danger">{{ $errors->first('cover_image') }}<br/></span>
 
                     <!-- error messages -->
                     <span class="text-danger">{{ $errors->first('blurb') }}<br/></span>
