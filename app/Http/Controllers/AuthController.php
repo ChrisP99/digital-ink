@@ -1,13 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
+use http\Client\Curl\User;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
-use App\User;
+use App\Users;
 use App\Story;
 
 
@@ -60,7 +63,7 @@ class AuthController extends Controller
     {
         $rules = [  // Validation so that the below fields are required
             'name' => 'required',
-            'email' => 'required|email|unique:users', //Sets the email to be unique, so checks the databse to see if its taken or not
+            'email' => 'required|email|unique:users', //Sets the email to be unique, so checks the database to see if its taken or not
             'password' => ['required',
                             'min:6',
                             'regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\X])(?=.*[!$#%]).*$/',
@@ -96,6 +99,7 @@ class AuthController extends Controller
     // Function for showing the account page
     public function account()
     {
+        //ohh right ok
         if(Auth::check()){
             $publishedStories=Story::where('published', '1')
                 ->where('author_id', Auth()->user()->id)
@@ -113,12 +117,25 @@ class AuthController extends Controller
     public function create(array $data)
         //Function for the creation of a user via Laravel
     {
-        return User::create([ //Create the below details and add them to the database
+        return Users::create([ //Create the below details and add them to the database
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password'])
             // Adds password hashing so the passwords are not stored in plain text
         ]);
+    }
+
+    /**
+     * Remove the specified resource from storage.
+
+     * @param  int  $id
+     * @return RedirectResponse|Redirector
+     */
+    public function destroy($id)
+    {
+        $user = Users::find($id);
+        $user->delete();
+        return redirect('/')->with('success', 'Your account has been deleted!');
     }
 
     public function logout() { //Logout function

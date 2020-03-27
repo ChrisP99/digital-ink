@@ -16,7 +16,7 @@ class CreateStoriesTable extends Migration
         Schema::create('stories', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('author_id');
-            $table->foreign('author_id')->references('id')->on('users');
+            $table->foreign('author_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('title', 100);
             $table->string('genre');
             $table->text('blurb');
@@ -27,6 +27,7 @@ class CreateStoriesTable extends Migration
             //TODO: Add Hashing
             $table->timestamps();
         });
+
     }
 
     /**

@@ -16,4 +16,5 @@ class Story extends Model
         'file_upload',
         'published'
     ];
+
 }

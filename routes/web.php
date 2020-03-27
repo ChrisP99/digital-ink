@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//See, it's because your resource is going to stories, my one is going to account, but it says users in the thing
 Route::resource('stories', 'StoryController');
 Route::get('stories/{story}', 'StoryController@show');
 
@@ -30,10 +31,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::resource('/account', 'AuthController');
 Route::get('/account', function () {
     return view('account');
-
-})->middleware('verified');
+});
 
 Route::get('login', 'AuthController@index');
 Route::post('post-login', 'AuthController@postLogin');

@@ -93,16 +93,20 @@
                     </tbody>
                 </table>
 
-            </div>
         @endif
         <br/>
-
-        <!-- logout button -->
-        <div class="center-element">
-            <input type="button" class="button-small logout-button" onclick="window.location.href='{{url('logout')}}'" value="Logout">
-        </div>
-
     </div>
-
+        <div class="center-element">
+            <!-- logout button -->
+            <div>
+                <input type="button" class="button-small logout-button" onclick="window.location.href='{{url('logout')}}'" value="Logout">
+            </div>
+            <br>
+            <form action="{{ route('account.destroy', Auth()->user()->id)}}" method="post">
+                @csrf
+                @method('DELETE')
+                <input class="button-small delete-button" type="submit" value="Delete Account">
+            </form>
+        </div>
+    </div>
 @endsection
-
