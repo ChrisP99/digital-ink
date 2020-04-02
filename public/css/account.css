@@ -14,29 +14,8 @@ hr {
     margin-bottom: 25px;
 }
 
-/* Set a style for all buttons */
-button {
-    background-color: #9364a9;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-    border-radius: 35px;
-}
-
 .error{
     color: red;
-}
-
-
-/* Add padding to container elements */
-.signup-signin-form {
-    width: 80%;
-    padding: 16px;
-    margin: 0 auto;
 }
 
 /* Add padding to container elements */

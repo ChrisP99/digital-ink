@@ -2,6 +2,8 @@
 
 @section('additionalHeadInfo')
     <title>Account</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/account.css') }}">
 @endsection
 
 @section('content')
@@ -96,6 +98,12 @@
         @endif
         <br/>
     </div>
+
+        <div class="main-button">
+            <!-- form submit button - activates error messages -->
+            <button type="submit" onclick="window.location.href='{{url('details')}}'" class="button complete-button">Update Account</button>
+        </div>
+
         <div class="center-element">
             <!-- logout button -->
             <div>

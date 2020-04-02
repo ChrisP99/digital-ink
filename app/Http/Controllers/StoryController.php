@@ -116,7 +116,6 @@ class StoryController extends Controller
         $story = Story::find($id);
         return view('stories.edit', compact('story'));
     }
-
     /**
      * Update the specified resource in storage.
      *

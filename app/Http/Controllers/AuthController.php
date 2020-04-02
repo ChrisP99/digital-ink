@@ -99,7 +99,6 @@ class AuthController extends Controller
     // Function for showing the account page
     public function account()
     {
-        //ohh right ok
         if(Auth::check()){
             $publishedStories=Story::where('published', '1')
                 ->where('author_id', Auth()->user()->id)
@@ -125,12 +124,20 @@ class AuthController extends Controller
         ]);
     }
 
-    /**
-     * Remove the specified resource from storage.
+    public function update(Request $request, $id)
+    {
+        $request->validate([
+            'name'=>'required',
+            'email'=>'required',
+        ]);
 
-     * @param  int  $id
-     * @return RedirectResponse|Redirector
-     */
+        $users = Users::find($id);
+            $users->name = $request->get('name');
+            $users->email = $request->get('email');
+        $users->save();
+        return redirect('/account')->with('success', 'Your account has been updated!');
+    }
+
     public function destroy($id)
     {
         $user = Users::find($id);

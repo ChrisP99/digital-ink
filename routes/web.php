@@ -31,6 +31,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/details', function () {
+    return view('details');
+});
+
 Route::resource('/account', 'AuthController');
 Route::get('/account', function () {
     return view('account');
