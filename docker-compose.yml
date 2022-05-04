@@ -7,7 +7,7 @@ services:
     depends_on:
       - db
     ports:
-      - "8081:80"
+      - "80:80"
     volumes:
       - ./:/srv/app
       - /srv/app/vendor
