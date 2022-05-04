@@ -1,17 +1,1 @@
 /node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-/.dbdata
-.env
-.env.backup
-.idea
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-/public/js/app.js
-/public/mix-manifest.json
-/package-lock.json
