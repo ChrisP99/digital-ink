@@ -21,7 +21,7 @@
 
 <!-- styling -->
 
-    <link rel="icon" href="{{ asset('images/digital-ink-logo.png') }}">
+    <link rel="icon" href="{{'https://group4-digital-ink-s3.s3.amazonaws.com/digital-ink-logo.png'}}">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
@@ -92,29 +92,29 @@
                 <div class = "col footer-option">
                     <!-- Facebook -->
                     <a href = "https://facebook.com" target = "_blank">
-                        <img class = "socialmedia" alt = "facebook logo" src = "{{ asset('images/facebook.png') }}">
+                        <img class = "socialmedia" alt = "Facebook logo" src = "{{'https://group4-digital-ink-s3.s3.amazonaws.com/facebook.png'}}">
                     </a>
 
                     <!-- Twitter -->
                     <a href = "https://twitter.com" target = "_blank">
-                        <img class = "socialmedia" alt = "twitter logo" src = "{{ asset('images/twitter.png') }}">
+                        <img class = "socialmedia" alt = "Twitter logo" src = "{{ 'https://group4-digital-ink-s3.s3.amazonaws.com/twitter.png' }}">
                     </a>
 
                     <!-- Instagram -->
                     <a href = "https://instagram.com" target = "_blank">
-                        <img class = "socialmedia" alt = "instagram logo" src = "{{ asset('images/instagram.png') }}">
+                        <img class = "socialmedia" alt = "Instagram logo" src = "{{ 'https://group4-digital-ink-s3.s3.amazonaws.com/instagram.png' }}">
                     </a>
 
                     <!-- Pinterest -->
                     <a href = "https://pintrest.com" target = "_blank">
-                        <img class = "socialmedia" alt = "pinterest logo" src = "{{ asset('images/pinterest.png') }}">
+                        <img class = "socialmedia" alt = "Pinterest logo" src = "{{ 'https://group4-digital-ink-s3.s3.amazonaws.com/pinterest.png' }}">
                     </a>
                 </div>
             </div>
 
 
         <!-- copyright message -->
-        <p class = "copyright">© Digital Ink. 2020</p>
+        <p class = "copyright">© Digital Ink. 2020 - 2022</p>
         </div>
 
     </footer>

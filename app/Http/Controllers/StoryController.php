@@ -158,7 +158,7 @@ class StoryController extends Controller
     {
         $story = Story::find($id);
         $story->delete();
-        return redirect('/welcome')->with('success', 'Your story has been deleted!');
+        return redirect('/account')->with('success', 'Your story has been deleted!');
 
     }
 

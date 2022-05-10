@@ -5,6 +5,12 @@
 @endsection
 
 @section('content')
+@php
+
+
+@endphp
+
+
 
     <div class="main-body">
         <!-- page heading -->
