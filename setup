@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "starting the fish"
+sudo systemctl start docker
+sudo $(which docker-compose) up -d
+echo "fish is ready"
