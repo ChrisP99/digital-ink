@@ -25,7 +25,7 @@
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Containers required for the web app being pulled from Docker Hub.\relax }}{15}{figure.caption.22}%
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Creation of tables through \mintinline {zsh}|php artisan migrate| command.\relax }}{16}{figure.caption.23}%
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Digital Ink shown when accessed through the IPv4 address. \relax }}{16}{figure.caption.24}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Creation of systemd Service\relax }}{17}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Creation of \mintinline {zsh}|systemd| Service.\relax }}{17}{figure.caption.25}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Applying CloudFront bucket policy.\relax }}{20}{figure.caption.26}%
