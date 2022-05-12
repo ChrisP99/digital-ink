@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {6}CloudFront}{12}{chapter.6}%
 \contentsline {chapter}{\numberline {7}CloudWatch}{13}{chapter.7}%
 \contentsline {chapter}{\numberline {8}CloudTrail}{14}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Server and Database}{15}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Relational Database Service}{15}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Availability Zones}{16}{chapter.10}%
 \contentsline {chapter}{\numberline {11}Elastic Load Balancing}{17}{chapter.11}%
 \contentsline {chapter}{\numberline {12}Security Practices}{18}{chapter.12}%
