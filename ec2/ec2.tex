@@ -141,7 +141,7 @@ The web app is firstly cloned from its repository via the \mintinline{zsh}|git c
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=140mm]{resources/ec2/webapp-clone}
+    \includegraphics[width=\textwidth]{resources/ec2/webapp-clone}
     \caption{Cloning the web app from Github.}
     \label{fig:webapp-clone}
 \end{figure}
@@ -166,6 +166,7 @@ The result of this command launches 3 containers:
     \item \mintinline{docker}|phpmyadmin|: A way to locally manage the database through a UI\@.
 \end{enumerate}
 
+\clearpage
 At the minute, the web app is live through the \mintinline{docker}|digital-ink| container, and is using a local version
 of MySQL as a database, stored within the \mintinline{docker}|mysql|Docker container.
 The database has no tables, but can be populated through the use of Laravel.
