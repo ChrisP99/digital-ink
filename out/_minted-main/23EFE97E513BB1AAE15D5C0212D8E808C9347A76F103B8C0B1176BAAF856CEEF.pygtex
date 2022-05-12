@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Reading story information from the database into the web app.}
+\PYG{k}{    Given }\PYG{n+nf}{...}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{...}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{...}
+\end{Verbatim}

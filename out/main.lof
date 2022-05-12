@@ -1,0 +1,67 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Database tables overview.\relax }}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \mintinline {sql}|migrations| table.\relax }}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \mintinline {sql}|users| table.\relax }}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \mintinline {sql}|stories| table.\relax }}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Digital-Ink} home page log in and sign up forms.\relax }}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Digital-Ink} story creation form.\relax }}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Digital-Ink} account page.\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Digital-Ink} stories page and story view.\relax }}{7}{figure.caption.10}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Selection of EC2 OS Image.\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Selection of EC2 Instance.\relax }}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Selection of EC2 Keypair.\relax }}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Selection of EC2 Networking options.\relax }}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Generated EC2 Keypair in the \mintinline {sql}|.pem| format.\relax }}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Selection of EC2 Storage Configuration.\relax }}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces SSH command to log into EC2 instance.\relax }}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Logging into EC2 instance.\relax }}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Installing Git.\relax }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Installing Docker.\relax }}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Cloning the web app from Github.\relax }}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Containers required for the web app being pulled from Docker Hub.\relax }}{15}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Creation of tables through \mintinline {zsh}|php artisan migrate| command.\relax }}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Digital Ink shown when accessed through the IPv4 address. \relax }}{16}{figure.caption.24}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces After Allocating Elastic IP Address\relax }}{32}{figure.caption.42}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Allocating Elastic IP Address\relax }}{32}{figure.caption.43}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Cloning the App\relax }}{33}{figure.caption.44}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces CloudWatch Conditions\relax }}{33}{figure.caption.45}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces CloudWatch Specify Metric\relax }}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Create Instance - Application and OS Images\relax }}{34}{figure.caption.47}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Create Instance - Configure Storage\relax }}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Create Instance - Instance Type\relax }}{35}{figure.caption.49}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Create Instance - Name \& Tags\relax }}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Create Instance - Network Settings\relax }}{36}{figure.caption.51}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Creating Key Pair\relax }}{37}{figure.caption.52}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Digital Ink\relax }}{37}{figure.caption.53}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Docker Compose\relax }}{38}{figure.caption.54}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Edit Instance - Network Settings\relax }}{38}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Installing Docker using Package Manager\relax }}{39}{figure.caption.56}%
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Installing Docker using Package Manager (In Progress)\relax }}{39}{figure.caption.57}%
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Installing Git\relax }}{40}{figure.caption.58}%
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Starting Docker systemd Service\relax }}{40}{figure.caption.59}%
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Instances\relax }}{41}{figure.caption.60}%
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Launching Instance\relax }}{41}{figure.caption.61}%
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Log In with Key Pair\relax }}{42}{figure.caption.62}%
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Selecting a VPC Configuration\relax }}{42}{figure.caption.63}%
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Successfully Initiated Instance\relax }}{43}{figure.caption.64}%
+\contentsline {figure}{\numberline {A.24}{\ignorespaces VPC Successfully Created\relax }}{43}{figure.caption.65}%
+\contentsline {figure}{\numberline {A.25}{\ignorespaces VPC with Public and Private Subnets, Loading\relax }}{44}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.26}{\ignorespaces VPC with Public and Private Subnets\relax }}{44}{figure.caption.67}%
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Your VPCs\relax }}{45}{figure.caption.68}%

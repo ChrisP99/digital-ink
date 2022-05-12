@@ -19,3 +19,14 @@ jobs:
         with:
           root_file: main.tex
           args: -interaction=nonstopmode -shell-escape
+      - name: Compile Bibtex document
+        uses: dante-ev/latex-action@latest
+        with:
+          compiler: biber
+          root_file: main
+          args: -interaction=nonstopmode -shell-escape
+      - name: Compile LaTeX document
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: main.tex
+          args: -interaction=nonstopmode -shell-escape
