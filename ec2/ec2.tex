@@ -11,7 +11,7 @@ launched through a docker container stored on the app.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/create-instance-application-and-os-images}
+    \includegraphics[width=\textwidth]{resources/ec2/create-instance-application-and-os-images}
     \caption{Selection of EC2 OS Image.}
     \label{fig:ec2-os}
 \end{figure}
@@ -28,7 +28,7 @@ The selection of this can be found in Figure~\ref{fig:ec2-instance}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/create-instance-instance-type}
+    \includegraphics[width=\textwidth]{resources/ec2/create-instance-instance-type}
     \caption{Selection of EC2 Instance.}
     \label{fig:ec2-instance}
 \end{figure}
@@ -42,7 +42,7 @@ discussed in Section~\ref{ch:web-app}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/create-key-pair}
+    \includegraphics[width=\textwidth]{resources/ec2/create-key-pair}
     \caption{Selection of EC2 Keypair.}
     \label{fig:ec2-keypair}
 \end{figure}
@@ -54,14 +54,14 @@ availability zone of us-east-1.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/create-instance-network-settings}
+    \includegraphics[width=\textwidth]{resources/ec2/create-instance-network-settings}
     \caption{Selection of EC2 Networking options.}
     \label{fig:ec2-networking}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/keypair}
+    \includegraphics[width=\textwidth]{resources/ec2/keypair}
     \caption{Generated EC2 Keypair in the \mintinline{sql}|.pem| format.}
     \label{fig:keypair}
 \end{figure}
@@ -76,7 +76,7 @@ for any system-critical tasks.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/create-instance-configure-storage}
+    \includegraphics[width=\textwidth]{resources/ec2/create-instance-configure-storage}
     \caption{Selection of EC2 Storage Configuration.}
     \label{fig:ec2-storage}
 \end{figure}
@@ -104,12 +104,14 @@ This command can seen being executed in Figure~\ref{fig:ssh-login}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/ec2-logged-in}
-    \caption{Selection of EC2 Storage Configuration.}
+    \includegraphics[scale=0.4]{resources/ec2/ec2-logged-in}
+    \caption{Logging into EC2 instance.}
     \label{fig:ec2-logged-in}
 \end{figure}
 
 The logged in EC2 instance can be seen in Figure~\ref{fig:ec2-logged-in}.
+
+\clearpage
 
 \section{Package Setup}\label{sec:web-app-setup}
 
@@ -118,16 +120,18 @@ Git is subsequently installed via \mintinline{zsh}|yum install git|.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/installing-git}
+    \includegraphics[width=\textwidth]{resources/ec2/installing-git}
     \caption{Installing Git.}
     \label{fig:webapp-git}
 \end{figure}
 
 The web app also requires docker, and \mintinline{zsh}|yum install docker| is executed to install Docker as a result.
 
+\clearpage
+
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/installing-docker}
+    \includegraphics[width=\textwidth]{resources/ec2/installing-docker}
     \caption{Installing Docker.}
     \label{fig:webapp-docker}
 \end{figure}
@@ -139,7 +143,7 @@ The web app is firstly cloned from its repository via the \mintinline{zsh}|git c
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/webapp-clone}
+    \includegraphics[width=\textwidth]{resources/ec2/webapp-clone}
     \caption{Cloning the web app from Github.}
     \label{fig:webapp-clone}
 \end{figure}
@@ -151,7 +155,7 @@ Relevant containers that are required to be downloaded from the \mintinline{dock
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/docker-compose}
+    \includegraphics[width=\textwidth]{resources/ec2/docker-compose}
     \caption{Containers required for the web app being pulled from Docker Hub.}
     \label{fig:webapp-docker-compose}
 \end{figure}
@@ -168,12 +172,12 @@ At the minute, the web app is live through the \mintinline{docker}|digital-ink| 
 of MySQL as a database, stored within the \mintinline{docker}|mysql|Docker container.
 The database has no tables, but can be populated through the use of Laravel.
 The container is firstly accessed through \mintinline{docker}|docker exec app bash|, and the database is populated with
-tables with \mintinline{laravel}|php artisan migrate|.
+tables with \mintinline{zsh}|php artisan migrate|.
 This then generates tables to store users and their stories.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/php-artisan-migrate}
+    \includegraphics[width=\textwidth]{resources/ec2/php-artisan-migrate}
     \caption{Creation of tables through \mintinline{zsh}|php artisan migrate| command. }
     \label{fig:php-artisan-migrate}
 \end{figure}

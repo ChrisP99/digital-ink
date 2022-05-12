@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{Scenario:}\PYG{n+nf}{ Accessing instance through SSH with \PYGZbs{}mintinline\PYGZob{}sql\PYGZcb{}|.pem| file private key.}
-\PYG{k}{    Given }\PYG{n+nf}{...}
-\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{...}
-\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{...}
-\end{Verbatim}
