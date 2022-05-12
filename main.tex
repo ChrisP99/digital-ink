@@ -11,13 +11,41 @@
  top=25mm,
  }
 
+\usepackage[
+    style=authoryear,
+    natbib=true,
+    doi=true,
+    giveninits=true
+]{biblatex}
+
+\DeclareFieldFormat{url}{%
+    \mkbibacro{Available at}\addcolon\space
+    \url{#1}%
+}
+
+\DeclareFieldFormat{doi}{%
+    \mkbibacro{Available at}\addcolon\space
+    \url{https://doi.org/#1}%
+}
+
+\DefineBibliographyStrings{english}{%
+    bibliography = {References},
+}
+
+\DeclareFieldFormat{isbn}{%
+    \mkbibacro{Available at}\addcolon\space
+    \url{https://isbnsearch.org/isbn/#1}%
+}
+
+\addbibresource{thesis.bib}
+
+\newcommand*{\urlprefix}{Available from: }
+\newcommand*{\urldateprefix}{Accessed }
+
 \usepackage{natbib}
 \usepackage[outputdir=auxil]{minted}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{fvextra}
-
-\newcommand*{\urlprefix}{Available from: }
-\newcommand*{\urldateprefix}{Accessed }
 \bibliographystyle{bath}
 
 \renewcommand*\familydefault{\sfdefault}
@@ -120,11 +148,11 @@ Chris Perry \& Evie Snuggle}
 \include{testing/testing}
 \include{future_enhancements/future_enhancements}
 \include{conclusion/conclusion}
+\printbibliography[heading=bibintoc]
 
 \footnotesize
 
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliography{thesis}
 
 \normalsize
 \appendix
