@@ -85,7 +85,7 @@ The selection of these options can be found in Figure~\ref{fig:ec2-storage}.
 In addition to this, the chosen options are eligible for "Free Tier", which means that it will use a limited amount of the
 \$100 budget allocated for the project.
 
-\section{Web app Setup}\label{sec:webapp-setup}
+\section{EC2 Login}\label{sec:webapp-setup}
 
 The EC2 instance \mintinline{zsh}|group4-ec2| is now live, and the webapp can be loaded onto it.
 The instance is first logged in to through the use of the \mintinline{zsh}|ssh| command, followed by the
@@ -104,12 +104,79 @@ This command can seen being executed in Figure~\ref{fig:ssh-login}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{resources/ec2/create-instance-configure-storage}
+    \includegraphics[scale=0.3]{resources/ec2/ec2-logged-in}
     \caption{Selection of EC2 Storage Configuration.}
-    \label{fig:ec2-storage}
+    \label{fig:ec2-logged-in}
 \end{figure}
 
-The logged in EC2 instance can be seen in Figure
+The logged in EC2 instance can be seen in Figure~\ref{fig:ec2-logged-in}.
+
+\section{Package Setup}\label{sec:web-app-setup}
+
+The web app is stored on GitHub, and the AMI does not come with GitHub by default.
+Git is subsequently installed via \mintinline{zsh}|yum install git|.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/installing-git}
+    \caption{Installing Git.}
+    \label{fig:webapp-git}
+\end{figure}
+
+The web app also requires docker, and \mintinline{zsh}|yum install docker| is executed to install Docker as a result.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/installing-docker}
+    \caption{Installing Docker.}
+    \label{fig:webapp-docker}
+\end{figure}
+
+\section{Web App Setup}\label{sec:web-app-setup2}
+
+The web app is firstly cloned from its repository via the \mintinline{git}|git clone| command, and a new
+\mintinline{zsh}|digital-ink| folder is made to store the contents.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/webapp-clone}
+    \caption{Cloning the web app from Github.}
+    \label{fig:webapp-clone}
+\end{figure}
+
+The \mintinline{zsh}|cd| command is used to move into the \mintinline{zsh}|digital-ink| folder, and the web app is
+subsequently launched through the \mintinline{docker}|docker-compose up -d| to launch the web app as a detached Docker
+container.
+Relevant containers that are required to be downloaded from the \mintinline{docker}|dockerfile| are then pulled.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/docker-compose}
+    \caption{Containers required for the web app being pulled from Docker Hub.}
+    \label{fig:webapp-docker-compose}
+\end{figure}
+
+The result of this command launches 3 containers:
+
+\begin{enumerate}
+    \item \mintinline{docker}|digital-ink|: An instance of the web app which uses a custom Laravel container.
+    \item \mintinline{docker}|mysql|: An instance of a local database made in MySQL\@.
+    \item \item \mintinline{docker}|phpmyadmin|: A way to locally manage the database through a UI\@.
+\end{enumerate}
+
+At the minute, the web app is live through the \mintinline{docker}|digital-ink|and is using a local version of MySQL
+as a database, stored within the \mintinline{docker}|mysql|Docker container.
+At present, the database has no tables, but can be
+
+
+
+
+
+
+
+
+
+
 
 
 

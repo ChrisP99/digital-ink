@@ -25,12 +25,196 @@ Screenshots are included to illustrate the results of these tests.
 
 \section{Testing EC2}\label{sec:testing-ec2}
 
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Accessing instance through SSH with \mintinline{sql}|.pem| file private key.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:accessing-instance-ec2}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Accessing web app through EC2 domain name.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:accessing-web-app-ec2}
+\end{figure}
+
 \section{Testing S3}\label{sec:testing-s3}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Accessing web app image through S3 domain name.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:accessing-image-s3}
+\end{figure}
 
 \section{Testing CloudFront}\label{sec:testing-cloudfront}
 
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Accessing web app image through CloudFront domain name.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:accessing-image-cloudfront}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Accessing web app image through CloudFront domain name in another region.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:accessing-image-cloudfront-diff-region}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Accessing web app image through CloudFront domain name in another IP address.
+        Given ... (NSLookup test)
+        When ...
+        Then ...
+    \end{minted}
+    \caption{...}\label{fig:accessing-image-cloudfront-diff-ip}
+\end{figure}
+
 \section{Testing RDS}\label{sec:testing-rds}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Creating user information through the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:create-user-data}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Creating story information through the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:create-story-data}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Reading user information from the database into the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:read-user-data}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Reading story information from the database into the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:read-story-data}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Updating user information in the database through the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:update-user-data}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Updating story information in the database through the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:update-story-data}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Deleting user information in the database through the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:delete-user-data}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: Deleting story information in the database through the web app.
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:delete-story-data}
+\end{figure}
 
 \section{Testing CloudWatch}\label{sec:testing-cloudwatch}
 
+(One test for each of the metrics we set up.)
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario:
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:cloudwatch-}
+\end{figure}
+
 \section{Testing CloudTrail}\label{sec:testing-cloudtrail}
+
+(One test for each of the metrics we set up.)
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+    Scenario:
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \label{fig:cloudtrail-}
+\end{figure}
+
+\section{Testing ELB}\label{sec:testing-elb}
+
+(Test for turning off instance 1. Test for turning off instance 2.)
