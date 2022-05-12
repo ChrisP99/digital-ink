@@ -24,7 +24,7 @@
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Cloning the web app from Github.\relax }}{15}{figure.caption.21}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Containers required for the web app being pulled from Docker Hub.\relax }}{16}{figure.caption.22}%
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Creation of tables through \mintinline {zsh}|php artisan migrate| command.\relax }}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Digital Ink shown when accessed through the \relax }}{17}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Digital Ink shown when accessed through the IPv4 address. \relax }}{17}{figure.caption.24}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
