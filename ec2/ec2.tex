@@ -50,3 +50,22 @@ In addition to this, the chosen options are eligible for "Free Tier", which mean
 Once the AMI and storage options were selected, the next stage of the setup process was to set up networking for the EC2
 instance, in order for the web app to work with Docker.
 
+The instance is assigned the VPC created in Section~\ref{ch:vpc_subnets}, where it is assigned a subnet in the same
+availability zone of us-east-1.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/create-instance-network-settings}
+    \caption{Selection of EC2 Networking options.}
+    \label{fig:ec2-networking}
+\end{figure}
+
+This setup can be seen in Figure~\ref{fig:ec2-networking}.
+
+
+\subsection{Webapp Setup}\label{subsec:webapp-setup}
+
+The EC2 instance \mintinline{sql}|group4-ec2| is now live, and the webapp can be loaded onto it.
+The instance is first logged in to through the use of the \mintinline{sql}|ssh| command, followed by the IP address of
+the instance.
+

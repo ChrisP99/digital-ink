@@ -50,7 +50,7 @@ The \mintinline{sql}|users| table (see Figure~\ref{fig:users-records}) contains 
     \item \mintinline{sql}|name|: the name associated with user account.
     \item \mintinline{sql}|email|: the unique email used to log in.
     \item \mintinline{sql}|password|: the password used to log in, encrypted with 184 bit hashing by Bcrypt~\citep{laravel2022hashing}.
-    \item \mintinline{sql}|remember_token|: keeps the user logged into the device if the user selects "Remember me".
+    \item \mintinline{sql}|remember_token|: keeps the user logged in if they select "Remember me".
     \item \mintinline{sql}|created_at|: records what date and time the user account was first created at.
     \item \mintinline{sql}|updated_at|: records what date and time the user account was last updated at.
 \end{itemize}
