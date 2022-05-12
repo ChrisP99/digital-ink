@@ -70,6 +70,9 @@ served from the internet.
 For logging purposes "Standard Logging" is set to "On", and logs are saved to the same S3 bucket.
 Cookie logging is enabled, and IPv6 is set to "On", to allow for more IP addresses to access the CloudFront Distributed
 content.
+These settings can be found in Figures~\ref{fig:cloudfront-setting-1} and~\ref{fig:cloudfront-setting-2}.
+
+\clearpage
 
 \begin{figure}[!htbp]
     \centering
@@ -85,6 +88,8 @@ content.
     \label{fig:cloudfront-setting-2}
 \end{figure}
 
+\clearpage
+
 A CloudFront Distribution has now been created, and can be found in Figure~\ref{fig:cloudfront-created}.
 
 \begin{figure}[!htbp]
@@ -96,6 +101,7 @@ A CloudFront Distribution has now been created, and can be found in Figure~\ref{
 
 Finally, the images contained within the webserver were changed from their local location to their relevant CloudFront
 locations.
+This change can be seen in Figures~\ref{fig:cloudfront-before} and~\ref{fig:cloudfront-after}.
 
 \begin{figure}[!htbp]
     \centering
@@ -110,8 +116,6 @@ locations.
     \caption{Image location after CloudFront.}
     \label{fig:cloudfront-after}
 \end{figure}
-
-This change can be seen in Figures~\ref{fig:cloudfront-before} and~\ref{fig:cloudfront-after}.
 
 \begin{figure}[!htbp]
     \centering
