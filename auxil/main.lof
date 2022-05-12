@@ -23,8 +23,8 @@
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Installing Docker.\relax }}{14}{figure.caption.20}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Cloning the web app from Github.\relax }}{15}{figure.caption.21}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Containers required for the web app being pulled from Docker Hub.\relax }}{15}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Creation of tables through \mintinline {zsh}|php artisan migrate| command.\relax }}{17}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Digital Ink shown when accessed through the IPv4 address. \relax }}{17}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Creation of tables through \mintinline {zsh}|php artisan migrate| command.\relax }}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Digital Ink shown when accessed through the IPv4 address. \relax }}{16}{figure.caption.24}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -38,30 +38,30 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces After Allocating Elastic IP Address\relax }}{34}{figure.caption.43}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Allocating Elastic IP Address\relax }}{34}{figure.caption.44}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Cloning the App\relax }}{35}{figure.caption.45}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces CloudWatch Conditions\relax }}{35}{figure.caption.46}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces CloudWatch Specify Metric\relax }}{36}{figure.caption.47}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Create Instance - Application and OS Images\relax }}{36}{figure.caption.48}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Create Instance - Configure Storage\relax }}{37}{figure.caption.49}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Create Instance - Instance Type\relax }}{37}{figure.caption.50}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Create Instance - Name \& Tags\relax }}{38}{figure.caption.51}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Create Instance - Network Settings\relax }}{38}{figure.caption.52}%
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Creating Key Pair\relax }}{39}{figure.caption.53}%
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Digital Ink\relax }}{39}{figure.caption.54}%
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Docker Compose\relax }}{40}{figure.caption.55}%
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Edit Instance - Network Settings\relax }}{40}{figure.caption.56}%
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Installing Docker using Package Manager\relax }}{41}{figure.caption.57}%
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Installing Docker using Package Manager (In Progress)\relax }}{41}{figure.caption.58}%
-\contentsline {figure}{\numberline {A.17}{\ignorespaces Installing Git\relax }}{42}{figure.caption.59}%
-\contentsline {figure}{\numberline {A.18}{\ignorespaces Starting Docker systemd Service\relax }}{42}{figure.caption.60}%
-\contentsline {figure}{\numberline {A.19}{\ignorespaces Instances\relax }}{43}{figure.caption.61}%
-\contentsline {figure}{\numberline {A.20}{\ignorespaces Launching Instance\relax }}{43}{figure.caption.62}%
-\contentsline {figure}{\numberline {A.21}{\ignorespaces Log In with Key Pair\relax }}{44}{figure.caption.63}%
-\contentsline {figure}{\numberline {A.22}{\ignorespaces Selecting a VPC Configuration\relax }}{44}{figure.caption.64}%
-\contentsline {figure}{\numberline {A.23}{\ignorespaces Successfully Initiated Instance\relax }}{45}{figure.caption.65}%
-\contentsline {figure}{\numberline {A.24}{\ignorespaces VPC Successfully Created\relax }}{45}{figure.caption.66}%
-\contentsline {figure}{\numberline {A.25}{\ignorespaces VPC with Public and Private Subnets, Loading\relax }}{46}{figure.caption.67}%
-\contentsline {figure}{\numberline {A.26}{\ignorespaces VPC with Public and Private Subnets\relax }}{46}{figure.caption.68}%
-\contentsline {figure}{\numberline {A.27}{\ignorespaces Your VPCs\relax }}{47}{figure.caption.69}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces After Allocating Elastic IP Address\relax }}{33}{figure.caption.43}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Allocating Elastic IP Address\relax }}{33}{figure.caption.44}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Cloning the App\relax }}{34}{figure.caption.45}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces CloudWatch Conditions\relax }}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces CloudWatch Specify Metric\relax }}{35}{figure.caption.47}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Create Instance - Application and OS Images\relax }}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Create Instance - Configure Storage\relax }}{36}{figure.caption.49}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Create Instance - Instance Type\relax }}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Create Instance - Name \& Tags\relax }}{37}{figure.caption.51}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Create Instance - Network Settings\relax }}{37}{figure.caption.52}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Creating Key Pair\relax }}{38}{figure.caption.53}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Digital Ink\relax }}{38}{figure.caption.54}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Docker Compose\relax }}{39}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Edit Instance - Network Settings\relax }}{39}{figure.caption.56}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Installing Docker using Package Manager\relax }}{40}{figure.caption.57}%
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Installing Docker using Package Manager (In Progress)\relax }}{40}{figure.caption.58}%
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Installing Git\relax }}{41}{figure.caption.59}%
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Starting Docker systemd Service\relax }}{41}{figure.caption.60}%
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Instances\relax }}{42}{figure.caption.61}%
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Launching Instance\relax }}{42}{figure.caption.62}%
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Log In with Key Pair\relax }}{43}{figure.caption.63}%
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Selecting a VPC Configuration\relax }}{43}{figure.caption.64}%
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Successfully Initiated Instance\relax }}{44}{figure.caption.65}%
+\contentsline {figure}{\numberline {A.24}{\ignorespaces VPC Successfully Created\relax }}{44}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.25}{\ignorespaces VPC with Public and Private Subnets, Loading\relax }}{45}{figure.caption.67}%
+\contentsline {figure}{\numberline {A.26}{\ignorespaces VPC with Public and Private Subnets\relax }}{45}{figure.caption.68}%
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Your VPCs\relax }}{46}{figure.caption.69}%
