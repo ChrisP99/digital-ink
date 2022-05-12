@@ -28,7 +28,7 @@
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Creation of systemd Service\relax }}{17}{figure.caption.25}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Applying CloudFront bucket policy.\relax }}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Applying CloudFront bucket policy.\relax }}{20}{figure.caption.26}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Applying CloudFront origins to S3 bucket.\relax }}{20}{figure.caption.27}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Applying CloudFront Distribution Permissions.\relax }}{21}{figure.caption.28}%
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Applying CloudFront Cache Keys and Origin Requests.\relax }}{21}{figure.caption.29}%
