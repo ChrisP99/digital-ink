@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{n+nf}{    }\PYG{k}{Scenario:}
-\PYG{k}{        Given }\PYG{n+nf}{...}
-\PYG{n+nf}{        }\PYG{k}{When }\PYG{n+nf}{...}
-\PYG{n+nf}{        }\PYG{k}{Then }\PYG{n+nf}{...}
-\end{Verbatim}

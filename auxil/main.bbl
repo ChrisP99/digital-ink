@@ -292,6 +292,48 @@
       \field{title}{Programming Php}
       \field{year}{2002}
     \endentry
+    \entry{dos2018automated}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f0881b2c11658deaf93f5d9e0078af4c}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Ernani\bibnamedelima César},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=079fbe87c731a130f8742426b78315f7}{%
+           family={Vilain},
+           familyi={V\bibinitperiod},
+           given={Patrı́cia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{1e4111e6d2306334eaada3b99fac11db}
+      \strng{fullhash}{1e4111e6d2306334eaada3b99fac11db}
+      \strng{bibnamehash}{1e4111e6d2306334eaada3b99fac11db}
+      \strng{authorbibnamehash}{1e4111e6d2306334eaada3b99fac11db}
+      \strng{authornamehash}{1e4111e6d2306334eaada3b99fac11db}
+      \strng{authorfullhash}{1e4111e6d2306334eaada3b99fac11db}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Agile Software Development}
+      \field{title}{Automated acceptance tests as software requirements: An experiment to compare the applicability of fit tables and gherkin language}
+      \field{year}{2018}
+      \field{pages}{104\bibrangedash 119}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-319-91602-6_7
+      \endverb
+    \endentry
     \entry{widenius2002mysql}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8096ce3f5d53abc406cd78d73548ffe3}{%

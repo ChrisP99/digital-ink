@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Accessing web app image through CloudFront domain name in another region.}
+\PYG{k}{    Given }\PYG{n+nf}{...}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{...}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{...}
+\end{Verbatim}

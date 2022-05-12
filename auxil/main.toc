@@ -29,11 +29,11 @@
 \contentsline {section}{\numberline {15.2}Testing S3}{29}{section.15.2}%
 \contentsline {section}{\numberline {15.3}Testing CloudFront}{29}{section.15.3}%
 \contentsline {section}{\numberline {15.4}Testing RDS}{30}{section.15.4}%
-\contentsline {section}{\numberline {15.5}Testing CloudWatch}{30}{section.15.5}%
+\contentsline {section}{\numberline {15.5}Testing CloudWatch}{31}{section.15.5}%
 \contentsline {section}{\numberline {15.6}Testing CloudTrail}{31}{section.15.6}%
 \contentsline {section}{\numberline {15.7}Testing ELB}{31}{section.15.7}%
 \contentsline {chapter}{\numberline {16}Future Enhancements}{32}{chapter.16}%
 \contentsline {chapter}{\numberline {17}Conclusion}{33}{chapter.17}%
-\contentsline {chapter}{References}{34}{chapter*.40}%
-\contentsline {chapter}{Bibliography}{34}{chapter*.40}%
+\contentsline {chapter}{References}{34}{chapter*.41}%
+\contentsline {chapter}{Bibliography}{34}{chapter*.41}%
 \contentsline {chapter}{\numberline {A}Screenshots}{35}{appendix.A}%

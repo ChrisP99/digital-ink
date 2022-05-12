@@ -161,12 +161,26 @@ The result of this command launches 3 containers:
 \begin{enumerate}
     \item \mintinline{docker}|digital-ink|: An instance of the web app which uses a custom Laravel container.
     \item \mintinline{docker}|mysql|: An instance of a local database made in MySQL\@.
-    \item \item \mintinline{docker}|phpmyadmin|: A way to locally manage the database through a UI\@.
+    \item \mintinline{docker}|phpmyadmin|: A way to locally manage the database through a UI\@.
 \end{enumerate}
 
-At the minute, the web app is live through the \mintinline{docker}|digital-ink|and is using a local version of MySQL
-as a database, stored within the \mintinline{docker}|mysql|Docker container.
-At present, the database has no tables, but can pi
+At the minute, the web app is live through the \mintinline{docker}|digital-ink| container, and is using a local version
+of MySQL as a database, stored within the \mintinline{docker}|mysql|Docker container.
+The database has no tables, but can be populated through the use of Laravel.
+The container is firstly accessed through \mintinline{docker}|docker exec app bash|, and the database is populated with
+tables with \mintinline{laravel}|php artisan migrate|.
+This then generates tables to store users and their stories.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/php-artisan-migrate}
+    \caption{Creation of tables through \mintinline{zsh}|php artisan migrate| command. }
+    \label{fig:php-artisan-migrate}
+\end{figure}
+
+The subsequent output of this command can be found in Figure~\ref{fig:php-artisan-migrate}
+
+
 
 
 
