@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 22:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2401,19 +2401,21 @@ Package pdftex.def Info: resources/ec2/keypair.png  used on input line 61.
 
 
 (out/_minted-main/C467C065303DF3DF7EEC4D52A55D726E6FC5A546B56FCD938E9930171999E
-964.pygtex)
-<resources/ec2/create-instance-configure-storage.png, id=443, 1445.4pt x 740.76
+964.pygtex) [11
+
+ <./resources/ec2/create-instance-network-settings.png> <./resources/ec2/keypai
+r.png>]
+<resources/ec2/create-instance-configure-storage.png, id=449, 1445.4pt x 740.76
 75pt>
 File: resources/ec2/create-instance-configure-storage.png Graphic file (type pn
 g)
 <use resources/ec2/create-instance-configure-storage.png>
 Package pdftex.def Info: resources/ec2/create-instance-configure-storage.png  u
-sed on input line 76.
+sed on input line 77.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [11
+ [12
 
- <./resources/ec2/create-instance-network-settings.png> <./resources/ec2/keypai
-r.png>] [12 <./resources/ec2/create-instance-configure-storage.png>]
+ <./resources/ec2/create-instance-configure-storage.png>]
 \openout6 = `main.pyg'.
 
 
@@ -2438,7 +2440,7 @@ r.png>] [12 <./resources/ec2/create-instance-configure-storage.png>]
 File: resources/ec2/ec2-logged-in.png Graphic file (type png)
 <use resources/ec2/ec2-logged-in.png>
 Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
-6.
+7.
 (pdftex.def)             Requested size: 426.79134pt x 319.25116pt.
  [13
 
@@ -2452,7 +2454,7 @@ Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
 File: resources/ec2/installing-git.png Graphic file (type png)
 <use resources/ec2/installing-git.png>
 Package pdftex.def Info: resources/ec2/installing-git.png  used on input line 1
-21.
+22.
 (pdftex.def)             Requested size: 398.33858pt x 248.9458pt.
 \openout6 = `main.pyg'.
 
@@ -2463,7 +2465,7 @@ Package pdftex.def Info: resources/ec2/installing-git.png  used on input line 1
 File: resources/ec2/installing-docker.png Graphic file (type png)
 <use resources/ec2/installing-docker.png>
 Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
-e 130.
+e 131.
 (pdftex.def)             Requested size: 398.33858pt x 202.75253pt.
  [14
 
@@ -2481,7 +2483,7 @@ e 130.
 <resources/ec2/webapp-clone.png, id=473, 649.42625pt x 222.8325pt>
 File: resources/ec2/webapp-clone.png Graphic file (type png)
 <use resources/ec2/webapp-clone.png>
-Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 143
+Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 144
 .
 (pdftex.def)             Requested size: 355.65944pt x 122.03802pt.
 \openout6 = `main.pyg'.
@@ -2508,7 +2510,7 @@ Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 143
 File: resources/ec2/docker-compose.png Graphic file (type png)
 <use resources/ec2/docker-compose.png>
 Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
-55.
+56.
 (pdftex.def)             Requested size: 355.65944pt x 209.69057pt.
 \openout6 = `main.pyg'.
 
@@ -2551,7 +2553,7 @@ Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
 File: resources/ec2/php-artisan-migrate.png Graphic file (type png)
 <use resources/ec2/php-artisan-migrate.png>
 Package pdftex.def Info: resources/ec2/php-artisan-migrate.png  used on input l
-ine 178.
+ine 179.
 (pdftex.def)             Requested size: 426.79134pt x 62.83241pt.
 \openout6 = `main.pyg'.
 
@@ -2567,7 +2569,7 @@ ine 178.
 File: resources/ec2/digital-ink-ec2.png Graphic file (type png)
 <use resources/ec2/digital-ink-ec2.png>
 Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line 
-189.
+190.
 (pdftex.def)             Requested size: 426.79134pt x 239.47453pt.
 ) [16
 
@@ -3208,7 +3210,7 @@ xmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Support/
 MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (59 pages, 10965708 bytes).
+/main.pdf" (59 pages, 10965683 bytes).
 PDF statistics:
  851 PDF objects out of 1000 (max. 8388607)
  181 named destinations out of 1000 (max. 500000)
