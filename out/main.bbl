@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{aws2022ec2}{online}{}
+    \entry{amazon2022amazon}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
            family={{Amazon Web Services (AWS)}},
@@ -35,6 +35,66 @@
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Amazon CloudWatch - Application and Infrastructure Monitoring}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/cloudwatch
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/cloudwatch
+      \endverb
+    \endentry
+    \entry{amazon2022aws}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
+           family={{Amazon Web Services (AWS)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{fullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{bibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AWS Pricing Calculator}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://calculator.aws
+      \endverb
+      \verb{url}
+      \verb https://calculator.aws
+      \endverb
+    \endentry
+    \entry{aws2022ec2}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
+           family={{Amazon Web Services (AWS)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{fullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{bibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -60,10 +120,10 @@
       \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
       \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
       \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}

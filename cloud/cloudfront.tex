@@ -43,3 +43,27 @@ The "CachingOptimized" policy is applied for compression.
 Origin Request policy is set to "CORS-S3Origin" in order for CORS to be automatically set up for the S3 bucket,
 Any GET requests are then compatible in the response headers through "SimpleCORS".
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-cache-key}
+    \caption{Applying CloudFront Cache Keys and Origin Requests.}
+    \label{fig:cloudfront-cache-key}
+\end{figure}
+
+No function associations are set due to the lack of CloudFront functions and Lambdas.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-function-association}
+    \caption{Function Association.}
+    \label{fig:cloudfront-function-association}
+\end{figure}
+
+The settings for the CloudFront Distribution can now be set.
+In order to ensure high availability, the option "Use all edge locations" is selected, so that images can be distributed
+to the user from the closest edge location in relation to their IP address.
+No ACL can be added to the WAF due to permissions issues, and a SSL Certificate cannot be set as the web app is not being
+served from the internet.
+
+
+
