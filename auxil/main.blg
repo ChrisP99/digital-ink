@@ -1,0 +1,85 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+The style file: bath.bst
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: intro/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: webapp/webapp.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: vpc_subnets/vpc_subnets.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: ec2/ec2.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: s3/s3.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: cloud/cloudfront.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: cloud/cloudwatch.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: cloud/cloudtrail.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: database/server_and_database.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: availability_zones/availability_zones.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: elb/elastic_load_balancing.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: security/security_practices.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: cost/cost_breakdown.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: testing/testing.aux
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+A level-1 auxiliary file: future_enhancements/future_enhancements.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: conclusion/conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: appendix.aux
+Database file #1: thesis.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--empty year in aws2022ec2
+You've used 8 entries,
+            3664 wiz_defined-function locations,
+            737 strings with 5967 characters,
+and the built_in function-call counts, 4567 in all, are:
+= -- 322
+> -- 174
+< -- 0
++ -- 69
+- -- 59
+* -- 428
+:= -- 707
+add.period$ -- 26
+call.type$ -- 8
+change.case$ -- 55
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 334
+empty$ -- 386
+format.name$ -- 70
+if$ -- 864
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 56
+newline$ -- 52
+num.names$ -- 32
+pop$ -- 112
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 163
+stack$ -- 0
+substring$ -- 143
+swap$ -- 226
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 63
+warning$ -- 1
+while$ -- 38
+width$ -- 0
+write$ -- 110
+(There was 1 warning)

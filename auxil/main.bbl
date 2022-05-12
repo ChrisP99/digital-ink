@@ -1,0 +1,62 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{Available from: }
+\providecommand{\urldateprefix}{Accessed }
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{{Amazon Web Services (AWS)}()}]{aws2022ec2}
+\bibinfo{author}{{Amazon Web Services (AWS)}}.
+\newblock \emph{\bibinfo{title}{What is amazon ec2?}}
+\newblock
+  \urlprefix\url{https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html}.
+
+\bibitem[{Anderson(2015)}]{anderson2015docker}
+\bibinfo{author}{Anderson, C.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Docker [software engineering]}.
+\newblock \emph{\bibinfo{journal}{Ieee Software}},
+  \bibinfo{volume}{32}(\bibinfo{number}{3}), pp.\bibinfo{pages}{102--c3}.
+\newblock \urlprefix\url{http://doi.org/10.1109/MS.2015.62}.
+
+\bibitem[{Fielding and Kaiser(1997)}]{fielding1997apache}
+\bibinfo{author}{Fielding, R.T.} and \bibinfo{author}{Kaiser, G.},
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{The apache http server project}.
+\newblock \emph{\bibinfo{journal}{IEEE Internet Computing}},
+  \bibinfo{volume}{1}(\bibinfo{number}{4}), pp.\bibinfo{pages}{88--90}.
+\newblock \urlprefix\url{http://doi.org/10.1109/4236.612229}.
+
+\bibitem[{Laravel(2022{\natexlab{a}})}]{laravel2022blade}
+\bibinfo{author}{Laravel}, \bibinfo{year}{2022}{\natexlab{a}}.
+\newblock \emph{\bibinfo{title}{Blade templates}}.
+\newblock \urlprefix\url{https://laravel.com/docs/9.x/blade}.
+
+\bibitem[{Laravel(2022{\natexlab{b}})}]{laravel2022hashing}
+\bibinfo{author}{Laravel}, \bibinfo{year}{2022}{\natexlab{b}}.
+\newblock \emph{\bibinfo{title}{Hashing}}.
+\newblock \urlprefix\url{https://laravel.com/docs/9.x/hashing}.
+
+\bibitem[{Lee and Ware(2003)}]{lee2003open}
+\bibinfo{author}{Lee, J.} and \bibinfo{author}{Ware, B.}, \bibinfo{year}{2003}.
+\newblock \emph{\bibinfo{title}{Open source web development with lamp: Using
+  linux, apache, mysql, perl, and php}}.
+\newblock \bibinfo{publisher}{Addison-Wesley Professional}.
+
+\bibitem[{Lerdorf et~al.(2002)Lerdorf, Tatroe, Kaehms and
+  McGredy}]{lerdorf2002programming}
+\bibinfo{author}{Lerdorf, R.}, \bibinfo{author}{Tatroe, K.},
+  \bibinfo{author}{Kaehms, B.} and \bibinfo{author}{McGredy, R.},
+  \bibinfo{year}{2002}.
+\newblock \emph{\bibinfo{title}{Programming php}}.
+\newblock \bibinfo{publisher}{" O'Reilly Media, Inc."}.
+
+\bibitem[{Widenius, Axmark and Arno(2002)}]{widenius2002mysql}
+\bibinfo{author}{Widenius, M.}, \bibinfo{author}{Axmark, D.} and
+  \bibinfo{author}{Arno, K.}, \bibinfo{year}{2002}.
+\newblock \emph{\bibinfo{title}{Mysql reference manual: documentation from the
+  source}}.
+\newblock \bibinfo{publisher}{" O'Reilly Media, Inc."}.
+
+\end{thebibliography}
