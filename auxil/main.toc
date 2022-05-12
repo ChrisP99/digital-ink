@@ -3,13 +3,13 @@
 \contentsline {chapter}{\numberline {3}Web App}{2}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Software Stack}{2}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Database Design}{2}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Interface Design}{6}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Virtual Private Cloud and Subnets}{9}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Elastic Cloud Compute}{10}{chapter.5}%
-\contentsline {section}{\numberline {5.1}AWS Setup}{10}{section.5.1}%
-\contentsline {section}{\numberline {5.2}EC2 Login}{14}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Package Setup}{15}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Web App Setup}{16}{section.5.4}%
+\contentsline {section}{\numberline {3.3}Interface Design}{5}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Virtual Private Cloud and Subnets}{8}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Elastic Cloud Compute}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}AWS Setup}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}EC2 Login}{13}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Package Setup}{14}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Web App Setup}{15}{section.5.4}%
 \contentsline {section}{\numberline {5.5}systemd Services}{18}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Simple Storage Service}{19}{chapter.6}%
 \contentsline {chapter}{\numberline {7}CloudFront}{20}{chapter.7}%
@@ -34,6 +34,6 @@
 \contentsline {section}{\numberline {15.7}Testing ELB}{30}{section.15.7}%
 \contentsline {chapter}{\numberline {16}Future Enhancements}{31}{chapter.16}%
 \contentsline {chapter}{\numberline {17}Conclusion}{32}{chapter.17}%
-\contentsline {chapter}{References}{33}{chapter*.41}%
-\contentsline {chapter}{Bibliography}{33}{chapter*.41}%
+\contentsline {chapter}{References}{33}{chapter*.42}%
+\contentsline {chapter}{Bibliography}{33}{chapter*.42}%
 \contentsline {chapter}{\numberline {A}Screenshots}{34}{appendix.A}%
