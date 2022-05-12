@@ -20,7 +20,7 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces SSH command to log into EC2 instance.\relax }}{13}{figure.caption.17}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Logging into EC2 instance.\relax }}{13}{figure.caption.18}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Installing Git.\relax }}{14}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Installing Docker.\relax }}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Installing Docker.\relax }}{14}{figure.caption.20}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Cloning the web app from Github.\relax }}{15}{figure.caption.21}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Containers required for the web app being pulled from Docker Hub.\relax }}{16}{figure.caption.22}%
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Creation of tables through \mintinline {zsh}|php artisan migrate| command.\relax }}{16}{figure.caption.23}%
