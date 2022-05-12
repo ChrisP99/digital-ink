@@ -1,6 +1,6 @@
-\chapter{EC2}\label{ch:ec2}
+\chapter{Elastic Cloud Compute}\label{ch:ec2}
 
-\subsection{AWS Setup}\label{subsec:aws-setup}
+\section{AWS Setup}\label{sec:aws-setup}
 
 After the configuration of the VPC and subnets was completed, the initial deployment of the web app began through
 setting up EC2.
@@ -85,10 +85,31 @@ The selection of these options can be found in Figure~\ref{fig:ec2-storage}.
 In addition to this, the chosen options are eligible for "Free Tier", which means that it will use a limited amount of the
 \$100 budget allocated for the project.
 
+\section{Web app Setup}\label{sec:webapp-setup}
 
-\subsection{Web app Setup}\label{subsec:webapp-setup}
+The EC2 instance \mintinline{zsh}|group4-ec2| is now live, and the webapp can be loaded onto it.
+The instance is first logged in to through the use of the \mintinline{zsh}|ssh| command, followed by the
+\mintinline{sql}|-i| argument to specify an identify file, which was generated earlier, and then the public ipv4 address
+of the instance.
 
-The EC2 instance \mintinline{sql}|group4-ec2| is now live, and the webapp can be loaded onto it.
-The instance is first logged in to through the use of the \mintinline{sql}|ssh| command, followed by the IP address of
-the instance.
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{zsh}
+ssh -i ~/Desktop/Group4_KeyPair.pem ec2-user@52.45.13.111
+    \end{minted}
+    \caption{SSH command to log into EC2 instance.}\label{fig:ssh-login}
+\end{figure}
+
+This command can seen being executed in Figure~\ref{fig:ssh-login}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/create-instance-configure-storage}
+    \caption{Selection of EC2 Storage Configuration.}
+    \label{fig:ec2-storage}
+\end{figure}
+
+The logged in EC2 instance can be seen in Figure
+
+
 
