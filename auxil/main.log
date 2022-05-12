@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 13:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1443,15 +1443,16 @@ ne 60.
 
 
 (auxil/_minted-main/6711F799EB9198AFABA01C3218D1F7FD5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex)
+8BDBB.pygtex) [3 <./resources/database/migrations-records.png> <./resources/dat
+abase/users-records.png>]
 \openout5 = `main.pyg'.
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 
-LaTeX Warning: Reference `fig:stories-records' on page 3 undefined on input lin
-e 65.
+LaTeX Warning: Reference `fig:stories-records' on page 4 undefined on input lin
+e 66.
 
 \openout5 = `main.pyg'.
 
@@ -1472,8 +1473,7 @@ e 65.
 
 
 (auxil/_minted-main/2BD10B508C6695166EF99CC8B5A46F195DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [3 <./resources/database/migrations-records.png> <./resources/dat
-abase/users-records.png>]
+8BDBB.pygtex)
 \openout5 = `main.pyg'.
 
 
@@ -1510,13 +1510,13 @@ abase/users-records.png>]
 (auxil/_minted-main/A85EE4D99BA669DBD96AE527598029B25DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 
-webapp/webapp.tex:83: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:84: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83     \begin{subfigure}
+l.84     \begin{subfigure}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1526,30 +1526,30 @@ or  <return>  to continue without it.
 File: resources/database/stories-records-1.png Graphic file (type png)
 <use resources/database/stories-records-1.png>
 Package pdftex.def Info: resources/database/stories-records-1.png  used on inpu
-t line 84.
+t line 85.
 (pdftex.def)             Requested size: 422.32391pt x 34.7796pt.
 
-webapp/webapp.tex:85: LaTeX Error: \begin{figure} on input line 81 ended by \en
+webapp/webapp.tex:86: LaTeX Error: \begin{figure} on input line 82 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85     \end{subfigure}
+l.86     \end{subfigure}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-webapp/webapp.tex:86: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:87: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86     \begin{subfigure}
+l.87     \begin{subfigure}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1559,24 +1559,24 @@ or  <return>  to continue without it.
 File: resources/database/stories-records-2.png Graphic file (type png)
 <use resources/database/stories-records-2.png>
 Package pdftex.def Info: resources/database/stories-records-2.png  used on inpu
-t line 87.
+t line 88.
 (pdftex.def)             Requested size: 427.84976pt x 45.26924pt.
 
-webapp/webapp.tex:88: LaTeX Error: \begin{figure} on input line 81 ended by \en
+webapp/webapp.tex:89: LaTeX Error: \begin{figure} on input line 82 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88     \end{subfigure}
+l.89     \end{subfigure}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1.05843pt too wide) in paragraph at lines 84--89
+Overfull \hbox (1.05843pt too wide) in paragraph at lines 85--90
  [] 
  []
 
@@ -1592,11 +1592,11 @@ Overfull \hbox (1.05843pt too wide) in paragraph at lines 84--89
 8BDBB.pygtex)
 
 Package natbib Warning: Citation `laravel2022blade' on page 4 undefined on inpu
-t line 95.
+t line 96.
 
 
 LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 4 undefined
- on input line 97.
+ on input line 98.
 
 \openout5 = `main.pyg'.
 
@@ -1607,18 +1607,18 @@ LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 4 undefined
 File: resources/webapp/digital-ink-home.png Graphic file (type png)
 <use resources/webapp/digital-ink-home.png>
 Package pdftex.def Info: resources/webapp/digital-ink-home.png  used on input l
-ine 104.
+ine 105.
 (pdftex.def)             Requested size: 213.39566pt x 121.29956pt.
 <resources/webapp/digital-ink-sign-up.png, id=54, 784.1295pt x 442.65375pt>
 File: resources/webapp/digital-ink-sign-up.png Graphic file (type png)
 <use resources/webapp/digital-ink-sign-up.png>
 Package pdftex.def Info: resources/webapp/digital-ink-sign-up.png  used on inpu
-t line 109.
+t line 110.
 (pdftex.def)             Requested size: 213.39566pt x 120.4637pt.
 
 
 LaTeX Warning: Reference `fig:digital-ink-create-story' on page 4 undefined on 
-input line 118.
+input line 119.
 
 \openout5 = `main.pyg'.
 
@@ -1626,13 +1626,13 @@ input line 118.
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 
-webapp/webapp.tex:123: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:124: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123         \begin{subfigure}
+l.124         \begin{subfigure}
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1643,30 +1643,30 @@ or  <return>  to continue without it.
 File: resources/webapp/digital-ink-create-story-1.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-1.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-1.png  used 
-on input line 124.
+on input line 125.
 (pdftex.def)             Requested size: 350.96645pt x 158.09299pt.
 
-webapp/webapp.tex:125: LaTeX Error: \begin{figure} on input line 121 ended by \
+webapp/webapp.tex:126: LaTeX Error: \begin{figure} on input line 122 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125         \end{subfigure}
+l.126         \end{subfigure}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-webapp/webapp.tex:126: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:127: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126         \begin{subfigure}
+l.127         \begin{subfigure}
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1677,30 +1677,30 @@ or  <return>  to continue without it.
 File: resources/webapp/digital-ink-create-story-2.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-2.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-2.png  used 
-on input line 127.
+on input line 128.
 (pdftex.def)             Requested size: 353.49594pt x 142.0729pt.
 
-webapp/webapp.tex:128: LaTeX Error: \begin{figure} on input line 121 ended by \
+webapp/webapp.tex:129: LaTeX Error: \begin{figure} on input line 122 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128         \end{subfigure}
+l.129         \end{subfigure}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-webapp/webapp.tex:129: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:130: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129         \begin{subfigure}
+l.130         \begin{subfigure}
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1711,17 +1711,17 @@ pt>
 File: resources/webapp/digital-ink-create-story-3.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-3.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-3.png  used 
-on input line 130.
+on input line 131.
 (pdftex.def)             Requested size: 352.0204pt x 174.95624pt.
 
-webapp/webapp.tex:131: LaTeX Error: \begin{figure} on input line 121 ended by \
+webapp/webapp.tex:132: LaTeX Error: \begin{figure} on input line 122 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131         \end{subfigure}
+l.132         \end{subfigure}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1729,36 +1729,39 @@ or  <return>  to continue without it.
 
 
 LaTeX Warning: Reference `fig:digital-ink-account' on page 4 undefined on input
- line 137.
+ line 138.
 
 \openout5 = `main.pyg'.
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [4 <./resources/database/stories-records-1.png> <./resources/data
-base/stories-records-2.png> <./resources/webapp/digital-ink-home.png> <./resour
-ces/webapp/digital-ink-sign-up.png>] [5 <./resources/webapp/digital-ink-create-
-story-1.png> <./resources/webapp/digital-ink-create-story-2.png> <./resources/w
-ebapp/digital-ink-create-story-3.png>]
-<resources/webapp/digital-ink-account.png, id=78, 988.8945pt x 347.49825pt>
+8BDBB.pygtex)
+<resources/webapp/digital-ink-account.png, id=58, 988.8945pt x 347.49825pt>
 File: resources/webapp/digital-ink-account.png Graphic file (type png)
 <use resources/webapp/digital-ink-account.png>
 Package pdftex.def Info: resources/webapp/digital-ink-account.png  used on inpu
-t line 142.
+t line 143.
 (pdftex.def)             Requested size: 395.5508pt x 138.99683pt.
 
 
-LaTeX Warning: Reference `fig:digital-ink-stories-and-story' on page 6 undefine
-d on input line 150.
+LaTeX Warning: Reference `fig:digital-ink-stories-and-story' on page 4 undefine
+d on input line 151.
 
+[4
 
-webapp/webapp.tex:154: LaTeX Error: Environment subfigure undefined.
+ <./resources/database/stories-records-1.png> <./resources/database/stories-rec
+ords-2.png>] [5 <./resources/webapp/digital-ink-home.png> <./resources/webapp/d
+igital-ink-sign-up.png> <./resources/webapp/digital-ink-create-story-1.png> <./
+resources/webapp/digital-ink-create-story-2.png> <./resources/webapp/digital-in
+k-create-story-3.png>]
+
+webapp/webapp.tex:155: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154     \begin{subfigure}
+l.155     \begin{subfigure}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1768,30 +1771,30 @@ or  <return>  to continue without it.
 File: resources/webapp/digital-ink-stories.png Graphic file (type png)
 <use resources/webapp/digital-ink-stories.png>
 Package pdftex.def Info: resources/webapp/digital-ink-stories.png  used on inpu
-t line 155.
+t line 156.
 (pdftex.def)             Requested size: 414.09976pt x 84.5544pt.
 
-webapp/webapp.tex:156: LaTeX Error: \begin{figure} on input line 152 ended by \
+webapp/webapp.tex:157: LaTeX Error: \begin{figure} on input line 153 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156     \end{subfigure}
+l.157     \end{subfigure}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-webapp/webapp.tex:157: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:158: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157     \begin{subfigure}
+l.158     \begin{subfigure}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1801,17 +1804,17 @@ or  <return>  to continue without it.
 File: resources/webapp/digital-ink-story.png Graphic file (type png)
 <use resources/webapp/digital-ink-story.png>
 Package pdftex.def Info: resources/webapp/digital-ink-story.png  used on input 
-line 158.
+line 159.
 (pdftex.def)             Requested size: 403.98215pt x 123.09772pt.
 
-webapp/webapp.tex:159: LaTeX Error: \begin{figure} on input line 152 ended by \
+webapp/webapp.tex:160: LaTeX Error: \begin{figure} on input line 153 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159     \end{subfigure}
+l.160     \end{subfigure}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2300,7 +2303,7 @@ runsystem(rm auxil//main.pyg)...executed.
 Here is how much of TeX's memory you used:
  24048 strings out of 478553
  481049 string characters out of 2839088
- 1054681 words of memory out of 3000000
+ 1056669 words of memory out of 3000000
  41425 multiletter control sequences out of 15000+600000
  506378 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2315,7 +2318,7 @@ b></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/
 uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (40 pages, 6865944 bytes).
+/main.pdf" (40 pages, 6865892 bytes).
 PDF statistics:
  454 PDF objects out of 1000 (max. 8388607)
  119 named destinations out of 1000 (max. 500000)

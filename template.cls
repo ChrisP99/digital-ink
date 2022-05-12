@@ -48,7 +48,7 @@
         %\includegraphics[height=40mm]{bcu_logo_landscape_narrow_blk.svg}
         \vfill
         \vskip 0.25in
-             A descriptive report submitted as part of a required module \\for the degree of
+             A report submitted as part of a required module \\for the degree of
                 \@degreetitle  
  \\ at the \@dept \\Birmingham City University, United Kingdom
         \vfill
