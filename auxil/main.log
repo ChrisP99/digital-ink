@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 13:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1589,36 +1589,39 @@ Overfull \hbox (1.05843pt too wide) in paragraph at lines 85--90
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex)
+8BDBB.pygtex) [4
 
-Package natbib Warning: Citation `laravel2022blade' on page 4 undefined on inpu
-t line 96.
+ <./resources/database/stories-records-1.png> <./resources/database/stories-rec
+ords-2.png>]
+
+Package natbib Warning: Citation `laravel2022blade' on page 5 undefined on inpu
+t line 97.
 
 
-LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 4 undefined
- on input line 98.
+LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 5 undefined
+ on input line 99.
 
 \openout5 = `main.pyg'.
 
 
 (auxil/_minted-main/6711F799EB9198AFABA01C3218D1F7FD5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
-<resources/webapp/digital-ink-home.png, id=53, 805.20825pt x 457.71pt>
+<resources/webapp/digital-ink-home.png, id=61, 805.20825pt x 457.71pt>
 File: resources/webapp/digital-ink-home.png Graphic file (type png)
 <use resources/webapp/digital-ink-home.png>
 Package pdftex.def Info: resources/webapp/digital-ink-home.png  used on input l
-ine 105.
+ine 106.
 (pdftex.def)             Requested size: 213.39566pt x 121.29956pt.
-<resources/webapp/digital-ink-sign-up.png, id=54, 784.1295pt x 442.65375pt>
+<resources/webapp/digital-ink-sign-up.png, id=62, 784.1295pt x 442.65375pt>
 File: resources/webapp/digital-ink-sign-up.png Graphic file (type png)
 <use resources/webapp/digital-ink-sign-up.png>
 Package pdftex.def Info: resources/webapp/digital-ink-sign-up.png  used on inpu
-t line 110.
+t line 111.
 (pdftex.def)             Requested size: 213.39566pt x 120.4637pt.
 
 
-LaTeX Warning: Reference `fig:digital-ink-create-story' on page 4 undefined on 
-input line 119.
+LaTeX Warning: Reference `fig:digital-ink-create-story' on page 5 undefined on 
+input line 120.
 
 \openout5 = `main.pyg'.
 
@@ -1626,208 +1629,206 @@ input line 119.
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 
-webapp/webapp.tex:124: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:125: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124         \begin{subfigure}
+l.125         \begin{subfigure}
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-create-story-1.png, id=55, 1002.74625pt x 451.687
+<resources/webapp/digital-ink-create-story-1.png, id=63, 1002.74625pt x 451.687
 5pt>
 File: resources/webapp/digital-ink-create-story-1.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-1.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-1.png  used 
-on input line 125.
+on input line 126.
 (pdftex.def)             Requested size: 350.96645pt x 158.09299pt.
 
-webapp/webapp.tex:126: LaTeX Error: \begin{figure} on input line 122 ended by \
+webapp/webapp.tex:127: LaTeX Error: \begin{figure} on input line 123 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126         \end{subfigure}
+l.127         \end{subfigure}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-webapp/webapp.tex:127: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:128: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127         \begin{subfigure}
+l.128         \begin{subfigure}
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-create-story-2.png, id=56, 1009.97325pt x 405.916
+<resources/webapp/digital-ink-create-story-2.png, id=64, 1009.97325pt x 405.916
 5pt>
 File: resources/webapp/digital-ink-create-story-2.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-2.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-2.png  used 
-on input line 128.
+on input line 129.
 (pdftex.def)             Requested size: 353.49594pt x 142.0729pt.
 
-webapp/webapp.tex:129: LaTeX Error: \begin{figure} on input line 122 ended by \
+webapp/webapp.tex:130: LaTeX Error: \begin{figure} on input line 123 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129         \end{subfigure}
+l.130         \end{subfigure}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-webapp/webapp.tex:130: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:131: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130         \begin{subfigure}
+l.131         \begin{subfigure}
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-create-story-3.png, id=57, 1005.7575pt x 499.8675
+<resources/webapp/digital-ink-create-story-3.png, id=65, 1005.7575pt x 499.8675
 pt>
 File: resources/webapp/digital-ink-create-story-3.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-3.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-3.png  used 
-on input line 131.
+on input line 132.
 (pdftex.def)             Requested size: 352.0204pt x 174.95624pt.
 
-webapp/webapp.tex:132: LaTeX Error: \begin{figure} on input line 122 ended by \
+webapp/webapp.tex:133: LaTeX Error: \begin{figure} on input line 123 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132         \end{subfigure}
+l.133         \end{subfigure}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:digital-ink-account' on page 4 undefined on input
- line 138.
+LaTeX Warning: Reference `fig:digital-ink-account' on page 5 undefined on input
+ line 139.
 
 \openout5 = `main.pyg'.
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
-<resources/webapp/digital-ink-account.png, id=58, 988.8945pt x 347.49825pt>
+<resources/webapp/digital-ink-account.png, id=66, 988.8945pt x 347.49825pt>
 File: resources/webapp/digital-ink-account.png Graphic file (type png)
 <use resources/webapp/digital-ink-account.png>
 Package pdftex.def Info: resources/webapp/digital-ink-account.png  used on inpu
-t line 143.
+t line 144.
 (pdftex.def)             Requested size: 395.5508pt x 138.99683pt.
 
 
-LaTeX Warning: Reference `fig:digital-ink-stories-and-story' on page 4 undefine
-d on input line 151.
+LaTeX Warning: Reference `fig:digital-ink-stories-and-story' on page 5 undefine
+d on input line 152.
 
-[4
 
- <./resources/database/stories-records-1.png> <./resources/database/stories-rec
-ords-2.png>] [5 <./resources/webapp/digital-ink-home.png> <./resources/webapp/d
-igital-ink-sign-up.png> <./resources/webapp/digital-ink-create-story-1.png> <./
-resources/webapp/digital-ink-create-story-2.png> <./resources/webapp/digital-in
-k-create-story-3.png>]
-
-webapp/webapp.tex:155: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:156: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155     \begin{subfigure}
+l.156     \begin{subfigure}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-stories.png, id=79, 1035.26775pt x 211.38976pt>
+<resources/webapp/digital-ink-stories.png, id=67, 1035.26775pt x 211.38976pt>
 File: resources/webapp/digital-ink-stories.png Graphic file (type png)
 <use resources/webapp/digital-ink-stories.png>
 Package pdftex.def Info: resources/webapp/digital-ink-stories.png  used on inpu
-t line 156.
+t line 157.
 (pdftex.def)             Requested size: 414.09976pt x 84.5544pt.
 
-webapp/webapp.tex:157: LaTeX Error: \begin{figure} on input line 153 ended by \
+webapp/webapp.tex:158: LaTeX Error: \begin{figure} on input line 154 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157     \end{subfigure}
+l.158     \end{subfigure}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-webapp/webapp.tex:158: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:159: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158     \begin{subfigure}
+l.159     \begin{subfigure}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-story.png, id=80, 1009.97325pt x 307.74976pt>
+<resources/webapp/digital-ink-story.png, id=68, 1009.97325pt x 307.74976pt>
 File: resources/webapp/digital-ink-story.png Graphic file (type png)
 <use resources/webapp/digital-ink-story.png>
 Package pdftex.def Info: resources/webapp/digital-ink-story.png  used on input 
-line 159.
+line 160.
 (pdftex.def)             Requested size: 403.98215pt x 123.09772pt.
 
-webapp/webapp.tex:160: LaTeX Error: \begin{figure} on input line 153 ended by \
+webapp/webapp.tex:161: LaTeX Error: \begin{figure} on input line 154 ended by \
 end{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160     \end{subfigure}
+l.161     \end{subfigure}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [6 <./resources/webapp/digital-ink-account.png> <./resources/webapp/digital-i
-nk-stories.png> <./resources/webapp/digital-ink-story.png>]
+) [5
+
+ <./resources/webapp/digital-ink-home.png> <./resources/webapp/digital-ink-sign
+-up.png>] [6 <./resources/webapp/digital-ink-create-story-1.png> <./resources/w
+ebapp/digital-ink-create-story-2.png> <./resources/webapp/digital-ink-create-st
+ory-3.png> <./resources/webapp/digital-ink-account.png>] [7 <./resources/webapp
+/digital-ink-stories.png> <./resources/webapp/digital-ink-story.png>]
 \openout2 = `vpc_subnets/vpc_subnets.aux'.
 
 
 (vpc_subnets/vpc_subnets.tex
 Chapter 3.
-) [7
+) [8
 
 
 
@@ -1838,10 +1839,10 @@ Chapter 3.
  (ec2/ec2.tex
 Chapter 4.
 
-Package natbib Warning: Citation `aws2022ec2' on page 8 undefined on input line
+Package natbib Warning: Citation `aws2022ec2' on page 9 undefined on input line
  6.
 
-<resources/ec2/create-instance-application-and-os-images.png, id=95, 1445.4pt x
+<resources/ec2/create-instance-application-and-os-images.png, id=99, 1445.4pt x
  745.78625pt>
 File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
 (type png)
@@ -1855,19 +1856,19 @@ Overfull \hbox (6.83202pt too wide) in paragraph at lines 12--13
  []
 
 
-LaTeX Warning: Reference `fig:ec2-os' on page 8 undefined on input line 17.
+LaTeX Warning: Reference `fig:ec2-os' on page 9 undefined on input line 17.
 
-[8
+[9
 
 
 
 
  <./resources/ec2/create-instance-application-and-os-images.png>]
 
-LaTeX Warning: Reference `fig:ec2-instance' on page 9 undefined on input line 2
-5.
+LaTeX Warning: Reference `fig:ec2-instance' on page 10 undefined on input line 
+25.
 
-<resources/ec2/create-instance-instance-type.png, id=103, 1445.4pt x 741.77126p
+<resources/ec2/create-instance-instance-type.png, id=107, 1445.4pt x 741.77126p
 t>
 File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 <use resources/ec2/create-instance-instance-type.png>
@@ -1879,7 +1880,7 @@ Overfull \hbox (6.83202pt too wide) in paragraph at lines 29--30
  [][] 
  []
 
-<resources/ec2/create-instance-configure-storage.png, id=104, 1445.4pt x 740.76
+<resources/ec2/create-instance-configure-storage.png, id=108, 1445.4pt x 740.76
 75pt>
 File: resources/ec2/create-instance-configure-storage.png Graphic file (type pn
 g)
@@ -1893,18 +1894,18 @@ Overfull \hbox (6.83202pt too wide) in paragraph at lines 41--42
  []
 
 
-LaTeX Warning: Reference `fig:ec2-storage' on page 9 undefined on input line 46
-.
+LaTeX Warning: Reference `fig:ec2-storage' on page 10 undefined on input line 4
+6.
 
-[9
+[10
 
  <./resources/ec2/create-instance-instance-type.png> <./resources/ec2/create-in
-stance-configure-storage.png>]) [10]
+stance-configure-storage.png>]) [11]
 \openout2 = `s3/s3.aux'.
 
  (s3/s3.tex
 Chapter 5.
-) [11
+) [12
 
 
 
@@ -1914,7 +1915,7 @@ Chapter 5.
 
  (cloud/cloudfront.tex
 Chapter 6.
-) [12
+) [13
 
 
 
@@ -1924,7 +1925,7 @@ Chapter 6.
 
  (cloud/cloudwatch.tex
 Chapter 7.
-) [13
+) [14
 
 
 
@@ -1934,7 +1935,7 @@ Chapter 7.
 
  (cloud/cloudtrail.tex
 Chapter 8.
-) [14
+) [15
 
 
 
@@ -1944,7 +1945,7 @@ Chapter 8.
 
  (rds/rds.tex
 Chapter 9.
-) [15
+) [16
 
 
 
@@ -1954,7 +1955,7 @@ Chapter 9.
 
  (availability_zones/availability_zones.tex
 Chapter 10.
-) [16
+) [17
 
 
 
@@ -1964,7 +1965,7 @@ Chapter 10.
 
  (elb/elastic_load_balancing.tex
 Chapter 11.
-) [17
+) [18
 
 
 
@@ -1974,7 +1975,7 @@ Chapter 11.
 
  (security/security_practices.tex
 Chapter 12.
-) [18
+) [19
 
 
 
@@ -1984,7 +1985,7 @@ Chapter 12.
 
  (cost/cost_breakdown.tex
 Chapter 13.
-) [19
+) [20
 
 
 
@@ -1994,7 +1995,7 @@ Chapter 13.
 
  (testing/testing.tex
 Chapter 14.
-) [20
+) [21
 
 
 
@@ -2004,7 +2005,7 @@ Chapter 14.
 
  (future_enhancements/future_enhancements.tex
 Chapter 15.
-) [21
+) [22
 
 
 
@@ -2014,7 +2015,7 @@ Chapter 15.
 
  (conclusion/conclusion.tex
 Chapter 16.
-) [22
+) [23
 
 
 
@@ -2025,7 +2026,7 @@ Cloud Computing/2022-05-04 Cloud Computing Report (Group)/auxil/main.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
 )
-[23
+[24
 
 
 
@@ -2034,42 +2035,42 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 
  (appendix.tex
 Appendix A.
-<resources/after-allocate-elastic-ip-address.png, id=209, 1444.39626pt x 704.63
+<resources/after-allocate-elastic-ip-address.png, id=213, 1444.39626pt x 704.63
 25pt>
 File: resources/after-allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/after-allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/after-allocate-elastic-ip-address.png  used 
 on input line 8.
 (pdftex.def)             Requested size: 426.79134pt x 208.19809pt.
-<resources/allocate-elastic-ip-address.png, id=210, 1445.4pt x 629.35126pt>
+<resources/allocate-elastic-ip-address.png, id=214, 1445.4pt x 629.35126pt>
 File: resources/allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/allocate-elastic-ip-address.png  used on inp
 ut line 16.
 (pdftex.def)             Requested size: 426.79134pt x 185.82986pt.
-<resources/cloning-the-app.png, id=211, 651.43375pt x 455.7025pt>
+<resources/cloning-the-app.png, id=215, 651.43375pt x 455.7025pt>
 File: resources/cloning-the-app.png Graphic file (type png)
 <use resources/cloning-the-app.png>
 Package pdftex.def Info: resources/cloning-the-app.png  used on input line 24.
 (pdftex.def)             Requested size: 426.79134pt x 298.56728pt.
-[24
+[25
 
 
  <./resources/after-allocate-elastic-ip-address.png> <./resources/allocate-elas
 tic-ip-address.png>]
-<resources/cloudwatch-conditions.png, id=221, 1445.4pt x 736.7525pt>
+<resources/cloudwatch-conditions.png, id=225, 1445.4pt x 736.7525pt>
 File: resources/cloudwatch-conditions.png Graphic file (type png)
 <use resources/cloudwatch-conditions.png>
 Package pdftex.def Info: resources/cloudwatch-conditions.png  used on input lin
 e 31.
 (pdftex.def)             Requested size: 426.79134pt x 217.54245pt.
-<resources/cloudwatch-specify-metric.png, id=222, 1444.39626pt x 739.76375pt>
+<resources/cloudwatch-specify-metric.png, id=226, 1444.39626pt x 739.76375pt>
 File: resources/cloudwatch-specify-metric.png Graphic file (type png)
 <use resources/cloudwatch-specify-metric.png>
 Package pdftex.def Info: resources/cloudwatch-specify-metric.png  used on input
  line 38.
 (pdftex.def)             Requested size: 426.79134pt x 218.57834pt.
- [25 <./resources/cloning-the-app.png> <./resources/cloudwatch-conditions.png>]
+ [26 <./resources/cloning-the-app.png> <./resources/cloudwatch-conditions.png>]
 File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
 (type png)
 <use resources/ec2/create-instance-application-and-os-images.png>
@@ -2082,13 +2083,13 @@ g)
 Package pdftex.def Info: resources/ec2/create-instance-configure-storage.png  u
 sed on input line 52.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [26 <./resources/cloudwatch-specify-metric.png>]
+ [27 <./resources/cloudwatch-specify-metric.png>]
 File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 <use resources/ec2/create-instance-instance-type.png>
 Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
 on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
-<resources/ec2/create-instance-name-and-tags.png, id=238, 1445.4pt x 749.80125p
+<resources/ec2/create-instance-name-and-tags.png, id=242, 1445.4pt x 749.80125p
 t>
 File: resources/ec2/create-instance-name-and-tags.png Graphic file (type png)
 <use resources/ec2/create-instance-name-and-tags.png>
@@ -2096,8 +2097,8 @@ Package pdftex.def Info: resources/ec2/create-instance-name-and-tags.png  used
 on input line 66.
 (pdftex.def)             Requested size: 426.79134pt x 221.39539pt.
 
-[27]
-<resources/ec2/create-instance-network-settings.png, id=245, 1445.4pt x 739.763
+[28]
+<resources/ec2/create-instance-network-settings.png, id=250, 1445.4pt x 739.763
 75pt>
 File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 )
@@ -2105,99 +2106,99 @@ File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 Package pdftex.def Info: resources/ec2/create-instance-network-settings.png  us
 ed on input line 73.
 (pdftex.def)             Requested size: 426.79134pt x 218.4316pt.
-<resources/create-key-pair.png, id=246, 1445.4pt x 740.7675pt>
+<resources/create-key-pair.png, id=251, 1445.4pt x 740.7675pt>
 File: resources/create-key-pair.png Graphic file (type png)
 <use resources/create-key-pair.png>
 Package pdftex.def Info: resources/create-key-pair.png  used on input line 80.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [28 <./resources/ec2/create-instance-name-and-tags.png> <./resources/ec2/creat
+ [29 <./resources/ec2/create-instance-name-and-tags.png> <./resources/ec2/creat
 e-instance-network-settings.png>]
-<resources/digital-ink.png, id=256, 1445.4pt x 852.18375pt>
+<resources/digital-ink.png, id=260, 1445.4pt x 852.18375pt>
 File: resources/digital-ink.png Graphic file (type png)
 <use resources/digital-ink.png>
 Package pdftex.def Info: resources/digital-ink.png  used on input line 87.
 (pdftex.def)             Requested size: 426.79134pt x 251.62608pt.
-<resources/docker-compose.png, id=257, 1445.4pt x 852.18375pt>
+<resources/docker-compose.png, id=261, 1445.4pt x 852.18375pt>
 File: resources/docker-compose.png Graphic file (type png)
 <use resources/docker-compose.png>
 Package pdftex.def Info: resources/docker-compose.png  used on input line 94.
 (pdftex.def)             Requested size: 426.79134pt x 251.62608pt.
- [29 <./resources/create-key-pair.png> <./resources/digital-ink.png>]
-<resources/edit-instance-network-settings.png, id=266, 1445.4pt x 740.7675pt>
+ [30 <./resources/create-key-pair.png> <./resources/digital-ink.png>]
+<resources/edit-instance-network-settings.png, id=270, 1445.4pt x 740.7675pt>
 File: resources/edit-instance-network-settings.png Graphic file (type png)
 <use resources/edit-instance-network-settings.png>
 Package pdftex.def Info: resources/edit-instance-network-settings.png  used on 
 input line 101.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-<resources/installing-docker.png, id=267, 2890.8pt x 1471.4975pt>
+<resources/installing-docker.png, id=271, 2890.8pt x 1471.4975pt>
 File: resources/installing-docker.png Graphic file (type png)
 <use resources/installing-docker.png>
 Package pdftex.def Info: resources/installing-docker.png  used on input line 10
 8.
 (pdftex.def)             Requested size: 426.79134pt x 217.23485pt.
- [30 <./resources/docker-compose.png> <./resources/edit-instance-network-settin
+ [31 <./resources/docker-compose.png> <./resources/edit-instance-network-settin
 gs.png>]
-<resources/installing-docker-2.png, id=276, 2886.785pt x 1804.7425pt>
+<resources/installing-docker-2.png, id=280, 2886.785pt x 1804.7425pt>
 File: resources/installing-docker-2.png Graphic file (type png)
 <use resources/installing-docker-2.png>
 Package pdftex.def Info: resources/installing-docker-2.png  used on input line 
 115.
 (pdftex.def)             Requested size: 426.79134pt x 266.81682pt.
-<resources/installing-docker-3.png, id=277, 2890.8pt x 1806.75pt>
+<resources/installing-docker-3.png, id=281, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-3.png Graphic file (type png)
 <use resources/installing-docker-3.png>
 Package pdftex.def Info: resources/installing-docker-3.png  used on input line 
 122.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
- [31 <./resources/installing-docker.png> <./resources/installing-docker-2.png>]
-<resources/installing-docker-4.png, id=286, 2890.8pt x 1806.75pt>
+ [32 <./resources/installing-docker.png> <./resources/installing-docker-2.png>]
+<resources/installing-docker-4.png, id=290, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-4.png Graphic file (type png)
 <use resources/installing-docker-4.png>
 Package pdftex.def Info: resources/installing-docker-4.png  used on input line 
 129.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
-<resources/instances.png, id=287, 1445.4pt x 743.77875pt>
+<resources/instances.png, id=291, 1445.4pt x 743.77875pt>
 File: resources/instances.png Graphic file (type png)
 <use resources/instances.png>
 Package pdftex.def Info: resources/instances.png  used on input line 136.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
- [32 <./resources/installing-docker-3.png> <./resources/installing-docker-4.png
+ [33 <./resources/installing-docker-3.png> <./resources/installing-docker-4.png
 >]
-<resources/launching-instance.png, id=296, 1445.4pt x 743.77875pt>
+<resources/launching-instance.png, id=300, 1445.4pt x 743.77875pt>
 File: resources/launching-instance.png Graphic file (type png)
 <use resources/launching-instance.png>
 Package pdftex.def Info: resources/launching-instance.png  used on input line 1
 43.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
-<resources/log-in-with-key-pair.png, id=297, 1445.4pt x 861.2175pt>
+<resources/log-in-with-key-pair.png, id=301, 1445.4pt x 861.2175pt>
 File: resources/log-in-with-key-pair.png Graphic file (type png)
 <use resources/log-in-with-key-pair.png>
 Package pdftex.def Info: resources/log-in-with-key-pair.png  used on input line
  150.
 (pdftex.def)             Requested size: 426.79134pt x 254.2935pt.
- [33 <./resources/instances.png> <./resources/launching-instance.png>]
-<resources/selecting-a-vpc-configuration.png, id=306, 1445.4pt x 709.65125pt>
+ [34 <./resources/instances.png> <./resources/launching-instance.png>]
+<resources/selecting-a-vpc-configuration.png, id=311, 1445.4pt x 709.65125pt>
 File: resources/selecting-a-vpc-configuration.png Graphic file (type png)
 <use resources/selecting-a-vpc-configuration.png>
 Package pdftex.def Info: resources/selecting-a-vpc-configuration.png  used on i
 nput line 157.
 (pdftex.def)             Requested size: 426.79134pt x 209.5402pt.
-<resources/successfully-initiated-instance.png, id=307, 1441.385pt x 741.77126p
+<resources/successfully-initiated-instance.png, id=312, 1441.385pt x 741.77126p
 t>
 File: resources/successfully-initiated-instance.png Graphic file (type png)
 <use resources/successfully-initiated-instance.png>
 Package pdftex.def Info: resources/successfully-initiated-instance.png  used on
  input line 164.
 (pdftex.def)             Requested size: 426.79134pt x 219.63556pt.
- [34 <./resources/log-in-with-key-pair.png> <./resources/selecting-a-vpc-config
+ [35 <./resources/log-in-with-key-pair.png> <./resources/selecting-a-vpc-config
 uration.png>]
-<resources/vpc-successfully-created.png, id=317, 1445.4pt x 742.775pt>
+<resources/vpc-successfully-created.png, id=321, 1445.4pt x 742.775pt>
 File: resources/vpc-successfully-created.png Graphic file (type png)
 <use resources/vpc-successfully-created.png>
 Package pdftex.def Info: resources/vpc-successfully-created.png  used on input 
 line 171.
 (pdftex.def)             Requested size: 426.79134pt x 219.32072pt.
-<resources/vpc-with-public-and-private-subnets-loading.png, id=318, 1445.4pt x 
+<resources/vpc-with-public-and-private-subnets-loading.png, id=322, 1445.4pt x 
 903.375pt>
 File: resources/vpc-with-public-and-private-subnets-loading.png Graphic file (t
 ype png)
@@ -2205,9 +2206,9 @@ ype png)
 Package pdftex.def Info: resources/vpc-with-public-and-private-subnets-loading.
 png  used on input line 178.
 (pdftex.def)             Requested size: 426.79134pt x 266.74144pt.
- [35 <./resources/successfully-initiated-instance.png> <./resources/vpc-success
+ [36 <./resources/successfully-initiated-instance.png> <./resources/vpc-success
 fully-created.png>]
-<resources/vpc-with-public-and-private-subnets.png, id=327, 1445.4pt x 705.6362
+<resources/vpc-with-public-and-private-subnets.png, id=331, 1445.4pt x 705.6362
 5pt>
 File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 
@@ -2215,13 +2216,13 @@ File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 Package pdftex.def Info: resources/vpc-with-public-and-private-subnets.png  use
 d on input line 185.
 (pdftex.def)             Requested size: 426.79134pt x 208.35469pt.
-<resources/your-vpcs.png, id=328, 1445.4pt x 745.78625pt>
+<resources/your-vpcs.png, id=332, 1445.4pt x 745.78625pt>
 File: resources/your-vpcs.png Graphic file (type png)
 <use resources/your-vpcs.png>
 Package pdftex.def Info: resources/your-vpcs.png  used on input line 192.
 (pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
-) [36 <./resources/vpc-with-public-and-private-subnets-loading.png> <./resource
-s/vpc-with-public-and-private-subnets.png>] [37 <./resources/your-vpcs.png>]
+) [37 <./resources/vpc-with-public-and-private-subnets-loading.png> <./resource
+s/vpc-with-public-and-private-subnets.png>] [38 <./resources/your-vpcs.png>]
 
 Package transparent Warning: Rerun to get transparencies right.
 
@@ -2301,9 +2302,9 @@ runsystem(rm auxil//main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 24048 strings out of 478553
- 481049 string characters out of 2839088
- 1056669 words of memory out of 3000000
+ 24049 strings out of 478553
+ 481056 string characters out of 2839088
+ 1052669 words of memory out of 3000000
  41425 multiletter control sequences out of 15000+600000
  506378 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2318,9 +2319,9 @@ b></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/
 uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (40 pages, 6865892 bytes).
+/main.pdf" (41 pages, 6866632 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
