@@ -2,11 +2,10 @@
 
 \section{AWS Setup}\label{sec:aws-setup}
 
-After the configuration of the VPC and subnets was completed, the initial deployment of the web app began through
-setting up EC2.
+After the VPC and subnets were configured, the initial deployment of the web app began with setting up EC2.
 This AWS service allows for scalable computing capacity through the use of a virtual computing environment hosted in the
 cloud~\parencite{aws2022ec2}.
-The web app will be stored on an EC2 instance of Amazon Linux, known as Amazon machine images (AMIs), which wil then be
+The web app will be stored on an EC2 instance of Amazon Linux, known as Amazon Machine Image (AMI), which will then be
 launched through a docker container stored on the app.
 
 \begin{figure}[!htbp]
@@ -20,7 +19,6 @@ Figure~\ref{fig:ec2-os} details the selection of the Operating System (OS) that 
 The \textit{Amazon Linux 2} AMI was selected, as it is already configured with Linux and does not need any more setup.
 
 \clearpage
-
 Now that an AMI has been chosen, the specific instance type that will be used within this AMI can be selected.
 It was decided that the instance type of \textit{t2.micro} would be used, as it contains only 1GB of Random Access
 Memory (RAM).
@@ -49,8 +47,8 @@ discussed in Section~\ref{ch:web-app}.
 
 This process can be seen in Figure~\ref{fig:ec2-keypair}.
 
-The instance is assigned the VPC created in Section~\ref{ch:vpc_subnets}, where it is assigned a subnet in the same
-availability zone of us-east-1.
+The instance is assigned the VPC created in Section~\ref{ch:vpc-subnets}, where it is assigned a subnet in the same
+availability zone of \mintinline{zsh}|us-east-1|.
 
 \begin{figure}[!htbp]
     \centering
@@ -71,8 +69,8 @@ An EC2 keypair is then generated in the \mintinline{sql}|.pem| format.
 
 This is enough to comfortably run the web app without any issues.
 Storage for the AMI was subsequently chosen.
-It was decided that 8GB of storage would be used, as this is enough to run the web app and still provide leftover storage
-for any system-critical tasks.
+It was decided that 8GB of storage would be used, as this is enough to run the web app and still provide leftover
+storage for any system-critical tasks.
 
 \begin{figure}[!htbp]
     \centering
@@ -84,6 +82,8 @@ for any system-critical tasks.
 The selection of these options can be found in Figure~\ref{fig:ec2-storage}.
 In addition to this, the chosen options are eligible for "Free Tier", which means that it will use a limited amount of the
 \$100 budget allocated for the project.
+
+\clearpage
 
 \section{EC2 Login}\label{sec:webapp-setup}
 
@@ -104,7 +104,7 @@ This command can seen being executed in Figure~\ref{fig:ssh-login}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.4]{resources/ec2/ec2-logged-in}
+    \includegraphics[width=\textwidth]{resources/ec2/ec2-logged-in}
     \caption{Logging into EC2 instance.}
     \label{fig:ec2-logged-in}
 \end{figure}
@@ -112,7 +112,6 @@ This command can seen being executed in Figure~\ref{fig:ssh-login}.
 The logged in EC2 instance can be seen in Figure~\ref{fig:ec2-logged-in}.
 
 \clearpage
-
 \section{Package Setup}\label{sec:web-app-setup}
 
 The web app is stored on GitHub, and the AMI does not come with GitHub by default.

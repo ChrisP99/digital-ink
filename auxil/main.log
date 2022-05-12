@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1555,33 +1555,8 @@ LaTeX Info: Redefining \nameref on input line 124.
 
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/auxil/main.out)
-Runaway argument?
-{\376\377\000T\000e\000s\0 
-main.tex:124: File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.124 \begin{document}
-                      
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/auxil/main.out)
-Runaway argument?
-{\376\377\000T\000e\000s\0 
-main.tex:124: File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.124 \begin{document}
-                      
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
@@ -1592,6 +1567,7 @@ rt-filename="bcu_logo_landscape_narrow_blk_svg-tex.pdf")...executed.
 runsystem(inkscape "bcu_logo_landscape_narrow_blk.svg" -D --export-latex \relax
  --without-gui --export-pdf="bcu_logo_landscape_narrow_blk_svg-tex.pdf")...exec
 uted.
+
 
 
 main.tex:133: Package svg Error: Inkscape version not detected.
@@ -1677,10 +1653,345 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfs
 s/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [4
+)
+glossary/glossary.tex:4: Undefined control sequence.
+l.4     \item  \textbf{ACL} \tab
+                                ^^e2^^80^^94 Access Control List
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:5: Undefined control sequence.
+l.5     \item  \textbf{ACM} \tab
+                                ^^e2^^80^^94 AWS Certificate Manager
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:6: Undefined control sequence.
+l.6     \item  \textbf{AMI} \tab
+                                ^^e2^^80^^94 Amazon Machine Images
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:7: Undefined control sequence.
+l.7     \item  \textbf{App} \tab
+                                ^^e2^^80^^94 Application
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:8: Undefined control sequence.
+l.8     \item  \textbf{AWS} \tab
+                                ^^e2^^80^^94 Amazon Web Services
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:9: Undefined control sequence.
+l.9     \item  \textbf{AZ} \tab
+                               ^^e2^^80^^94 Availability Zone
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:10: Undefined control sequence.
+l.10     \item  \textbf{CA} \tab
+                                ^^e2^^80^^94 Certificate Authority
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:11: Undefined control sequence.
+l.11     \item  \textbf{CDS} \tab
+                                 ^^e2^^80^^94 Content Delivery Network
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:12: Undefined control sequence.
+l.12     \item  \textbf{CPU} \tab
+                                 ^^e2^^80^^94 Central Processing Unit
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:13: Undefined control sequence.
+l.13     \item  \textbf{DB} \tab
+                                ^^e2^^80^^94 Database
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:14: Undefined control sequence.
+l.14     \item  \textbf{EC2} \tab
+                                 ^^e2^^80^^94 Elastic Cloud Compute
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:15: Undefined control sequence.
+l.15     \item  \textbf{ELB} \tab
+                                 ^^e2^^80^^94 Elastic Load Balancing
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:16: Undefined control sequence.
+l.16     \item  \textbf{.env} \tab
+                                  ^^e2^^80^^94 Environment File Extension
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:17: Undefined control sequence.
+l.17     \item  \textbf{GB} \tab
+                                ^^e2^^80^^94 Gigabyte
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:18: Undefined control sequence.
+l.18     \item  \textbf{HTTP} \tab
+                                  ^^e2^^80^^94 HyperText Transfer Protocol
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:19: Undefined control sequence.
+l.19     \item  \textbf{HTTPS} \tab
+                                   ^^e2^^80^^94 HyperText Transfer Protocol ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:20: Undefined control sequence.
+l.20     \item  \textbf{IAM} \tab
+                                 ^^e2^^80^^94 Identity and Access Management
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:21: Undefined control sequence.
+l.21     \item  \textbf{IEEE} \tab
+                                  ^^e2^^80^^94 Institute of Electrical and E...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:22: Undefined control sequence.
+l.22     \item  \textbf{IP} \tab
+                                ^^e2^^80^^94 Internet Protocol
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:23: Undefined control sequence.
+l.23     \item  \textbf{IPv4} \tab
+                                  ^^e2^^80^^94 Internet Protocol Version 4
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:24: Undefined control sequence.
+l.24     \item  \textbf{LAMP} \tab
+                                  ^^e2^^80^^94 Linux, Apache, MySQL, PHP
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:25: Undefined control sequence.
+l.25     \item  \textbf{ML} \tab
+                                ^^e2^^80^^94 Machine Learning
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:26: Undefined control sequence.
+l.26     \item  \textbf{nslookup} \tab
+                                      ^^e2^^80^^94 Name Server Lookup
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4
 
 
-]) [5]
+]
+glossary/glossary.tex:27: Undefined control sequence.
+l.27     \item  \textbf{DIG} \tab
+                                 ^^e2^^80^^94 Domain Information Groper
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:28: Undefined control sequence.
+l.28     \item  \textbf{OS} \tab
+                                ^^e2^^80^^94 Operating System
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:29: Undefined control sequence.
+l.29     \item  \textbf{.pem} \tab
+                                  ^^e2^^80^^94 Privacy Enhanced Mail File Ex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:30: Undefined control sequence.
+l.30     \item  \textbf{PHP} \tab
+                                 ^^e2^^80^^94 PHP: Hypertext Preprocessor
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:31: Undefined control sequence.
+l.31     \item  \textbf{RAM} \tab
+                                 ^^e2^^80^^94 Random Access Memory
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:32: Undefined control sequence.
+l.32     \item  \textbf{S3} \tab
+                                ^^e2^^80^^94 Simple Storage Service
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:33: Undefined control sequence.
+l.33     \item  \textbf{RAM} \tab
+                                 ^^e2^^80^^94 Random Access Memory
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:34: Undefined control sequence.
+l.34     \item  \textbf{RDBMS} \tab
+                                   ^^e2^^80^^94 Relational Database Manageme...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:35: Undefined control sequence.
+l.35     \item  \textbf{RDS} \tab
+                                 ^^e2^^80^^94 Relational Database Service
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:36: Undefined control sequence.
+l.36     \item  \textbf{SNS} \tab
+                                 ^^e2^^80^^94 Simple Notification Service
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:37: Undefined control sequence.
+l.37     \item  \textbf{SQL} \tab
+                                 ^^e2^^80^^94 Structured Query Language
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:38: Undefined control sequence.
+l.38     \item  \textbf{SSH} \tab
+                                 ^^e2^^80^^94 Secure Shell
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:39: Undefined control sequence.
+l.39     \item  \textbf{VPC} \tab
+                                 ^^e2^^80^^94 Virtual Private Cloud
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+glossary/glossary.tex:40: Undefined control sequence.
+l.40     \item  \textbf{VPN} \tab
+                                 ^^e2^^80^^94 Virtual Private Network
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [5]
 \openout2 = `intro/introduction.aux'.
 
  (intro/introduction.tex
@@ -1722,12 +2033,12 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 (auxil/_minted-main/2338C89D6CB085D90943267EA54EC8835DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
-<resources/database/tables-overview.png, id=161, 218.8175pt x 108.405pt>
+<resources/database/tables-overview.png, id=43, 218.8175pt x 108.405pt>
 File: resources/database/tables-overview.png Graphic file (type png)
 <use resources/database/tables-overview.png>
 Package pdftex.def Info: resources/database/tables-overview.png  used on input 
 line 24.
-(pdftex.def)             Requested size: 175.05423pt x 86.7241pt.
+(pdftex.def)             Requested size: 426.79134pt x 211.4418pt.
 \openout6 = `main.pyg'.
 
 
@@ -1746,12 +2057,7 @@ line 29.
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [2
-
-
-
-
- <./resources/database/tables-overview.png>]
+8BDBB.pygtex)
 \openout6 = `main.pyg'.
 
 
@@ -1766,13 +2072,18 @@ line 29.
 
 
 (auxil/_minted-main/3751FE54B793238AE7C09D28A39D45C55DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex)
-<resources/database/migrations-records.png, id=176, 474.77374pt x 83.31125pt>
+8BDBB.pygtex) [2
+
+
+
+
+]
+<resources/database/migrations-records.png, id=59, 474.77374pt x 83.31125pt>
 File: resources/database/migrations-records.png Graphic file (type png)
 <use resources/database/migrations-records.png>
 Package pdftex.def Info: resources/database/migrations-records.png  used on inp
 ut line 41.
-(pdftex.def)             Requested size: 403.55959pt x 70.81488pt.
+(pdftex.def)             Requested size: 426.79134pt x 74.89424pt.
 \openout6 = `main.pyg'.
 
 
@@ -1827,12 +2138,12 @@ LaTeX Warning: Reference `fig:users-records' on page 3 undefined on input line
 
 (auxil/_minted-main/A85EE4D99BA669DBD96AE527598029B25DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
-<resources/database/users-records.png, id=178, 1031.855pt x 140.525pt>
+<resources/database/users-records.png, id=61, 1031.855pt x 140.525pt>
 File: resources/database/users-records.png Graphic file (type png)
 <use resources/database/users-records.png>
 Package pdftex.def Info: resources/database/users-records.png  used on input li
 ne 60.
-(pdftex.def)             Requested size: 412.73468pt x 56.20898pt.
+(pdftex.def)             Requested size: 426.79134pt x 58.1238pt.
 \openout6 = `main.pyg'.
 
 
@@ -1842,15 +2153,15 @@ ne 60.
 
 
 (auxil/_minted-main/6711F799EB9198AFABA01C3218D1F7FD5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [3 <./resources/database/migrations-records.png> <./resources/dat
-abase/users-records.png>]
+8BDBB.pygtex) [3 <./resources/database/tables-overview.png> <./resources/databa
+se/migrations-records.png>] [4 <./resources/database/users-records.png>]
 \openout6 = `main.pyg'.
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 
-LaTeX Warning: Reference `fig:stories-records' on page 4 undefined on input lin
+LaTeX Warning: Reference `fig:stories-records' on page 5 undefined on input lin
 e 66.
 
 \openout6 = `main.pyg'.
@@ -1921,12 +2232,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/database/stories-records-1.png, id=188, 938.50626pt x 77.28876pt>
+<resources/database/stories-records-1.png, id=77, 938.50626pt x 77.28876pt>
 File: resources/database/stories-records-1.png Graphic file (type png)
 <use resources/database/stories-records-1.png>
 Package pdftex.def Info: resources/database/stories-records-1.png  used on inpu
 t line 85.
-(pdftex.def)             Requested size: 422.32391pt x 34.7796pt.
+(pdftex.def)             Requested size: 426.79134pt x 35.14755pt.
 
 webapp/webapp.tex:86: LaTeX Error: \begin{figure} on input line 82 ended by \en
 d{subfigure}.
@@ -1954,12 +2265,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/database/stories-records-2.png, id=189, 777.90625pt x 82.3075pt>
+<resources/database/stories-records-2.png, id=78, 777.90625pt x 82.3075pt>
 File: resources/database/stories-records-2.png Graphic file (type png)
 <use resources/database/stories-records-2.png>
 Package pdftex.def Info: resources/database/stories-records-2.png  used on inpu
 t line 88.
-(pdftex.def)             Requested size: 427.84976pt x 45.26924pt.
+(pdftex.def)             Requested size: 426.79134pt x 45.15872pt.
 
 webapp/webapp.tex:89: LaTeX Error: \begin{figure} on input line 82 ended by \en
 d{subfigure}.
@@ -1974,11 +2285,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Overfull \hbox (1.05843pt too wide) in paragraph at lines 85--90
- [] 
- []
-
 \openout6 = `main.pyg'.
 
 
@@ -1988,12 +2294,12 @@ Overfull \hbox (1.05843pt too wide) in paragraph at lines 85--90
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [4
+8BDBB.pygtex) [5
 
  <./resources/database/stories-records-1.png> <./resources/database/stories-rec
 ords-2.png>]
 
-LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 5 undefined
+LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 6 undefined
  on input line 99.
 
 \openout6 = `main.pyg'.
@@ -2001,24 +2307,24 @@ LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 5 undefined
 
 (auxil/_minted-main/6711F799EB9198AFABA01C3218D1F7FD5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
-<resources/webapp/digital-ink-home.png, id=198, 805.20825pt x 457.71pt>
+<resources/webapp/digital-ink-home.png, id=87, 805.20825pt x 457.71pt>
 File: resources/webapp/digital-ink-home.png Graphic file (type png)
 <use resources/webapp/digital-ink-home.png>
 Package pdftex.def Info: resources/webapp/digital-ink-home.png  used on input l
 ine 106.
 (pdftex.def)             Requested size: 213.39566pt x 121.29956pt.
-<resources/webapp/digital-ink-sign-up.png, id=199, 784.1295pt x 442.65375pt>
+<resources/webapp/digital-ink-sign-up.png, id=88, 784.1295pt x 442.65375pt>
 File: resources/webapp/digital-ink-sign-up.png Graphic file (type png)
 <use resources/webapp/digital-ink-sign-up.png>
 Package pdftex.def Info: resources/webapp/digital-ink-sign-up.png  used on inpu
 t line 111.
 (pdftex.def)             Requested size: 213.39566pt x 120.4637pt.
- [5
+ [6
 
  <./resources/webapp/digital-ink-home.png> <./resources/webapp/digital-ink-sign
 -up.png>]
 
-LaTeX Warning: Reference `fig:digital-ink-create-story' on page 6 undefined on 
+LaTeX Warning: Reference `fig:digital-ink-create-story' on page 7 undefined on 
 input line 121.
 
 \openout6 = `main.pyg'.
@@ -2039,13 +2345,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-create-story-1.png, id=208, 1002.74625pt x 451.68
-75pt>
+<resources/webapp/digital-ink-create-story-1.png, id=98, 1002.74625pt x 451.687
+5pt>
 File: resources/webapp/digital-ink-create-story-1.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-1.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-1.png  used 
 on input line 127.
-(pdftex.def)             Requested size: 350.96645pt x 158.09299pt.
+(pdftex.def)             Requested size: 426.79134pt x 192.25067pt.
 
 webapp/webapp.tex:128: LaTeX Error: \begin{figure} on input line 124 ended by \
 end{subfigure}.
@@ -2073,13 +2379,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-create-story-2.png, id=209, 1009.97325pt x 405.91
-65pt>
+<resources/webapp/digital-ink-create-story-2.png, id=99, 1009.97325pt x 405.916
+5pt>
 File: resources/webapp/digital-ink-create-story-2.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-2.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-2.png  used 
 on input line 130.
-(pdftex.def)             Requested size: 353.49594pt x 142.0729pt.
+(pdftex.def)             Requested size: 426.79134pt x 171.53052pt.
 
 webapp/webapp.tex:131: LaTeX Error: \begin{figure} on input line 124 ended by \
 end{subfigure}.
@@ -2107,13 +2413,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-create-story-3.png, id=210, 1005.7575pt x 499.867
+<resources/webapp/digital-ink-create-story-3.png, id=100, 1005.7575pt x 499.867
 5pt>
 File: resources/webapp/digital-ink-create-story-3.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-3.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-3.png  used 
 on input line 133.
-(pdftex.def)             Requested size: 352.0204pt x 174.95624pt.
+(pdftex.def)             Requested size: 426.79134pt x 212.11671pt.
 
 webapp/webapp.tex:134: LaTeX Error: \begin{figure} on input line 124 ended by \
 end{subfigure}.
@@ -2128,12 +2434,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[6
+[7
 
  <./resources/webapp/digital-ink-create-story-1.png> <./resources/webapp/digita
 l-ink-create-story-2.png> <./resources/webapp/digital-ink-create-story-3.png>]
 
-LaTeX Warning: Reference `fig:digital-ink-account' on page 7 undefined on input
+LaTeX Warning: Reference `fig:digital-ink-account' on page 8 undefined on input
  line 141.
 
 \openout6 = `main.pyg'.
@@ -2141,15 +2447,15 @@ LaTeX Warning: Reference `fig:digital-ink-account' on page 7 undefined on input
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
-<resources/webapp/digital-ink-account.png, id=219, 988.8945pt x 347.49825pt>
+<resources/webapp/digital-ink-account.png, id=109, 988.8945pt x 347.49825pt>
 File: resources/webapp/digital-ink-account.png Graphic file (type png)
 <use resources/webapp/digital-ink-account.png>
 Package pdftex.def Info: resources/webapp/digital-ink-account.png  used on inpu
 t line 146.
-(pdftex.def)             Requested size: 395.5508pt x 138.99683pt.
+(pdftex.def)             Requested size: 426.79134pt x 149.97276pt.
 
 
-LaTeX Warning: Reference `fig:digital-ink-stories-and-story' on page 7 undefine
+LaTeX Warning: Reference `fig:digital-ink-stories-and-story' on page 8 undefine
 d on input line 154.
 
 
@@ -2165,12 +2471,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-stories.png, id=220, 1035.26775pt x 211.38976pt>
+<resources/webapp/digital-ink-stories.png, id=110, 1035.26775pt x 211.38976pt>
 File: resources/webapp/digital-ink-stories.png Graphic file (type png)
 <use resources/webapp/digital-ink-stories.png>
 Package pdftex.def Info: resources/webapp/digital-ink-stories.png  used on inpu
 t line 159.
-(pdftex.def)             Requested size: 414.09976pt x 84.5544pt.
+(pdftex.def)             Requested size: 426.79134pt x 87.1445pt.
 
 webapp/webapp.tex:160: LaTeX Error: \begin{figure} on input line 156 ended by \
 end{subfigure}.
@@ -2198,12 +2504,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<resources/webapp/digital-ink-story.png, id=221, 1009.97325pt x 307.74976pt>
+<resources/webapp/digital-ink-story.png, id=111, 1009.97325pt x 307.74976pt>
 File: resources/webapp/digital-ink-story.png Graphic file (type png)
 <use resources/webapp/digital-ink-story.png>
 Package pdftex.def Info: resources/webapp/digital-ink-story.png  used on input 
 line 162.
-(pdftex.def)             Requested size: 403.98215pt x 123.09772pt.
+(pdftex.def)             Requested size: 426.79134pt x 130.0476pt.
 
 webapp/webapp.tex:163: LaTeX Error: \begin{figure} on input line 156 ended by \
 end{subfigure}.
@@ -2218,7 +2524,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [7
+) [8
 
  <./resources/webapp/digital-ink-account.png> <./resources/webapp/digital-ink-s
 tories.png> <./resources/webapp/digital-ink-story.png>]
@@ -2227,7 +2533,7 @@ tories.png> <./resources/webapp/digital-ink-story.png>]
 
 (vpc_subnets/vpc_subnets.tex
 Chapter 4.
-) [8
+) [9
 
 
 
@@ -2237,67 +2543,72 @@ Chapter 4.
 
  (ec2/ec2.tex
 Chapter 5.
-<resources/ec2/create-instance-application-and-os-images.png, id=239, 1445.4pt 
+<resources/ec2/create-instance-application-and-os-images.png, id=130, 1445.4pt 
 x 745.78625pt>
 File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
 (type png)
 <use resources/ec2/create-instance-application-and-os-images.png>
 Package pdftex.def Info: resources/ec2/create-instance-application-and-os-image
-s.png  used on input line 14.
+s.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
 
-LaTeX Warning: Reference `fig:ec2-os' on page 9 undefined on input line 19.
+LaTeX Warning: Reference `fig:ec2-os' on page 10 undefined on input line 18.
 
-[9
+[10
 
 
 
 
  <./resources/ec2/create-instance-application-and-os-images.png>]
 
-LaTeX Warning: Reference `fig:ec2-instance' on page 10 undefined on input line 
-27.
+LaTeX Warning: Reference `fig:ec2-instance' on page 11 undefined on input line 
+25.
 
-<resources/ec2/create-instance-instance-type.png, id=247, 1445.4pt x 741.77126p
+<resources/ec2/create-instance-instance-type.png, id=140, 1445.4pt x 741.77126p
 t>
 File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 <use resources/ec2/create-instance-instance-type.png>
 Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
-on input line 31.
+on input line 29.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
 
-LaTeX Warning: Reference `ch:web-app' on page 10 undefined on input line 41.
+LaTeX Warning: Reference `ch:web-app' on page 11 undefined on input line 39.
 
-<resources/ec2/create-key-pair.png, id=248, 1445.4pt x 740.7675pt>
+<resources/ec2/create-key-pair.png, id=141, 1445.4pt x 740.7675pt>
 File: resources/ec2/create-key-pair.png Graphic file (type png)
 <use resources/ec2/create-key-pair.png>
 Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line 
-45.
+43.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
 
-LaTeX Warning: Reference `fig:ec2-keypair' on page 10 undefined on input line 5
-0.
+LaTeX Warning: Reference `fig:ec2-keypair' on page 11 undefined on input line 4
+8.
 
-[10
+[11
 
  <./resources/ec2/create-instance-instance-type.png> <./resources/ec2/create-ke
 y-pair.png>]
 
-LaTeX Warning: Reference `ch:vpc_subnets' on page 11 undefined on input line 52
+LaTeX Warning: Reference `ch:vpc-subnets' on page 12 undefined on input line 50
 .
 
-<resources/ec2/create-instance-network-settings.png, id=257, 1445.4pt x 740.767
+\openout6 = `main.pyg'.
+
+
+(auxil/_minted-main/C2578BE27DD24956000185C8DA24224C4CF1D6A5F60B06CE43FF2FA2984
+1BFDC.pygtex)
+<resources/ec2/create-instance-network-settings.png, id=150, 1445.4pt x 740.767
 5pt>
 File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 )
 <use resources/ec2/create-instance-network-settings.png>
 Package pdftex.def Info: resources/ec2/create-instance-network-settings.png  us
-ed on input line 57.
+ed on input line 55.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-<resources/ec2/keypair.png, id=258, 764.8575pt x 572.1375pt>
+<resources/ec2/keypair.png, id=151, 764.8575pt x 572.1375pt>
 File: resources/ec2/keypair.png Graphic file (type png)
 <use resources/ec2/keypair.png>
-Package pdftex.def Info: resources/ec2/keypair.png  used on input line 64.
+Package pdftex.def Info: resources/ec2/keypair.png  used on input line 62.
 (pdftex.def)             Requested size: 426.79134pt x 319.25116pt.
 \openout6 = `main.pyg'.
 
@@ -2310,28 +2621,29 @@ Package pdftex.def Info: resources/ec2/keypair.png  used on input line 64.
 (auxil/_minted-main/C467C065303DF3DF7EEC4D52A55D726E5DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 
-LaTeX Warning: Reference `fig:ec2-networking' on page 11 undefined on input lin
-e 69.
+LaTeX Warning: Reference `fig:ec2-networking' on page 12 undefined on input lin
+e 67.
 
 \openout6 = `main.pyg'.
 
 
 (auxil/_minted-main/C467C065303DF3DF7EEC4D52A55D726E5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [11 <./resources/ec2/create-instance-network-settings.png> <./res
+8BDBB.pygtex) [12 <./resources/ec2/create-instance-network-settings.png> <./res
 ources/ec2/keypair.png>]
-<resources/ec2/create-instance-configure-storage.png, id=267, 1445.4pt x 740.76
+<resources/ec2/create-instance-configure-storage.png, id=160, 1445.4pt x 740.76
 75pt>
 File: resources/ec2/create-instance-configure-storage.png Graphic file (type pn
 g)
 <use resources/ec2/create-instance-configure-storage.png>
 Package pdftex.def Info: resources/ec2/create-instance-configure-storage.png  u
-sed on input line 79.
+sed on input line 77.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
 
 
-LaTeX Warning: Reference `fig:ec2-storage' on page 12 undefined on input line 8
-4.
+LaTeX Warning: Reference `fig:ec2-storage' on page 13 undefined on input line 8
+2.
 
+[13 <./resources/ec2/create-instance-configure-storage.png>]
 \openout6 = `main.pyg'.
 
 
@@ -2353,44 +2665,45 @@ LaTeX Warning: Reference `fig:ec2-storage' on page 12 undefined on input line 8
 (auxil/_minted-main/95DBB0600960EFD2CF23C5F2058E46164CF1D6A5F60B06CE43FF2FA2984
 1BFDC.pygtex)
 
-LaTeX Warning: Reference `fig:ssh-login' on page 12 undefined on input line 103
+LaTeX Warning: Reference `fig:ssh-login' on page 14 undefined on input line 103
 .
 
-<resources/ec2/ec2-logged-in.png, id=268, 764.8575pt x 572.1375pt>
+<resources/ec2/ec2-logged-in.png, id=167, 764.8575pt x 572.1375pt>
 File: resources/ec2/ec2-logged-in.png Graphic file (type png)
 <use resources/ec2/ec2-logged-in.png>
 Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
 7.
-(pdftex.def)             Requested size: 305.93758pt x 228.85094pt.
+(pdftex.def)             Requested size: 426.79134pt x 319.25116pt.
 
-LaTeX Warning: Reference `fig:ec2-logged-in' on page 12 undefined on input line
+LaTeX Warning: Reference `fig:ec2-logged-in' on page 14 undefined on input line
  112.
 
-[12 <./resources/ec2/create-instance-configure-storage.png>] [13 <./resources/e
-c2/ec2-logged-in.png>]
+[14
+
+ <./resources/ec2/ec2-logged-in.png>]
 \openout6 = `main.pyg'.
 
 
 (auxil/_minted-main/375269884BBD1784DC9D3017B922DABD4CF1D6A5F60B06CE43FF2FA2984
 1BFDC.pygtex)
-<resources/ec2/installing-git.png, id=282, 2890.8pt x 1806.75pt>
+<resources/ec2/installing-git.png, id=177, 2890.8pt x 1806.75pt>
 File: resources/ec2/installing-git.png Graphic file (type png)
 <use resources/ec2/installing-git.png>
 Package pdftex.def Info: resources/ec2/installing-git.png  used on input line 1
-23.
+22.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
 \openout6 = `main.pyg'.
 
 
 (auxil/_minted-main/B7785276EA9559BAB1F1D88A354C17874CF1D6A5F60B06CE43FF2FA2984
-1BFDC.pygtex) [14
+1BFDC.pygtex) [15
 
  <./resources/ec2/installing-git.png>]
-<resources/ec2/installing-docker.png, id=290, 2890.8pt x 1471.4975pt>
+<resources/ec2/installing-docker.png, id=185, 2890.8pt x 1471.4975pt>
 File: resources/ec2/installing-docker.png Graphic file (type png)
 <use resources/ec2/installing-docker.png>
 Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
-e 134.
+e 133.
 (pdftex.def)             Requested size: 426.79134pt x 217.23485pt.
 \openout6 = `main.pyg'.
 
@@ -2402,10 +2715,10 @@ e 134.
 
 (auxil/_minted-main/C22DE5E8220700CC1C493FD7A94500764CF1D6A5F60B06CE43FF2FA2984
 1BFDC.pygtex)
-<resources/ec2/webapp-clone.png, id=291, 651.43375pt x 455.7025pt>
+<resources/ec2/webapp-clone.png, id=186, 651.43375pt x 455.7025pt>
 File: resources/ec2/webapp-clone.png Graphic file (type png)
 <use resources/ec2/webapp-clone.png>
-Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 146
+Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 145
 .
 (pdftex.def)             Requested size: 426.79134pt x 298.56728pt.
 \openout6 = `main.pyg'.
@@ -2427,14 +2740,14 @@ Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 146
 
 
 (auxil/_minted-main/0C0BB88159F30CA45279CBFEB8083C4556B856BB7401E65586FAFE39517
-4DD0D.pygtex) [15
+4DD0D.pygtex) [16
 
  <./resources/ec2/installing-docker.png> <./resources/ec2/webapp-clone.png>]
-<resources/ec2/docker-compose.png, id=300, 1445.4pt x 852.18375pt>
+<resources/ec2/docker-compose.png, id=196, 1445.4pt x 852.18375pt>
 File: resources/ec2/docker-compose.png Graphic file (type png)
 <use resources/ec2/docker-compose.png>
 Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
-58.
+57.
 (pdftex.def)             Requested size: 426.79134pt x 251.62608pt.
 \openout6 = `main.pyg'.
 
@@ -2471,11 +2784,11 @@ Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
 
 (auxil/_minted-main/7D8B84264F93D12F3EDA94C48BE429D84CF1D6A5F60B06CE43FF2FA2984
 1BFDC.pygtex)
-<resources/ec2/php-artisan-migrate.png, id=301, 1445.4pt x 212.795pt>
+<resources/ec2/php-artisan-migrate.png, id=197, 1445.4pt x 212.795pt>
 File: resources/ec2/php-artisan-migrate.png Graphic file (type png)
 <use resources/ec2/php-artisan-migrate.png>
 Package pdftex.def Info: resources/ec2/php-artisan-migrate.png  used on input l
-ine 180.
+ine 179.
 (pdftex.def)             Requested size: 426.79134pt x 62.83241pt.
 \openout6 = `main.pyg'.
 
@@ -2488,14 +2801,14 @@ ine 180.
 (auxil/_minted-main/7D8B84264F93D12F3EDA94C48BE429D84CF1D6A5F60B06CE43FF2FA2984
 1BFDC.pygtex)
 
-LaTeX Warning: Reference `fig:php-artisan-migrate' on page 16 undefined on inpu
-t line 185.
+LaTeX Warning: Reference `fig:php-artisan-migrate' on page 17 undefined on inpu
+t line 184.
 
-) [16 <./resources/ec2/docker-compose.png> <./resources/ec2/php-artisan-migrate
+) [17 <./resources/ec2/docker-compose.png> <./resources/ec2/php-artisan-migrate
 .png>]
 \openout2 = `systemd/systemd.aux'.
 
- (systemd/systemd.tex) [17
+ (systemd/systemd.tex) [18
 
 
 
@@ -2504,7 +2817,7 @@ t line 185.
 
  (s3/s3.tex
 Chapter 6.
-) [18
+) [19
 
 
 
@@ -2514,7 +2827,7 @@ Chapter 6.
 
  (cloud/cloudfront.tex
 Chapter 7.
-) [19
+) [20
 
 
 
@@ -2524,7 +2837,7 @@ Chapter 7.
 
  (cloud/cloudwatch.tex
 Chapter 8.
-) [20
+) [21
 
 
 
@@ -2534,7 +2847,7 @@ Chapter 8.
 
  (cloud/cloudtrail.tex
 Chapter 9.
-) [21
+) [22
 
 
 
@@ -2544,7 +2857,7 @@ Chapter 9.
 
  (rds/rds.tex
 Chapter 10.
-) [22
+) [23
 
 
 
@@ -2554,7 +2867,7 @@ Chapter 10.
 
  (availability_zones/availability_zones.tex
 Chapter 11.
-) [23
+) [24
 
 
 
@@ -2564,7 +2877,7 @@ Chapter 11.
 
  (elb/elastic_load_balancing.tex
 Chapter 12.
-) [24
+) [25
 
 
 
@@ -2574,7 +2887,7 @@ Chapter 12.
 
  (security/security_practices.tex
 Chapter 13.
-) [25
+) [26
 
 
 
@@ -2584,7 +2897,7 @@ Chapter 13.
 
  (cost/cost_breakdown.tex
 Chapter 14.
-) [26
+) [27
 
 
 
@@ -2595,7 +2908,7 @@ Chapter 14.
  (testing/testing.tex
 Chapter 15.
 
-LaTeX Warning: Reference `fig:gherkin' on page 27 undefined on input line 9.
+LaTeX Warning: Reference `fig:gherkin' on page 28 undefined on input line 9.
 
 \openout5 = `main.pyg'.
 
@@ -2639,7 +2952,7 @@ B7081.pygtex)
 
 
 (auxil/_minted-main/FDD5B29056D01687D9C7335CAD62CD54B66A66787FF9FD7A830723746B8
-B7081.pygtex) [27
+B7081.pygtex) [28
 
 
 
@@ -2684,17 +2997,17 @@ B7081.pygtex)
 
 
 (auxil/_minted-main/BAF78395CA839070F15ED91A0AA19D84B66A66787FF9FD7A830723746B8
-B7081.pygtex) [28]
+B7081.pygtex) [29]
 \openout5 = `main.pyg'.
 
 
 (auxil/_minted-main/BAF78395CA839070F15ED91A0AA19D84B66A66787FF9FD7A830723746B8
-B7081.pygtex)) [29]
+B7081.pygtex)) [30]
 \openout2 = `future_enhancements/future_enhancements.aux'.
 
  (future_enhancements/future_enhancements.tex
 Chapter 16.
-) [30
+) [31
 
 
 
@@ -2704,12 +3017,12 @@ Chapter 16.
 
  (conclusion/conclusion.tex
 Chapter 17.
-) [31
+) [32
 
 
 
 
-] [32
+] [33
 
 
 
@@ -2718,42 +3031,42 @@ Chapter 17.
 
  (appendix.tex
 Appendix A.
-<resources/after-allocate-elastic-ip-address.png, id=422, 1444.39626pt x 704.63
+<resources/after-allocate-elastic-ip-address.png, id=336, 1444.39626pt x 704.63
 25pt>
 File: resources/after-allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/after-allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/after-allocate-elastic-ip-address.png  used 
 on input line 8.
 (pdftex.def)             Requested size: 426.79134pt x 208.19809pt.
-<resources/allocate-elastic-ip-address.png, id=423, 1445.4pt x 629.35126pt>
+<resources/allocate-elastic-ip-address.png, id=337, 1445.4pt x 629.35126pt>
 File: resources/allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/allocate-elastic-ip-address.png  used on inp
 ut line 16.
 (pdftex.def)             Requested size: 426.79134pt x 185.82986pt.
-<resources/cloning-the-app.png, id=424, 651.43375pt x 455.7025pt>
+<resources/cloning-the-app.png, id=338, 651.43375pt x 455.7025pt>
 File: resources/cloning-the-app.png Graphic file (type png)
 <use resources/cloning-the-app.png>
 Package pdftex.def Info: resources/cloning-the-app.png  used on input line 24.
 (pdftex.def)             Requested size: 426.79134pt x 298.56728pt.
-[33
+[34
 
 
  <./resources/after-allocate-elastic-ip-address.png> <./resources/allocate-elas
 tic-ip-address.png>]
-<resources/cloudwatch-conditions.png, id=434, 1445.4pt x 736.7525pt>
+<resources/cloudwatch-conditions.png, id=348, 1445.4pt x 736.7525pt>
 File: resources/cloudwatch-conditions.png Graphic file (type png)
 <use resources/cloudwatch-conditions.png>
 Package pdftex.def Info: resources/cloudwatch-conditions.png  used on input lin
 e 31.
 (pdftex.def)             Requested size: 426.79134pt x 217.54245pt.
-<resources/cloudwatch-specify-metric.png, id=435, 1444.39626pt x 739.76375pt>
+<resources/cloudwatch-specify-metric.png, id=349, 1444.39626pt x 739.76375pt>
 File: resources/cloudwatch-specify-metric.png Graphic file (type png)
 <use resources/cloudwatch-specify-metric.png>
 Package pdftex.def Info: resources/cloudwatch-specify-metric.png  used on input
  line 38.
 (pdftex.def)             Requested size: 426.79134pt x 218.57834pt.
- [34 <./resources/cloning-the-app.png> <./resources/cloudwatch-conditions.png>]
+ [35 <./resources/cloning-the-app.png> <./resources/cloudwatch-conditions.png>]
 File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
 (type png)
 <use resources/ec2/create-instance-application-and-os-images.png>
@@ -2766,13 +3079,13 @@ g)
 Package pdftex.def Info: resources/ec2/create-instance-configure-storage.png  u
 sed on input line 52.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [35 <./resources/cloudwatch-specify-metric.png>]
+ [36 <./resources/cloudwatch-specify-metric.png>]
 File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 <use resources/ec2/create-instance-instance-type.png>
 Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
 on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
-<resources/ec2/create-instance-name-and-tags.png, id=451, 1445.4pt x 749.80125p
+<resources/ec2/create-instance-name-and-tags.png, id=365, 1445.4pt x 749.80125p
 t>
 File: resources/ec2/create-instance-name-and-tags.png Graphic file (type png)
 <use resources/ec2/create-instance-name-and-tags.png>
@@ -2780,7 +3093,7 @@ Package pdftex.def Info: resources/ec2/create-instance-name-and-tags.png  used
 on input line 66.
 (pdftex.def)             Requested size: 426.79134pt x 221.39539pt.
 
-[36]
+[37]
 File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 )
 <use resources/ec2/create-instance-network-settings.png>
@@ -2792,8 +3105,8 @@ File: resources/ec2/create-key-pair.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line 
 80.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [37 <./resources/ec2/create-instance-name-and-tags.png>]
-<resources/digital-ink.png, id=465, 1445.4pt x 852.18375pt>
+ [38 <./resources/ec2/create-instance-name-and-tags.png>]
+<resources/digital-ink.png, id=380, 1445.4pt x 852.18375pt>
 File: resources/digital-ink.png Graphic file (type png)
 <use resources/digital-ink.png>
 Package pdftex.def Info: resources/digital-ink.png  used on input line 87.
@@ -2803,8 +3116,8 @@ File: resources/ec2/docker-compose.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 9
 4.
 (pdftex.def)             Requested size: 426.79134pt x 251.62608pt.
- [38 <./resources/digital-ink.png>]
-<resources/edit-instance-network-settings.png, id=474, 1445.4pt x 740.7675pt>
+ [39 <./resources/digital-ink.png>]
+<resources/edit-instance-network-settings.png, id=388, 1445.4pt x 740.7675pt>
 File: resources/edit-instance-network-settings.png Graphic file (type png)
 <use resources/edit-instance-network-settings.png>
 Package pdftex.def Info: resources/edit-instance-network-settings.png  used on 
@@ -2815,69 +3128,69 @@ File: resources/ec2/installing-docker.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
 e 108.
 (pdftex.def)             Requested size: 426.79134pt x 217.23485pt.
- [39 <./resources/edit-instance-network-settings.png>]
-<resources/installing-docker-2.png, id=482, 2886.785pt x 1804.7425pt>
+ [40 <./resources/edit-instance-network-settings.png>]
+<resources/installing-docker-2.png, id=396, 2886.785pt x 1804.7425pt>
 File: resources/installing-docker-2.png Graphic file (type png)
 <use resources/installing-docker-2.png>
 Package pdftex.def Info: resources/installing-docker-2.png  used on input line 
 115.
 (pdftex.def)             Requested size: 426.79134pt x 266.81682pt.
-<resources/installing-docker-3.png, id=483, 2890.8pt x 1806.75pt>
+<resources/installing-docker-3.png, id=397, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-3.png Graphic file (type png)
 <use resources/installing-docker-3.png>
 Package pdftex.def Info: resources/installing-docker-3.png  used on input line 
 122.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
 
-[40 <./resources/installing-docker-2.png>]
-<resources/installing-docker-4.png, id=491, 2890.8pt x 1806.75pt>
+[41 <./resources/installing-docker-2.png>]
+<resources/installing-docker-4.png, id=405, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-4.png Graphic file (type png)
 <use resources/installing-docker-4.png>
 Package pdftex.def Info: resources/installing-docker-4.png  used on input line 
 129.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
-<resources/instances.png, id=492, 1445.4pt x 743.77875pt>
+<resources/instances.png, id=406, 1445.4pt x 743.77875pt>
 File: resources/instances.png Graphic file (type png)
 <use resources/instances.png>
 Package pdftex.def Info: resources/instances.png  used on input line 136.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
- [41 <./resources/installing-docker-3.png> <./resources/installing-docker-4.png
+ [42 <./resources/installing-docker-3.png> <./resources/installing-docker-4.png
 >]
-<resources/launching-instance.png, id=501, 1445.4pt x 743.77875pt>
+<resources/launching-instance.png, id=415, 1445.4pt x 743.77875pt>
 File: resources/launching-instance.png Graphic file (type png)
 <use resources/launching-instance.png>
 Package pdftex.def Info: resources/launching-instance.png  used on input line 1
 43.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
-<resources/log-in-with-key-pair.png, id=502, 1445.4pt x 861.2175pt>
+<resources/log-in-with-key-pair.png, id=416, 1445.4pt x 861.2175pt>
 File: resources/log-in-with-key-pair.png Graphic file (type png)
 <use resources/log-in-with-key-pair.png>
 Package pdftex.def Info: resources/log-in-with-key-pair.png  used on input line
  150.
 (pdftex.def)             Requested size: 426.79134pt x 254.2935pt.
- [42 <./resources/instances.png> <./resources/launching-instance.png>]
-<resources/selecting-a-vpc-configuration.png, id=511, 1445.4pt x 709.65125pt>
+ [43 <./resources/instances.png> <./resources/launching-instance.png>]
+<resources/selecting-a-vpc-configuration.png, id=425, 1445.4pt x 709.65125pt>
 File: resources/selecting-a-vpc-configuration.png Graphic file (type png)
 <use resources/selecting-a-vpc-configuration.png>
 Package pdftex.def Info: resources/selecting-a-vpc-configuration.png  used on i
 nput line 157.
 (pdftex.def)             Requested size: 426.79134pt x 209.5402pt.
-<resources/successfully-initiated-instance.png, id=512, 1441.385pt x 741.77126p
+<resources/successfully-initiated-instance.png, id=426, 1441.385pt x 741.77126p
 t>
 File: resources/successfully-initiated-instance.png Graphic file (type png)
 <use resources/successfully-initiated-instance.png>
 Package pdftex.def Info: resources/successfully-initiated-instance.png  used on
  input line 164.
 (pdftex.def)             Requested size: 426.79134pt x 219.63556pt.
- [43 <./resources/log-in-with-key-pair.png> <./resources/selecting-a-vpc-config
+ [44 <./resources/log-in-with-key-pair.png> <./resources/selecting-a-vpc-config
 uration.png>]
-<resources/vpc-successfully-created.png, id=521, 1445.4pt x 742.775pt>
+<resources/vpc-successfully-created.png, id=436, 1445.4pt x 742.775pt>
 File: resources/vpc-successfully-created.png Graphic file (type png)
 <use resources/vpc-successfully-created.png>
 Package pdftex.def Info: resources/vpc-successfully-created.png  used on input 
 line 171.
 (pdftex.def)             Requested size: 426.79134pt x 219.32072pt.
-<resources/vpc-with-public-and-private-subnets-loading.png, id=522, 1445.4pt x 
+<resources/vpc-with-public-and-private-subnets-loading.png, id=437, 1445.4pt x 
 903.375pt>
 File: resources/vpc-with-public-and-private-subnets-loading.png Graphic file (t
 ype png)
@@ -2885,9 +3198,9 @@ ype png)
 Package pdftex.def Info: resources/vpc-with-public-and-private-subnets-loading.
 png  used on input line 178.
 (pdftex.def)             Requested size: 426.79134pt x 266.74144pt.
- [44 <./resources/successfully-initiated-instance.png> <./resources/vpc-success
+ [45 <./resources/successfully-initiated-instance.png> <./resources/vpc-success
 fully-created.png>]
-<resources/vpc-with-public-and-private-subnets.png, id=532, 1445.4pt x 705.6362
+<resources/vpc-with-public-and-private-subnets.png, id=446, 1445.4pt x 705.6362
 5pt>
 File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 
@@ -2895,13 +3208,13 @@ File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 Package pdftex.def Info: resources/vpc-with-public-and-private-subnets.png  use
 d on input line 185.
 (pdftex.def)             Requested size: 426.79134pt x 208.35469pt.
-<resources/your-vpcs.png, id=533, 1445.4pt x 745.78625pt>
+<resources/your-vpcs.png, id=447, 1445.4pt x 745.78625pt>
 File: resources/your-vpcs.png Graphic file (type png)
 <use resources/your-vpcs.png>
 Package pdftex.def Info: resources/your-vpcs.png  used on input line 192.
 (pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
-) [45 <./resources/vpc-with-public-and-private-subnets-loading.png> <./resource
-s/vpc-with-public-and-private-subnets.png>] [46 <./resources/your-vpcs.png>]
+) [46 <./resources/vpc-with-public-and-private-subnets-loading.png> <./resource
+s/vpc-with-public-and-private-subnets.png>] [47 <./resources/your-vpcs.png>]
 
 Package transparent Warning: Rerun to get transparencies right.
 
@@ -2973,7 +3286,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 057EF116C1CD6033B7AE9B18FD8F189C;4096
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
 (rerunfilecheck)             After:  74D514186D9286B112DC6722461A0AB7;5110.
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2987,10 +3300,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31592 strings out of 478553
- 662800 string characters out of 2839088
+ 31569 strings out of 478553
+ 663253 string characters out of 2839088
  1420292 words of memory out of 3000000
- 48736 multiletter control sequences out of 15000+600000
+ 48709 multiletter control sequences out of 15000+600000
  505699 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,8n,106p,1195b,1535s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -3002,9 +3315,9 @@ texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Suppor
 t/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (51 pages, 7825919 bytes).
+/main.pdf" (52 pages, 7817047 bytes).
 PDF statistics:
- 667 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
- 478 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

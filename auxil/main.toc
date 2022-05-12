@@ -3,37 +3,37 @@
 \contentsline {chapter}{\numberline {3}Web App}{2}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Software Stack}{2}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Database Design}{2}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Interface Design}{5}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Virtual Private Cloud and Subnets}{8}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Elastic Cloud Compute}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}AWS Setup}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}EC2 Login}{12}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Package Setup}{14}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Web App Setup}{15}{section.5.4}%
-\contentsline {section}{\numberline {5.5}systemd Services}{17}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Simple Storage Service}{18}{chapter.6}%
-\contentsline {chapter}{\numberline {7}CloudFront}{19}{chapter.7}%
-\contentsline {chapter}{\numberline {8}CloudWatch}{20}{chapter.8}%
-\contentsline {chapter}{\numberline {9}CloudTrail}{21}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Relational Database Service}{22}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Availability Zones}{23}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Elastic Load Balancing}{24}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Security Practices}{25}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Cost Breakdown}{26}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Estimated Costs}{26}{section.14.1}%
-\contentsline {section}{\numberline {14.2}Scaling Up to 10,000 Users}{26}{section.14.2}%
-\contentsline {section}{\numberline {14.3}Scaling Up to 1 Million Users}{26}{section.14.3}%
-\contentsline {section}{\numberline {14.4}Scaling Up to 10 Million Users}{26}{section.14.4}%
-\contentsline {chapter}{\numberline {15}Testing}{27}{chapter.15}%
-\contentsline {section}{\numberline {15.1}Testing EC2}{27}{section.15.1}%
-\contentsline {section}{\numberline {15.2}Testing S3}{27}{section.15.2}%
-\contentsline {section}{\numberline {15.3}Testing CloudFront}{27}{section.15.3}%
-\contentsline {section}{\numberline {15.4}Testing RDS}{28}{section.15.4}%
-\contentsline {section}{\numberline {15.5}Testing CloudWatch}{29}{section.15.5}%
-\contentsline {section}{\numberline {15.6}Testing CloudTrail}{29}{section.15.6}%
-\contentsline {section}{\numberline {15.7}Testing ELB}{29}{section.15.7}%
-\contentsline {chapter}{\numberline {16}Future Enhancements}{30}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Conclusion}{31}{chapter.17}%
-\contentsline {chapter}{References}{32}{chapter*.41}%
-\contentsline {chapter}{Bibliography}{32}{chapter*.41}%
-\contentsline {chapter}{\numberline {A}Screenshots}{33}{appendix.A}%
+\contentsline {section}{\numberline {3.3}Interface Design}{6}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Virtual Private Cloud and Subnets}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Elastic Cloud Compute}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}AWS Setup}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}EC2 Login}{14}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Package Setup}{15}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Web App Setup}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.5}systemd Services}{18}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Simple Storage Service}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}CloudFront}{20}{chapter.7}%
+\contentsline {chapter}{\numberline {8}CloudWatch}{21}{chapter.8}%
+\contentsline {chapter}{\numberline {9}CloudTrail}{22}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Relational Database Service}{23}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Availability Zones}{24}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Elastic Load Balancing}{25}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Security Practices}{26}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Cost Breakdown}{27}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Estimated Costs}{27}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Scaling Up to 10,000 Users}{27}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Scaling Up to 1 Million Users}{27}{section.14.3}%
+\contentsline {section}{\numberline {14.4}Scaling Up to 10 Million Users}{27}{section.14.4}%
+\contentsline {chapter}{\numberline {15}Testing}{28}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Testing EC2}{28}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Testing S3}{28}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Testing CloudFront}{28}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Testing RDS}{29}{section.15.4}%
+\contentsline {section}{\numberline {15.5}Testing CloudWatch}{30}{section.15.5}%
+\contentsline {section}{\numberline {15.6}Testing CloudTrail}{30}{section.15.6}%
+\contentsline {section}{\numberline {15.7}Testing ELB}{30}{section.15.7}%
+\contentsline {chapter}{\numberline {16}Future Enhancements}{31}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Conclusion}{32}{chapter.17}%
+\contentsline {chapter}{References}{33}{chapter*.41}%
+\contentsline {chapter}{Bibliography}{33}{chapter*.41}%
+\contentsline {chapter}{\numberline {A}Screenshots}{34}{appendix.A}%
