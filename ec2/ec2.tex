@@ -1,5 +1,7 @@
 \chapter{EC2}\label{ch:ec2}
 
+\subsection{AWS Setup}\label{subsec:aws-setup}
+
 After the configuration of the VPC and subnets was completed, the initial deployment of the web app began through
 setting up EC2.
 This AWS service allows for scalable computing capacity through the use of a virtual computing environment hosted in the
@@ -35,7 +37,17 @@ A key pair will allow for the ability to sign in to the EC2 instance with a uniq
 the security of the project.
 
 The next stage of the setup process was to set up networking for the EC2 instance, in order for the web app to work with
-Docker to download relevant containers from DockerHub, which will allow
+Docker to download relevant containers from DockerHub, which will allow a Laravel instance to be initialised, as
+discussed in Section~\ref{ch:web-app}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/create-key-pair}
+    \caption{Selection of EC2 Keypair.}
+    \label{fig:ec2-keypair}
+\end{figure}
+
+This process can be seen in Figure~\ref{fig:ec2-keypair}.
 
 The instance is assigned the VPC created in Section~\ref{ch:vpc_subnets}, where it is assigned a subnet in the same
 availability zone of us-east-1.
@@ -47,7 +59,15 @@ availability zone of us-east-1.
     \label{fig:ec2-networking}
 \end{figure}
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/keypair}
+    \caption{Generated EC2 Keypair in the \mintinline{sql}|.pem| format.}
+    \label{fig:keypair}
+\end{figure}
+
 This setup can be seen in Figure~\ref{fig:ec2-networking}.
+An EC2 keypair is then generated in the \mintinline{sql}|.pem| format.
 
 This is enough to comfortably run the web app without any issues.
 Storage for the AMI was subsequently chosen.
@@ -66,7 +86,7 @@ In addition to this, the chosen options are eligible for "Free Tier", which mean
 \$100 budget allocated for the project.
 
 
-\subsection{Webapp Setup}\label{subsec:webapp-setup}
+\subsection{Web app Setup}\label{subsec:webapp-setup}
 
 The EC2 instance \mintinline{sql}|group4-ec2| is now live, and the webapp can be loaded onto it.
 The instance is first logged in to through the use of the \mintinline{sql}|ssh| command, followed by the IP address of

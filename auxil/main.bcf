@@ -2354,15 +2354,17 @@
     <bcf:citekey order="7">laravel2022blade</bcf:citekey>
     <bcf:citekey order="8">amazon2022what</bcf:citekey>
     <bcf:citekey order="9">aws2022ec2</bcf:citekey>
-    <bcf:citekey order="10">lee2003open</bcf:citekey>
-    <bcf:citekey order="11">anderson2015docker</bcf:citekey>
-    <bcf:citekey order="12">fielding1997apache</bcf:citekey>
-    <bcf:citekey order="13">widenius2002mysql</bcf:citekey>
-    <bcf:citekey order="14">lerdorf2002programming</bcf:citekey>
-    <bcf:citekey order="15">laravel2022hashing</bcf:citekey>
-    <bcf:citekey order="16">laravel2022blade</bcf:citekey>
-    <bcf:citekey order="17">amazon2022what</bcf:citekey>
-    <bcf:citekey order="18">aws2022ec2</bcf:citekey>
+    <bcf:citekey order="10">dos2018automated</bcf:citekey>
+    <bcf:citekey order="11">lee2003open</bcf:citekey>
+    <bcf:citekey order="12">anderson2015docker</bcf:citekey>
+    <bcf:citekey order="13">fielding1997apache</bcf:citekey>
+    <bcf:citekey order="14">widenius2002mysql</bcf:citekey>
+    <bcf:citekey order="15">lerdorf2002programming</bcf:citekey>
+    <bcf:citekey order="16">laravel2022hashing</bcf:citekey>
+    <bcf:citekey order="17">laravel2022blade</bcf:citekey>
+    <bcf:citekey order="18">amazon2022what</bcf:citekey>
+    <bcf:citekey order="19">aws2022ec2</bcf:citekey>
+    <bcf:citekey order="20">dos2018automated</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

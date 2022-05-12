@@ -2,11 +2,27 @@
 
 This chapter of the report will detail the testing conducted on the configured AWS services.
 This was done to determine the accuracy and efficiency of the configurations made during the deployment process.
-Screenshots are included
+We used
+The testing was conducted by using Gherkin, a language used to define behaviour and test
+cases~\parencite{dos2018automated}.
+It is non-technical and is intended to be easily human-readable.
+Gherkin uses set keywords for structure and meaning: Given, When, and Then.
+An example of this structure can be seen in Figure~\ref{fig:gherkin}.
 
-The configured AWS services were tested to determine whether they had been set up correctly
-and the application was working correctly after the movement from the local XAMPP to the
-cloud. Screenshots are used to illustrate the results from the testing.
+\begin{figure}[!htbp]
+    \centering
+    \centering
+    \begin{minted}{cucumber}
+    Scenario: ...
+        Given ...
+        When ...
+        Then ...
+    \end{minted}
+    \caption{Gherkin example.}\label{fig:gherkin}
+\end{figure}
+
+EC2, S3, CloudFront, RDS, CloudWatch, and CloudTrail were all tested using this approach.
+Screenshots are included to illustrate the results of these tests.
 
 \section{Testing EC2}\label{sec:testing_ec2}
 
@@ -14,7 +30,7 @@ cloud. Screenshots are used to illustrate the results from the testing.
 
 \section{Testing CloudFront}\label{sec:testing_cloudfront}
 
-\section{Testing Server and Database}\label{sec:testing_server_database}
+\section{RDS}\label{sec:rds}
 
 \section{Testing CloudWatch}\label{sec:testing_cloudwatch}
 
