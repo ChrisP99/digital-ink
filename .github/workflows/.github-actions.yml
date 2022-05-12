@@ -26,7 +26,7 @@ jobs:
         if: always()
         uses: dante-ev/latex-action@latest
         - uses: actions/setup-python@v1
-        run: pip install Pygments
+          run: pip install Pygments
         with:
           compiler: biber
           root_file: main
@@ -35,7 +35,7 @@ jobs:
         if: always()
         uses: dante-ev/latex-action@latest
         - uses: actions/setup-python@v1
-        run: pip install Pygments
+          run: pip install Pygments
         with:
           root_file: main.tex
           args: -interaction=nonstopmode -shell-escape
