@@ -64,6 +64,51 @@ In order to ensure high availability, the option "Use all edge locations" is sel
 to the user from the closest edge location in relation to their IP address.
 No ACL can be added to the WAF due to permissions issues, and a SSL Certificate cannot be set as the web app is not being
 served from the internet.
+For logging purposes "Standard Logging" is set to "On", and logs are saved to the same S3 bucket.
+Cookie logging is enabled, and IPv6 is set to "On", to allow for more IP addresses to access the CloudFront Distributed
+content.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-settings-1}
+    \caption{Applying CloudFront Settings.}
+    \label{fig:cloudfront-settings-1}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-settings-2}
+    \caption{Applying CloudFront Settings.}
+    \label{fig:cloudfront-setting-2}
+\end{figure}
+
+A CloudFront Distribution has now been created, and can be found in Figure~\ref{fig:cloudfront-created}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-created}
+    \caption{Created CloudFront Distribution.}
+    \label{fig:cloudfront-created}
+\end{figure}
+
+Finally, the images contained within the webserver were changed from their local location to their relevant CloudFront
+locations.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-before}
+    \caption{Image location before CloudFront.}
+    \label{fig:cloudfront-before}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-after}
+    \caption{Image location after CloudFront.}
+    \label{fig:cloudfront-after}
+\end{figure}
+
+
 
 
 
