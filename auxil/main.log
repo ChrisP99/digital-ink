@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1773,36 +1773,11 @@ Chapter 3.
 (auxil/_minted-main/2338C89D6CB085D90943267EA54EC8835DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 <resources/database/tables-overview.png, id=344, 218.8175pt x 108.405pt>
-
-webapp/webapp.tex:24: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.24 ...h=0.5]{resources/database/tables-overview}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-webapp/webapp.tex:24: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.24 ...h=0.5]{resources/database/tables-overview}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 File: resources/database/tables-overview.png Graphic file (type png)
 <use resources/database/tables-overview.png>
 Package pdftex.def Info: resources/database/tables-overview.png  used on input 
 line 24.
-(pdftex.def)             Requested size: 0.5pt x 0.24646pt.
+(pdftex.def)             Requested size: 109.40848pt x 54.20236pt.
 \openout6 = `main.pyg'.
 
 
@@ -1817,16 +1792,6 @@ line 24.
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex)
-\openout6 = `main.pyg'.
-
-
-(auxil/_minted-main/49F96038F20AA062772267B640A18D795DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex)
-\openout6 = `main.pyg'.
-
-
-(auxil/_minted-main/3017BEE2B7FAA4671130E21B8A2ABB635DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex) [2
 
 
@@ -1836,39 +1801,24 @@ line 24.
 \openout6 = `main.pyg'.
 
 
+(auxil/_minted-main/49F96038F20AA062772267B640A18D795DCF01D6307777D5E8EDC70A565
+8BDBB.pygtex)
+\openout6 = `main.pyg'.
+
+
+(auxil/_minted-main/3017BEE2B7FAA4671130E21B8A2ABB635DCF01D6307777D5E8EDC70A565
+8BDBB.pygtex)
+\openout6 = `main.pyg'.
+
+
 (auxil/_minted-main/3751FE54B793238AE7C09D28A39D45C55DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 <resources/database/migrations-records.png, id=357, 474.77374pt x 83.31125pt>
-
-webapp/webapp.tex:41: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.41 ....5]{resources/database/migrations-records}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-webapp/webapp.tex:41: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.41 ....5]{resources/database/migrations-records}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 File: resources/database/migrations-records.png Graphic file (type png)
 <use resources/database/migrations-records.png>
 Package pdftex.def Info: resources/database/migrations-records.png  used on inp
 ut line 41.
-(pdftex.def)             Requested size: 0.5pt x 0.0877pt.
+(pdftex.def)             Requested size: 237.38629pt x 41.65552pt.
 \openout6 = `main.pyg'.
 
 
@@ -1920,36 +1870,16 @@ ut line 41.
 (auxil/_minted-main/A85EE4D99BA669DBD96AE527598029B25DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
 <resources/database/users-records.png, id=360, 1031.855pt x 140.525pt>
-
-webapp/webapp.tex:60: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.60 ...dth=0.5]{resources/database/users-records}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-webapp/webapp.tex:60: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.60 ...dth=0.5]{resources/database/users-records}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 File: resources/database/users-records.png Graphic file (type png)
 <use resources/database/users-records.png>
 Package pdftex.def Info: resources/database/users-records.png  used on input li
 ne 60.
-(pdftex.def)             Requested size: 0.5pt x 0.06647pt.
+(pdftex.def)             Requested size: 515.92624pt x 70.26231pt.
+
+Overfull \hbox (89.1349pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
 \openout6 = `main.pyg'.
 
 
@@ -2668,6 +2598,13 @@ Chapter 14.
 
  (testing/testing.tex
 Chapter 15.
+
+Package caption Warning: \label without proper reference on input line 19.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:gherkin' on page 28 undefined on input line 9.
+
 \openout5 = `main.pyg'.
 
 
@@ -2710,12 +2647,7 @@ B7081.pygtex)
 
 
 (auxil/_minted-main/FDD5B29056D01687D9C7335CAD62CD54B66A66787FF9FD7A830723746B8
-B7081.pygtex) [28
-
-
-
-
-]
+B7081.pygtex)
 \openout5 = `main.pyg'.
 
 
@@ -2755,7 +2687,12 @@ B7081.pygtex)
 
 
 (auxil/_minted-main/BAF78395CA839070F15ED91A0AA19D84B66A66787FF9FD7A830723746B8
-B7081.pygtex) [29]
+B7081.pygtex) [28
+
+
+
+
+] [29]
 \openout5 = `main.pyg'.
 
 
@@ -2789,20 +2726,20 @@ Chapter 17.
 
  (appendix.tex
 Appendix A.
-<resources/after-allocate-elastic-ip-address.png, id=600, 1444.39626pt x 704.63
+<resources/after-allocate-elastic-ip-address.png, id=599, 1444.39626pt x 704.63
 25pt>
 File: resources/after-allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/after-allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/after-allocate-elastic-ip-address.png  used 
 on input line 8.
 (pdftex.def)             Requested size: 426.79134pt x 208.19809pt.
-<resources/allocate-elastic-ip-address.png, id=601, 1445.4pt x 629.35126pt>
+<resources/allocate-elastic-ip-address.png, id=600, 1445.4pt x 629.35126pt>
 File: resources/allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/allocate-elastic-ip-address.png  used on inp
 ut line 16.
 (pdftex.def)             Requested size: 426.79134pt x 185.82986pt.
-<resources/cloning-the-app.png, id=602, 651.43375pt x 455.7025pt>
+<resources/cloning-the-app.png, id=601, 651.43375pt x 455.7025pt>
 File: resources/cloning-the-app.png Graphic file (type png)
 <use resources/cloning-the-app.png>
 Package pdftex.def Info: resources/cloning-the-app.png  used on input line 24.
@@ -2812,13 +2749,13 @@ Package pdftex.def Info: resources/cloning-the-app.png  used on input line 24.
 
  <./resources/after-allocate-elastic-ip-address.png> <./resources/allocate-elas
 tic-ip-address.png>]
-<resources/cloudwatch-conditions.png, id=609, 1445.4pt x 736.7525pt>
+<resources/cloudwatch-conditions.png, id=608, 1445.4pt x 736.7525pt>
 File: resources/cloudwatch-conditions.png Graphic file (type png)
 <use resources/cloudwatch-conditions.png>
 Package pdftex.def Info: resources/cloudwatch-conditions.png  used on input lin
 e 31.
 (pdftex.def)             Requested size: 426.79134pt x 217.54245pt.
-<resources/cloudwatch-specify-metric.png, id=610, 1444.39626pt x 739.76375pt>
+<resources/cloudwatch-specify-metric.png, id=609, 1444.39626pt x 739.76375pt>
 File: resources/cloudwatch-specify-metric.png Graphic file (type png)
 <use resources/cloudwatch-specify-metric.png>
 Package pdftex.def Info: resources/cloudwatch-specify-metric.png  used on input
@@ -2843,7 +2780,7 @@ File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
 on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
-<resources/ec2/create-instance-name-and-tags.png, id=623, 1445.4pt x 749.80125p
+<resources/ec2/create-instance-name-and-tags.png, id=622, 1445.4pt x 749.80125p
 t>
 File: resources/ec2/create-instance-name-and-tags.png Graphic file (type png)
 <use resources/ec2/create-instance-name-and-tags.png>
@@ -2864,7 +2801,7 @@ Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line
 80.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
  [38 <./resources/ec2/create-instance-name-and-tags.png>]
-<resources/digital-ink.png, id=633, 1445.4pt x 852.18375pt>
+<resources/digital-ink.png, id=632, 1445.4pt x 852.18375pt>
 File: resources/digital-ink.png Graphic file (type png)
 <use resources/digital-ink.png>
 Package pdftex.def Info: resources/digital-ink.png  used on input line 87.
@@ -2875,7 +2812,7 @@ Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 9
 4.
 (pdftex.def)             Requested size: 426.79134pt x 251.62608pt.
  [39 <./resources/digital-ink.png>]
-<resources/edit-instance-network-settings.png, id=639, 1445.4pt x 740.7675pt>
+<resources/edit-instance-network-settings.png, id=638, 1445.4pt x 740.7675pt>
 File: resources/edit-instance-network-settings.png Graphic file (type png)
 <use resources/edit-instance-network-settings.png>
 Package pdftex.def Info: resources/edit-instance-network-settings.png  used on 
@@ -2887,13 +2824,13 @@ Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
 e 108.
 (pdftex.def)             Requested size: 426.79134pt x 217.23485pt.
  [40 <./resources/edit-instance-network-settings.png>]
-<resources/installing-docker-2.png, id=645, 2886.785pt x 1804.7425pt>
+<resources/installing-docker-2.png, id=644, 2886.785pt x 1804.7425pt>
 File: resources/installing-docker-2.png Graphic file (type png)
 <use resources/installing-docker-2.png>
 Package pdftex.def Info: resources/installing-docker-2.png  used on input line 
 115.
 (pdftex.def)             Requested size: 426.79134pt x 266.81682pt.
-<resources/installing-docker-3.png, id=646, 2890.8pt x 1806.75pt>
+<resources/installing-docker-3.png, id=645, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-3.png Graphic file (type png)
 <use resources/installing-docker-3.png>
 Package pdftex.def Info: resources/installing-docker-3.png  used on input line 
@@ -2901,39 +2838,39 @@ Package pdftex.def Info: resources/installing-docker-3.png  used on input line
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
 
 [41 <./resources/installing-docker-2.png>]
-<resources/installing-docker-4.png, id=652, 2890.8pt x 1806.75pt>
+<resources/installing-docker-4.png, id=651, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-4.png Graphic file (type png)
 <use resources/installing-docker-4.png>
 Package pdftex.def Info: resources/installing-docker-4.png  used on input line 
 129.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
-<resources/instances.png, id=653, 1445.4pt x 743.77875pt>
+<resources/instances.png, id=652, 1445.4pt x 743.77875pt>
 File: resources/instances.png Graphic file (type png)
 <use resources/instances.png>
 Package pdftex.def Info: resources/instances.png  used on input line 136.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
  [42 <./resources/installing-docker-3.png> <./resources/installing-docker-4.png
 >]
-<resources/launching-instance.png, id=661, 1445.4pt x 743.77875pt>
+<resources/launching-instance.png, id=660, 1445.4pt x 743.77875pt>
 File: resources/launching-instance.png Graphic file (type png)
 <use resources/launching-instance.png>
 Package pdftex.def Info: resources/launching-instance.png  used on input line 1
 43.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
-<resources/log-in-with-key-pair.png, id=662, 1445.4pt x 861.2175pt>
+<resources/log-in-with-key-pair.png, id=661, 1445.4pt x 861.2175pt>
 File: resources/log-in-with-key-pair.png Graphic file (type png)
 <use resources/log-in-with-key-pair.png>
 Package pdftex.def Info: resources/log-in-with-key-pair.png  used on input line
  150.
 (pdftex.def)             Requested size: 426.79134pt x 254.2935pt.
  [43 <./resources/instances.png> <./resources/launching-instance.png>]
-<resources/selecting-a-vpc-configuration.png, id=669, 1445.4pt x 709.65125pt>
+<resources/selecting-a-vpc-configuration.png, id=668, 1445.4pt x 709.65125pt>
 File: resources/selecting-a-vpc-configuration.png Graphic file (type png)
 <use resources/selecting-a-vpc-configuration.png>
 Package pdftex.def Info: resources/selecting-a-vpc-configuration.png  used on i
 nput line 157.
 (pdftex.def)             Requested size: 426.79134pt x 209.5402pt.
-<resources/successfully-initiated-instance.png, id=670, 1441.385pt x 741.77126p
+<resources/successfully-initiated-instance.png, id=669, 1441.385pt x 741.77126p
 t>
 File: resources/successfully-initiated-instance.png Graphic file (type png)
 <use resources/successfully-initiated-instance.png>
@@ -2942,13 +2879,13 @@ Package pdftex.def Info: resources/successfully-initiated-instance.png  used on
 (pdftex.def)             Requested size: 426.79134pt x 219.63556pt.
  [44 <./resources/log-in-with-key-pair.png> <./resources/selecting-a-vpc-config
 uration.png>]
-<resources/vpc-successfully-created.png, id=677, 1445.4pt x 742.775pt>
+<resources/vpc-successfully-created.png, id=676, 1445.4pt x 742.775pt>
 File: resources/vpc-successfully-created.png Graphic file (type png)
 <use resources/vpc-successfully-created.png>
 Package pdftex.def Info: resources/vpc-successfully-created.png  used on input 
 line 171.
 (pdftex.def)             Requested size: 426.79134pt x 219.32072pt.
-<resources/vpc-with-public-and-private-subnets-loading.png, id=678, 1445.4pt x 
+<resources/vpc-with-public-and-private-subnets-loading.png, id=677, 1445.4pt x 
 903.375pt>
 File: resources/vpc-with-public-and-private-subnets-loading.png Graphic file (t
 ype png)
@@ -2958,7 +2895,7 @@ png  used on input line 178.
 (pdftex.def)             Requested size: 426.79134pt x 266.74144pt.
  [45 <./resources/successfully-initiated-instance.png> <./resources/vpc-success
 fully-created.png>]
-<resources/vpc-with-public-and-private-subnets.png, id=685, 1445.4pt x 705.6362
+<resources/vpc-with-public-and-private-subnets.png, id=684, 1445.4pt x 705.6362
 5pt>
 File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 
@@ -2966,7 +2903,7 @@ File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 Package pdftex.def Info: resources/vpc-with-public-and-private-subnets.png  use
 d on input line 185.
 (pdftex.def)             Requested size: 426.79134pt x 208.35469pt.
-<resources/your-vpcs.png, id=686, 1445.4pt x 745.78625pt>
+<resources/your-vpcs.png, id=685, 1445.4pt x 745.78625pt>
 File: resources/your-vpcs.png Graphic file (type png)
 <use resources/your-vpcs.png>
 Package pdftex.def Info: resources/your-vpcs.png  used on input line 192.
@@ -3029,20 +2966,13 @@ lusion.aux)
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/auxil/appendix.aux))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 74D514186D9286B112DC6722461A0AB7;5110
-(rerunfilecheck)             After:  A34EA731FF4D6E1017C8330548B90E3C;5110.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A34EA731FF4D6E1017C8330548B90E3C;5110.
 runsystem(rm auxil//main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -3050,9 +2980,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31720 strings out of 478553
- 673314 string characters out of 2839088
- 1503606 words of memory out of 3000000
+ 31718 strings out of 478553
+ 673286 string characters out of 2839088
+ 1504699 words of memory out of 3000000
  48800 multiletter control sequences out of 15000+600000
  505699 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3060,14 +2990,6 @@ Here is how much of TeX's memory you used:
 
 pdfTeX warning (dest): name{http://ec2-52-45-13-111.compute-1.amazonaws.com/} h
 as been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.41} has been referenced but does not exist
-, replaced by a fixed one
 
 {/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
 } </Users/chris/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/
@@ -3077,9 +2999,9 @@ xmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Support/
 MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (54 pages, 7853907 bytes).
+/main.pdf" (54 pages, 7853739 bytes).
 PDF statistics:
- 819 PDF objects out of 1000 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
  550 words of extra memory for PDF output out of 10000 (max. 10000000)
 
