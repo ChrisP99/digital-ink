@@ -1,0 +1,52 @@
+\chapter{EC2}\label{ch:ec2}
+
+After the configuration of the VPC and subnets was completed, the initial deployment of the web app began through
+setting up EC2.
+This AWS service allows for scalable computing capacity through the use of a virtual computing environment hosted in the
+cloud~\citep{aws2022ec2}.
+The web app will be stored on an EC2 instance of Amazon Linux, known as Amazon machine images (AMIs), which wil then be
+launched through a docker container stored on the app.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/create-instance-application-and-os-images}
+    \caption{Selection of EC2 OS Image.}
+    \label{fig:ec2-os}
+\end{figure}
+
+Figure~\ref{fig:ec2-os} details the selection of the Operating System (OS) that will be used for the EC2 instance.
+The \textit{Amazon Linux 2} AMI was selected, as it is already configured with Linux and does not need any more setup.
+
+\clearpage
+
+Now that an AMI has been chosen, the specfic instance type that will be used within this AMI can be selected.
+It was decided that the instance type of \textit{t2.micro} would be used, as it contains only 1GB of Random Access
+Memory (RAM).
+The selection of this can be found in Figure~\ref{fig:ec2-instance}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/create-instance-instance-type}
+    \caption{Selection of EC2 Instance.}
+    \label{fig:ec2-instance}
+\end{figure}
+
+This is enough to comfortably run the web app without any issues.
+Storage for the AMI was subsequently chosen.
+It was decided that 8GB of storage would be used, as this is enough to run the web app and still provide leftover storage
+for any system-critical tasks.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.3]{resources/ec2/create-instance-configure-storage}
+    \caption{Selection of EC2 Storage Configuration.}
+    \label{fig:ec2-storage}
+\end{figure}
+
+The selection of these options can be found in Figure~\ref{fig:ec2-storage}.
+In addition to this, the chosen options are eligible for "Free Tier", which means that it will use a limited amount of the
+\$100 budget allocated for the project.
+
+Once the AMI and storage options were selected, the next stage of the setup process was to set up networking for the EC2
+instance, in order for the web app to work with Docker.
+

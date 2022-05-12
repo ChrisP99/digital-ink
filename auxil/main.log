@@ -1,0 +1,1128 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 13:02
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-04-10> (template.cls
+Document Class: template 
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/setsp
+ace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/title
+sec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box50
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen139
+\ttl@minus=\dimen140
+\ttl@toksa=\toks16
+\titlewidth=\dimen141
+\titlewidthlast=\dimen142
+\titlewidthfirst=\dimen143
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/title
+sec/titleps.sty))
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/appto
+ols/apptools.sty
+Package: apptools 2012/11/28 v1.0 Tools for customizing appendices
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/svg/s
+vg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma-
+script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma-
+script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma-
+script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma-
+script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.s
+ty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdft
+excmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/inf
+warerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltx
+cmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/trimspaces/trimsp
+aces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx
+.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics
+.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/grap
+hics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdft
+ex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/shellesc.st
+y
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ifpla
+tform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/cat
+chfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ete
+xcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifluatex.
+sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "main.w18")...executed.
+
+ (main.w18)
+runsystem(rm -- "main.w18")...executed.
+
+)
+\c@svg@param@lastpage=\count194
+\svg@box=\box51
+\c@svg@param@currpage=\count195
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/colo
+r.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/trans
+parent/transparent.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/auxho
+ok/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/systemlayer/p
+gfsys.sty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgf
+rcs.sty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/p
+gfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen146
+\pgfutil@tempdimb=\dimen147
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/p
+gfutil-common-lists.tex))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/p
+gfutil-latex.def
+\pgfutil@abb=\box52
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/p
+gfrcs.code.tex
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/pgf.revisio
+n.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer
+/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/p
+gfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/p
+gfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen148
+\pgf@y=\dimen149
+\pgf@xa=\dimen150
+\pgf@ya=\dimen151
+\pgf@xb=\dimen152
+\pgf@yb=\dimen153
+\pgf@xc=\dimen154
+\pgf@yc=\dimen155
+\pgf@xd=\dimen156
+\pgf@yd=\dimen157
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count266
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer
+/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer
+/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer
+/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer
+/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer
+/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/parsk
+ip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvopt
+ions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvs
+etkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox
+.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+))
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/appen
+dix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count270
+\c@@ppsavesec=\count271
+\c@@ppsaveapp=\count272
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float
+/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count273
+\float@exts=\toks25
+\float@box=\box53
+\@float@everytoks=\toks26
+\@floatcapt=\box54
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geome
+try/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.st
+y
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks27
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geome
+try/geometry.cfg))
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mwe/m
+we.sty
+Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lipsu
+m/lipsum.sty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3packages/l3keys
+2e/l3keys2e.sty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3kernel/expl3.st
+y
+Package: expl3 2022-04-10 L3 programming layer (loader) 
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
+nd-pdftex.def
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box55
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count278
+\l__lipsum_a_int=\count279
+\l__lipsum_b_int=\count280
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lipsu
+m/lipsum.ltd.tex))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/blindtext/blindte
+xt.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count281
+\c@Blindtext=\count282
+\c@blind@countparstart=\count283
+\blind@countxx=\count284
+\blindtext@numBlindtext=\count285
+\blind@countyy=\count286
+\c@blindlist=\count287
+\c@blindlistlevel=\count288
+\c@blindlist@level=\count289
+\blind@listitem=\count290
+\c@blind@listcount=\count291
+\c@blind@levelcount=\count292
+\blind@mathformula=\count293
+\blind@Mathformula=\count294
+\c@blind@randomcount=\count295
+\c@blind@randommax=\count296
+\c@blind@pangramcount=\count297
+\c@blind@pangrammax=\count298
+))
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subfi
+g/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
+on/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
+on/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count299
+\c@continuedfloat=\count300
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count301
+\sf@farskip=\skip51
+\sf@captopadj=\dimen174
+\sf@capskip=\skip52
+\sf@nearskip=\skip53
+\c@subfigure=\count302
+\c@subfigure@save=\count303
+\c@lofdepth=\count304
+\c@subtable=\count305
+\c@subtable@save=\count306
+\c@lotdepth=\count307
+\sf@top=\skip54
+\sf@bottom=\skip55
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfs
+s/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/natbi
+b/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip56
+\bibsep=\skip57
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count308
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/minte
+d/minted.sty
+Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fvext
+ra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancy
+vrb/fancyvrb.sty
+Package: fancyvrb 2022/04/12 4.2 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count309
+\FV@InFile=\read3
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count310
+\FV@StepNumber=\count311
+\FV@OutFile=\write4
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/upquo
+te/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/linen
+o/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count312
+\output=\toks28
+\linenoprevgraf=\count313
+\linenumbersep=\dimen175
+\linenumberwidth=\dimen176
+\c@linenumber=\count314
+\c@pagewiselinenumber=\count315
+\c@LN@truepage=\count316
+\c@internallinenumber=\count317
+\c@internallinenumbers=\count318
+\quotelinenumbersep=\dimen177
+\bframerule=\dimen178
+\bframesep=\dimen179
+\bframebox=\box57
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count319
+\c@FV@TrueTabCounter=\count320
+\FV@TabBox@Group=\box58
+\FV@TmpLength=\skip58
+\c@FV@HighlightLinesStart=\count321
+\c@FV@HighlightLinesStop=\count322
+\FV@LoopCount=\count323
+\FV@NCharsBox=\box59
+\FV@BreakIndent=\dimen180
+\FV@BreakIndentNChars=\count324
+\FV@BreakSymbolSepLeft=\dimen181
+\FV@BreakSymbolSepLeftNChars=\count325
+\FV@BreakSymbolSepRight=\dimen182
+\FV@BreakSymbolSepRightNChars=\count326
+\FV@BreakSymbolIndentLeft=\dimen183
+\FV@BreakSymbolIndentLeftNChars=\count327
+\FV@BreakSymbolIndentRight=\dimen184
+\FV@BreakSymbolIndentRightNChars=\count328
+\c@FancyVerbLineBreakLast=\count329
+\FV@LineBox=\box60
+\FV@LineIndentBox=\box61
+\FV@LineWidth=\dimen185
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count330
+\calc@Bcount=\count331
+\calc@Adimen=\dimen186
+\calc@Bdimen=\dimen187
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count332
+\calc@Cskip=\skip61
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstri
+ng/xstring.sty
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xst
+ring/xstring.tex
+\integerpart=\count333
+\decimalpart=\count334
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/frame
+d/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip62
+\fb@frw=\dimen188
+\fb@frh=\dimen189
+\FrameRule=\dimen190
+\FrameSep=\dimen191
+)
+\minted@appexistsfile=\read4
+\minted@bgbox=\box62
+\minted@code=\write5
+\c@minted@FancyVerbLineTemp=\count335
+\c@minted@pygmentizecounter=\count336
+\@float@every@listing=\toks29
+\c@listing=\count337
+)
+runsystem(mkdir -p auxil/_minted-main)...executed.
+
+
+
+main.tex:17: LaTeX Error: Option clash for package xcolor.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \usepackage
+                {fvextra}
+The package xcolor has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvipsnames]
+Adding the global options:
+  ,dvipsnames
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+2.
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfs
+s/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+))
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/algor
+ithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count338
+\algocf@hangindent=\skip63
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ifodd
+page/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count339
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/relsi
+ze/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip64
+\skiplinenumber=\skip65
+\skiprule=\skip66
+\skiphlne=\skip67
+\skiptext=\skip68
+\skiplength=\skip69
+\algomargin=\skip70
+\skipalgocfslide=\skip71
+\algowidth=\dimen192
+\inoutsize=\dimen193
+\inoutindent=\dimen194
+\interspacetitleruled=\dimen195
+\interspacealgoruled=\dimen196
+\interspacetitleboxruled=\dimen197
+\algocf@ruledwidth=\skip72
+\algocf@inoutbox=\box63
+\algocf@inputbox=\box64
+\AlCapSkip=\skip73
+\AlCapHSkip=\skip74
+\algoskipindent=\skip75
+\algocf@nlbox=\box65
+\algocf@hangingbox=\box66
+\algocf@untilbox=\box67
+\algocf@skipuntil=\skip76
+\algocf@capbox=\box68
+\algocf@lcaptionbox=\skip77
+\algoheightruledefault=\skip78
+\algoheightrule=\skip79
+\algotitleheightruledefault=\skip80
+\algotitleheightrule=\skip81
+\c@algocfline=\count340
+\c@algocfproc=\count341
+\c@algocf=\count342
+\algocf@algoframe=\box69
+\algocf@algobox=\box70
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.s
+ty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip82
+
+For additional information on amsmath, use the `?' option.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.s
+ty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.st
+y
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen198
+))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.st
+y
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen199
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.st
+y
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count343
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count344
+\leftroot@=\count345
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count346
+\DOTSCASE@=\count347
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+\big@size=\dimen256
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count348
+\c@MaxMatrixCols=\count349
+\dotsspace@=\muskip17
+\c@parentequation=\count350
+\dspbrk@lvl=\count351
+\tag@help=\toks31
+\row@=\count352
+\column@=\count353
+\maxfields@=\count354
+\andhelp@=\toks32
+\eqnshift@=\dimen257
+\alignsep@=\dimen258
+\tagshift@=\dimen259
+\tagwidth@=\dimen260
+\totwidth@=\dimen261
+\lineht@=\dimen262
+\@envbody=\toks33
+\multlinegap=\skip83
+\multlinetaggap=\skip84
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings
+.sty
+\lst@mode=\count355
+\lst@gtempboxa=\box73
+\lst@token=\toks35
+\lst@length=\count356
+\lst@currlwidth=\dimen263
+\lst@column=\count357
+\lst@pos=\count358
+\lst@lostspace=\dimen264
+\lst@width=\dimen265
+\lst@newlines=\count359
+\lst@lineno=\count360
+\lst@maxwidth=\dimen266
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.
+sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count361
+\lst@skipnumbers=\count362
+\lst@framebox=\box74
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings
+.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpa
+ges/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/eso-p
+ic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen267
+\ESO@tempdimb=\dimen268
+)
+\AM@pagewidth=\dimen269
+\AM@pageheight=\dimen270
+\AM@fboxrule=\dimen271
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpa
+ges/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count363
+\AM@pagebox=\box75
+\AM@global@opts=\toks36
+\AM@pagecnt=\count364
+\AM@toc@title=\toks37
+\c@AM@survey=\count365
+\AM@templatesizebox=\box76
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/multicol.st
+y
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count366
+\mult@box=\box77
+\multicol@leftmargin=\dimen272
+\c@unbalance=\count367
+\c@collectmore=\count368
+\doublecol@number=\count369
+\multicoltolerance=\count370
+\multicolpretolerance=\count371
+\full@width=\dimen273
+\page@free=\dimen274
+\premulticols=\dimen275
+\postmulticols=\dimen276
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box78
+\last@line=\box79
+\maxbalancingoverflow=\dimen277
+\mult@rightbox=\box80
+\mult@grightbox=\box81
+\mult@firstbox=\box82
+\mult@gfirstbox=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\c@minrows=\count372
+\c@columnbadness=\count373
+\c@finalcolumnbadness=\count374
+\last@try=\dimen278
+\multicolovershoot=\dimen279
+\multicolundershoot=\dimen280
+\mult@nat@firstbox=\box120
+\colbreak@box=\box121
+\mc@col@check@num=\count375
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datet
+ime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fmtco
+unt/fmtcount.sty
+Package: fmtcount 2020/01/30 v3.07
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyval/xkeyval.s
+ty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkeyval
+.tex
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xkeyval/xkvutil
+s.tex
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
+)
+\XKV@depth=\count376
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fmtco
+unt/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fmtco
+unt/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count377
+))
+\c@padzeroesN=\count378
+\fc@tmpcatcode=\count379
+\@DT@modctr=\count380
+\@ordinalctr=\count381
+\@orgargctr=\count382
+\@strctr=\count383
+\@tmpstrctr=\count384
+\@DT@loopN=\count385
+\@DT@X=\count386
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datet
+ime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count387
+\@month=\count388
+\@year=\count389
+\c@HOUR=\count390
+\c@HOURXII=\count391
+\c@MINUTE=\count392
+\c@TOHOUR=\count393
+\c@TOMINUTE=\count394
+\c@SECOND=\count395
+\currenthour=\count396
+\currentminute=\count397
+\currentsecond=\count398
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count399
+\dayofyear=\count400
+\dayofweek=\count401
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks40
+\dt@b=\toks41
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/rotating
+.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count402
+\rotFPtop=\skip87
+\rotFPbot=\skip88
+\rot@float@box=\box122
+\rot@mess@toks=\toks42
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bookt
+abs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen281
+\lightrulewidth=\dimen282
+\cmidrulewidth=\dimen283
+\belowrulesep=\dimen284
+\belowbottomsep=\dimen285
+\aboverulesep=\dimen286
+\abovetopsep=\dimen287
+\cmidrulesep=\dimen288
+\cmidrulekern=\dimen289
+\defaultaddspace=\dimen290
+\@cmidla=\count403
+\@cmidlb=\count404
+\@aboverulesep=\dimen291
+\@belowrulesep=\dimen292
+\@thisruleclass=\count405
+\@lastruleclass=\count406
+\@thisrulewidth=\dimen293
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref
+.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvd
+efinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdf
+escape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hycol
+or/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/letlt
+xmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen294
+\Hy@linkcounter=\count407
+\Hy@pagecounter=\count408
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
+ef
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/int
+calc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count409
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
+f
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count410
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen295
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bit
+set/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/big
+intcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count411
+\Field@Width=\dimen296
+\Fld@charsize=\dimen297
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atbegshi-ltx
+.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count412
+\c@Item=\count413
+\c@Hfootnote=\count414
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.
+def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atveryend-lt
+x.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count415
+\c@bookmark@seq@number=\count416
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerun
+filecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uni
+quecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip89
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+\c@Theorem=\count417
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1
+.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+runsystem(which pygmentize && touch main.aex)...executed.
+
+runsystem(rm main.aex)...executed.
+
+
+(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
+Cloud Computing/2022-05-04 Cloud Computing Report (Group)/auxil/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-
+pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count418
+\scratchdimen=\dimen298
+\scratchbox=\box123
+\nofMPsegments=\count419
+\nofMParguments=\count420
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count421
+\MPscratchDim=\dimen299
+\MPnumerator=\count422
+\makeMPintoPDFobject=\count423
+\everyMPtoPDFconversion=\toks44
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epst
+opdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf
+-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) ()
+
+Package svg Warning: No version of Inkscape was detected by invoking
+(svg)                `inkscape -V'
+(svg)                so the Inkscape export will fail quite sure as the
+(svg)                command is probably unknown to your OS. You could set
+(svg)                `inkscapeversion=<version>' manually but this is very
+(svg)                unlikely to work on input line 95.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(99.58464pt, 426.79134pt, 71.1319pt)
+* v-part:(T,H,B)=(71.13188pt, 682.86613pt, 91.04883pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=682.86613pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package cap

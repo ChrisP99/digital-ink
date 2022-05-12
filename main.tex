@@ -1,0 +1,131 @@
+\documentclass{template}
+\usepackage{graphicx,parskip,appendix,float,geometry}
+\usepackage{mwe}
+\usepackage{subfig}
+
+\usepackage{helvet}
+\geometry{
+ a4paper,
+ total={150mm,240mm},
+ left=35mm,
+ top=25mm,
+ }
+
+\usepackage{natbib}
+\usepackage[outputdir=auxil]{minted}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fvextra}
+
+\newcommand*{\urlprefix}{Available from: }
+\newcommand*{\urldateprefix}{Accessed }
+\bibliographystyle{bath}
+
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage[ruled] {algorithm2e}
+\usepackage{url,amsmath,listings,pdfpages,caption,multicol,datetime,rotating, booktabs}
+\usepackage[pagebackref=false,pdffitwindow=true]{hyperref}
+\usepackage{color}
+\newcommand{\latex}{\LaTeX\ }
+\newcommand{\authorName}{By Adam Cordner,
+Chris Perry \& Evie Snuggle}
+\newcommand{\reportTitle}{Cloud Computing with AWS}
+\newcommand{\degreeAward}{BSc. (Hons.) in Computer Science } 
+
+\hypersetup{
+    pdftitle    = {\reportTitle},
+    pdfauthor   = {\authorName},
+    pdfsubject  = {Computer Science},
+    pdfkeywords = {Comma separated list of keywords},
+    colorlinks  = true, anchorcolor = blue, filecolor = blue, urlcolor = blue,
+    linkcolor   = colIdentifier,    %NOTE: change (blue) to (colIdentifier) to have links within the document in Black
+    citecolor   = colIdentifier,    %NOTE: change (blue) to (colIdentifier) to have citation links within the document in Black
+}
+
+\definecolor{colBackGrnd}{rgb}{1,1,0.8}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,.5,0}
+\definecolor{colString}{rgb}{0,0,1}
+\definecolor{colWhite}{rgb}{1,1,1}
+
+\newcommand{\MyHookSign}{\hbox{\ensuremath\hookleftarrow}}
+
+\newtheorem{Theorem}{Theorem}
+\newtheorem{Proposition}[Theorem]{Proposition}
+\newtheorem{Lemma}[Theorem]{Lemma}
+\newtheorem{Proof}[Theorem]{Proof}
+\newtheorem{Remark}[Theorem]{Remark}
+\newtheorem{Claim}[Theorem]{Claim}
+\newtheorem{Example}[Theorem]{Example}
+\newtheorem{Definition}[Theorem]{Definition}
+
+%NOTE: Setup for including program listings
+\lstset{%
+    float=H,
+    basicstyle=\ttfamily\footnotesize,
+    identifierstyle=\color{colIdentifier},
+    keywordstyle=\color{colIdentifier}, %
+    stringstyle=\color{colIdentifier},
+    commentstyle=\color{colIdentifier}, %
+    columns=flexible,
+    tabsize=2,
+    frame=single,
+    extendedchars=true, %
+    showspaces=false,
+    showstringspaces=false,
+    numbers=left, %
+    numberstyle=\footnotesize,
+    breaklines=true,
+    prebreak={\space\MyHookSign},
+    language=Python,
+    backgroundcolor=\color{colBackGrnd},
+    breakautoindent=true, %
+    captionpos=b%
+} %\hypersetup{colorlinks=true, citecolor=\color{colIdentifier}}
+
+\sloppy %NOTE: To ensure the Right Hand Margin is used (Especially for long URLS)
+%NOTE: END of the document configuration settings
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\titlespacing*{\chapter}{0pt}{0pt}{10pt}
+
+\begin{document}
+\DeclareGraphicsExtensions{.jpg,.png,.gif,.pdf}
+
+\title{\huge{\reportTitle}}
+\author{\authorName}
+\degreetitle{\degreeAward} % Replace with appropriate degree
+\rpttype{BSc}    % Replace PhD / MSc  / BSc.
+\principaladviser{\primaryadvisor}
+
+\beforeabstract
+\afterabstract
+\include{intro/introduction}
+\include{webapp/webapp}
+\include{vpc_subnets/vpc_subnets}
+\include{ec2/ec2}
+\include{s3/s3}
+\include{cloud/cloudfront}
+\include{cloud/cloudwatch}
+\include{cloud/cloudtrail}
+\include{database/server_and_database}
+\include{availability_zones/availability_zones}
+\include{elb/elastic_load_balancing}
+\include{security/security_practices}
+\include{cost/cost_breakdown}
+\include{testing/testing}
+\include{future_enhancements/future_enhancements}
+\include{conclusion/conclusion}
+
+\footnotesize
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{thesis}
+
+\normalsize
+\appendix
+\include{appendix}
+\end{document} %NOTE: END of document, nothing after this point

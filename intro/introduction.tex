@@ -1,0 +1,17 @@
+\chapter{Introduction}\label{ch:introduction}
+\pagenumbering{arabic}\setcounter{page}{1}
+
+This report details the process of designing, developing, and deploying a cloud application onto Amazon Web Services (AWS).
+The application is called \textit{Digital Ink} and allows users to create, edit, and delete their own short stories.
+Users can then view their own short stories and other users' short stories.
+It was first developed locally using a LAMP stack.
+This consisted of Linux - hosted through Docker - for the operating system, an Apache HTTP Server, MySQL for the relational database management, and PHP as the programming language.
+
+After the application was built locally, it was gradually integrated onto AWS\@.
+This involved implementing several AWS cloud features to enhance the application, ensure application security, and increase availability.
+This was accomplished by using Simple Storage Service (S3), Elastic Compute Cloud (EC2), ELB (Elastic Load Balancing), and more.
+The process of implementing these cloud features will be discussed throughout the report.
+
+After the application was integrated onto AWS, an evaluation of the process was conducted.
+This includes a discussion of the security practices used, estimated costs for different user scales, and thorough testing.
+Lastly, several enhancements which could be made to the application in the future will be discussed.
