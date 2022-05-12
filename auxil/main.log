@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1818,7 +1818,7 @@ File: resources/database/migrations-records.png Graphic file (type png)
 <use resources/database/migrations-records.png>
 Package pdftex.def Info: resources/database/migrations-records.png  used on inp
 ut line 41.
-(pdftex.def)             Requested size: 332.33936pt x 58.31746pt.
+(pdftex.def)             Requested size: 426.79134pt x 74.89424pt.
 \openout6 = `main.pyg'.
 
 
@@ -1874,7 +1874,7 @@ File: resources/database/users-records.png Graphic file (type png)
 <use resources/database/users-records.png>
 Package pdftex.def Info: resources/database/users-records.png  used on input li
 ne 60.
-(pdftex.def)             Requested size: 309.55888pt x 42.15782pt.
+(pdftex.def)             Requested size: 426.79134pt x 58.1238pt.
 \openout6 = `main.pyg'.
 
 
@@ -2963,9 +2963,6 @@ Cloud Computing/2022-05-04 Cloud Computing Report (Group)/auxil/appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A34EA731FF4D6E1017C8330548B90E3C;5110.
 runsystem(rm auxil//main.pyg)...executed.
@@ -2994,7 +2991,7 @@ xmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Support/
 MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (54 pages, 7853740 bytes).
+/main.pdf" (54 pages, 7853731 bytes).
 PDF statistics:
  817 PDF objects out of 1000 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)
