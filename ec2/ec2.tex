@@ -37,6 +37,7 @@ the security of the project.
 The next stage of the setup process was to set up networking for the EC2 instance, in order for the web app to work with
 Docker to download relevant containers from DockerHub, which will allow a Laravel instance to be initialised, as
 discussed in Section~\ref{ch:web-app}.
+This process can be seen in Figure~\ref{fig:ec2-keypair}.
 
 \begin{figure}[!htbp]
     \centering
@@ -44,8 +45,6 @@ discussed in Section~\ref{ch:web-app}.
     \caption{Selection of EC2 Keypair.}
     \label{fig:ec2-keypair}
 \end{figure}
-
-This process can be seen in Figure~\ref{fig:ec2-keypair}.
 
 The instance is assigned the VPC created in Section~\ref{ch:vpc-subnets}, where it is assigned a subnet in the same
 availability zone of \mintinline{zsh}|us-east-1|.
