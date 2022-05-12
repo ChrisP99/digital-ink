@@ -19,8 +19,8 @@ Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: cloud/cloudwatch.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: cloud/cloudtrail.aux
-Reallocating 'name_of_file' (item size: 1) to 33 items.
-A level-1 auxiliary file: database/server_and_database.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: rds/rds.aux
 Reallocating 'name_of_file' (item size: 1) to 42 items.
 A level-1 auxiliary file: availability_zones/availability_zones.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
@@ -43,7 +43,7 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Warning--empty year in aws2022ec2
 You've used 8 entries,
             3664 wiz_defined-function locations,
-            737 strings with 5967 characters,
+            737 strings with 5946 characters,
 and the built_in function-call counts, 4567 in all, are:
 = -- 322
 > -- 174
