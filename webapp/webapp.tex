@@ -1,7 +1,9 @@
 \chapter{Web App}\label{ch:web-app}
 
 This chapter of the report will detail the local design and development of the \textit{Digital Ink} web application.
-We will first discuss the software stack
+We will first discuss the software stack used to develop the app, then the design of the database used, and, lastly, the design of the user interface.
+
+\section{Software Stack}\label{sec:stack}
 
 \textit{Digital Ink} was first developed locally using a LAMP stack.
 LAMP refers to a generic software stack, where each letter in the acronym stands for one the following open source building blocks: Linux, Apache HTTP Server, MySQL, and PHP \citep{lee2003open}.
@@ -10,6 +12,8 @@ Apache is an open-source web server software which is used to host the app on th
 MySQL is an open-source relational database management system~\citep{widenius2002mysql} which is used to store all the data used within the app, including user details and story details.
 PHP is a programming language aimed towards web development, chosen due to its stability and reliability~\citep{lerdorf2002programming}.
 Additionally, all developers involved have prior experience with PHP\@.
+
+\section{Database Design}\label{sec:database}
 
 As mentioned before, the web app uses the MySQL relational database management system to store its data.
 MySQL is a relational database management system (RDBMS) which stores data in the form of tables, where Structures Query Language (SQL) is used to access the database.
@@ -85,6 +89,8 @@ The \mintinline{sql}|stories| table (see Figure~\ref{fig:stories-records}) conta
     \caption{\mintinline{sql}|stories| table.}
     \label{fig:stories-records}
 \end{figure}
+
+\section{Interface Design}\label{sec:interface}
 
 The design of the web app was created using Blade, a powerful templating engine~\citep{laravel2022blade}.
 When the user initially accesses the web app, they are able to log in or sign up.
