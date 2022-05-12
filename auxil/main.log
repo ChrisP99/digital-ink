@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 19:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1777,7 +1777,7 @@ File: resources/database/tables-overview.png Graphic file (type png)
 <use resources/database/tables-overview.png>
 Package pdftex.def Info: resources/database/tables-overview.png  used on input 
 line 24.
-(pdftex.def)             Requested size: 218.81696pt x 108.40472pt.
+(pdftex.def)             Requested size: 175.05423pt x 86.7241pt.
 \openout6 = `main.pyg'.
 
 
@@ -1792,7 +1792,12 @@ line 24.
 
 
 (auxil/_minted-main/79B8C6F77B24D14985E4EBE1353669CE5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex)
+8BDBB.pygtex) [2
+
+
+
+
+ <./resources/database/tables-overview.png>]
 \openout6 = `main.pyg'.
 
 
@@ -1807,13 +1812,8 @@ line 24.
 
 
 (auxil/_minted-main/3751FE54B793238AE7C09D28A39D45C55DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [2
-
-
-
-
-]
-<resources/database/migrations-records.png, id=356, 474.77374pt x 83.31125pt>
+8BDBB.pygtex)
+<resources/database/migrations-records.png, id=357, 474.77374pt x 83.31125pt>
 File: resources/database/migrations-records.png Graphic file (type png)
 <use resources/database/migrations-records.png>
 Package pdftex.def Info: resources/database/migrations-records.png  used on inp
@@ -1869,7 +1869,7 @@ ut line 41.
 
 (auxil/_minted-main/A85EE4D99BA669DBD96AE527598029B25DCF01D6307777D5E8EDC70A565
 8BDBB.pygtex)
-<resources/database/users-records.png, id=359, 1031.855pt x 140.525pt>
+<resources/database/users-records.png, id=360, 1031.855pt x 140.525pt>
 File: resources/database/users-records.png Graphic file (type png)
 <use resources/database/users-records.png>
 Package pdftex.def Info: resources/database/users-records.png  used on input li
@@ -1884,8 +1884,8 @@ ne 60.
 
 
 (auxil/_minted-main/6711F799EB9198AFABA01C3218D1F7FD5DCF01D6307777D5E8EDC70A565
-8BDBB.pygtex) [3 <./resources/database/tables-overview.png> <./resources/databa
-se/migrations-records.png> <./resources/database/users-records.png>]
+8BDBB.pygtex) [3 <./resources/database/migrations-records.png> <./resources/dat
+abase/users-records.png>]
 \openout6 = `main.pyg'.
 
 
@@ -2994,7 +2994,7 @@ xmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Support/
 MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (54 pages, 7853735 bytes).
+/main.pdf" (54 pages, 7853740 bytes).
 PDF statistics:
  817 PDF objects out of 1000 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)
