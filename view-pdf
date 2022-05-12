@@ -2,3 +2,4 @@
 git add .
 git commit -a -m "Update for PDF please"
 git push --set-upstream origin intellij
+echo "Pleas visit: https://github.com/ChrisP99/digital-ink/blob/intellij/out/main.pdf for pdf"
