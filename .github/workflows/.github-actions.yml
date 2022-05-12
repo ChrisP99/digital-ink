@@ -15,17 +15,20 @@ jobs:
           echo test, and deploy your project.
           pip install Pygments
       - name: Compile LaTeX document
+        if: always()
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.tex
           args: -interaction=nonstopmode -shell-escape
       - name: Compile Bibtex document
+        if: always()
         uses: dante-ev/latex-action@latest
         with:
           compiler: biber
           root_file: main
           args: -interaction=nonstopmode -shell-escape
       - name: Compile LaTeX document
+        if: always()
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.tex
