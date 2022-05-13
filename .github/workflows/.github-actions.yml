@@ -14,18 +14,21 @@ jobs:
         run: |
           pip install Pygments
       - name: pdflatex main
+        if: always()
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
       - name: bibtex main
+        if: always()
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.aux
           compiler: bibtex
           args: 
       - name: pdflatex main
+        if: always()
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.tex
