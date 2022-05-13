@@ -55,6 +55,23 @@ Figure~\ref{fig:cloudwatch-sns-topic} details this process.
     \label{fig:cloudwatch-sns-topic}
 \end{figure}
 
+An email was then sent to all group members upon completion of this form, and the SNS topic was subsequently subscribed
+to, as shown in Figures~\ref{fig:cloudwatch-sns-email} and~\ref{fig:cloudwatch-sns-success}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-email}
+    \caption{CloudWatch SNS Topic Email.}
+    \label{fig:cloudwatch-sns-email}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-alarm-success}
+    \caption{Successful subscription to SNS topic.}
+    \label{fig:cloudwatch-sns-success}
+\end{figure}
+
 The EC2 instance has also been configured to restart when this alarm activates.
 This is done by automatically re-running the scripts used to start the web app on the instance starting up again.
 
@@ -77,7 +94,7 @@ This can be seen in Figure~\ref{fig:cloudwatch-description}.
     \label{fig:cloudwatch-description}
 \end{figure}
 
-the alarm has now been setup, and can be seen in the CloudWatch Management Dashboard in Figure~\ref{fig:cloudwatch-network-alarm}.
+The alarm has now been set up, and can be seen in the CloudWatch Management Dashboard in Figure~\ref{fig:cloudwatch-network-alarm}.
 
 \begin{figure}[!htbp]
     \centering
