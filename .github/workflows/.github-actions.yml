@@ -6,33 +6,28 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
-      - uses: actions/setup-python@v1
-      - name: Run a one-line script
-        run: echo Hello, world!
-      - name: Run a multi-line script
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+      - name: Install pygments dependency
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
           pip install Pygments
-      - name: Compile LaTeX document
-        if: always()
+      - name: pdflatex main
         uses: dante-ev/latex-action@latest
-        run: pip install Pygments
         with:
           root_file: main.tex
+          compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
-      - name: Compile Bibtex document
-        if: always()
+      - name: bibtex main
         uses: dante-ev/latex-action@latest
-        run: pip install Pygments
         with:
-          compiler: biber
-          root_file: main
-          args: -interaction=nonstopmode -shell-escape
-      - name: Compile LaTeX document
-        if: always()
+          root_file: main.aux
+          compiler: bibtex
+          args: 
+      - name: pdflatex main
         uses: dante-ev/latex-action@latest
-        run: pip install Pygments
         with:
           root_file: main.tex
+          compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
