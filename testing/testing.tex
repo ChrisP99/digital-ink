@@ -22,29 +22,47 @@ An example of this structure can be seen in Figure~\ref{fig:gherkin}.
 EC2, S3, CloudFront, RDS, CloudWatch, and CloudTrail were all tested using this approach.
 Screenshots are included to illustrate the results of these tests.
 
+\clearpage
+
 \section{Testing EC2}\label{sec:testing-ec2}
 
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
 Scenario: Accessing instance through SSH with .pem file private key.
-    Given ...
-    When ...
-    Then ...
+    Given that the EC2 instance is running on AWS
+    When the user enters the command "ssh -i Group4_KeyPair.pem ec2-user@52.45.13.111" in the terminal
+    Then the user will be logged into the EC2 instance
     \end{minted}
     \label{fig:accessing-instance-ec2}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
+    \includegraphics[width=\textwidth]{resources/ec2/ec2-logged-in}
+    \label{fig:ec2-test-logged-in}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!htbp]
+    \centering
     \begin{minted}{cucumber}
 Scenario: Accessing web app through EC2 domain name.
-    Given ...
-    When ...
-    Then ...
+    Given that the web app is running on the EC2 instance
+    When the user accesses http://ec2-52-45-13-111.compute-1.amazonaws.com in their browser
+    Then the web app will be loaded
     \end{minted}
     \label{fig:accessing-web-app-ec2}
 \end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/ec2/digital-ink-ec2}
+    \label{fig:ec2-test-digital-ink}
+\end{figure}
+
+\clearpage
 
 \section{Testing S3}\label{sec:testing-s3}
 
@@ -52,12 +70,20 @@ Scenario: Accessing web app through EC2 domain name.
     \centering
     \begin{minted}{cucumber}
 Scenario: Accessing web app image through S3 domain name.
-    Given ...
-    When ...
-    Then ...
+    Given that an image on the web app is in an S3 bucket
+    When the user accesses the URL https://group4-digital-ink-s3.s3.amazonaws.com/ followed by the name of the image
+    Then the user will see the image displayed from the S3 bucket
     \end{minted}
     \label{fig:accessing-image-s3}
 \end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-image-displayed}
+    \label{fig:s3-test-photo}
+\end{figure}
+
+\clearpage
 
 \section{Testing CloudFront}\label{sec:testing-cloudfront}
 
@@ -65,11 +91,17 @@ Scenario: Accessing web app image through S3 domain name.
     \centering
     \begin{minted}{cucumber}
 Scenario: Accessing web app image through CloudFront domain name.
-    Given ...
-    When ...
-    Then ...
+    Given that an image on the web app is in a CloudFront distribution
+    When the user accesses the URL https://d1bdkf7iuqj4qy.cloudfront.net/ followed by the name of the image
+    Then the user will see the image displayed from the CloudFront distribution
     \end{minted}
     \label{fig:accessing-image-cloudfront}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-website}
+    \label{fig:cloudfront-test-photo}
 \end{figure}
 
 \begin{figure}[!htbp]

@@ -26,6 +26,33 @@ There are several options for this, where each configuration has the following f
     \item VPC with Public and Private Subnets: Creates a /16 network and two /24 subnets where the public subnet
     instances use Elastic IPs for internet access and the private subnet instances use NAT for internet access.
     \item VPC with Public and Private Subnets and Hardware VPN Access: Creates a /16 network with two /24 subnets where
-    \ite
-    \item VPC with a Private Subnet Only and Hardware VPN Access
+    one subnet is connected to the internet and another is connected to your personal network via a VPN\@.
+    \item VPC with a Private Subnet Only and Hardware VPN Access: Creates a/16 network and a /24 subnet where the
+    subnet is connected to your personal network via a VPN\@.
 \end{itemize}
+
+For the deployment of this web app, hardware VPN access is not necessary, so the VPC configuration with public and
+private subnets was selected, as seen in Figure~\ref{fig:vpc-step-1}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/step_1_select_a_vpc_configuration}
+    \caption{Selecting a VPC configuration.}
+    \label{fig:vpc-step-1}
+\end{figure}
+
+Following this, the specific details, such as the IP address block, of the selected configuration must be entered.
+An IPv4 CIDR block of \mintinline{zsh}|10.0.0.0/16| was chosen as it provides a large amount of available IP addresses.
+Additionally, no IPv6 CIDR block was configured and the VPC was named \mintinline{zsh}|Group4_VPC|.
+
+Next, the public and private subnets were configured.
+The public subnet was assigned an IPv4 CIDR of \mintinline{zsh}|10.0.0.0/24|, making 251 distinct IP addresses available
+for the public subnet.
+The availability zone of \mintinline{zsh}|us-east-1a| was chosen and the subnet was named
+\mintinline{zsh}|Public subnet 1|.
+The private subnet was assigned an IPv4 CIDR of \mintinline{zsh}|10.0.1.0/24|, making 251 distinct IP addresses
+available for the private subnet as well.
+The availability zone of \mintinline{zsh}|us-east-1a| was chosen and the subnet was named
+\mintinline{zsh}|Private subnet 1|.
+
+

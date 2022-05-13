@@ -23,6 +23,8 @@ the packets which are being outputted can be monitored.
     \label{fig:cloudwatch-metrics}
 \end{figure}
 
+\clearpage
+
 The metric will be configured to alarm in the event that there is less than 5 packets of data sent per day from the
 instance.
 As the instance currently outputs nearly, 30,000 packets per day, this will be useful to check if the web app has failed.
@@ -48,6 +50,8 @@ In addition to the initial configuration of these CloudWatch alarms, SNS topics 
 of the group will be emailed in the event that the alarms activate.
 Figure~\ref{fig:cloudwatch-sns-topic} details this process.
 
+\clearpage
+
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-sns-topic}
@@ -71,6 +75,8 @@ to, as shown in Figures~\ref{fig:cloudwatch-sns-email} and~\ref{fig:cloudwatch-s
     \caption{Successful subscription to SNS topic.}
     \label{fig:cloudwatch-sns-success}
 \end{figure}
+
+\clearpage
 
 The EC2 instance has also been configured to restart when this alarm activates.
 This is done by automatically re-running the scripts used to start the web app on the instance starting up again.
@@ -96,6 +102,8 @@ This can be seen in Figure~\ref{fig:cloudwatch-description}.
 
 The alarm has now been set up, and can be seen in the CloudWatch Management Dashboard in Figure~\ref{fig:cloudwatch-network-alarm}.
 
+\clearpage
+
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-network-alarm-complete}
@@ -117,6 +125,8 @@ A similar process is followed whereby the metric of \mintinline{zsh}|EstimatedCh
 This metric will be configured to alarm in the event that the EC2 instance uses more than \$15 every 6 hours.
 This process can be seen in Figures~\ref{fig:cloudwatch-charges-config-1} and~\ref{fig:cloudwatch-charges-config-2}.
 
+\clearpage
+
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-config-1}
@@ -126,9 +136,21 @@ This process can be seen in Figures~\ref{fig:cloudwatch-charges-config-1} and~\r
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-alarm-success}
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-config-2}
     \caption{Configuration of CloudWatch alarm.}
     \label{fig:cloudwatch-charges-config-2}
+\end{figure}
+
+In addition to this, alerts will be sent to the same SNS topic configured earlier.
+This can be seen in Figure~\ref{fig:cloudwatch-charges-sns}.
+
+\clearpage
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-sns}
+    \caption{Setting CloudWatch charges SNS topic}
+    \label{fig:cloudwatch-charges-sns}
 \end{figure}
 
 A brief description was added to the alarm, as seen in Figure~\ref{fig:cloudwatch-charges-description}.
@@ -138,6 +160,17 @@ A brief description was added to the alarm, as seen in Figure~\ref{fig:cloudwatc
     \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-description}
     \caption{Description of CloudWatch alarm.}
     \label{fig:cloudwatch-charges-description}
+\end{figure}
+
+\clearpage
+
+The alarm is now live and can be seen in Figure~\ref{fig:cloudwatch-charges-dashboard}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-dashboard}
+    \caption{CloudWatch charges alarm live in CloudWatch dashboard.}
+    \label{fig:cloudwatch-charges-dashboard}
 \end{figure}
 
 
