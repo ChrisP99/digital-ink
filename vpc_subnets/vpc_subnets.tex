@@ -24,6 +24,7 @@ Availability Zone selected when configuring the VPC\@.
 Once this has been set, and the remaining options are set to their default values, clicking the Allocate button will
 create the Elastic IP address.
 
+\clearpage
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/vpc/vpc_elastic_ip_addresses}
@@ -40,6 +41,7 @@ After this, the Elastic IP address created can be seen from the Elastic IP addre
     \label{fig:elastic-ip-addresses}
 \end{figure}
 
+\clearpage
 \section{VPC and Subnets}\label{sec:vpc-and-subnets}
 
 The first step of migrating the web app to the cloud was creating a VPC to deploy and manage AWS resources for the app.
@@ -71,9 +73,10 @@ There are several options for this, where each configuration has the following f
 For the deployment of this web app, hardware VPN access is not necessary, so the VPC configuration with public and
 private subnets was selected, as seen in Figure~\ref{fig:vpc-step-1}.
 
+\clearpage
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/step_1_select_a_vpc_configuration}
+    \includegraphics[width=125mm]{resources/vpc/step_1_select_a_vpc_configuration}
     \caption{Selecting a VPC configuration.}
     \label{fig:vpc-step-1}
 \end{figure}
@@ -98,25 +101,24 @@ Clicking the Create VPC button now will generate the VPC with the specified conf
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/step_2_vpc_with_public_and_private_subnets}
+    \includegraphics[width=125mm]{resources/vpc/step_2_vpc_with_public_and_private_subnets}
     \caption{Configuring VPC public and private subnets.}
     \label{fig:vpc-step-2}
 \end{figure}
 
+\clearpage
 After this, AWS takes a few minutes to generate the VPC\@.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/step_3_create_vpc}
+    \begin{subfigure}
+        \includegraphics[width=\textwidth]{resources/vpc/step_3_create_vpc}
+    \end{subfigure}
+    \begin{subfigure}
+        \includegraphics[width=\textwidth]{resources/vpc/vpc_successfully_created}
+    \end{subfigure}
     \caption{Generating the VPC.}
-    \label{fig:vpc-step-3}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/vpc/vpc_successfully_created}
-    \caption{VPC successfully created.}
-    \label{fig:vpc-step-4}
+    \label{fig:vpc-step-3-and-4}
 \end{figure}
 
 Navigating from here to the "Your VPCs" page shows two available VPCs: the VPC created by the AWS sandbox
@@ -132,7 +134,7 @@ environment, which will not be used, and the VPC which has just been created, na
 \section{Internet Gateway}\label{sec:internet-gateway}
 
 An internet gateway is required for resources, such as EC2, to be able to communicate with the internet, if the resource
-has a public IP address.
+has a public IP address~\parencite{amazon2022connect}.
 To do this, navigate to the "Internet gateways" page and click the "Create internet gateway" button.
 Here, enter the internet gateway name, such as \mintinline{zsh}|Group4-Internet-Gateway|.
 
