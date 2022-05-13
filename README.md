@@ -6,9 +6,9 @@ To run, you require [Docker Desktop](https://www.docker.com/products/docker-desk
 
 ## Setting up
 
-- Clone this repository
+- Clone this repository.
 
-- Rename your folder to anything you want
+- Rename your folder to anything you want.
 
 - Create your `.docker.env` and `.env` files. To do this, Copy and rename the `*.env.example` examples included in the package.  This may be easier done from the command line as these files are considered hidden by the OS.  In macOS/Bash use `cp .docker.env.example .docker/.docker.env && cp .env.example .env`.  In Windows command prompt use `copy .docker.env.example .docker\.docker.env` and `copy .env.example .env`.  The `.docker.env` file has some variables necessary to enable XDEBUG in php.  You **_ONLY_** need this if you intend to use an IDE such as PHPStorm to develop your application.  In particular, pay attention to the "Remote Host" variable.  This IP must point to your computer's IP.
 
