@@ -28,7 +28,7 @@ Screenshots are included to illustrate the results of these tests.
     \centering
     \begin{minted}{cucumber}
 Scenario: Accessing instance through SSH with .pem file private key.
-    Given that the EC2 instance is running on AWS
+    Given that the EC2 instance is running on AWS and the user has EC2 keypair
     When the user enters the command
     "ssh -i Group4_KeyPair.pem ec2-user@52.45.13.111" in the terminal
     Then the user will be logged into the EC2 instance
