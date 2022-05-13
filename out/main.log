@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  13 MAY 2022 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  13 MAY 2022 23:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2289,36 +2289,91 @@ File: resources/vpc/step_2_vpc_with_public_and_private_subnets.png Graphic file
 Package pdftex.def Info: resources/vpc/step_2_vpc_with_public_and_private_subne
 ts.png  used on input line 104.
 (pdftex.def)             Requested size: 355.65944pt x 173.6307pt.
-<resources/vpc/step_3_create_vpc.png, id=471, 1424.32124pt x 117.94063pt>
+ [11
+
+ <./resources/vpc/step_1_select_a_vpc_configuration.png> <./resources/vpc/step_
+2_vpc_with_public_and_private_subnets.png>]
+
+vpc_subnets/vpc_subnets.tex:114: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114     \begin{subfigure}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/vpc/step_3_create_vpc.png, id=477, 1424.32124pt x 117.94063pt>
 File: resources/vpc/step_3_create_vpc.png Graphic file (type png)
 <use resources/vpc/step_3_create_vpc.png>
 Package pdftex.def Info: resources/vpc/step_3_create_vpc.png  used on input lin
-e 113.
+e 115.
 (pdftex.def)             Requested size: 426.79134pt x 35.33926pt.
-<resources/vpc/vpc_successfully_created.png, id=472, 1439.3775pt x 184.18813pt>
+
+vpc_subnets/vpc_subnets.tex:116: LaTeX Error: \begin{figure} on input line 112 
+ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+vpc_subnets/vpc_subnets.tex:117: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117     \begin{subfigure}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/vpc/vpc_successfully_created.png, id=478, 1439.3775pt x 184.18813pt>
 
 File: resources/vpc/vpc_successfully_created.png Graphic file (type png)
 <use resources/vpc/vpc_successfully_created.png>
 Package pdftex.def Info: resources/vpc/vpc_successfully_created.png  used on in
-put line 120.
+put line 118.
 (pdftex.def)             Requested size: 426.79134pt x 54.61325pt.
+
+vpc_subnets/vpc_subnets.tex:119: LaTeX Error: \begin{figure} on input line 112 
+ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 \openout6 = `main.pyg'.
 
 
 (out/_minted-main/0C8F76A078DD137BE97989E8CD7049F657DAFF7AA972FC494BD14221DF198
-283.pygtex) [11
-
- <./resources/vpc/step_1_select_a_vpc_configuration.png> <./resources/vpc/step_
-2_vpc_with_public_and_private_subnets.png>]
+283.pygtex)
 <resources/vpc/your_vpcs.png, id=479, 1445.4pt x 745.78625pt>
 File: resources/vpc/your_vpcs.png Graphic file (type png)
 <use resources/vpc/your_vpcs.png>
-Package pdftex.def Info: resources/vpc/your_vpcs.png  used on input line 130.
+Package pdftex.def Info: resources/vpc/your_vpcs.png  used on input line 129.
 (pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
 
 
 LaTeX Warning: Citation 'amazon2022connect' on page 12 undefined on input line 
-138.
+137.
 
 \openout6 = `main.pyg'.
 
@@ -2329,21 +2384,23 @@ LaTeX Warning: Citation 'amazon2022connect' on page 12 undefined on input line
 File: resources/vpc/internet-gateway-1.png Graphic file (type png)
 <use resources/vpc/internet-gateway-1.png>
 Package pdftex.def Info: resources/vpc/internet-gateway-1.png  used on input li
-ne 144.
+ne 143.
 (pdftex.def)             Requested size: 426.79134pt x 218.73636pt.
 <resources/vpc/internet-gateway-2.png, id=481, 1445.4pt x 294.09875pt>
 File: resources/vpc/internet-gateway-2.png Graphic file (type png)
 <use resources/vpc/internet-gateway-2.png>
 Package pdftex.def Info: resources/vpc/internet-gateway-2.png  used on input li
-ne 155.
+ne 154.
 (pdftex.def)             Requested size: 426.79134pt x 86.83914pt.
 \openout6 = `main.pyg'.
 
 
 (out/_minted-main/991F2210615615184ED42D10E754DD3557DAFF7AA972FC494BD14221DF198
-283.pygtex) [12 <./resources/vpc/step_3_create_vpc.png> <./resources/vpc/vpc_su
-ccessfully_created.png> <./resources/vpc/your_vpcs.png>] [13 <./resources/vpc/i
-nternet-gateway-1.png> <./resources/vpc/internet-gateway-2.png>]
+283.pygtex) [12
+
+ <./resources/vpc/step_3_create_vpc.png> <./resources/vpc/vpc_successfully_crea
+ted.png> <./resources/vpc/your_vpcs.png>] [13 <./resources/vpc/internet-gateway
+-1.png> <./resources/vpc/internet-gateway-2.png>]
 \openout6 = `main.pyg'.
 
 
@@ -2363,7 +2420,7 @@ nternet-gateway-1.png> <./resources/vpc/internet-gateway-2.png>]
 File: resources/vpc/routes/vpc-public-subnet-2.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-subnet-2.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-public-subnet-2.png  used on 
-input line 176.
+input line 175.
 (pdftex.def)             Requested size: 426.79134pt x 221.39539pt.
 \openout6 = `main.pyg'.
 
@@ -2385,7 +2442,7 @@ input line 176.
 File: resources/vpc/routes/vpc-private-subnet-2.png Graphic file (type png)
 <use resources/vpc/routes/vpc-private-subnet-2.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-private-subnet-2.png  used on
- input line 187.
+ input line 186.
 (pdftex.def)             Requested size: 426.79134pt x 218.4316pt.
 \openout6 = `main.pyg'.
 
@@ -2396,7 +2453,7 @@ Package pdftex.def Info: resources/vpc/routes/vpc-private-subnet-2.png  used on
 File: resources/vpc/routes/vpc-subnets-2.png Graphic file (type png)
 <use resources/vpc/routes/vpc-subnets-2.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-subnets-2.png  used on input 
-line 197.
+line 196.
 (pdftex.def)             Requested size: 426.79134pt x 114.07056pt.
 \openout6 = `main.pyg'.
 
@@ -2412,13 +2469,13 @@ line 197.
 File: resources/vpc/routes/vpc-public-route.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-route.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-public-route.png  used on inp
-ut line 209.
+ut line 208.
 (pdftex.def)             Requested size: 426.79134pt x 144.14511pt.
 <resources/vpc/routes/vpc-private-route.png, id=500, 1445.4pt x 485.815pt>
 File: resources/vpc/routes/vpc-private-route.png Graphic file (type png)
 <use resources/vpc/routes/vpc-private-route.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-private-route.png  used on in
-put line 216.
+put line 215.
 (pdftex.def)             Requested size: 426.79134pt x 143.44762pt.
 \openout6 = `main.pyg'.
 
@@ -2437,13 +2494,13 @@ png> <./resources/vpc/routes/vpc-public-route.png>]
 File: resources/vpc/routes/vpc-subnet-public-ass.png Graphic file (type png)
 <use resources/vpc/routes/vpc-subnet-public-ass.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-subnet-public-ass.png  used o
-n input line 231.
+n input line 230.
 (pdftex.def)             Requested size: 426.79134pt x 205.98366pt.
 <resources/vpc/routes/vpc-subnet-private-ass.png, id=514, 1445.4pt x 682.55pt>
 File: resources/vpc/routes/vpc-subnet-private-ass.png Graphic file (type png)
 <use resources/vpc/routes/vpc-subnet-private-ass.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-subnet-private-ass.png  used 
-on input line 238.
+on input line 237.
 (pdftex.def)             Requested size: 426.79134pt x 201.53796pt.
 \openout6 = `main.pyg'.
 
@@ -2465,7 +2522,7 @@ on input line 238.
 File: resources/vpc/routes/vpc-public-route-table.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-route-table.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-public-route-table.png  used 
-on input line 251.
+on input line 250.
 (pdftex.def)             Requested size: 426.79134pt x 143.44762pt.
 \openout6 = `main.pyg'.
 
@@ -2477,7 +2534,7 @@ t>
 File: resources/vpc/routes/vpc-public-route-after.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-route-after.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-public-route-after.png  used 
-on input line 261.
+on input line 260.
 (pdftex.def)             Requested size: 426.79134pt x 188.2009pt.
 ) [16 <./resources/vpc/routes/vpc-private-route.png> <./resources/vpc/routes/vp
 c-subnet-public-ass.png>] [17 <./resources/vpc/routes/vpc-subnet-private-ass.pn
@@ -2587,12 +2644,12 @@ sed on input line 77.
 
 (out/_minted-main/95DBB0600960EFD2CF23C5F2058E461657DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/ec2/ec2-logged-in.png, id=567, 676.02562pt x 199.74625pt>
+<resources/ec2/ec2-logged-in.png, id=567, 1015.795pt x 225.84375pt>
 File: resources/ec2/ec2-logged-in.png Graphic file (type png)
 <use resources/ec2/ec2-logged-in.png>
 Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
 7.
-(pdftex.def)             Requested size: 426.79134pt x 126.10901pt.
+(pdftex.def)             Requested size: 426.79134pt x 94.88818pt.
  [22
 
  <./resources/ec2/ec2-logged-in.png>]
@@ -3160,7 +3217,7 @@ File: resources/ec2/ec2-logged-in.png Graphic file (type png)
 <use resources/ec2/ec2-logged-in.png>
 Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 41
 .
-(pdftex.def)             Requested size: 426.79134pt x 126.10901pt.
+(pdftex.def)             Requested size: 426.79134pt x 94.88818pt.
  [49
 
 
@@ -3185,7 +3242,7 @@ Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line
 
 (out/_minted-main/92D4E89D42ABD2C03866F18274521491C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/s3/s3-image-displayed.png, id=789, 1445.4pt x 813.0375pt>
+<resources/s3/s3-image-displayed.png, id=788, 1445.4pt x 813.0375pt>
 File: resources/s3/s3-image-displayed.png Graphic file (type png)
 <use resources/s3/s3-image-displayed.png>
 Package pdftex.def Info: resources/s3/s3-image-displayed.png  used on input lin
@@ -3212,26 +3269,26 @@ nput line 105.
 
 (out/_minted-main/28E85E45603E13B7E907FFD0E7821472C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/cloudfront/cloudfront-test-uk.png, id=803, 1445.4pt x 809.0225pt>
+<resources/cloudfront/cloudfront-test-uk.png, id=802, 1445.4pt x 809.0225pt>
 File: resources/cloudfront/cloudfront-test-uk.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-uk.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-test-uk.png  used on i
 nput line 124.
 (pdftex.def)             Requested size: 426.79134pt x 238.88177pt.
-<resources/cloudfront/cloudfront-test-uk-ip.png, id=804, 713.16437pt x 421.0731
+<resources/cloudfront/cloudfront-test-uk-ip.png, id=803, 713.16437pt x 421.0731
 2pt>
 File: resources/cloudfront/cloudfront-test-uk-ip.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-uk-ip.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-test-uk-ip.png  used o
 n input line 131.
 (pdftex.def)             Requested size: 426.79134pt x 251.99046pt.
-<resources/cloudfront/cloudfront-test-us.png, id=805, 1445.4pt x 850.17625pt>
+<resources/cloudfront/cloudfront-test-us.png, id=804, 1445.4pt x 850.17625pt>
 File: resources/cloudfront/cloudfront-test-us.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-us.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-test-us.png  used on i
 nput line 138.
 (pdftex.def)             Requested size: 426.79134pt x 251.03333pt.
-<resources/cloudfront/cloudfront-test-us-ip.png, id=806, 709.65125pt x 444.6612
+<resources/cloudfront/cloudfront-test-us-ip.png, id=805, 709.65125pt x 444.6612
 5pt>
 File: resources/cloudfront/cloudfront-test-us-ip.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-us-ip.png>
@@ -3389,28 +3446,24 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31956 strings out of 478553
- 708356 string characters out of 2839088
+ 31955 strings out of 478553
+ 708313 string characters out of 2839088
  1497281 words of memory out of 3000000
- 48890 multiletter control sequences out of 15000+600000
+ 48891 multiletter control sequences out of 15000+600000
  500531 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,7n,106p,1195b,1192s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{http://ec2-52-45-13-111.compute-1.amazonaws.com/} h
-as been referenced but does not exist, replaced by a fixed one
-
-{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
-} </Users/chris/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/
-jknappen/ec/dpi600/ectt1095.pk></Library/Application Support/MiKTeX/texmfs/inst
-all/fonts/type1/urw/helvetic/uhvb8a.pfb></Library/Application Support/MiKTeX/te
-xmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Support/
-MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
+{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.e
+nc} </Users/chris/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfou
+r/jknappen/ec/dpi600/ectt1095.pk></Library/Application Support/MiKTeX/texmfs/in
+stall/fonts/type1/urw/helvetic/uhvb8a.pfb></Library/Application Support/MiKTeX/
+texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (65 pages, 14581210 bytes).
+/main.pdf" (65 pages, 14644896 bytes).
 PDF statistics:
- 971 PDF objects out of 1000 (max. 8388607)
- 204 named destinations out of 1000 (max. 500000)
+ 970 PDF objects out of 1000 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
  715 words of extra memory for PDF output out of 10000 (max. 10000000)
 
