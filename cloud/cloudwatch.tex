@@ -103,6 +103,17 @@ The alarm has now been set up, and can be seen in the CloudWatch Management Dash
     \label{fig:cloudwatch-network-alarm}
 \end{figure}
 
+In addition to the created network alarm, a charges alarm will also be set up.
+A similar process is followed whereby the metric of \mintinline{zsh}|EstimatedCharges| is applied to all
+\mintinline{zsh}|AmazonEC2| instances, as detailed in Figure~\ref{fig:cloudwatch-metric-charges}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-metric-charges}
+    \caption{Selection of \mintinline{zsh}|EstimatedCharges| CloudWatch metric.}
+    \label{fig:cloudwatch-metric-charges}
+\end{figure}
+
 
 
 

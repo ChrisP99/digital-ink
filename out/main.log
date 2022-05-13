@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  13 MAY 2022 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  13 MAY 2022 16:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -377,43 +377,27 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangrammax=\count298
 ))
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subfi
-g/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+gure/subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen166
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen167
+\subfiglabelskip=\skip54
+\c@subfigure=\count299
+\c@lofdepth=\count300
+\c@subtable=\count301
+\c@lotdepth=\count302
 
-(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
-on/caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
 
-(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
-on/caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen166
-\captionmargin=\dimen167
-\caption@leftmargin=\dimen168
-\caption@rightmargin=\dimen169
-\caption@width=\dimen170
-\caption@indent=\dimen171
-\caption@parindent=\dimen172
-\caption@hangindent=\dimen173
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count299
-\c@continuedfloat=\count300
-Package caption Info: float package is loaded.
-)
-\c@KVtest=\count301
-\sf@farskip=\skip51
-\sf@captopadj=\dimen174
-\sf@capskip=\skip52
-\sf@nearskip=\skip53
-\c@subfigure=\count302
-\c@subfigure@save=\count303
-\c@lofdepth=\count304
-\c@subtable=\count305
-\c@subtable@save=\count306
-\c@lotdepth=\count307
-\sf@top=\skip54
-\sf@bottom=\skip55
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subfi
+gure/subfigure.cfg)
+\subfig@top=\skip55
+\subfig@bottom=\skip56
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfs
 s/helvet.sty
@@ -426,7 +410,7 @@ Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/logre
 q/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count308
+\lrq@indent=\count303
 
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/logre
 q/logreq.def
@@ -439,62 +423,62 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count309
-\c@listtotal=\count310
-\c@listcount=\count311
-\c@liststart=\count312
-\c@liststop=\count313
-\c@citecount=\count314
-\c@citetotal=\count315
-\c@multicitecount=\count316
-\c@multicitetotal=\count317
-\c@instcount=\count318
-\c@maxnames=\count319
-\c@minnames=\count320
-\c@maxitems=\count321
-\c@minitems=\count322
-\c@citecounter=\count323
-\c@maxcitecounter=\count324
-\c@savedcitecounter=\count325
-\c@uniquelist=\count326
-\c@uniquename=\count327
-\c@refsection=\count328
-\c@refsegment=\count329
-\c@maxextratitle=\count330
-\c@maxextratitleyear=\count331
-\c@maxextraname=\count332
-\c@maxextradate=\count333
-\c@maxextraalpha=\count334
-\c@abbrvpenalty=\count335
-\c@highnamepenalty=\count336
-\c@lownamepenalty=\count337
-\c@maxparens=\count338
-\c@parenlevel=\count339
-\blx@tempcnta=\count340
-\blx@tempcntb=\count341
-\blx@tempcntc=\count342
-\c@blx@maxsection=\count343
-\c@blx@maxsegment@0=\count344
-\blx@notetype=\count345
-\blx@parenlevel@text=\count346
-\blx@parenlevel@foot=\count347
-\c@blx@sectionciteorder@0=\count348
-\blx@entrysetcounter=\count349
-\blx@biblioinstance=\count350
-\labelnumberwidth=\skip56
-\labelalphawidth=\skip57
-\biblabelsep=\skip58
-\bibitemsep=\skip59
-\bibnamesep=\skip60
-\bibinitsep=\skip61
-\bibparsep=\skip62
-\bibhang=\skip63
+\c@tabx@nest=\count304
+\c@listtotal=\count305
+\c@listcount=\count306
+\c@liststart=\count307
+\c@liststop=\count308
+\c@citecount=\count309
+\c@citetotal=\count310
+\c@multicitecount=\count311
+\c@multicitetotal=\count312
+\c@instcount=\count313
+\c@maxnames=\count314
+\c@minnames=\count315
+\c@maxitems=\count316
+\c@minitems=\count317
+\c@citecounter=\count318
+\c@maxcitecounter=\count319
+\c@savedcitecounter=\count320
+\c@uniquelist=\count321
+\c@uniquename=\count322
+\c@refsection=\count323
+\c@refsegment=\count324
+\c@maxextratitle=\count325
+\c@maxextratitleyear=\count326
+\c@maxextraname=\count327
+\c@maxextradate=\count328
+\c@maxextraalpha=\count329
+\c@abbrvpenalty=\count330
+\c@highnamepenalty=\count331
+\c@lownamepenalty=\count332
+\c@maxparens=\count333
+\c@parenlevel=\count334
+\blx@tempcnta=\count335
+\blx@tempcntb=\count336
+\blx@tempcntc=\count337
+\c@blx@maxsection=\count338
+\c@blx@maxsegment@0=\count339
+\blx@notetype=\count340
+\blx@parenlevel@text=\count341
+\blx@parenlevel@foot=\count342
+\c@blx@sectionciteorder@0=\count343
+\blx@entrysetcounter=\count344
+\blx@biblioinstance=\count345
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count351
-\c@maxcomprange=\count352
-\c@mincompwidth=\count353
+\c@mincomprange=\count346
+\c@maxcomprange=\count347
+\c@mincompwidth=\count348
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -506,88 +490,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count354
-\c@savedafterword=\count355
-\c@annotator=\count356
-\c@savedannotator=\count357
-\c@author=\count358
-\c@savedauthor=\count359
-\c@bookauthor=\count360
-\c@savedbookauthor=\count361
-\c@commentator=\count362
-\c@savedcommentator=\count363
-\c@editor=\count364
-\c@savededitor=\count365
-\c@editora=\count366
-\c@savededitora=\count367
-\c@editorb=\count368
-\c@savededitorb=\count369
-\c@editorc=\count370
-\c@savededitorc=\count371
-\c@foreword=\count372
-\c@savedforeword=\count373
-\c@holder=\count374
-\c@savedholder=\count375
-\c@introduction=\count376
-\c@savedintroduction=\count377
-\c@namea=\count378
-\c@savednamea=\count379
-\c@nameb=\count380
-\c@savednameb=\count381
-\c@namec=\count382
-\c@savednamec=\count383
-\c@translator=\count384
-\c@savedtranslator=\count385
-\c@shortauthor=\count386
-\c@savedshortauthor=\count387
-\c@shorteditor=\count388
-\c@savedshorteditor=\count389
-\c@labelname=\count390
-\c@savedlabelname=\count391
-\c@institution=\count392
-\c@savedinstitution=\count393
-\c@lista=\count394
-\c@savedlista=\count395
-\c@listb=\count396
-\c@savedlistb=\count397
-\c@listc=\count398
-\c@savedlistc=\count399
-\c@listd=\count400
-\c@savedlistd=\count401
-\c@liste=\count402
-\c@savedliste=\count403
-\c@listf=\count404
-\c@savedlistf=\count405
-\c@location=\count406
-\c@savedlocation=\count407
-\c@organization=\count408
-\c@savedorganization=\count409
-\c@origlocation=\count410
-\c@savedoriglocation=\count411
-\c@origpublisher=\count412
-\c@savedorigpublisher=\count413
-\c@publisher=\count414
-\c@savedpublisher=\count415
-\c@language=\count416
-\c@savedlanguage=\count417
-\c@origlanguage=\count418
-\c@savedoriglanguage=\count419
-\c@pageref=\count420
-\c@savedpageref=\count421
-\shorthandwidth=\skip64
-\shortjournalwidth=\skip65
-\shortserieswidth=\skip66
-\shorttitlewidth=\skip67
-\shortauthorwidth=\skip68
-\shorteditorwidth=\skip69
-\locallabelnumberwidth=\skip70
-\locallabelalphawidth=\skip71
-\localshorthandwidth=\skip72
-\localshortjournalwidth=\skip73
-\localshortserieswidth=\skip74
-\localshorttitlewidth=\skip75
-\localshortauthorwidth=\skip76
-\localshorteditorwidth=\skip77
+\c@afterword=\count349
+\c@savedafterword=\count350
+\c@annotator=\count351
+\c@savedannotator=\count352
+\c@author=\count353
+\c@savedauthor=\count354
+\c@bookauthor=\count355
+\c@savedbookauthor=\count356
+\c@commentator=\count357
+\c@savedcommentator=\count358
+\c@editor=\count359
+\c@savededitor=\count360
+\c@editora=\count361
+\c@savededitora=\count362
+\c@editorb=\count363
+\c@savededitorb=\count364
+\c@editorc=\count365
+\c@savededitorc=\count366
+\c@foreword=\count367
+\c@savedforeword=\count368
+\c@holder=\count369
+\c@savedholder=\count370
+\c@introduction=\count371
+\c@savedintroduction=\count372
+\c@namea=\count373
+\c@savednamea=\count374
+\c@nameb=\count375
+\c@savednameb=\count376
+\c@namec=\count377
+\c@savednamec=\count378
+\c@translator=\count379
+\c@savedtranslator=\count380
+\c@shortauthor=\count381
+\c@savedshortauthor=\count382
+\c@shorteditor=\count383
+\c@savedshorteditor=\count384
+\c@labelname=\count385
+\c@savedlabelname=\count386
+\c@institution=\count387
+\c@savedinstitution=\count388
+\c@lista=\count389
+\c@savedlista=\count390
+\c@listb=\count391
+\c@savedlistb=\count392
+\c@listc=\count393
+\c@savedlistc=\count394
+\c@listd=\count395
+\c@savedlistd=\count396
+\c@liste=\count397
+\c@savedliste=\count398
+\c@listf=\count399
+\c@savedlistf=\count400
+\c@location=\count401
+\c@savedlocation=\count402
+\c@organization=\count403
+\c@savedorganization=\count404
+\c@origlocation=\count405
+\c@savedoriglocation=\count406
+\c@origpublisher=\count407
+\c@savedorigpublisher=\count408
+\c@publisher=\count409
+\c@savedpublisher=\count410
+\c@language=\count411
+\c@savedlanguage=\count412
+\c@origlanguage=\count413
+\c@savedoriglanguage=\count414
+\c@pageref=\count415
+\c@savedpageref=\count416
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+\locallabelnumberwidth=\skip71
+\locallabelalphawidth=\skip72
+\localshorthandwidth=\skip73
+\localshortjournalwidth=\skip74
+\localshortserieswidth=\skip75
+\localshorttitlewidth=\skip76
+\localshortauthorwidth=\skip77
+\localshorteditorwidth=\skip78
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -601,19 +585,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/biblatex
 .def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count422
-\c@textcitetotal=\count423
-\c@textcitemaxnames=\count424
-\c@biburlbigbreakpenalty=\count425
-\c@biburlbreakpenalty=\count426
-\c@biburlnumpenalty=\count427
-\c@biburlucpenalty=\count428
-\c@biburllcpenalty=\count429
+\c@textcitecount=\count417
+\c@textcitetotal=\count418
+\c@textcitemaxnames=\count419
+\c@biburlbigbreakpenalty=\count420
+\c@biburlbreakpenalty=\count421
+\c@biburlnumpenalty=\count422
+\c@biburlucpenalty=\count423
+\c@biburllcpenalty=\count424
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count430
+\c@smartand=\count425
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -636,8 +620,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/biblatex/bbx/stan
 dard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count431
-\c@bbx:relatedtotal=\count432
+\c@bbx:relatedcount=\count426
+\c@bbx:relatedtotal=\count427
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -694,7 +678,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\bibsep=\skip78
+\bibsep=\skip79
 LaTeX Info: Redefining \citet on input line 685.
 LaTeX Info: Redefining \citep on input line 691.
 LaTeX Info: Redefining \cite on input line 694.
@@ -771,7 +755,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\c@NAT@ctr=\count433
+\c@NAT@ctr=\count428
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/minte
 d/minted.sty
@@ -784,11 +768,11 @@ Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancy
 vrb/fancyvrb.sty
 Package: fancyvrb 2022/04/12 4.2 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count434
+\FV@CodeLineNo=\count429
 \FV@InFile=\read4
 \FV@TabBox=\box56
-\c@FancyVerbLine=\count435
-\FV@StepNumber=\count436
+\c@FancyVerbLine=\count430
+\FV@StepNumber=\count431
 \FV@OutFile=\write5
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/upquo
@@ -799,87 +783,84 @@ tim
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/linen
 o/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count437
+\linenopenalty=\count432
 \output=\toks28
-\linenoprevgraf=\count438
-\linenumbersep=\dimen175
-\linenumberwidth=\dimen176
-\c@linenumber=\count439
-\c@pagewiselinenumber=\count440
-\c@LN@truepage=\count441
-\c@internallinenumber=\count442
-\c@internallinenumbers=\count443
-\quotelinenumbersep=\dimen177
-\bframerule=\dimen178
-\bframesep=\dimen179
+\linenoprevgraf=\count433
+\linenumbersep=\dimen168
+\linenumberwidth=\dimen169
+\c@linenumber=\count434
+\c@pagewiselinenumber=\count435
+\c@LN@truepage=\count436
+\c@internallinenumber=\count437
+\c@internallinenumbers=\count438
+\quotelinenumbersep=\dimen170
+\bframerule=\dimen171
+\bframesep=\dimen172
 \bframebox=\box57
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count444
-\c@FV@TrueTabCounter=\count445
+\c@FV@TrueTabGroupLevel=\count439
+\c@FV@TrueTabCounter=\count440
 \FV@TabBox@Group=\box58
-\FV@TmpLength=\skip79
-\c@FV@HighlightLinesStart=\count446
-\c@FV@HighlightLinesStop=\count447
-\FV@LoopCount=\count448
+\FV@TmpLength=\skip80
+\c@FV@HighlightLinesStart=\count441
+\c@FV@HighlightLinesStop=\count442
+\FV@LoopCount=\count443
 \FV@NCharsBox=\box59
-\FV@BreakIndent=\dimen180
-\FV@BreakIndentNChars=\count449
-\FV@BreakSymbolSepLeft=\dimen181
-\FV@BreakSymbolSepLeftNChars=\count450
-\FV@BreakSymbolSepRight=\dimen182
-\FV@BreakSymbolSepRightNChars=\count451
-\FV@BreakSymbolIndentLeft=\dimen183
-\FV@BreakSymbolIndentLeftNChars=\count452
-\FV@BreakSymbolIndentRight=\dimen184
-\FV@BreakSymbolIndentRightNChars=\count453
-\c@FancyVerbLineBreakLast=\count454
+\FV@BreakIndent=\dimen173
+\FV@BreakIndentNChars=\count444
+\FV@BreakSymbolSepLeft=\dimen174
+\FV@BreakSymbolSepLeftNChars=\count445
+\FV@BreakSymbolSepRight=\dimen175
+\FV@BreakSymbolSepRightNChars=\count446
+\FV@BreakSymbolIndentLeft=\dimen176
+\FV@BreakSymbolIndentLeftNChars=\count447
+\FV@BreakSymbolIndentRight=\dimen177
+\FV@BreakSymbolIndentRightNChars=\count448
+\c@FancyVerbLineBreakLast=\count449
 \FV@LineBox=\box60
 \FV@LineIndentBox=\box61
-\FV@LineWidth=\dimen185
+\FV@LineWidth=\dimen178
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count455
-\calc@Bcount=\count456
-\calc@Adimen=\dimen186
-\calc@Bdimen=\dimen187
-\calc@Askip=\skip80
-\calc@Bskip=\skip81
+\calc@Acount=\count450
+\calc@Bcount=\count451
+\calc@Adimen=\dimen179
+\calc@Bdimen=\dimen180
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count457
-\calc@Cskip=\skip82
+\calc@Ccount=\count452
+\calc@Cskip=\skip83
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstri
 ng/xstring.sty
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xst
 ring/xstring.tex
-\integerpart=\count458
-\decimalpart=\count459
+\integerpart=\count453
+\decimalpart=\count454
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/frame
 d/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip83
-\fb@frw=\dimen188
-\fb@frh=\dimen189
-\FrameRule=\dimen190
-\FrameSep=\dimen191
+\OuterFrameSep=\skip84
+\fb@frw=\dimen181
+\fb@frh=\dimen182
+\FrameRule=\dimen183
+\FrameSep=\dimen184
 )
 \minted@appexistsfile=\read5
 \minted@bgbox=\box62
 \minted@code=\write6
-\c@minted@FancyVerbLineTemp=\count460
-\c@minted@pygmentizecounter=\count461
+\c@minted@FancyVerbLineTemp=\count455
+\c@minted@pygmentizecounter=\count456
 \@float@every@listing=\toks29
-\c@listing=\count462
+\c@listing=\count457
 )
-runsystem(mkdir -p out/_minted-main)...executed.
-
-
 
 main.tex:48: LaTeX Error: Option clash for package xcolor.
 
@@ -923,58 +904,58 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/algor
 ithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count463
-\algocf@hangindent=\skip84
+\c@AlgoLine=\count458
+\algocf@hangindent=\skip85
 
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ifodd
 page/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count464
+\c@checkoddpage=\count459
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/relsi
 ze/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip85
-\skiplinenumber=\skip86
-\skiprule=\skip87
-\skiphlne=\skip88
-\skiptext=\skip89
-\skiplength=\skip90
-\algomargin=\skip91
-\skipalgocfslide=\skip92
-\algowidth=\dimen192
-\inoutsize=\dimen193
-\inoutindent=\dimen194
-\interspacetitleruled=\dimen195
-\interspacealgoruled=\dimen196
-\interspacetitleboxruled=\dimen197
-\algocf@ruledwidth=\skip93
+\skiptotal=\skip86
+\skiplinenumber=\skip87
+\skiprule=\skip88
+\skiphlne=\skip89
+\skiptext=\skip90
+\skiplength=\skip91
+\algomargin=\skip92
+\skipalgocfslide=\skip93
+\algowidth=\dimen185
+\inoutsize=\dimen186
+\inoutindent=\dimen187
+\interspacetitleruled=\dimen188
+\interspacealgoruled=\dimen189
+\interspacetitleboxruled=\dimen190
+\algocf@ruledwidth=\skip94
 \algocf@inoutbox=\box63
 \algocf@inputbox=\box64
-\AlCapSkip=\skip94
-\AlCapHSkip=\skip95
-\algoskipindent=\skip96
+\AlCapSkip=\skip95
+\AlCapHSkip=\skip96
+\algoskipindent=\skip97
 \algocf@nlbox=\box65
 \algocf@hangingbox=\box66
 \algocf@untilbox=\box67
-\algocf@skipuntil=\skip97
+\algocf@skipuntil=\skip98
 \algocf@capbox=\box68
-\algocf@lcaptionbox=\skip98
-\algoheightruledefault=\skip99
-\algoheightrule=\skip100
-\algotitleheightruledefault=\skip101
-\algotitleheightrule=\skip102
-\c@algocfline=\count465
-\c@algocfproc=\count466
-\c@algocf=\count467
+\algocf@lcaptionbox=\skip99
+\algoheightruledefault=\skip100
+\algoheightrule=\skip101
+\algotitleheightruledefault=\skip102
+\algotitleheightrule=\skip103
+\c@algocfline=\count460
+\c@algocfproc=\count461
+\c@algocf=\count462
 \algocf@algoframe=\box69
 \algocf@algobox=\box70
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.s
 ty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip103
+\@mathmargin=\skip104
 
 For additional information on amsmath, use the `?' option.
 
@@ -986,75 +967,75 @@ Package: amstext 2021/08/26 v2.01 AMS text
 y
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks30
-\ex@=\dimen198
+\ex@=\dimen191
 ))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.st
 y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen199
+\pmbraise@=\dimen192
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.st
 y
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count468
+\inf@bad=\count463
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count469
-\leftroot@=\count470
+\uproot@=\count464
+\leftroot@=\count465
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count471
-\DOTSCASE@=\count472
+\classnum@=\count466
+\DOTSCASE@=\count467
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box71
 \strutbox@=\box72
-\big@size=\dimen256
+\big@size=\dimen193
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count473
-\c@MaxMatrixCols=\count474
+\macc@depth=\count468
+\c@MaxMatrixCols=\count469
 \dotsspace@=\muskip21
-\c@parentequation=\count475
-\dspbrk@lvl=\count476
+\c@parentequation=\count470
+\dspbrk@lvl=\count471
 \tag@help=\toks31
-\row@=\count477
-\column@=\count478
-\maxfields@=\count479
+\row@=\count472
+\column@=\count473
+\maxfields@=\count474
 \andhelp@=\toks32
-\eqnshift@=\dimen257
-\alignsep@=\dimen258
-\tagshift@=\dimen259
-\tagwidth@=\dimen260
-\totwidth@=\dimen261
-\lineht@=\dimen262
+\eqnshift@=\dimen194
+\alignsep@=\dimen195
+\tagshift@=\dimen196
+\tagwidth@=\dimen197
+\totwidth@=\dimen198
+\lineht@=\dimen199
 \@envbody=\toks33
-\multlinegap=\skip104
-\multlinetaggap=\skip105
+\multlinegap=\skip105
+\multlinetaggap=\skip106
 \mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings
 .sty
-\lst@mode=\count480
+\lst@mode=\count475
 \lst@gtempboxa=\box73
 \lst@token=\toks35
-\lst@length=\count481
-\lst@currlwidth=\dimen263
-\lst@column=\count482
-\lst@pos=\count483
-\lst@lostspace=\dimen264
-\lst@width=\dimen265
-\lst@newlines=\count484
-\lst@lineno=\count485
-\lst@maxwidth=\dimen266
+\lst@length=\count476
+\lst@currlwidth=\dimen256
+\lst@column=\count477
+\lst@pos=\count478
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
+\lst@newlines=\count479
+\lst@lineno=\count480
+\lst@maxwidth=\dimen259
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.
 sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count486
-\lst@skipnumbers=\count487
+\c@lstnumber=\count481
+\lst@skipnumbers=\count482
 \lst@framebox=\box74
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings
@@ -1070,45 +1051,68 @@ Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/eso-p
 ic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen267
-\ESO@tempdimb=\dimen268
+\ESO@tempdima=\dimen260
+\ESO@tempdimb=\dimen261
 )
-\AM@pagewidth=\dimen269
-\AM@pageheight=\dimen270
-\AM@fboxrule=\dimen271
+\AM@pagewidth=\dimen262
+\AM@pageheight=\dimen263
+\AM@fboxrule=\dimen264
 
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpa
 ges/pppdftex.def
 File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count488
+\pdfpages@includegraphics@status=\count483
 \AM@pagebox=\box75
 \AM@global@opts=\toks36
-\AM@pagecnt=\count489
+\AM@pagecnt=\count484
 \AM@toc@title=\toks37
-\c@AM@survey=\count490
+\c@AM@survey=\count485
 \AM@templatesizebox=\box76
+)
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
+on/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
+on/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen265
+\captionmargin=\dimen266
+\caption@leftmargin=\dimen267
+\caption@rightmargin=\dimen268
+\caption@width=\dimen269
+\caption@indent=\dimen270
+\caption@parindent=\dimen271
+\caption@hangindent=\dimen272
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count486
+\c@continuedfloat=\count487
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/multicol.st
 y
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count491
+\c@tracingmulticols=\count488
 \mult@box=\box77
-\multicol@leftmargin=\dimen272
-\c@unbalance=\count492
-\c@collectmore=\count493
-\doublecol@number=\count494
-\multicoltolerance=\count495
-\multicolpretolerance=\count496
-\full@width=\dimen273
-\page@free=\dimen274
-\premulticols=\dimen275
-\postmulticols=\dimen276
-\multicolsep=\skip106
-\multicolbaselineskip=\skip107
+\multicol@leftmargin=\dimen273
+\c@unbalance=\count489
+\c@collectmore=\count490
+\doublecol@number=\count491
+\multicoltolerance=\count492
+\multicolpretolerance=\count493
+\full@width=\dimen274
+\page@free=\dimen275
+\premulticols=\dimen276
+\postmulticols=\dimen277
+\multicolsep=\skip107
+\multicolbaselineskip=\skip108
 \partial@page=\box78
 \last@line=\box79
-\maxbalancingoverflow=\dimen277
+\maxbalancingoverflow=\dimen278
 \mult@rightbox=\box80
 \mult@grightbox=\box81
 \mult@firstbox=\box82
@@ -1149,15 +1153,15 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box117
 \@tempa=\box118
 \@tempa=\box119
-\c@minrows=\count497
-\c@columnbadness=\count498
-\c@finalcolumnbadness=\count499
-\last@try=\dimen278
-\multicolovershoot=\dimen279
-\multicolundershoot=\dimen280
+\c@minrows=\count494
+\c@columnbadness=\count495
+\c@finalcolumnbadness=\count496
+\last@try=\dimen279
+\multicolovershoot=\dimen280
+\multicolundershoot=\dimen281
 \mult@nat@firstbox=\box120
 \colbreak@box=\box121
-\mc@col@check@num=\count500
+\mc@col@check@num=\count497
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datet
 ime/datetime.sty
@@ -1178,7 +1182,7 @@ s.tex
 \XKV@toks=\toks38
 \XKV@tempa@toks=\toks39
 )
-\XKV@depth=\count501
+\XKV@depth=\count498
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fmtco
@@ -1188,39 +1192,39 @@ Package: fcprefix 2012/09/28
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fmtco
 unt/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count502
+\fc@digit@counter=\count499
 ))
-\c@padzeroesN=\count503
-\fc@tmpcatcode=\count504
-\@DT@modctr=\count505
-\@ordinalctr=\count506
-\@orgargctr=\count507
-\@strctr=\count508
-\@tmpstrctr=\count509
-\@DT@loopN=\count510
-\@DT@X=\count511
+\c@padzeroesN=\count500
+\fc@tmpcatcode=\count501
+\@DT@modctr=\count502
+\@ordinalctr=\count503
+\@orgargctr=\count504
+\@strctr=\count505
+\@tmpstrctr=\count506
+\@DT@loopN=\count507
+\@DT@X=\count508
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/datet
 ime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count512
-\@month=\count513
-\@year=\count514
-\c@HOUR=\count515
-\c@HOURXII=\count516
-\c@MINUTE=\count517
-\c@TOHOUR=\count518
-\c@TOMINUTE=\count519
-\c@SECOND=\count520
-\currenthour=\count521
-\currentminute=\count522
-\currentsecond=\count523
+\@day=\count509
+\@month=\count510
+\@year=\count511
+\c@HOUR=\count512
+\c@HOURXII=\count513
+\c@MINUTE=\count514
+\c@TOHOUR=\count515
+\c@TOMINUTE=\count516
+\c@SECOND=\count517
+\currenthour=\count518
+\currentminute=\count519
+\currentsecond=\count520
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count524
-\dayofyear=\count525
-\dayofweek=\count526
+\@dtctr=\count521
+\dayofyear=\count522
+\dayofweek=\count523
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks40
 \dt@b=\toks41
@@ -1228,32 +1232,32 @@ LaTeX Info: Redefining \today on input line 736.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/rotating
 .sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count527
-\rotFPtop=\skip108
-\rotFPbot=\skip109
+\c@r@tfl@t=\count524
+\rotFPtop=\skip109
+\rotFPbot=\skip110
 \rot@float@box=\box122
 \rot@mess@toks=\toks42
 )
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bookt
 abs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen281
-\lightrulewidth=\dimen282
-\cmidrulewidth=\dimen283
-\belowrulesep=\dimen284
-\belowbottomsep=\dimen285
-\aboverulesep=\dimen286
-\abovetopsep=\dimen287
-\cmidrulesep=\dimen288
-\cmidrulekern=\dimen289
-\defaultaddspace=\dimen290
-\@cmidla=\count528
-\@cmidlb=\count529
-\@aboverulesep=\dimen291
-\@belowrulesep=\dimen292
-\@thisruleclass=\count530
-\@lastruleclass=\count531
-\@thisrulewidth=\dimen293
+\heavyrulewidth=\dimen282
+\lightrulewidth=\dimen283
+\cmidrulewidth=\dimen284
+\belowrulesep=\dimen285
+\belowbottomsep=\dimen286
+\aboverulesep=\dimen287
+\abovetopsep=\dimen288
+\cmidrulesep=\dimen289
+\cmidrulekern=\dimen290
+\defaultaddspace=\dimen291
+\@cmidla=\count525
+\@cmidlb=\count526
+\@aboverulesep=\dimen292
+\@belowrulesep=\dimen293
+\@thisruleclass=\count527
+\@lastruleclass=\count528
+\@thisrulewidth=\dimen294
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref
 .sty
@@ -1275,9 +1279,9 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 xmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-\@linkdim=\dimen294
-\Hy@linkcounter=\count532
-\Hy@pagecounter=\count533
+\@linkdim=\dimen295
+\Hy@linkcounter=\count529
+\Hy@pagecounter=\count530
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
 ef
@@ -1289,7 +1293,7 @@ Now handling font encoding PD1 ...
 calc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count534
+\Hy@SavedSpaceFactor=\count531
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
 f
@@ -1305,9 +1309,9 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count535
+\c@Hy@tempcnt=\count532
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen295
+\XeTeXLinkMargin=\dimen296
 
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bit
 set/bitset.sty
@@ -1318,9 +1322,9 @@ intcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count536
-\Field@Width=\dimen296
-\Fld@charsize=\dimen297
+\Fld@menulength=\count533
+\Field@Width=\dimen297
+\Fld@charsize=\dimen298
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -1336,9 +1340,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count537
-\c@Item=\count538
-\c@Hfootnote=\count539
+\Hy@abspage=\count534
+\c@Item=\count535
+\c@Hfootnote=\count536
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1352,8 +1356,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count540
-\c@bookmark@seq@number=\count541
+\Fld@listcount=\count537
+\c@bookmark@seq@number=\count538
 
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerun
 filecheck/rerunfilecheck.sty
@@ -1366,10 +1370,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip110
+\Hy@SectionHShift=\skip111
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 72.
-\c@Theorem=\count542
+\c@Theorem=\count539
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1
 .sty
@@ -1386,8 +1390,8 @@ l.124 \begin{document}
                       
 The 'natbib' package and biblatex are incompatible.
 
-\@quotelevel=\count543
-\@quotereset=\count544
+\@quotelevel=\count540
+\@quotereset=\count541
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
@@ -1481,16 +1485,16 @@ LaTeX Font Info:    ... okay on input line 124.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count545
-\scratchdimen=\dimen298
+\scratchcounter=\count542
+\scratchdimen=\dimen299
 \scratchbox=\box123
-\nofMPsegments=\count546
-\nofMParguments=\count547
+\nofMPsegments=\count543
+\nofMParguments=\count544
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count548
-\MPscratchDim=\dimen299
-\MPnumerator=\count549
-\makeMPintoPDFobject=\count550
+\MPscratchCnt=\count545
+\MPscratchDim=\dimen300
+\MPnumerator=\count546
+\makeMPintoPDFobject=\count547
 \everyMPtoPDFconversion=\toks44
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epst
@@ -1545,12 +1549,6 @@ Package svg Warning: No version of Inkscape was detected by invoking
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: rotating package is loaded.
-Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1568,7 +1566,7 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 124.
 Package biblatex Info: Reference segment=0 on input line 124.
-\c@lstlisting=\count551
+\c@lstlisting=\count548
 
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfls
 cape/pdflscape.sty
@@ -1580,6 +1578,11 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fmtco
 unt/fc-english.def
 File: fc-english.def 2016/01/12
@@ -1598,7 +1601,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 titlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count552
+\c@section@level=\count549
 )
 LaTeX Info: Redefining \ref on input line 124.
 LaTeX Info: Redefining \pageref on input line 124.
@@ -1689,49 +1692,83 @@ Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.toc [2
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.lof
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -S default -f latex -P commandprefix=PYG > main.out.pyg)..
+.executed.
 
-(out/_minted-main/default.pygstyle)
-(out/_minted-main/2338C89D6CB085D90943267EA54EC8836FC5A546B56FCD938E9930171999E
-964.pygtex
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-.
 
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-))
+(main.out.pyg)
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg
+Underfull \hbox (badness 10000) in paragraph at lines 5--1
+ [][] [][][]  
+ []
+
+)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg
+Underfull \hbox (badness 10000) in paragraph at lines 6--1
+ [][] [][][]  
+ []
+
+)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg
+Underfull \hbox (badness 10000) in paragraph at lines 7--1
+ [][] [][][]  
+ []
+
+)
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C467C065303DF3DF7EEC4D52A55D726E6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg
+Underfull \hbox (badness 10000) in paragraph at lines 19--1
+ [][] [][][]\T1/phv/m/n/10.95 Generated EC2 Key-pair in the  
+ []
+
+)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/7D8B84264F93D12F3EDA94C48BE429D857DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg
+Underfull \hbox (badness 10000) in paragraph at lines 27--1
+ [][] [][][]\T1/phv/m/n/10.95 Creation of ta-bles through  
+ []
+
+)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/CBDA7B98EAD9D888AF239ED0E277862F57DAFF7AA972FC494BD14221DF198
-283.pygtex) [4
+ (main.out.pyg
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
+ [][] [][][]\T1/phv/m/n/10.95 Creation of  
+ []
+
+) [4
 
 ])
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
- [5]
+ [5] [6]
 \openout2 = `glossary/glossary.aux'.
 
  (glossary/glossary.tex
@@ -1742,10 +1779,10 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfs
 s/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [6
+) [7
 
 
-]) [7]
+]) [8]
 \openout2 = `intro/introduction.aux'.
 
  (intro/introduction.tex
@@ -1781,20 +1818,23 @@ ine 13.
 
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
-964.pygtex)
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/2338C89D6CB085D90943267EA54EC8836FC5A546B56FCD938E9930171999E
-964.pygtex)
-<resources/database/tables-overview.png, id=374, 218.8175pt x 108.405pt>
+ (main.out.pyg)
+<resources/database/tables-overview.png, id=383, 218.8175pt x 108.405pt>
 File: resources/database/tables-overview.png Graphic file (type png)
 <use resources/database/tables-overview.png>
 Package pdftex.def Info: resources/database/tables-overview.png  used on input 
@@ -1802,40 +1842,47 @@ line 24.
 (pdftex.def)             Requested size: 175.05423pt x 86.7241pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/2338C89D6CB085D90943267EA54EC8836FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg
+[2
+
+
+
+
+])
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex) [2
-
-
-
-
- <./resources/database/tables-overview.png>]
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/49F96038F20AA062772267B640A18D796FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/3017BEE2B7FAA4671130E21B8A2ABB636FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/3751FE54B793238AE7C09D28A39D45C56FC5A546B56FCD938E9930171999E
-964.pygtex)
-<resources/database/migrations-records.png, id=382, 474.77374pt x 83.31125pt>
+ (main.out.pyg)
+<resources/database/migrations-records.png, id=390, 474.77374pt x 83.31125pt>
 File: resources/database/migrations-records.png Graphic file (type png)
 <use resources/database/migrations-records.png>
 Package pdftex.def Info: resources/database/migrations-records.png  used on inp
@@ -1843,59 +1890,76 @@ ut line 41.
 (pdftex.def)             Requested size: 426.79134pt x 74.89424pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/2338C89D6CB085D90943267EA54EC8836FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/2338C89D6CB085D90943267EA54EC8836FC5A546B56FCD938E9930171999E
-964.pygtex)
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/49F96038F20AA062772267B640A18D796FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/18697449D7C48CF32CDD4F14857E68EE6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/4F84013A8B5E4C2B7529058C8FAFCAA86FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/286755FAD04869CA523320ACCE0DC6A46FC5A546B56FCD938E9930171999E
-964.pygtex)
+
+(main.out.pyg)
 
 LaTeX Warning: Citation 'laravel2022hashing' on page 3 undefined on input line 
 52.
 
+
+Underfull \hbox (badness 5388) in paragraph at lines 52--53
+[]\T1/phv/m/n/10.95 : the pass-word used to log in, en-crypted with 184 bit has
+h-ing by
+ []
+
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/41F5077636A58C656D8B15297F6530646FC5A546B56FCD938E9930171999E
-964.pygtex)
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/8C16EC4AF2E89052DC43DF325FDB8DF16FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/A85EE4D99BA669DBD96AE527598029B26FC5A546B56FCD938E9930171999E
-964.pygtex)
-<resources/database/users-records.png, id=384, 1031.855pt x 140.525pt>
+ (main.out.pyg)
+<resources/database/users-records.png, id=392, 1031.855pt x 140.525pt>
 File: resources/database/users-records.png Graphic file (type png)
 <use resources/database/users-records.png>
 Package pdftex.def Info: resources/database/users-records.png  used on input li
@@ -1903,441 +1967,546 @@ ne 60.
 (pdftex.def)             Requested size: 426.79134pt x 58.1238pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
-964.pygtex) [3 <./resources/database/migrations-records.png> <./resources/datab
-ase/users-records.png>]
+ (main.out.pyg)
+[3 <./resources/database/tables-overview.png> <./resources/database/migrations-
+records.png>] [4 <./resources/database/users-records.png>]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/49F96038F20AA062772267B640A18D796FC5A546B56FCD938E9930171999E
-964.pygtex)
+
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/A8260BC7CF95B1CBB51565B9FD562EBA6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/9372BE30CEA6642BACC6FD42FE045DF36FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/2BD10B508C6695166EF99CC8B5A46F196FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/B0C2C370FC04BC1A0AB9DD1D009BF86D6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/F75B8179E4BBE7E2B4A074DCEF62DE956FC5A546B56FCD938E9930171999E
-964.pygtex)
+
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/4423CDDC86F3317A852609DA0A5DE9EF6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/02B72B91D327EA3EB0F1538FCB8CC5A26FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/568BE5D70EAC4F30A64A20172AC445EE6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/8C16EC4AF2E89052DC43DF325FDB8DF16FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
-
-(out/_minted-main/A85EE4D99BA669DBD96AE527598029B26FC5A546B56FCD938E9930171999E
-964.pygtex)
-
-webapp/webapp.tex:84: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84     \begin{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<resources/database/stories-records-1.png, id=392, 938.50626pt x 77.28876pt>
-File: resources/database/stories-records-1.png Graphic file (type png)
-<use resources/database/stories-records-1.png>
-Package pdftex.def Info: resources/database/stories-records-1.png  used on inpu
-t line 85.
-(pdftex.def)             Requested size: 426.79134pt x 35.14755pt.
-
-webapp/webapp.tex:86: LaTeX Error: \begin{figure} on input line 82 ended by \en
-d{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86     \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
 
-webapp/webapp.tex:87: LaTeX Error: Environment subfigure undefined.
+(main.out.pyg)
+webapp/webapp.tex:85: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.85         \includegraphics
+                             [width=\textwidth]{resources/database/stories-r...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87     \begin{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Runaway argument?
+webapp/webapp.tex:85: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.85         \includegraphics
+                             [width=\textwidth]{resources/database/stories-r...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-<resources/database/stories-records-2.png, id=393, 777.90625pt x 82.3075pt>
-File: resources/database/stories-records-2.png Graphic file (type png)
-<use resources/database/stories-records-2.png>
-Package pdftex.def Info: resources/database/stories-records-2.png  used on inpu
-t line 88.
-(pdftex.def)             Requested size: 426.79134pt x 45.15872pt.
+webapp/webapp.tex:85: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.85         \includegraphics[width=\textwidth]
+                                               {resources/database/stories-r...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-webapp/webapp.tex:89: LaTeX Error: \begin{figure} on input line 82 ended by \en
-d{subfigure}.
+webapp/webapp.tex:85: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.85         \includegraphics[width=\textwidth]
+                                               {resources/database/stories-r...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89     \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+webapp/webapp.tex:88: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.88         \includegraphics
+                             [width=\textwidth]{resources/database/stories-r...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+webapp/webapp.tex:88: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.88         \includegraphics
+                             [width=\textwidth]{resources/database/stories-r...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+webapp/webapp.tex:88: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.88         \includegraphics[width=\textwidth]
+                                               {resources/database/stories-r...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+webapp/webapp.tex:88: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.88         \includegraphics[width=\textwidth]
+                                               {resources/database/stories-r...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex)
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex) [4
+ (main.out.pyg) [5
 
- <./resources/database/stories-records-1.png> <./resources/database/stories-rec
-ords-2.png>]
+]
 
-LaTeX Warning: Citation 'laravel2022blade' on page 5 undefined on input line 97
+LaTeX Warning: Citation 'laravel2022blade' on page 6 undefined on input line 97
 .
 
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
-964.pygtex)
+(main.out.pyg)
+webapp/webapp.tex:105: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.105         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-webapp/webapp.tex:104: LaTeX Error: Environment subfigure undefined.
+Runaway argument?
+webapp/webapp.tex:105: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.105         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104     \begin{subfigure}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+webapp/webapp.tex:105: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.105         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-<resources/webapp/digital-ink-home.png, id=401, 805.20825pt x 457.71pt>
-File: resources/webapp/digital-ink-home.png Graphic file (type png)
-<use resources/webapp/digital-ink-home.png>
-Package pdftex.def Info: resources/webapp/digital-ink-home.png  used on input l
-ine 105.
-(pdftex.def)             Requested size: 426.79134pt x 242.6061pt.
+webapp/webapp.tex:105: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.105         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-webapp/webapp.tex:106: LaTeX Error: \begin{figure} on input line 102 ended by \
-end{subfigure}.
+webapp/webapp.tex:108: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.108         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106     \end{subfigure}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Runaway argument?
+webapp/webapp.tex:108: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.108         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+webapp/webapp.tex:108: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.108         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-webapp/webapp.tex:107: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107     \begin{subfigure}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<resources/webapp/digital-ink-sign-up.png, id=402, 784.1295pt x 442.65375pt>
-File: resources/webapp/digital-ink-sign-up.png Graphic file (type png)
-<use resources/webapp/digital-ink-sign-up.png>
-Package pdftex.def Info: resources/webapp/digital-ink-sign-up.png  used on inpu
-t line 108.
-(pdftex.def)             Requested size: 426.79134pt x 240.92741pt.
-
-webapp/webapp.tex:109: LaTeX Error: \begin{figure} on input line 102 ended by \
-end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109     \end{subfigure}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[5
-
- <./resources/webapp/digital-ink-home.png> <./resources/webapp/digital-ink-sign
--up.png>]
-\openout6 = `main.pyg'.
-
-
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex)
-
-webapp/webapp.tex:122: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122         \begin{subfigure}
-                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<resources/webapp/digital-ink-create-story-1.png, id=410, 1002.74625pt x 451.68
-75pt>
-File: resources/webapp/digital-ink-create-story-1.png Graphic file (type png)
-<use resources/webapp/digital-ink-create-story-1.png>
-Package pdftex.def Info: resources/webapp/digital-ink-create-story-1.png  used 
-on input line 123.
-(pdftex.def)             Requested size: 426.79134pt x 192.25067pt.
-
-webapp/webapp.tex:124: LaTeX Error: \begin{figure} on input line 120 ended by \
-end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124         \end{subfigure}
-                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-webapp/webapp.tex:125: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125         \begin{subfigure}
-                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<resources/webapp/digital-ink-create-story-2.png, id=411, 1009.97325pt x 405.91
-65pt>
-File: resources/webapp/digital-ink-create-story-2.png Graphic file (type png)
-<use resources/webapp/digital-ink-create-story-2.png>
-Package pdftex.def Info: resources/webapp/digital-ink-create-story-2.png  used 
-on input line 126.
-(pdftex.def)             Requested size: 426.79134pt x 171.53052pt.
-
-webapp/webapp.tex:127: LaTeX Error: \begin{figure} on input line 120 ended by \
-end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127         \end{subfigure}
-                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-webapp/webapp.tex:128: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128         \begin{subfigure}
-                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<resources/webapp/digital-ink-create-story-3.png, id=412, 1005.7575pt x 499.867
-5pt>
-File: resources/webapp/digital-ink-create-story-3.png Graphic file (type png)
-<use resources/webapp/digital-ink-create-story-3.png>
-Package pdftex.def Info: resources/webapp/digital-ink-create-story-3.png  used 
-on input line 129.
-(pdftex.def)             Requested size: 426.79134pt x 212.11671pt.
-
-webapp/webapp.tex:130: LaTeX Error: \begin{figure} on input line 120 ended by \
-end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130         \end{subfigure}
-                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+webapp/webapp.tex:108: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.108         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 [6
 
- <./resources/webapp/digital-ink-create-story-1.png> <./resources/webapp/digita
-l-ink-create-story-2.png> <./resources/webapp/digital-ink-create-story-3.png>]
+]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
-964.pygtex)
-<resources/webapp/digital-ink-account.png, id=422, 988.8945pt x 347.49825pt>
+ (main.out.pyg)
+webapp/webapp.tex:123: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.123             \includegraphics
+                                  [width=\textwidth]{resources/webapp/digita...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+webapp/webapp.tex:123: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.123             \includegraphics
+                                  [width=\textwidth]{resources/webapp/digita...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+webapp/webapp.tex:123: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.123 ...       \includegraphics[width=\textwidth]
+                                                  {resources/webapp/digital-...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+webapp/webapp.tex:123: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.123 ...       \includegraphics[width=\textwidth]
+                                                  {resources/webapp/digital-...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+webapp/webapp.tex:126: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.126             \includegraphics
+                                  [width=\textwidth]{resources/webapp/digita...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+webapp/webapp.tex:126: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.126             \includegraphics
+                                  [width=\textwidth]{resources/webapp/digita...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+webapp/webapp.tex:126: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.126 ...       \includegraphics[width=\textwidth]
+                                                  {resources/webapp/digital-...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+webapp/webapp.tex:126: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.126 ...       \includegraphics[width=\textwidth]
+                                                  {resources/webapp/digital-...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+webapp/webapp.tex:129: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.129             \includegraphics
+                                  [width=\textwidth]{resources/webapp/digita...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+webapp/webapp.tex:129: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.129             \includegraphics
+                                  [width=\textwidth]{resources/webapp/digita...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+webapp/webapp.tex:129: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.129 ...       \includegraphics[width=\textwidth]
+                                                  {resources/webapp/digital-...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+webapp/webapp.tex:129: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.129 ...       \includegraphics[width=\textwidth]
+                                                  {resources/webapp/digital-...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[7
+
+]
+\openout6 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/webapp/digital-ink-account.png, id=428, 988.8945pt x 347.49825pt>
 File: resources/webapp/digital-ink-account.png Graphic file (type png)
 <use resources/webapp/digital-ink-account.png>
 Package pdftex.def Info: resources/webapp/digital-ink-account.png  used on inpu
 t line 142.
 (pdftex.def)             Requested size: 426.79134pt x 149.97276pt.
 
+webapp/webapp.tex:155: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.155         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-webapp/webapp.tex:154: LaTeX Error: Environment subfigure undefined.
+Runaway argument?
+webapp/webapp.tex:155: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.155         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154     \begin{subfigure}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+webapp/webapp.tex:155: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.155         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-<resources/webapp/digital-ink-stories.png, id=424, 1035.26775pt x 211.38976pt>
-File: resources/webapp/digital-ink-stories.png Graphic file (type png)
-<use resources/webapp/digital-ink-stories.png>
-Package pdftex.def Info: resources/webapp/digital-ink-stories.png  used on inpu
-t line 155.
-(pdftex.def)             Requested size: 426.79134pt x 87.1445pt.
+webapp/webapp.tex:155: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.155         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-webapp/webapp.tex:156: LaTeX Error: \begin{figure} on input line 152 ended by \
-end{subfigure}.
+webapp/webapp.tex:158: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.158         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156     \end{subfigure}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Runaway argument?
+webapp/webapp.tex:158: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.158         \includegraphics
+                              [width=\textwidth]{resources/webapp/digital-in...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+webapp/webapp.tex:158: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.158         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-webapp/webapp.tex:157: LaTeX Error: Environment subfigure undefined.
+webapp/webapp.tex:158: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.158         \includegraphics[width=\textwidth]
+                                                {resources/webapp/digital-in...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157     \begin{subfigure}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+) [8
 
-<resources/webapp/digital-ink-story.png, id=425, 1009.97325pt x 307.74976pt>
-File: resources/webapp/digital-ink-story.png Graphic file (type png)
-<use resources/webapp/digital-ink-story.png>
-Package pdftex.def Info: resources/webapp/digital-ink-story.png  used on input 
-line 158.
-(pdftex.def)             Requested size: 426.79134pt x 130.0476pt.
-
-webapp/webapp.tex:159: LaTeX Error: \begin{figure} on input line 152 ended by \
-end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159     \end{subfigure}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [7
-
- <./resources/webapp/digital-ink-account.png> <./resources/webapp/digital-ink-s
-tories.png> <./resources/webapp/digital-ink-story.png>]
+ <./resources/webapp/digital-ink-account.png>]
 \openout2 = `vpc_subnets/vpc_subnets.aux'.
 
-
-(vpc_subnets/vpc_subnets.tex
+ (vpc_subnets/vpc_subnets.tex
 Chapter 4.
 
-LaTeX Warning: Citation 'amazon2022what' on page 8 undefined on input line 5.
+LaTeX Warning: Citation 'amazon2022what' on page 9 undefined on input line 5.
 
-<resources/vpc/vpc-dashboard.png, id=434, 1067.78925pt x 467.94826pt>
+<resources/vpc/vpc-dashboard.png, id=438, 1067.78925pt x 467.94826pt>
 File: resources/vpc/vpc-dashboard.png Graphic file (type png)
 <use resources/vpc/vpc-dashboard.png>
 Package pdftex.def Info: resources/vpc/vpc-dashboard.png  used on input line 15
 .
 (pdftex.def)             Requested size: 426.79134pt x 187.03317pt.
-) [8
+) [9
 
 
 
@@ -2348,9 +2517,9 @@ Package pdftex.def Info: resources/vpc/vpc-dashboard.png  used on input line 15
  (ec2/ec2.tex
 Chapter 5.
 
-LaTeX Warning: Citation 'aws2022ec2' on page 9 undefined on input line 7.
+LaTeX Warning: Citation 'aws2022ec2' on page 10 undefined on input line 7.
 
-<resources/ec2/create-instance-application-and-os-images.png, id=440, 1445.4pt 
+<resources/ec2/create-instance-application-and-os-images.png, id=444, 1445.4pt 
 x 745.78625pt>
 File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
 (type png)
@@ -2358,20 +2527,20 @@ File: resources/ec2/create-instance-application-and-os-images.png Graphic file
 Package pdftex.def Info: resources/ec2/create-instance-application-and-os-image
 s.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
-[9
+[10
 
 
 
 
  <./resources/ec2/create-instance-application-and-os-images.png>]
-<resources/ec2/create-instance-instance-type.png, id=448, 1445.4pt x 741.77126p
+<resources/ec2/create-instance-instance-type.png, id=452, 1445.4pt x 741.77126p
 t>
 File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 <use resources/ec2/create-instance-instance-type.png>
 Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
 on input line 28.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
-<resources/ec2/create-key-pair.png, id=451, 1445.4pt x 740.7675pt>
+<resources/ec2/create-key-pair.png, id=455, 1445.4pt x 740.7675pt>
 File: resources/ec2/create-key-pair.png Graphic file (type png)
 <use resources/ec2/create-key-pair.png>
 Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line 
@@ -2379,18 +2548,19 @@ Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
 
 
-LaTeX Warning: Reference `ch:vpc-subnets' on page 10 undefined on input line 48
+LaTeX Warning: Reference `ch:vpc-subnets' on page 11 undefined on input line 48
 .
 
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C2578BE27DD24956000185C8DA24224C57DAFF7AA972FC494BD14221DF198
-283.pygtex) [10
+(main.out.pyg) [11
 
  <./resources/ec2/create-instance-instance-type.png> <./resources/ec2/create-ke
 y-pair.png>]
-<resources/ec2/create-instance-network-settings.png, id=458, 1445.4pt x 740.767
+<resources/ec2/create-instance-network-settings.png, id=463, 1445.4pt x 740.767
 5pt>
 File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 )
@@ -2398,30 +2568,34 @@ File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 Package pdftex.def Info: resources/ec2/create-instance-network-settings.png  us
 ed on input line 54.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-<resources/ec2/keypair.png, id=459, 764.8575pt x 572.1375pt>
+<resources/ec2/keypair.png, id=464, 764.8575pt x 572.1375pt>
 File: resources/ec2/keypair.png Graphic file (type png)
 <use resources/ec2/keypair.png>
 Package pdftex.def Info: resources/ec2/keypair.png  used on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 319.25116pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C467C065303DF3DF7EEC4D52A55D726E6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C467C065303DF3DF7EEC4D52A55D726E6FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C467C065303DF3DF7EEC4D52A55D726E6FC5A546B56FCD938E9930171999E
-964.pygtex) [11
+ (main.out.pyg)
+[12
 
  <./resources/ec2/create-instance-network-settings.png> <./resources/ec2/keypai
 r.png>]
-<resources/ec2/create-instance-configure-storage.png, id=467, 1445.4pt x 740.76
+<resources/ec2/create-instance-configure-storage.png, id=472, 1445.4pt x 740.76
 75pt>
 File: resources/ec2/create-instance-configure-storage.png Graphic file (type pn
 g)
@@ -2429,44 +2603,50 @@ g)
 Package pdftex.def Info: resources/ec2/create-instance-configure-storage.png  u
 sed on input line 77.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [12
+ [13
 
  <./resources/ec2/create-instance-configure-storage.png>]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/A30CAF7743A08B91E8A046B6E7138B4157DAFF7AA972FC494BD14221DF198
-283.pygtex)
+
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/67B48C5D64CF856DB41AE33636CF748E57DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/66E66EA89219F775F855DFB469E4D4E96FC5A546B56FCD938E9930171999E
-964.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/95DBB0600960EFD2CF23C5F2058E461657DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/ec2/ec2-logged-in.png, id=476, 764.8575pt x 572.1375pt>
+ (main.out.pyg)
+<resources/ec2/ec2-logged-in.png, id=480, 764.8575pt x 572.1375pt>
 File: resources/ec2/ec2-logged-in.png Graphic file (type png)
 <use resources/ec2/ec2-logged-in.png>
 Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
 7.
 (pdftex.def)             Requested size: 426.79134pt x 319.25116pt.
- [13
+ [14
 
  <./resources/ec2/ec2-logged-in.png>]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/375269884BBD1784DC9D3017B922DABD57DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/ec2/installing-git.png, id=483, 2890.8pt x 1806.75pt>
+ (main.out.pyg)
+<resources/ec2/installing-git.png, id=487, 2890.8pt x 1806.75pt>
 File: resources/ec2/installing-git.png Graphic file (type png)
 <use resources/ec2/installing-git.png>
 Package pdftex.def Info: resources/ec2/installing-git.png  used on input line 1
@@ -2474,29 +2654,33 @@ Package pdftex.def Info: resources/ec2/installing-git.png  used on input line 1
 (pdftex.def)             Requested size: 398.33858pt x 248.9458pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/B7785276EA9559BAB1F1D88A354C178757DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/ec2/installing-docker.png, id=484, 2890.8pt x 1471.4975pt>
+ (main.out.pyg)
+<resources/ec2/installing-docker.png, id=488, 2890.8pt x 1471.4975pt>
 File: resources/ec2/installing-docker.png Graphic file (type png)
 <use resources/ec2/installing-docker.png>
 Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
 e 131.
 (pdftex.def)             Requested size: 398.33858pt x 202.75253pt.
- [14
+ [15
 
  <./resources/ec2/installing-git.png> <./resources/ec2/installing-docker.png>]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/05F751E04C2678AFE2AB58ECC06B82CE57DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C22DE5E8220700CC1C493FD7A945007657DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/ec2/webapp-clone.png, id=491, 649.42625pt x 222.8325pt>
+
+(main.out.pyg)
+<resources/ec2/webapp-clone.png, id=495, 649.42625pt x 222.8325pt>
 File: resources/ec2/webapp-clone.png Graphic file (type png)
 <use resources/ec2/webapp-clone.png>
 Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 144
@@ -2504,25 +2688,29 @@ Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 144
 (pdftex.def)             Requested size: 355.65944pt x 122.03802pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/0C22F99BD4736D8EBBB0ECDA75E7B25457DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C22DE5E8220700CC1C493FD7A945007657DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/9BB3AE2CEF7E54CCB0BF57CB00D78197DCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/0C0BB88159F30CA45279CBFEB8083C45DCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex)
-<resources/ec2/docker-compose.png, id=492, 1445.4pt x 852.18375pt>
+ (main.out.pyg)
+<resources/ec2/docker-compose.png, id=496, 1445.4pt x 852.18375pt>
 File: resources/ec2/docker-compose.png Graphic file (type png)
 <use resources/ec2/docker-compose.png>
 Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
@@ -2530,42 +2718,51 @@ Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
 (pdftex.def)             Requested size: 355.65944pt x 209.69057pt.
 \openout6 = `main.pyg'.
 
-
-(out/_minted-main/C22DE5E8220700CC1C493FD7A9450076DCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex)
-\openout6 = `main.pyg'.
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
 
 
-(out/_minted-main/3AE0AE60021D54827305BE53AFF460D8DCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex)
-\openout6 = `main.pyg'.
-
-
-(out/_minted-main/7144E5AF28B3DE816A104173DAE7980CDCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex) [15
+(main.out.pyg) [16
 
  <./resources/ec2/webapp-clone.png> <./resources/ec2/docker-compose.png>]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C22DE5E8220700CC1C493FD7A9450076DCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/3AE0AE60021D54827305BE53AFF460D8DCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex)
+ (main.out.pyg) [17]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/D2F915A502A16690CE97A85B9E4E9C96DCEA0D38576A7F0D5477B63709AAE
-6D5.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/7D8B84264F93D12F3EDA94C48BE429D857DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/ec2/php-artisan-migrate.png, id=502, 1445.4pt x 212.795pt>
+ (main.out.pyg)
+\openout6 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+\openout6 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/ec2/php-artisan-migrate.png, id=511, 1445.4pt x 212.795pt>
 File: resources/ec2/php-artisan-migrate.png Graphic file (type png)
 <use resources/ec2/php-artisan-migrate.png>
 Package pdftex.def Info: resources/ec2/php-artisan-migrate.png  used on input l
@@ -2573,52 +2770,59 @@ ine 179.
 (pdftex.def)             Requested size: 426.79134pt x 62.83241pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/7D8B84264F93D12F3EDA94C48BE429D857DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/7D8B84264F93D12F3EDA94C48BE429D857DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/ec2/digital-ink-ec2.png, id=505, 1445.4pt x 811.03pt>
+ (main.out.pyg)
+<resources/ec2/digital-ink-ec2.png, id=514, 1445.4pt x 811.03pt>
 File: resources/ec2/digital-ink-ec2.png Graphic file (type png)
 <use resources/ec2/digital-ink-ec2.png>
 Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line 
 190.
 (pdftex.def)             Requested size: 426.79134pt x 239.47453pt.
-) [16
+) [18
 
  <./resources/ec2/php-artisan-migrate.png> <./resources/ec2/digital-ink-ec2.png
 >]
 \openout2 = `systemd/systemd.aux'.
 
- (systemd/systemd.tex
+
+(systemd/systemd.tex
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/CBDA7B98EAD9D888AF239ED0E277862F57DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/877C2DF77AD3E08757270BC1AA6C22BC57DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/systemd/systemd.png, id=513, 1557.82pt x 990.70125pt>
+ (main.out.pyg)
+<resources/systemd/systemd.png, id=522, 1557.82pt x 990.70125pt>
 File: resources/systemd/systemd.png Graphic file (type png)
 <use resources/systemd/systemd.png>
 Package pdftex.def Info: resources/systemd/systemd.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79134pt x 271.40817pt.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/CBDA7B98EAD9D888AF239ED0E277862F57DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/CBDA7B98EAD9D888AF239ED0E277862F57DAFF7AA972FC494BD14221DF198
-283.pygtex)) [17
+ (main.out.pyg)) [19
 
 
 
@@ -2627,7 +2831,7 @@ Package pdftex.def Info: resources/systemd/systemd.png  used on input line 13.
 
  (s3/s3.tex
 Chapter 6.
-) [18
+) [20
 
 
 
@@ -2639,15 +2843,16 @@ Chapter 6.
 Chapter 7.
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/70BF40882E023ED9C350425785A5244E57DAFF7AA972FC494BD14221DF198
-283.pygtex) [19
+(main.out.pyg) [21
 
 
 
 
 ]
-<resources/cloudfront/cloudfront-bucket-policy.png, id=531, 1445.4pt x 740.7675
+<resources/cloudfront/cloudfront-bucket-policy.png, id=539, 1445.4pt x 740.7675
 pt>
 File: resources/cloudfront/cloudfront-bucket-policy.png Graphic file (type png)
 
@@ -2655,27 +2860,29 @@ File: resources/cloudfront/cloudfront-bucket-policy.png Graphic file (type png)
 Package pdftex.def Info: resources/cloudfront/cloudfront-bucket-policy.png  use
 d on input line 19.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-<resources/cloudfront/cloudfront-origin.png, id=532, 1445.4pt x 745.78625pt>
+<resources/cloudfront/cloudfront-origin.png, id=540, 1445.4pt x 745.78625pt>
 File: resources/cloudfront/cloudfront-origin.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-origin.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-origin.png  used on in
 put line 26.
 (pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
- [20
+ [22
 
  <./resources/cloudfront/cloudfront-bucket-policy.png> <./resources/cloudfront/
 cloudfront-origin.png>]
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/7C541B516C88817AFCDC0256050A94CA57DAFF7AA972FC494BD14221DF198
-283.pygtex)
+ (main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/7C7465778E7FEA1EC1EE5BAA7D23618B57DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/cloudfront/cloudfront-cache-behaviour.png, id=539, 1445.4pt x 739.76
+ (main.out.pyg)
+<resources/cloudfront/cloudfront-cache-behaviour.png, id=547, 1445.4pt x 739.76
 375pt>
 File: resources/cloudfront/cloudfront-cache-behaviour.png Graphic file (type pn
 g)
@@ -2683,13 +2890,13 @@ g)
 Package pdftex.def Info: resources/cloudfront/cloudfront-cache-behaviour.png  u
 sed on input line 39.
 (pdftex.def)             Requested size: 426.79134pt x 218.4316pt.
-<resources/cloudfront/cloudfront-cache-key.png, id=540, 1445.4pt x 742.775pt>
+<resources/cloudfront/cloudfront-cache-key.png, id=548, 1445.4pt x 742.775pt>
 File: resources/cloudfront/cloudfront-cache-key.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-cache-key.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-cache-key.png  used on
  input line 51.
 (pdftex.def)             Requested size: 426.79134pt x 219.32072pt.
-<resources/cloudfront/cloudfront-function-association.png, id=541, 1443.3925pt 
+<resources/cloudfront/cloudfront-function-association.png, id=549, 1443.3925pt 
 x 742.775pt>
 File: resources/cloudfront/cloudfront-function-association.png Graphic file (ty
 pe png)
@@ -2697,84 +2904,86 @@ pe png)
 Package pdftex.def Info: resources/cloudfront/cloudfront-function-association.p
 ng  used on input line 60.
 (pdftex.def)             Requested size: 426.79134pt x 219.62674pt.
- [21
 
- <./resources/cloudfront/cloudfront-cache-behaviour.png> <./resources/cloudfron
-t/cloudfront-cache-key.png>]
 
-LaTeX Warning: Reference `fig:cloudfront-setting-1' on page 22 undefined on inp
+LaTeX Warning: Reference `fig:cloudfront-setting-1' on page 23 undefined on inp
 ut line 73.
 
-[22 <./resources/cloudfront/cloudfront-function-association.png>]
-<resources/cloudfront/cloudfront-settings-1.png, id=554, 1445.4pt x 700.6175pt>
+[23
+
+ <./resources/cloudfront/cloudfront-cache-behaviour.png>] [24 <./resources/clou
+dfront/cloudfront-cache-key.png> <./resources/cloudfront/cloudfront-function-as
+sociation.png>]
+<resources/cloudfront/cloudfront-settings-1.png, id=563, 1445.4pt x 700.6175pt>
 
 File: resources/cloudfront/cloudfront-settings-1.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-settings-1.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-settings-1.png  used o
 n input line 79.
 (pdftex.def)             Requested size: 426.79134pt x 206.8728pt.
-<resources/cloudfront/cloudfront-settings-2.png, id=555, 1445.4pt x 744.7825pt>
+<resources/cloudfront/cloudfront-settings-2.png, id=564, 1445.4pt x 744.7825pt>
 
 File: resources/cloudfront/cloudfront-settings-2.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-settings-2.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-settings-2.png  used o
 n input line 86.
 (pdftex.def)             Requested size: 426.79134pt x 219.9135pt.
- [23
+ [25
 
  <./resources/cloudfront/cloudfront-settings-1.png> <./resources/cloudfront/clo
 udfront-settings-2.png>]
-<resources/cloudfront/cloudfront-created.png, id=563, 1445.4pt x 739.76375pt>
+<resources/cloudfront/cloudfront-created.png, id=572, 1445.4pt x 739.76375pt>
 File: resources/cloudfront/cloudfront-created.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-created.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-created.png  used on i
 nput line 97.
 (pdftex.def)             Requested size: 426.79134pt x 218.4316pt.
-<resources/cloudfront/cloudfront-before.png, id=566, 1445.4pt x 825.0825pt>
+<resources/cloudfront/cloudfront-before.png, id=575, 1445.4pt x 825.0825pt>
 File: resources/cloudfront/cloudfront-before.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-before.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-before.png  used on in
 put line 108.
 (pdftex.def)             Requested size: 426.79134pt x 243.62384pt.
-<resources/cloudfront/cloudfront-after.png, id=567, 1445.4pt x 825.0825pt>
+<resources/cloudfront/cloudfront-after.png, id=576, 1445.4pt x 825.0825pt>
 File: resources/cloudfront/cloudfront-after.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-after.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-after.png  used on inp
 ut line 115.
 (pdftex.def)             Requested size: 426.79134pt x 243.62384pt.
- [24
+ [26
 
  <./resources/cloudfront/cloudfront-created.png> <./resources/cloudfront/cloudf
-ront-before.png>] [25 <./resources/cloudfront/cloudfront-after.png>]
-<resources/cloudfront/cloudfront-website.png, id=580, 1445.4pt x 810.02625pt>
+ront-before.png>] [27 <./resources/cloudfront/cloudfront-after.png>]
+<resources/cloudfront/cloudfront-website.png, id=588, 1445.4pt x 810.02625pt>
 File: resources/cloudfront/cloudfront-website.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-website.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-website.png  used on i
 nput line 124.
 (pdftex.def)             Requested size: 426.79134pt x 239.17815pt.
-) [26
+) [28
 
  <./resources/cloudfront/cloudfront-website.png>]
 \openout2 = `cloud/cloudwatch.aux'.
 
-
-(cloud/cloudwatch.tex
+ (cloud/cloudwatch.tex
 Chapter 8.
 
-LaTeX Warning: Citation 'amazon2022amazon' on page 27 undefined on input line 8
+LaTeX Warning: Citation 'amazon2022amazon' on page 29 undefined on input line 8
 .
 
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/F2C4B4E39855B48EF0E847B95E1CC57C57DAFF7AA972FC494BD14221DF198
-283.pygtex)
+(main.out.pyg)
 \openout6 = `main.pyg'.
 
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/24A680AF88F4FD14578EE82EB4DEF02A57DAFF7AA972FC494BD14221DF198
-283.pygtex)
-<resources/cloudwatch/cloudwatch-metric-selection.png, id=587, 1445.4pt x 744.7
+ (main.out.pyg)
+<resources/cloudwatch/cloudwatch-metric-selection.png, id=595, 1445.4pt x 744.7
 825pt>
 File: resources/cloudwatch/cloudwatch-metric-selection.png Graphic file (type p
 ng)
@@ -2782,13 +2991,13 @@ ng)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-metric-selection.png  
 used on input line 21.
 (pdftex.def)             Requested size: 426.79134pt x 219.9135pt.
- [27
+ [29
 
 
 
 
  <./resources/cloudwatch/cloudwatch-metric-selection.png>]
-<resources/cloudwatch/cloudwatch-metric-config-1.png, id=593, 1445.4pt x 740.76
+<resources/cloudwatch/cloudwatch-metric-config-1.png, id=602, 1445.4pt x 740.76
 75pt>
 File: resources/cloudwatch/cloudwatch-metric-config-1.png Graphic file (type pn
 g)
@@ -2796,7 +3005,7 @@ g)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-metric-config-1.png  u
 sed on input line 32.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-<resources/cloudwatch/cloudwatch-metric-config-2.png, id=594, 1445.4pt x 743.77
+<resources/cloudwatch/cloudwatch-metric-config-2.png, id=603, 1445.4pt x 743.77
 875pt>
 File: resources/cloudwatch/cloudwatch-metric-config-2.png Graphic file (type pn
 g)
@@ -2804,45 +3013,105 @@ g)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-metric-config-2.png  u
 sed on input line 39.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
-<resources/cloudwatch/cloudwatch-sns-topic.png, id=598, 1445.4pt x 744.7825pt>
+<resources/cloudwatch/cloudwatch-sns-topic.png, id=607, 1445.4pt x 744.7825pt>
 File: resources/cloudwatch/cloudwatch-sns-topic.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-sns-topic.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-sns-topic.png  used on
  input line 53.
 (pdftex.def)             Requested size: 426.79134pt x 219.9135pt.
 
-[28 <./resources/cloudwatch/cloudwatch-metric-config-1.png> <./resources/cloudw
+
+LaTeX Warning: Reference `fig:cloudwatch-sns-email' on page 30 undefined on inp
+ut line 59.
+
+
+LaTeX Warning: Reference `fig:cloudwatch-sns-success' on page 30 undefined on i
+nput line 59.
+
+<resources/cloudwatch/cloudwatch-email.png, id=608, 860.21375pt x 260.975pt>
+File: resources/cloudwatch/cloudwatch-email.png Graphic file (type png)
+<use resources/cloudwatch/cloudwatch-email.png>
+Package pdftex.def Info: resources/cloudwatch/cloudwatch-email.png  used on inp
+ut line 63.
+(pdftex.def)             Requested size: 426.79134pt x 129.48367pt.
+[30 <./resources/cloudwatch/cloudwatch-metric-config-1.png> <./resources/cloudw
 atch/cloudwatch-metric-config-2.png>]
-<resources/cloudwatch/cloudwatch-ec2-actions.png, id=606, 1445.4pt x 740.7675pt
+<resources/cloudwatch/cloudwatch-alarm-success.png, id=615, 741.77126pt x 290.0
+8376pt>
+File: resources/cloudwatch/cloudwatch-alarm-success.png Graphic file (type png)
+
+<use resources/cloudwatch/cloudwatch-alarm-success.png>
+Package pdftex.def Info: resources/cloudwatch/cloudwatch-alarm-success.png  use
+d on input line 70.
+(pdftex.def)             Requested size: 426.79134pt x 166.90752pt.
+ [31 <./resources/cloudwatch/cloudwatch-sns-topic.png> <./resources/cloudwatch/
+cloudwatch-email.png> <./resources/cloudwatch/cloudwatch-alarm-success.png>]
+<resources/cloudwatch/cloudwatch-ec2-actions.png, id=624, 1445.4pt x 740.7675pt
 >
 File: resources/cloudwatch/cloudwatch-ec2-actions.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-ec2-actions.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-ec2-actions.png  used 
-on input line 65.
+on input line 82.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-<resources/cloudwatch/cloudwatch-description.png, id=608, 1442.38875pt x 743.77
+<resources/cloudwatch/cloudwatch-description.png, id=626, 1442.38875pt x 743.77
 875pt>
 File: resources/cloudwatch/cloudwatch-description.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-description.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-description.png  used 
-on input line 75.
+on input line 92.
 (pdftex.def)             Requested size: 426.79134pt x 220.07108pt.
-<resources/cloudwatch/cloudwatch-network-alarm-complete.png, id=610, 1444.39626
+<resources/cloudwatch/cloudwatch-network-alarm-complete.png, id=628, 1444.39626
 pt x 741.77126pt>
 File: resources/cloudwatch/cloudwatch-network-alarm-complete.png Graphic file (
 type png)
 <use resources/cloudwatch/cloudwatch-network-alarm-complete.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-network-alarm-complete
-.png  used on input line 84.
+.png  used on input line 101.
 (pdftex.def)             Requested size: 426.79134pt x 219.1715pt.
-) [29 <./resources/cloudwatch/cloudwatch-sns-topic.png> <./resources/cloudwatch
-/cloudwatch-ec2-actions.png>] [30 <./resources/cloudwatch/cloudwatch-descriptio
-n.png> <./resources/cloudwatch/cloudwatch-network-alarm-complete.png>]
+\openout6 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout6 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+
+LaTeX Warning: Reference `fig:cloudwatch-metric-charges' on page 32 undefined o
+n input line 108.
+
+<resources/cloudwatch/cloudwatch-metric-charges.png, id=629, 1445.4pt x 746.79p
+t>
+File: resources/cloudwatch/cloudwatch-metric-charges.png Graphic file (type png
+)
+<use resources/cloudwatch/cloudwatch-metric-charges.png>
+Package pdftex.def Info: resources/cloudwatch/cloudwatch-metric-charges.png  us
+ed on input line 112.
+(pdftex.def)             Requested size: 426.79134pt x 220.50624pt.
+\openout6 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+\openout6 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg) [32 <./resources/cloudwatch/cloudwatch-ec2-actions.png> <./reso
+urces/cloudwatch/cloudwatch-description.png>]) [33 <./resources/cloudwatch/clou
+dwatch-network-alarm-complete.png> <./resources/cloudwatch/cloudwatch-metric-ch
+arges.png>]
 \openout2 = `cloud/cloudtrail.aux'.
 
  (cloud/cloudtrail.tex
 Chapter 9.
-) [31
+) [34
 
 
 
@@ -2852,7 +3121,7 @@ Chapter 9.
 
  (rds/rds.tex
 Chapter 10.
-) [32
+) [35
 
 
 
@@ -2862,7 +3131,7 @@ Chapter 10.
 
  (availability_zones/availability_zones.tex
 Chapter 11.
-) [33
+) [36
 
 
 
@@ -2872,7 +3141,7 @@ Chapter 11.
 
  (elb/elastic_load_balancing.tex
 Chapter 12.
-) [34
+) [37
 
 
 
@@ -2882,7 +3151,7 @@ Chapter 12.
 
  (security/security_practices.tex
 Chapter 13.
-) [35
+) [38
 
 
 
@@ -2893,9 +3162,9 @@ Chapter 13.
  (cost/cost_breakdown.tex
 Chapter 14.
 
-LaTeX Warning: Citation 'amazon2022aws' on page 36 undefined on input line 7.
+LaTeX Warning: Citation 'amazon2022aws' on page 39 undefined on input line 7.
 
-) [36
+) [39
 
 
 
@@ -2906,7 +3175,7 @@ LaTeX Warning: Citation 'amazon2022aws' on page 36 undefined on input line 7.
  (testing/testing.tex
 Chapter 15.
 
-LaTeX Warning: Citation 'dos2018automated' on page 37 undefined on input line 6
+LaTeX Warning: Citation 'dos2018automated' on page 40 undefined on input line 6
 .
 
 
@@ -2914,106 +3183,124 @@ Package caption Warning: \label without proper reference on input line 19.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:gherkin' on page 37 undefined on input line 9.
+LaTeX Warning: Reference `fig:gherkin' on page 40 undefined on input line 9.
 
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/CFC5D889B2DB4FEA23B7ECFD47C04E88C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
-)
+(main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/2D299ECFE86152C6AA79BC600D32AFE6C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/257160CFF9A9EE6A0F5D566B00668301C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/CB428DAA3F0EC4A36C0E80B06C451EDDC9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/D4AC8FCA67B6F13D38FE4B8E81228F6DC9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/C07832A200B5607F732811F166488A1CC9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+
+(main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/BF684522D9654A9163C49055AC8DA3D2C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/FDD5B29056D01687D9C7335CAD62CD54C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/FF6B592FE218967D21BD713093375A62C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/8AF51B4AB2166575C61B29995F5DA52FC9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/23EFE97E513BB1AAE15D5C0212D8E808C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+
+(main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/7825D1AE1224F73165160C3358739FB8C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/D6C32DEB49CA8176A54A4D763AAEEFF0C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/F615004B145C0BB2A6BD6F0F23B3C1F6C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/00C9CDFB4086648BCC930176A1EA6F67C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)
+ (main.out.pyg)
 \openout5 = `main.pyg'.
 
-
-(out/_minted-main/BAF78395CA839070F15ED91A0AA19D84C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex) [37
-
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
 
-
-] [38]
+(main.out.pyg)
 \openout5 = `main.pyg'.
 
+runsystem(pygmentize -l cucumber -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl=False -o main.out.pyg main.pyg)...executed.
 
-(out/_minted-main/BAF78395CA839070F15ED91A0AA19D84C9347A76F103B8C0B1176BAAF856C
-EEF.pygtex)) [39]
+ (main.out.pyg) [40
+
+
+
+
+]) [41]
 \openout2 = `future_enhancements/future_enhancements.aux'.
 
- (future_enhancements/future_enhancements.tex
+
+(future_enhancements/future_enhancements.tex
 Chapter 16.
-) [40
+) [42
 
 
 
@@ -3023,7 +3310,7 @@ Chapter 16.
 
  (conclusion/conclusion.tex
 Chapter 17.
-) [41
+) [43
 
 
 
@@ -3036,44 +3323,44 @@ LaTeX Warning: Empty bibliography on input line 153.
 
 (appendix.tex
 Appendix A.
-<resources/after-allocate-elastic-ip-address.png, id=686, 1444.39626pt x 704.63
+<resources/after-allocate-elastic-ip-address.png, id=701, 1444.39626pt x 704.63
 25pt>
 File: resources/after-allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/after-allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/after-allocate-elastic-ip-address.png  used 
 on input line 8.
 (pdftex.def)             Requested size: 426.79134pt x 208.19809pt.
-<resources/allocate-elastic-ip-address.png, id=687, 1445.4pt x 629.35126pt>
+<resources/allocate-elastic-ip-address.png, id=702, 1445.4pt x 629.35126pt>
 File: resources/allocate-elastic-ip-address.png Graphic file (type png)
 <use resources/allocate-elastic-ip-address.png>
 Package pdftex.def Info: resources/allocate-elastic-ip-address.png  used on inp
 ut line 16.
 (pdftex.def)             Requested size: 426.79134pt x 185.82986pt.
-<resources/cloning-the-app.png, id=688, 651.43375pt x 455.7025pt>
+<resources/cloning-the-app.png, id=703, 651.43375pt x 455.7025pt>
 File: resources/cloning-the-app.png Graphic file (type png)
 <use resources/cloning-the-app.png>
 Package pdftex.def Info: resources/cloning-the-app.png  used on input line 24.
 (pdftex.def)             Requested size: 426.79134pt x 298.56728pt.
-[42
+[44
 
 
 
 
  <./resources/after-allocate-elastic-ip-address.png> <./resources/allocate-elas
 tic-ip-address.png>]
-<resources/cloudwatch-conditions.png, id=696, 1445.4pt x 736.7525pt>
+<resources/cloudwatch-conditions.png, id=710, 1445.4pt x 736.7525pt>
 File: resources/cloudwatch-conditions.png Graphic file (type png)
 <use resources/cloudwatch-conditions.png>
 Package pdftex.def Info: resources/cloudwatch-conditions.png  used on input lin
 e 31.
 (pdftex.def)             Requested size: 426.79134pt x 217.54245pt.
-<resources/cloudwatch-specify-metric.png, id=697, 1444.39626pt x 739.76375pt>
+<resources/cloudwatch-specify-metric.png, id=711, 1444.39626pt x 739.76375pt>
 File: resources/cloudwatch-specify-metric.png Graphic file (type png)
 <use resources/cloudwatch-specify-metric.png>
 Package pdftex.def Info: resources/cloudwatch-specify-metric.png  used on input
  line 38.
 (pdftex.def)             Requested size: 426.79134pt x 218.57834pt.
- [43 <./resources/cloning-the-app.png> <./resources/cloudwatch-conditions.png>]
+ [45 <./resources/cloning-the-app.png> <./resources/cloudwatch-conditions.png>]
 File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
 (type png)
 <use resources/ec2/create-instance-application-and-os-images.png>
@@ -3086,13 +3373,13 @@ g)
 Package pdftex.def Info: resources/ec2/create-instance-configure-storage.png  u
 sed on input line 52.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [44 <./resources/cloudwatch-specify-metric.png>]
+ [46 <./resources/cloudwatch-specify-metric.png>]
 File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 <use resources/ec2/create-instance-instance-type.png>
 Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
 on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
-<resources/ec2/create-instance-name-and-tags.png, id=709, 1445.4pt x 749.80125p
+<resources/ec2/create-instance-name-and-tags.png, id=723, 1445.4pt x 749.80125p
 t>
 File: resources/ec2/create-instance-name-and-tags.png Graphic file (type png)
 <use resources/ec2/create-instance-name-and-tags.png>
@@ -3100,7 +3387,7 @@ Package pdftex.def Info: resources/ec2/create-instance-name-and-tags.png  used
 on input line 66.
 (pdftex.def)             Requested size: 426.79134pt x 221.39539pt.
 
-[45]
+[47]
 File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 )
 <use resources/ec2/create-instance-network-settings.png>
@@ -3112,8 +3399,8 @@ File: resources/ec2/create-key-pair.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line 
 80.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
- [46 <./resources/ec2/create-instance-name-and-tags.png>]
-<resources/digital-ink.png, id=719, 1445.4pt x 852.18375pt>
+ [48 <./resources/ec2/create-instance-name-and-tags.png>]
+<resources/digital-ink.png, id=734, 1445.4pt x 852.18375pt>
 File: resources/digital-ink.png Graphic file (type png)
 <use resources/digital-ink.png>
 Package pdftex.def Info: resources/digital-ink.png  used on input line 87.
@@ -3123,8 +3410,8 @@ File: resources/ec2/docker-compose.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 9
 4.
 (pdftex.def)             Requested size: 426.79134pt x 251.62608pt.
- [47 <./resources/digital-ink.png>]
-<resources/edit-instance-network-settings.png, id=725, 1445.4pt x 740.7675pt>
+ [49 <./resources/digital-ink.png>]
+<resources/edit-instance-network-settings.png, id=740, 1445.4pt x 740.7675pt>
 File: resources/edit-instance-network-settings.png Graphic file (type png)
 <use resources/edit-instance-network-settings.png>
 Package pdftex.def Info: resources/edit-instance-network-settings.png  used on 
@@ -3135,69 +3422,69 @@ File: resources/ec2/installing-docker.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
 e 108.
 (pdftex.def)             Requested size: 426.79134pt x 217.23485pt.
- [48 <./resources/edit-instance-network-settings.png>]
-<resources/installing-docker-2.png, id=732, 2886.785pt x 1804.7425pt>
+ [50 <./resources/edit-instance-network-settings.png>]
+<resources/installing-docker-2.png, id=746, 2886.785pt x 1804.7425pt>
 File: resources/installing-docker-2.png Graphic file (type png)
 <use resources/installing-docker-2.png>
 Package pdftex.def Info: resources/installing-docker-2.png  used on input line 
 115.
 (pdftex.def)             Requested size: 426.79134pt x 266.81682pt.
-<resources/installing-docker-3.png, id=733, 2890.8pt x 1806.75pt>
+<resources/installing-docker-3.png, id=747, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-3.png Graphic file (type png)
 <use resources/installing-docker-3.png>
 Package pdftex.def Info: resources/installing-docker-3.png  used on input line 
 122.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
 
-[49 <./resources/installing-docker-2.png>]
-<resources/installing-docker-4.png, id=739, 2890.8pt x 1806.75pt>
+[51 <./resources/installing-docker-2.png>]
+<resources/installing-docker-4.png, id=753, 2890.8pt x 1806.75pt>
 File: resources/installing-docker-4.png Graphic file (type png)
 <use resources/installing-docker-4.png>
 Package pdftex.def Info: resources/installing-docker-4.png  used on input line 
 129.
 (pdftex.def)             Requested size: 426.79134pt x 266.72765pt.
-<resources/instances.png, id=740, 1445.4pt x 743.77875pt>
+<resources/instances.png, id=754, 1445.4pt x 743.77875pt>
 File: resources/instances.png Graphic file (type png)
 <use resources/instances.png>
 Package pdftex.def Info: resources/instances.png  used on input line 136.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
- [50 <./resources/installing-docker-3.png> <./resources/installing-docker-4.png
+ [52 <./resources/installing-docker-3.png> <./resources/installing-docker-4.png
 >]
-<resources/launching-instance.png, id=747, 1445.4pt x 743.77875pt>
+<resources/launching-instance.png, id=761, 1445.4pt x 743.77875pt>
 File: resources/launching-instance.png Graphic file (type png)
 <use resources/launching-instance.png>
 Package pdftex.def Info: resources/launching-instance.png  used on input line 1
 43.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
-<resources/log-in-with-key-pair.png, id=748, 1445.4pt x 861.2175pt>
+<resources/log-in-with-key-pair.png, id=762, 1445.4pt x 861.2175pt>
 File: resources/log-in-with-key-pair.png Graphic file (type png)
 <use resources/log-in-with-key-pair.png>
 Package pdftex.def Info: resources/log-in-with-key-pair.png  used on input line
  150.
 (pdftex.def)             Requested size: 426.79134pt x 254.2935pt.
- [51 <./resources/instances.png> <./resources/launching-instance.png>]
-<resources/selecting-a-vpc-configuration.png, id=755, 1445.4pt x 709.65125pt>
+ [53 <./resources/instances.png> <./resources/launching-instance.png>]
+<resources/selecting-a-vpc-configuration.png, id=770, 1445.4pt x 709.65125pt>
 File: resources/selecting-a-vpc-configuration.png Graphic file (type png)
 <use resources/selecting-a-vpc-configuration.png>
 Package pdftex.def Info: resources/selecting-a-vpc-configuration.png  used on i
 nput line 157.
 (pdftex.def)             Requested size: 426.79134pt x 209.5402pt.
-<resources/successfully-initiated-instance.png, id=756, 1441.385pt x 741.77126p
+<resources/successfully-initiated-instance.png, id=771, 1441.385pt x 741.77126p
 t>
 File: resources/successfully-initiated-instance.png Graphic file (type png)
 <use resources/successfully-initiated-instance.png>
 Package pdftex.def Info: resources/successfully-initiated-instance.png  used on
  input line 164.
 (pdftex.def)             Requested size: 426.79134pt x 219.63556pt.
- [52 <./resources/log-in-with-key-pair.png> <./resources/selecting-a-vpc-config
+ [54 <./resources/log-in-with-key-pair.png> <./resources/selecting-a-vpc-config
 uration.png>]
-<resources/vpc-successfully-created.png, id=763, 1445.4pt x 742.775pt>
+<resources/vpc-successfully-created.png, id=778, 1445.4pt x 742.775pt>
 File: resources/vpc-successfully-created.png Graphic file (type png)
 <use resources/vpc-successfully-created.png>
 Package pdftex.def Info: resources/vpc-successfully-created.png  used on input 
 line 171.
 (pdftex.def)             Requested size: 426.79134pt x 219.32072pt.
-<resources/vpc-with-public-and-private-subnets-loading.png, id=764, 1445.4pt x 
+<resources/vpc-with-public-and-private-subnets-loading.png, id=779, 1445.4pt x 
 903.375pt>
 File: resources/vpc-with-public-and-private-subnets-loading.png Graphic file (t
 ype png)
@@ -3205,9 +3492,9 @@ ype png)
 Package pdftex.def Info: resources/vpc-with-public-and-private-subnets-loading.
 png  used on input line 178.
 (pdftex.def)             Requested size: 426.79134pt x 266.74144pt.
- [53 <./resources/successfully-initiated-instance.png> <./resources/vpc-success
+ [55 <./resources/successfully-initiated-instance.png> <./resources/vpc-success
 fully-created.png>]
-<resources/vpc-with-public-and-private-subnets.png, id=771, 1445.4pt x 705.6362
+<resources/vpc-with-public-and-private-subnets.png, id=786, 1445.4pt x 705.6362
 5pt>
 File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 
@@ -3215,110 +3502,4 @@ File: resources/vpc-with-public-and-private-subnets.png Graphic file (type png)
 Package pdftex.def Info: resources/vpc-with-public-and-private-subnets.png  use
 d on input line 185.
 (pdftex.def)             Requested size: 426.79134pt x 208.35469pt.
-<resources/your-vpcs.png, id=772, 1445.4pt x 745.78625pt>
-File: resources/your-vpcs.png Graphic file (type png)
-<use resources/your-vpcs.png>
-Package pdftex.def Info: resources/your-vpcs.png  used on input line 192.
-(pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
-) [54 <./resources/vpc-with-public-and-private-subnets-loading.png> <./resource
-s/vpc-with-public-and-private-subnets.png>] [55 <./resources/your-vpcs.png>]
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/glossary/glossary
-.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/intro/introductio
-n.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/webapp/webapp.aux
-)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/vpc_subnets/vpc_s
-ubnets.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/ec2/ec2.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/systemd/systemd.a
-ux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/s3/s3.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cloud/cloudfront.
-aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cloud/cloudwatch.
-aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cloud/cloudtrail.
-aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/rds/rds.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/availability_zone
-s/availability_zones.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/elb/elastic_load_
-balancing.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/security/security
-_practices.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cost/cost_breakdo
-wn.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/testing/testing.a
-ux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/future_enhancemen
-ts/future_enhancements.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/conclusion/conclu
-sion.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/appendix.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E9BFFF456B6D7FE40A000E49BA9223FE;5152.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-runsystem(rm out//main.pyg)...executed.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 31963 strings out of 478553
- 688169 string characters out of 2839088
- 1506331 words of memory out of 3000000
- 48978 multiletter control sequences out of 15000+600000
- 500531 words of font info for 61 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 109i,7n,106p,1195b,1193s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{http://ec2-52-45-13-111.compute-1.amazonaws.com/} h
-as been referenced but does not exist, replaced by a fixed one
-
-{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
-} </Users/chris/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/
-jknappen/ec/dpi600/ectt1095.pk></Library/Application Support/MiKTeX/texmfs/inst
-all/fonts/type1/urw/helvetic/uhvb8a.pfb></Library/Application Support/MiKTeX/te
-xmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Support/
-MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
-versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (62 pages, 12635217 bytes).
-PDF statistics:
- 904 PDF objects out of 1000 (max. 8388607)
- 192 named destinations out of 1000 (max. 500000)
- 647 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+<resources/yo
