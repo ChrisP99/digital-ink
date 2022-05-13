@@ -30,9 +30,12 @@ jobs:
           compiler: biber
           args: 
       - name: pdflatex main
+        continue-on-error: true
         if: always()
         uses: dante-ev/latex-action@latest
         with:
           root_file: main.tex
           compiler: pdflatex
-          args: -interaction=batchmode -shell-escape
+          args: -interaction=nonstopmode -shell-escape
+      - name: Check for pdf
+        run: ls -l out/main.pdf
