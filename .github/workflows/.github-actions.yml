@@ -21,13 +21,13 @@ jobs:
           root_file: main.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
-      - name: bibtex main
+      - name: biber main
         continue-on-error: true
         if: always()
         uses: dante-ev/latex-action@latest
         with:
-          root_file: main.aux
-          compiler: bibtex
+          root_file: main
+          compiler: biber
           args: 
       - name: pdflatex main
         if: always()
