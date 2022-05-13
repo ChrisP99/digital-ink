@@ -114,6 +114,23 @@ A similar process is followed whereby the metric of \mintinline{zsh}|EstimatedCh
     \label{fig:cloudwatch-metric-charges}
 \end{figure}
 
+This metric will be configured to alarm in the event that the EC2 instance uses more than \$15 every 6 hours.
+This process can be seen in Figures
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-config-1}
+    \caption{Con
+    \label{fig:cloudwatch-sns-email}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-alarm-success}
+    \caption{Successful subscription to SNS topic.}
+    \label{fig:cloudwatch-sns-success}
+\end{figure}
+
 
 
 
