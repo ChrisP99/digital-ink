@@ -18,27 +18,6 @@
 %    giveninits=true
 %]{biblatex}
 
-\DeclareFieldFormat{url}{%
-    \mkbibacro{Available at}\addcolon\space
-    \url{#1}%
-}
-
-\DeclareFieldFormat{doi}{%
-    \mkbibacro{Available at}\addcolon\space
-    \url{https://doi.org/#1}%
-}
-
-\DefineBibliographyStrings{english}{%
-    bibliography = {References},
-}
-
-\DeclareFieldFormat{isbn}{%
-    \mkbibacro{Available at}\addcolon\space
-    \url{https://isbnsearch.org/isbn/#1}%
-}
-
-\addbibresource{main.bib}
-
 \newcommand*{\urlprefix}{Available from: }
 \newcommand*{\urldateprefix}{Accessed }
 
@@ -122,6 +101,27 @@ Chris Perry \& Evie Snuggle}
 \titlespacing*{\chapter}{0pt}{0pt}{10pt}
 
 \begin{document}
+
+\DeclareFieldFormat{url}{%
+    \mkbibacro{Available at}\addcolon\space
+    \url{#1}%
+}
+
+\DeclareFieldFormat{doi}{%
+    \mkbibacro{Available at}\addcolon\space
+    \url{https://doi.org/#1}%
+}
+
+\DefineBibliographyStrings{english}{%
+    bibliography = {References},
+}
+
+\DeclareFieldFormat{isbn}{%
+    \mkbibacro{Available at}\addcolon\space
+    \url{https://isbnsearch.org/isbn/#1}%
+}
+
+\addbibresource{main.bib}
 \DeclareGraphicsExtensions{.jpg,.png,.gif,.pdf}
 
 \title{\huge{\reportTitle}}
