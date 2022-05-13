@@ -36,6 +36,6 @@ jobs:
         with:
           root_file: main.tex
           compiler: pdflatex
-          args: -interaction=nonstopmode -shell-escape
+          args: -interaction=nonstopmode -shell-escape -aux-directory=out -output-directory=out
       - name: Check that PDF exists
         run: ls -l out/main.pdf
