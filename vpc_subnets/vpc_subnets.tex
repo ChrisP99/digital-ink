@@ -4,25 +4,25 @@ Amazon VPC allows for AWS resources to be launched in a virtual network that has
 This virtual network is similar to a traditional network which operates within your own physical data center, with the
 added benefits of the scalable AWS infrastructure~\parencite{amazon2022what}.
 A VPC can have multiple assigned subnets, which are a range of IP addresses accessible in the VPC\@.
-This chapter of the report will detail the creation of an Elastic IP address, a VPC, subnets, an internet gateway, and 
+This chapter of the report will detail the creation of an Elastic IP address, a VPC, subnets, an internet gateway, and
 route tables.
 
 \section{Elastic IP Address}\label{sec:elastic-ip-address}
 
 Before creating the VPC, an Elastic IP address must be created, which can then be allocated to the VPC\@.
-To do this, the "Allocate Elastic IP address" button on the Elastic IP addresses page must be clicked.
+To do this, the \textbf{Allocate Elastic IP address} button on the Elastic IP Addresses page must be clicked.
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/vpc/blank_elastic}
-    \caption{Elastic IP addresses page.}
+    \caption{Elastic IP Addresses page.}
     \label{fig:blank-elastic}
 \end{figure}
 
 To configure the Elastic IP address, a Network Border Group must be selected, ensuring that this is the same as the
 Availability Zone selected when configuring the VPC\@.
-Once this has been set, and the remaining options are set to their default values, clicking the Allocate button will
-create the Elastic IP address.
+Once this has been set, and the remaining options are set to their default values, clicking the \textbf{Allocate} button
+will create the Elastic IP address.
 
 \clearpage
 \begin{figure}[!htbp]
@@ -32,7 +32,7 @@ create the Elastic IP address.
     \label{fig:config-elastic}
 \end{figure}
 
-After this, the Elastic IP address created can be seen from the Elastic IP addresses page.
+After this, the Elastic IP address created can be seen from the Elastic IP Addresses page.
 
 \begin{figure}[!htbp]
     \centering
@@ -46,8 +46,8 @@ After this, the Elastic IP address created can be seen from the Elastic IP addre
 
 The first step of migrating the web app to the cloud was creating a VPC to deploy and manage AWS resources for the app.
 To do this, the VPC wizard must be used.
-This is accessed by navigating to the VPC Management Console and then click the Launch VPC Wizard button, which can be
-seen in Figure~\ref{fig:vpc-wizard}.
+This is accessed by navigating to the VPC Management Console and then click the \textbf{Launch VPC Wizard} button, which
+can be seen in Figure~\ref{fig:vpc-wizard}.
 
 \begin{figure}[!htbp]
     \centering
@@ -70,13 +70,13 @@ There are several options for this, where each configuration has the following f
     subnet is connected to your personal network via a VPN\@.
 \end{itemize}
 
+\clearpage
 For the deployment of this web app, hardware VPN access is not necessary, so the VPC configuration with public and
 private subnets was selected, as seen in Figure~\ref{fig:vpc-step-1}.
 
-\clearpage
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=125mm]{resources/vpc/step_1_select_a_vpc_configuration}
+    \includegraphics[width=115mm]{resources/vpc/step_1_select_a_vpc_configuration}
     \caption{Selecting a VPC configuration.}
     \label{fig:vpc-step-1}
 \end{figure}
@@ -97,11 +97,11 @@ The availability zone of \mintinline{zsh}|us-east-1a| was chosen and the subnet 
 
 Lastly, the previously created Elastic IP Allocation ID was selected, and the remaining settings were left at their
 default values.
-Clicking the Create VPC button now will generate the VPC with the specified configurations.
+Clicking the \textbf{Create VPC} button now will generate the VPC with the specified configurations.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=125mm]{resources/vpc/step_2_vpc_with_public_and_private_subnets}
+    \includegraphics[width=115mm]{resources/vpc/step_2_vpc_with_public_and_private_subnets}
     \caption{Configuring VPC public and private subnets.}
     \label{fig:vpc-step-2}
 \end{figure}
@@ -121,7 +121,7 @@ After this, AWS takes a few minutes to generate the VPC\@.
     \label{fig:vpc-step-3-and-4}
 \end{figure}
 
-Navigating from here to the "Your VPCs" page shows two available VPCs: the VPC created by the AWS sandbox
+Navigating from here to the Your VPCs page shows two available VPCs: the VPC created by the AWS sandbox
 environment, which will not be used, and the VPC which has just been created, named \mintinline{zsh}|Group4_VPC|.
 
 \begin{figure}[!htbp]
@@ -131,11 +131,12 @@ environment, which will not be used, and the VPC which has just been created, na
     \label{fig:vpc-step-5}
 \end{figure}
 
+\clearpage
 \section{Internet Gateway}\label{sec:internet-gateway}
 
 An internet gateway is required for resources, such as EC2, to be able to communicate with the internet, if the resource
 has a public IP address~\parencite{amazon2022connect}.
-To do this, navigate to the "Internet gateways" page and click the "Create internet gateway" button.
+To do this, navigate to the Internet Gateways page and click the \textbf{Create internet gateway} button.
 Here, enter the internet gateway name, such as \mintinline{zsh}|Group4-Internet-Gateway|.
 
 \begin{figure}[!htbp]
@@ -145,7 +146,7 @@ Here, enter the internet gateway name, such as \mintinline{zsh}|Group4-Internet-
     \label{fig:internet-gateway-1}
 \end{figure}
 
-After entering the internet gateway name and clicking the "Create internet gateway" button, the newly created
+After entering the internet gateway name and clicking the \textbf{Create internet gateway} button, the newly created
 internet gateway can be seen (as well as an automatically generated internet gateway for the default VPC, which will not
 be used).
 
@@ -156,13 +157,14 @@ be used).
     \label{fig:internet-gateway-2}
 \end{figure}
 
+\clearpage
 \section{Route Tables}\label{sec:route-tables}
 
 The newly created VPC does not currently have a sufficient level of availability, as it is only available in one
 Availability Zone - \mintinline{zsh}|us-east-1a|.
 The availability of the VPC can be increased by creating a new pair of public and private subnets in a different
 Availability Zone.
-This is done by navigating to the "Create subnets" page from the VPC Management Console.
+This is done by navigating to the Create Subnets page from the VPC Management Console.
 
 First, to create \mintinline{zsh}|Public subnet 2|, it is required to specify a VPC ID, an Availability Zone, and an
 IPv4 CIDR block for the subnet.
@@ -172,7 +174,7 @@ Additionally, \mintinline{zsh}|us-east-1b| is selected as the Availability Zone 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-public-subnet-2}
+    \includegraphics[width=125mm]{resources/vpc/routes/vpc-public-subnet-2}
     \caption{Creating a second public subnet.}
     \label{fig:vpc-public-subnet-2}
 \end{figure}
@@ -183,7 +185,7 @@ IPv4 CIDR block.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-private-subnet-2}
+    \includegraphics[width=125mm]{resources/vpc/routes/vpc-private-subnet-2}
     \caption{Creating a second private subnet.}
     \label{fig:vpc-private-subnet-2}
 \end{figure}
@@ -199,50 +201,48 @@ Now the subnets can be filtered by Availability Zone and it can be seen that the
 \end{figure}
 
 After this, two routing tables must be created to link the two public subnets and the two private subnets.
-The "Create route table" page can be navigated to from the VPC Management Console.
+The Create Route Table page can be navigated to from the VPC Management Console.
 Two route tables are created, one at a time, called \mintinline{zsh}|Public route| and \mintinline{zsh}|Private route|
 with the previously created VPC\@.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-public-route}
-    \caption{Creating a public route table.}
-    \label{fig:vpc-public-route}
+    \begin{subfigure}
+        \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-public-route}
+    \end{subfigure}
+    \begin{subfigure}
+        \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-private-route}
+    \end{subfigure}
+    \caption{Creating a public route table and a private route table.}
+    \label{fig:vpc-public-route-private-route}
 \end{figure}
 
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-private-route}
-    \caption{Creating a private route table.}
-    \label{fig:vpc-private-route}
-\end{figure}
-
+\clearpage
 Once the two route tables have been created, the public and private subnets must be associated with the corresponding
 route table.
-From the "Route tables" page, \mintinline{zsh}|Public route| is selected, and the "Edit subnet associations" button is
-clicked.
-On the "Edit subnet associations" page, the two public subnets are selected, and the "Save associations" button is
+From the Route Tables page, \mintinline{zsh}|Public route| is selected, and the \textbf{Edit subnet associations} button
+is clicked.
+On the Edit Subnet Associations page, the two public subnets are selected, and the \textbf{Save associations} button is
 clicked.
 This process is then repeated for \mintinline{zsh}|Private route|.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-subnet-public-ass}
-    \caption{Associating the public subnets with the public route table.}
-    \label{fig:vpc-public-ass}
+    \begin{subfigure}
+        \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-subnet-public-ass}
+    \end{subfigure}
+    \begin{subfigure}
+        \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-subnet-private-ass}
+    \end{subfigure}
+    \caption{Associating the public and private subnets with the public and private route tables.}
+    \label{fig:vpc-public-ass-private-ass}
 \end{figure}
 
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/vpc/routes/vpc-subnet-private-ass}
-    \caption{Associating the private subnets with the private route table.}
-    \label{fig:vpc-private-ass}
-\end{figure}
-
+\clearpage
 Lastly, the \mintinline{zsh}|Public route| must be updated to allow all public traffic that attempts to access the VPC
 to be routed via the internet gateway.
 This is done by selecting \mintinline{zsh}|Public route| and clicking the "Edit routes" Action.
-On this page, click the "Add route" button and enter a destination of \mintinline{zsh}|0.0.0.0/0| and, for the target,
+On this page, click the \textbf{Add route} button and enter a destination of \mintinline{zsh}|0.0.0.0/0| and, for the target,
 select the previously created internet gateway.
 
 \begin{figure}[!htbp]
@@ -252,7 +252,7 @@ select the previously created internet gateway.
     \label{fig:vpc-public-route-table}
 \end{figure}
 
-Lastly, click the "Save changes" button.
+Lastly, click the \textbf{Save changes} button.
 This will update the route for \mintinline{zsh}|Public route|.
 
 \begin{figure}[!htbp]
