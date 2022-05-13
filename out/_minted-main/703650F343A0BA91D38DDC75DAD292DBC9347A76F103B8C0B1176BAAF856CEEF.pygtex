@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Accessing web app through EC2 domain name.}
+\PYG{k}{    Given }\PYG{n+nf}{that the web app is running on the EC}\PYG{l+s}{2}\PYG{n+nf}{ instance}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{the user accesses}
+\PYG{n+nf}{    \PYGZdq{}}\PYG{l+s}{http://ec2\PYGZhy{}52\PYGZhy{}45\PYGZhy{}13\PYGZhy{}111.compute\PYGZhy{}1.amazonaws.com}\PYG{n+nf}{\PYGZdq{} in their browser}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{the web app will be loaded}
+\end{Verbatim}

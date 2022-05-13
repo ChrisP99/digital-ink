@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Accessing web app image through CloudFront domain name.}
+\PYG{k}{    Given }\PYG{n+nf}{that an image on the web app is in a CloudFront distribution}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{the user accesses the URL}
+\PYG{n+nf}{    \PYGZdq{}}\PYG{l+s}{https://d1bdkf7iuqj4qy.cloudfront.net/}\PYG{n+nf}{\PYGZdq{} followed by the name of the image}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{the user will see the image displayed from the CloudFront distribution}
+\end{Verbatim}

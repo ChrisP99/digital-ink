@@ -22,8 +22,6 @@ An example of this structure can be seen in Figure~\ref{fig:gherkin}.
 EC2, S3, CloudFront, RDS, CloudWatch, and CloudTrail were all tested using this approach.
 Screenshots are included to illustrate the results of these tests.
 
-\clearpage
-
 \section{Testing EC2}\label{sec:testing-ec2}
 
 \begin{figure}[!htbp]
@@ -31,7 +29,8 @@ Screenshots are included to illustrate the results of these tests.
     \begin{minted}{cucumber}
 Scenario: Accessing instance through SSH with .pem file private key.
     Given that the EC2 instance is running on AWS
-    When the user enters the command "ssh -i Group4_KeyPair.pem ec2-user@52.45.13.111" in the terminal
+    When the user enters the command
+    "ssh -i Group4_KeyPair.pem ec2-user@52.45.13.111" in the terminal
     Then the user will be logged into the EC2 instance
     \end{minted}
     \label{fig:accessing-instance-ec2}
@@ -50,7 +49,8 @@ Scenario: Accessing instance through SSH with .pem file private key.
     \begin{minted}{cucumber}
 Scenario: Accessing web app through EC2 domain name.
     Given that the web app is running on the EC2 instance
-    When the user accesses http://ec2-52-45-13-111.compute-1.amazonaws.com in their browser
+    When the user accesses
+    "http://ec2-52-45-13-111.compute-1.amazonaws.com" in their browser
     Then the web app will be loaded
     \end{minted}
     \label{fig:accessing-web-app-ec2}
@@ -71,7 +71,8 @@ Scenario: Accessing web app through EC2 domain name.
     \begin{minted}{cucumber}
 Scenario: Accessing web app image through S3 domain name.
     Given that an image on the web app is in an S3 bucket
-    When the user accesses the URL https://group4-digital-ink-s3.s3.amazonaws.com/ followed by the name of the image
+    When the user accesses the URL
+    "https://group4-digital-ink-s3.s3.amazonaws.com/" followed by the name of the image
     Then the user will see the image displayed from the S3 bucket
     \end{minted}
     \label{fig:accessing-image-s3}
@@ -92,7 +93,8 @@ Scenario: Accessing web app image through S3 domain name.
     \begin{minted}{cucumber}
 Scenario: Accessing web app image through CloudFront domain name.
     Given that an image on the web app is in a CloudFront distribution
-    When the user accesses the URL https://d1bdkf7iuqj4qy.cloudfront.net/ followed by the name of the image
+    When the user accesses the URL
+    "https://d1bdkf7iuqj4qy.cloudfront.net/" followed by the name of the image
     Then the user will see the image displayed from the CloudFront distribution
     \end{minted}
     \label{fig:accessing-image-cloudfront}
@@ -104,17 +106,48 @@ Scenario: Accessing web app image through CloudFront domain name.
     \label{fig:cloudfront-test-photo}
 \end{figure}
 
+\clearpage
+
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
 Scenario: Accessing web app image through CloudFront domain name in another region.
-    Given that the user is on a n
-    When
-    Then ...
+    Given that the user is connected to the internet
+    When the user accesses a resource on the web app
+    Then CloudFront will distribute that content in the region closest to them
     \end{minted}
     \label{fig:accessing-image-cloudfront-diff-region}
 \end{figure}
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-test-uk}
+    \caption{Digital Ink image whilst connected to UK IP.}
+    \label{fig:cloudfront-test--uk}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-test-uk-ip}
+    \caption{UK IP Location.}
+    \label{fig:cloudfront-test-uk-ip}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-test-us}
+    \caption{Digital Ink image whilst connected to US IP.}
+    \label{fig:cloudfront-test-us}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-test-us-ip}
+    \caption{US IP Location.}
+    \label{fig:cloudfront-test-us-ip}
+\end{figure}
+
+\clearpage
 
 \section{Testing RDS}\label{sec:testing-rds}
 

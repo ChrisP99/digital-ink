@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Accessing web app image through CloudFront domain name in another region.}
+\PYG{k}{    Given }\PYG{n+nf}{that the user is connected to the internet}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{the user accesses a resource on the web app}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{CloudFront will distribute that content in the region closest to them}
+\end{Verbatim}

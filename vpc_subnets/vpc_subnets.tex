@@ -4,6 +4,42 @@ Amazon VPC allows for AWS resources to be launched in a virtual network that has
 This virtual network is similar to a traditional network which operates within your own physical data center, with the
 added benefits of the scalable AWS infrastructure~\parencite{amazon2022what}.
 A VPC can have multiple assigned subnets, which are a range of IP addresses accessible in the VPC\@.
+This chapter of the report will detail the creation of an Elastic IP address, a VPC, and the necessary subnets.
+
+\section{Elastic IP Address}\label{sec:elastic-ip-address}
+
+Before creating the VPC, an Elastic IP address must be created, which can then be allocated to the VPC\@.
+To do this, the "Allocate Elastic IP address" button on the Elastic IP addresses page must be clicked.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/blank_elastic}
+    \caption{Elastic IP addresses page.}
+    \label{fig:blank-elastic}
+\end{figure}
+
+To configure the Elastic IP address, a Network Border Group must be selected, ensuring that this is the same as the
+Availability Zone selected when configuring the VPC\@.
+Once this has been set, and the remaining options are set to their default values, clicking the Allocate button will
+create the Elastic IP address.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/vpc_elastic_ip_addresses}
+    \caption{Configuring the Elastic IP address.}
+    \label{fig:config-elastic}
+\end{figure}
+
+After this, the Elastic IP address created can be seen from the Elastic IP addresses page.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/elastic_ip_addresses}
+    \caption{Created Elastic IP address.}
+    \label{fig:elastic-ip-addresses}
+\end{figure}
+
+\section{VPC and Subnets}\label{sec:vpc-and-subnets}
 
 The first step of migrating the web app to the cloud was creating a VPC to deploy and manage AWS resources for the app.
 To do this, the VPC wizard must be used.
@@ -77,7 +113,17 @@ After this, AWS takes a few minutes to generate the VPC\@.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/vpc/step_3_create_vpc}
-    \caption{Generating the VPC.}
-    \label{fig:vpc-step-3}
+    \includegraphics[width=\textwidth]{resources/vpc/vpc_successfully_created}
+    \caption{VPC successfully created.}
+    \label{fig:vpc-step-4}
+\end{figure}
+
+Navigating from here to the "Your VPCs" page shows two available VPCs: the VPC created by the AWS sandbox
+environment, which will not be used, and the VPC which has just been created, named \mintline{zsh}|Group4_VPC|.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/your_vpcs}
+    \caption{Your VPCs page.}
+    \label{fig:vpc-step-5}
 \end{figure}
