@@ -14,6 +14,7 @@ jobs:
         run: |
           pip install Pygments
       - name: pdflatex main
+        continue-on-error: true
         if: always()
         uses: dante-ev/latex-action@latest
         with:
@@ -21,6 +22,7 @@ jobs:
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
       - name: bibtex main
+        continue-on-error: true
         if: always()
         uses: dante-ev/latex-action@latest
         with:
