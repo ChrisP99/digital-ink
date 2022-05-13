@@ -120,7 +120,7 @@ After this, AWS takes a few minutes to generate the VPC\@.
 \end{figure}
 
 Navigating from here to the "Your VPCs" page shows two available VPCs: the VPC created by the AWS sandbox
-environment, which will not be used, and the VPC which has just been created, named \mintline{zsh}|Group4_VPC|.
+environment, which will not be used, and the VPC which has just been created, named \mintinline{zsh}|Group4_VPC|.
 
 \begin{figure}[!htbp]
     \centering
@@ -133,8 +133,26 @@ environment, which will not be used, and the VPC which has just been created, na
 
 An internet gateway is required for resources, such as EC2, to be able to communicate with the internet, if the resource
 has a public IP address.
+To do this, navigate to the "Internet gateways" page and click the "Create internet gateway" button.
+Here, enter the internet gateway name, such as \mintinline{zsh}|Group4-Internet-Gateway|.
 
-%TODO
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/internet-gateway-1}
+    \caption{Creating an internet gateway.}
+    \label{fig:internet-gateway-1}
+\end{figure}
+
+After entering the internet gateway name and clicking the "Create internet gateway" button, the newly created
+internet gateway can be seen (as well as an automatically generated internet gateway for the default VPC, which will not
+be used).
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/internet-gateway-2}
+    \caption{Viewing the newly created internet gateway.}
+    \label{fig:internet-gateway-2}
+\end{figure}
 
 \section{Route Tables}\label{sec:route-tables}
 
