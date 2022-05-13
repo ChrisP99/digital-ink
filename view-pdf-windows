@@ -5,8 +5,4 @@ git stash apply
 git add .
 git commit -a -m "Update for PDF please"
 git push --set-upstream origin intellij
-<<<<<<< Updated upstream
 echo "Pleas visit: https://github.com/ChrisP99/digital-ink/blob/intellij/out/main.pdf for pdf"
-=======
-echo "Please visit: https://github.com/ChrisP99/digital-ink/blob/intellij/out/main.pdf for pdf"
->>>>>>> Stashed changes
