@@ -18,6 +18,12 @@
     giveninits=true
 ]{biblatex}
 
+\DefineBibliographyStrings{english}{%
+    bibliography = {References},
+}
+
+\addbibresource{main.bib}
+
 \newcommand*{\urlprefix}{Available from: }
 \newcommand*{\urldateprefix}{Accessed }
 
@@ -112,16 +118,12 @@ Christopher Perry \& Evie Snuggle (Group 4)}
     \url{https://doi.org/#1}%
 }
 
-\DefineBibliographyStrings{english}{%
-    bibliography = {References},
-}
 
 \DeclareFieldFormat{isbn}{%
     \mkbibacro{Available at}\addcolon\space
     \url{https://isbnsearch.org/isbn/#1}%
 }
 
-\addbibresource{main.bib}
 \DeclareGraphicsExtensions{.jpg,.png,.gif,.pdf}
 
 \title{\huge{\reportTitle}}
