@@ -13,6 +13,82 @@ For the purposes of the project, multiple CloudWatch alarms will be set up which
 and performance across the various AWS services used.
 
 The first alarm which will be set up is a network alarm.
-This will allow for an email to be sent to the group in the event that the bandwidth of the EC2
+Through selecting the \mintinline{zsh}|NetworkPacketsOut| metric on the \mintinline{zsh}|Group4_EC2| instance,
+the packets which are being outputted can be monitored.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-metric-selection}
+    \caption{Selection of CloudWatch metric for EC2 instance.}
+    \label{fig:cloudwatch-metrics}
+\end{figure}
+
+The metric will be configured to alarm in the event that there is less than 5 packets of data sent per day from the
+instance.
+As the instance currently outputs nearly, 30,000 packets per day, this will be useful to check if the web app has failed.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-metric-config-1}
+    \caption{Configuration of NetworkPacketsOut Metric.}
+    \label{fig:cloudwatch-metrics-config-1}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-metric-config-2}
+    \caption{Configuration of NetworkPacketsOut Metric.}
+    \label{fig:cloudwatch-metric-config-2}
+\end{figure}
+
+Figures~\ref{fig:cloudwatch-metrics-config-1} and~\ref{fig:cloudwatch-metric-config-2} detail the alarm being set so that
+when the sum of packets sent is less than 5 per day, the alarm will activate.
+
+In addition to the initial configuration of these CloudWatch alarms, SNS topics will also be set up so that every member
+of the group will be emailed in the event that the alarms activate.
+Figure~\ref{fig:cloudwatch-sns-topic} details this process.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-sns-topic}
+    \caption{Configuration of SNS Topic for email alerts on alarm activation.}
+    \label{fig:cloudwatch-sns-topic}
+\end{figure}
+
+The EC2 instance has also been configured to restart when this alarm activates.
+This is done by automatically re-running the scripts used to start the web app on the instance starting up again.
+
+This process can be seen in Figure~\ref{fig:cloudwatch-ec2-actions}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-ec2-actions}
+    \caption{Configuration for EC2 instance to reboot on alarm activation.}
+    \label{fig:cloudwatch-ec2-actions}
+\end{figure}
+
+A brief description of the CloudWatch alarm is then added.
+This can be seen in Figure~\ref{fig:cloudwatch-description}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-description}
+    \caption{CloudWatch alarm description.}
+    \label{fig:cloudwatch-description}
+\end{figure}
+
+the alarm has now been setup, and can be seen in the CloudWatch Management Dashboard in Figure~\ref{fig:cloudwatch-network-alarm}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-network-alarm-complete}
+    \caption{CloudWatch network alarm in dashboard.}
+    \label{fig:cloudwatch-network-alarm}
+\end{figure}
+
+
+
+
+
 
 

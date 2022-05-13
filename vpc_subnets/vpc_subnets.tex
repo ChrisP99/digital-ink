@@ -1,7 +1,28 @@
-\chapter{Virtual Private Cloud and Subnets}\label{ch:vpc-subnets}
+\chapter{Virtual Private Cloud (VPC)}\label{ch:vpc}
 
-Amazon Virtual Private Cloud (VPC) allows for AWS resources to be launched in a virtual network that has been custom
-defined and configured.
+Amazon VPC allows for AWS resources to be launched in a virtual network that has been custom defined and configured.
 This virtual network is similar to a traditional network which operates within your own physical data center, with the
 added benefits of the scalable AWS infrastructure~\parencite{amazon2022what}.
 A VPC can have multiple assigned subnets, which are a range of IP addresses accessible in the VPC\@.
+
+The first step of migrating the web app to the cloud was creating a VPC to deploy and manage AWS resources for the app.
+To do this, the VPC wizard must be used.
+This is accessed by navigating to the VPC Management Console and clicking the Launch VPC Wizard button, which can be
+seen in Figure~\ref{fig:vpc-wizard}.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/vpc/vpc-dashboard}
+    \caption{VPC Management Console.}
+    \label{fig:vpc-wizard}
+\end{figure}
+
+The wizard presents us with step one of creating a VPC: selecting a VPC configuration.
+There are several options for this, where each configuration has the following features:
+
+\begin{itemize}
+    \item VPC with a Single Public Subnet
+    \item VPC with Public and Private Subnets
+    \item VPC with Public and Private Subnets and Hardware VPN Access
+    \item VPC with a Private Subnet Only and Hardware VPN Access
+\end{itemize}
