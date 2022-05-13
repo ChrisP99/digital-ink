@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  13 MAY 2022 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  13 MAY 2022 17:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,379 +1003,7 @@ runsystem(rm main.aex)...executed.
 
 
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:4: Undefi
-ned control sequence.
-l.4 \abx@aux@refcontext
-                       {nyt/global//global/global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:4: LaTeX 
-Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \abx@aux@refcontext{n
-                         yt/global//global/global}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/glossary/glossary
-.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/intro/introductio
-n.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/webapp/webapp.aux
-)
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:26: Undef
-ined control sequence.
-l.26 \abx@aux@cite
-                  {0}{lee2003open}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:27: Undef
-ined control sequence.
-l.27 \abx@aux@segm
-                  {0}{0}{lee2003open}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:28: Undef
-ined control sequence.
-l.28 \abx@aux@cite
-                  {0}{anderson2015docker}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:29: Undef
-ined control sequence.
-l.29 \abx@aux@segm
-                  {0}{0}{anderson2015docker}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:30: Undef
-ined control sequence.
-l.30 \abx@aux@cite
-                  {0}{fielding1997apache}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:31: Undef
-ined control sequence.
-l.31 \abx@aux@segm
-                  {0}{0}{fielding1997apache}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:32: Undef
-ined control sequence.
-l.32 \abx@aux@cite
-                  {0}{widenius2002mysql}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:33: Undef
-ined control sequence.
-l.33 \abx@aux@segm
-                  {0}{0}{widenius2002mysql}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:34: Undef
-ined control sequence.
-l.34 \abx@aux@cite
-                  {0}{lerdorf2002programming}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:35: Undef
-ined control sequence.
-l.35 \abx@aux@segm
-                  {0}{0}{lerdorf2002programming}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:36: Undef
-ined control sequence.
-l.36 \abx@aux@cite
-                  {0}{laravel2022hashing}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:37: Undef
-ined control sequence.
-l.37 \abx@aux@segm
-                  {0}{0}{laravel2022hashing}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:38: Undef
-ined control sequence.
-l.38 \abx@aux@cite
-                  {0}{laravel2022blade}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:39: Undef
-ined control sequence.
-l.39 \abx@aux@segm
-                  {0}{0}{laravel2022blade}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/vpc_subnets/vpc_s
-ubnets.aux)
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:41: Undef
-ined control sequence.
-l.41 \abx@aux@cite
-                  {0}{amazon2022what}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:42: Undef
-ined control sequence.
-l.42 \abx@aux@segm
-                  {0}{0}{amazon2022what}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/ec2/ec2.aux)
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:44: Undef
-ined control sequence.
-l.44 \abx@aux@cite
-                  {0}{aws2022ec2}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:45: Undef
-ined control sequence.
-l.45 \abx@aux@segm
-                  {0}{0}{aws2022ec2}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/systemd/systemd.a
-ux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/s3/s3.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cloud/cloudfront.
-aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cloud/cloudwatch.
-aux)
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:50: Undef
-ined control sequence.
-l.50 \abx@aux@cite
-                  {0}{amazon2022amazon}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:51: Undef
-ined control sequence.
-l.51 \abx@aux@segm
-                  {0}{0}{amazon2022amazon}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cloud/cloudtrail.
-aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/rds/rds.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/availability_zone
-s/availability_zones.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/elb/elastic_load_
-balancing.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/security/security
-_practices.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/cost/cost_breakdo
-wn.aux)
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:58: Undef
-ined control sequence.
-l.58 \abx@aux@cite
-                  {0}{amazon2022aws}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:59: Undef
-ined control sequence.
-l.59 \abx@aux@segm
-                  {0}{0}{amazon2022aws}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/testing/testing.a
-ux)
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:61: Undef
-ined control sequence.
-l.61 \abx@aux@cite
-                  {0}{dos2018automated}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:62: Undef
-ined control sequence.
-l.62 \abx@aux@segm
-                  {0}{0}{dos2018automated}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/future_enhancemen
-ts/future_enhancements.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/conclusion/conclu
-sion.aux)
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/appendix.aux)
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:171: Unde
-fined control sequence.
-l.171 \abx@aux@read@bbl@mdfivesum
-                                 {53127B6229A7272BCCB1EF6878DAFF2D}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - C
-loud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux:172: Unde
-fined control sequence.
-l.172 \abx@aux@read@bblrerun
-                            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
@@ -1399,17 +1027,6 @@ LaTeX Font Info:    ... okay on input line 103.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-
 pdf.mkii
-Underfull \hbox (badness 10000) in paragraph at lines 4--13
-\T1/phv/m/n/10.95 0an-der-son2015docker 00an-der-son2015docker 0field-ing1997ap
-ache 00field-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--13
-\T1/phv/m/n/10.95 00ler-dorf2002programming 0lar-avel2022hashing 00lar-avel2022
-hashing 0lar-
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count417
 \scratchdimen=\dimen298
@@ -1693,107 +1310,24 @@ although `bcu_logo_landscape_narrow_blk.svg' was found.
 
 {/Users/chris/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/p
 dftex.map}]
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.toc [2
 
-])
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-
-[3]
-(/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
-Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.lof
-\openout5 = `main.pyg'.
-
-runsystem(pygmentize -S default -f latex -P commandprefix=PYG > main.out.pyg)..
-.executed.
-
-
-(main.out.pyg)
-runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o main.out.pyg main.pyg)...executed.
-
- (main.out.pyg
-Underfull \hbox (badness 10000) in paragraph at lines 5--1
- [][] [][][]  
- []
-
-)
-\openout5 = `main.pyg'.
-
-runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o main.out.pyg main.pyg)...executed.
-
- (main.out.pyg
-Underfull \hbox (badness 10000) in paragraph at lines 6--1
- [][] [][][]  
- []
-
-)
-\openout5 = `main.pyg'.
-
-runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o main.out.pyg main.pyg)...executed.
-
- (main.out.pyg
-Underfull \hbox (badness 10000) in paragraph at lines 7--1
- [][] [][][]  
- []
-
-)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
-\openout5 = `main.pyg'.
-
-runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o main.out.pyg main.pyg)...executed.
-
- (main.out.pyg
-Underfull \hbox (badness 10000) in paragraph at lines 20--1
- [][] [][][]\T1/phv/m/n/10.95 Generated EC2 Key-pair in the  
- []
-
-)
-\openout5 = `main.pyg'.
-
-runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o main.out.pyg main.pyg)...executed.
-
- (main.out.pyg
-Underfull \hbox (badness 10000) in paragraph at lines 28--1
- [][] [][][]\T1/phv/m/n/10.95 Creation of ta-bles through  
- []
-
-)
-\openout5 = `main.pyg'.
-
-runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o main.out.pyg main.pyg)...executed.
-
- (main.out.pyg
-Underfull \hbox (badness 10000) in paragraph at lines 30--1
- [][] [][][]\T1/phv/m/n/10.95 Creation of  
- []
-
-) [4
+[2
 
 ]
-\openout5 = `main.pyg'.
 
-runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o main.out.pyg main.pyg)...executed.
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
 
- (main.out.pyg
-Underfull \hbox (badness 10000) in paragraph at lines 54--1
- [][] [][][]\T1/phv/m/n/10.95 Selection of  
- []
-
-))
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [5]
+[3
+
+]
 \openout2 = `glossary/glossary.aux'.
 
  (glossary/glossary.tex
@@ -1804,14 +1338,16 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfs
 s/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [6
+) [4
 
 
-]) [7]
+]) [5]
 \openout2 = `intro/introduction.aux'.
 
  (intro/introduction.tex
 Chapter 2.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
 ) [1
 
 
@@ -1828,4 +1364,1095 @@ l.9 ...ache HTTP Server, MySQL, and PHP \parencite
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Ot
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+webapp/webapp.tex:10: Undefined control sequence.
+l.10 ...osted within a Docker container~\parencite
+                                                  {anderson2015docker} which...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+webapp/webapp.tex:11: Undefined control sequence.
+l.11 ...used to host the app on the web~\parencite
+                                                  {fielding1997apache}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+webapp/webapp.tex:12: Undefined control sequence.
+l.12 ...onal database management system~\parencite
+                                                  {widenius2002mysql} which ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+webapp/webapp.tex:13: Undefined control sequence.
+l.13 ...o its stability and reliability~\parencite
+                                                  {lerdorf2002programming}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:tables-overview' on page 2 undefined on input lin
+e 20.
+
+\openout5 = `main.pyg'.
+
+(main.out.pyg)
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/database/tables-overview.png, id=42, 218.8175pt x 108.405pt>
+File: resources/database/tables-overview.png Graphic file (type png)
+<use resources/database/tables-overview.png>
+Package pdftex.def Info: resources/database/tables-overview.png  used on input 
+line 24.
+(pdftex.def)             Requested size: 175.05423pt x 86.7241pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+
+LaTeX Warning: Reference `fig:migrations-records' on page 2 undefined on input 
+line 29.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg [2
+
+
+
+
+])
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/database/migrations-records.png, id=52, 474.77374pt x 83.31125pt>
+File: resources/database/migrations-records.png Graphic file (type png)
+<use resources/database/migrations-records.png>
+Package pdftex.def Info: resources/database/migrations-records.png  used on inp
+ut line 41.
+(pdftex.def)             Requested size: 426.79134pt x 74.89424pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+
+LaTeX Warning: Reference `fig:users-records' on page 3 undefined on input line 
+46.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+webapp/webapp.tex:52: Undefined control sequence.
+l.52 ... with 184 bit hashing by Bcrypt~\parencite
+                                                  {laravel2022hashing}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/database/users-records.png, id=53, 1031.855pt x 140.525pt>
+File: resources/database/users-records.png Graphic file (type png)
+<use resources/database/users-records.png>
+Package pdftex.def Info: resources/database/users-records.png  used on input li
+ne 60.
+(pdftex.def)             Requested size: 426.79134pt x 58.1238pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+[3 <./resources/database/tables-overview.png> <./resources/database/migrations-
+records.png>] [4 <./resources/database/users-records.png>]
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+
+LaTeX Warning: Reference `fig:stories-records' on page 5 undefined on input lin
+e 66.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+
+webapp/webapp.tex:84: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84     \begin{subfigure}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/database/stories-records-1.png, id=68, 938.50626pt x 77.28876pt>
+File: resources/database/stories-records-1.png Graphic file (type png)
+<use resources/database/stories-records-1.png>
+Package pdftex.def Info: resources/database/stories-records-1.png  used on inpu
+t line 85.
+(pdftex.def)             Requested size: 426.79134pt x 35.14755pt.
+
+webapp/webapp.tex:86: LaTeX Error: \begin{figure} on input line 82 ended by \en
+d{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86     \end{subfigure}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+webapp/webapp.tex:87: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87     \begin{subfigure}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/database/stories-records-2.png, id=69, 777.90625pt x 82.3075pt>
+File: resources/database/stories-records-2.png Graphic file (type png)
+<use resources/database/stories-records-2.png>
+Package pdftex.def Info: resources/database/stories-records-2.png  used on inpu
+t line 88.
+(pdftex.def)             Requested size: 426.79134pt x 45.15872pt.
+
+webapp/webapp.tex:89: LaTeX Error: \begin{figure} on input line 82 ended by \en
+d{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89     \end{subfigure}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg) [5
+
+ <./resources/database/stories-records-1.png> <./resources/database/stories-rec
+ords-2.png>]
+webapp/webapp.tex:97: Undefined control sequence.
+l.97 ...e, a powerful templating engine~\parencite
+                                                  {laravel2022blade}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:digital-ink-home-and-sign-up' on page 6 undefined
+ on input line 99.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+
+webapp/webapp.tex:104: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104     \begin{subfigure}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/webapp/digital-ink-home.png, id=77, 805.20825pt x 457.71pt>
+File: resources/webapp/digital-ink-home.png Graphic file (type png)
+<use resources/webapp/digital-ink-home.png>
+Package pdftex.def Info: resources/webapp/digital-ink-home.png  used on input l
+ine 105.
+(pdftex.def)             Requested size: 426.79134pt x 242.6061pt.
+
+webapp/webapp.tex:106: LaTeX Error: \begin{figure} on input line 102 ended by \
+end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+webapp/webapp.tex:107: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107     \begin{subfigure}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/webapp/digital-ink-sign-up.png, id=78, 784.1295pt x 442.65375pt>
+File: resources/webapp/digital-ink-sign-up.png Graphic file (type png)
+<use resources/webapp/digital-ink-sign-up.png>
+Package pdftex.def Info: resources/webapp/digital-ink-sign-up.png  used on inpu
+t line 108.
+(pdftex.def)             Requested size: 426.79134pt x 240.92741pt.
+
+webapp/webapp.tex:109: LaTeX Error: \begin{figure} on input line 102 ended by \
+end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6
+
+ <./resources/webapp/digital-ink-home.png> <./resources/webapp/digital-ink-sign
+-up.png>]
+
+LaTeX Warning: Reference `fig:digital-ink-create-story' on page 7 undefined on 
+input line 117.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+
+webapp/webapp.tex:122: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122         \begin{subfigure}
+                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/webapp/digital-ink-create-story-1.png, id=87, 1002.74625pt x 451.687
+5pt>
+File: resources/webapp/digital-ink-create-story-1.png Graphic file (type png)
+<use resources/webapp/digital-ink-create-story-1.png>
+Package pdftex.def Info: resources/webapp/digital-ink-create-story-1.png  used 
+on input line 123.
+(pdftex.def)             Requested size: 426.79134pt x 192.25067pt.
+
+webapp/webapp.tex:124: LaTeX Error: \begin{figure} on input line 120 ended by \
+end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124         \end{subfigure}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+webapp/webapp.tex:125: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125         \begin{subfigure}
+                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/webapp/digital-ink-create-story-2.png, id=88, 1009.97325pt x 405.916
+5pt>
+File: resources/webapp/digital-ink-create-story-2.png Graphic file (type png)
+<use resources/webapp/digital-ink-create-story-2.png>
+Package pdftex.def Info: resources/webapp/digital-ink-create-story-2.png  used 
+on input line 126.
+(pdftex.def)             Requested size: 426.79134pt x 171.53052pt.
+
+webapp/webapp.tex:127: LaTeX Error: \begin{figure} on input line 120 ended by \
+end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127         \end{subfigure}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+webapp/webapp.tex:128: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128         \begin{subfigure}
+                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/webapp/digital-ink-create-story-3.png, id=89, 1005.7575pt x 499.8675
+pt>
+File: resources/webapp/digital-ink-create-story-3.png Graphic file (type png)
+<use resources/webapp/digital-ink-create-story-3.png>
+Package pdftex.def Info: resources/webapp/digital-ink-create-story-3.png  used 
+on input line 129.
+(pdftex.def)             Requested size: 426.79134pt x 212.11671pt.
+
+webapp/webapp.tex:130: LaTeX Error: \begin{figure} on input line 120 ended by \
+end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130         \end{subfigure}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[7
+
+] [8 <./resources/webapp/digital-ink-create-story-1.png> <./resources/webapp/di
+gital-ink-create-story-2.png> <./resources/webapp/digital-ink-create-story-3.pn
+g>]
+
+LaTeX Warning: Reference `fig:digital-ink-account' on page 9 undefined on input
+ line 137.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+<resources/webapp/digital-ink-account.png, id=103, 988.8945pt x 347.49825pt>
+File: resources/webapp/digital-ink-account.png Graphic file (type png)
+<use resources/webapp/digital-ink-account.png>
+Package pdftex.def Info: resources/webapp/digital-ink-account.png  used on inpu
+t line 142.
+(pdftex.def)             Requested size: 426.79134pt x 149.97276pt.
+
+
+LaTeX Warning: Reference `fig:digital-ink-stories-and-story' on page 9 undefine
+d on input line 150.
+
+
+webapp/webapp.tex:154: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154     \begin{subfigure}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/webapp/digital-ink-stories.png, id=104, 1035.26775pt x 211.38976pt>
+File: resources/webapp/digital-ink-stories.png Graphic file (type png)
+<use resources/webapp/digital-ink-stories.png>
+Package pdftex.def Info: resources/webapp/digital-ink-stories.png  used on inpu
+t line 155.
+(pdftex.def)             Requested size: 426.79134pt x 87.1445pt.
+
+webapp/webapp.tex:156: LaTeX Error: \begin{figure} on input line 152 ended by \
+end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+webapp/webapp.tex:157: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157     \begin{subfigure}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<resources/webapp/digital-ink-story.png, id=105, 1009.97325pt x 307.74976pt>
+File: resources/webapp/digital-ink-story.png Graphic file (type png)
+<use resources/webapp/digital-ink-story.png>
+Package pdftex.def Info: resources/webapp/digital-ink-story.png  used on input 
+line 158.
+(pdftex.def)             Requested size: 426.79134pt x 130.0476pt.
+
+webapp/webapp.tex:159: LaTeX Error: \begin{figure} on input line 152 ended by \
+end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [9
+
+ <./resources/webapp/digital-ink-account.png> <./resources/webapp/digital-ink-s
+tories.png> <./resources/webapp/digital-ink-story.png>]
+\openout2 = `vpc_subnets/vpc_subnets.aux'.
+
+
+(vpc_subnets/vpc_subnets.tex
+Chapter 4.
+vpc_subnets/vpc_subnets.tex:5: Undefined control sequence.
+l.5 ... the scalable AWS infrastructure~\parencite
+                                                  {amazon2022what}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:vpc-wizard' on page 10 undefined on input line 11
+.
+
+<resources/vpc/vpc-dashboard.png, id=115, 1067.78925pt x 467.94826pt>
+File: resources/vpc/vpc-dashboard.png Graphic file (type png)
+<use resources/vpc/vpc-dashboard.png>
+Package pdftex.def Info: resources/vpc/vpc-dashboard.png  used on input line 15
+.
+(pdftex.def)             Requested size: 426.79134pt x 187.03317pt.
+[10
+
+
+
+
+ <./resources/vpc/vpc-dashboard.png>]
+
+LaTeX Warning: Reference `fig:vpc-step-1' on page 11 undefined on input line 35
+.
+
+<resources/vpc/step_1_select_a_vpc_configuration.png, id=123, 1445.4pt x 709.65
+125pt>
+File: resources/vpc/step_1_select_a_vpc_configuration.png Graphic file (type pn
+g)
+<use resources/vpc/step_1_select_a_vpc_configuration.png>
+Package pdftex.def Info: resources/vpc/step_1_select_a_vpc_configuration.png  u
+sed on input line 39.
+(pdftex.def)             Requested size: 426.79134pt x 209.5402pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg) [11 <./resources/vpc/step_1_select_a_vpc_configuration.png>]
+<resources/vpc/step_2_vpc_with_public_and_private_subnets.png, id=130, 1445.4pt
+ x 705.63625pt>
+File: resources/vpc/step_2_vpc_with_public_and_private_subnets.png Graphic file
+ (type png)
+<use resources/vpc/step_2_vpc_with_public_and_private_subnets.png>
+Package pdftex.def Info: resources/vpc/step_2_vpc_with_public_and_private_subne
+ts.png  used on input line 64.
+(pdftex.def)             Requested size: 426.79134pt x 208.35469pt.
+File: resources/vpc/step_2_vpc_with_public_and_private_subnets.png Graphic file
+ (type png)
+<use resources/vpc/step_2_vpc_with_public_and_private_subnets.png>
+Package pdftex.def Info: resources/vpc/step_2_vpc_with_public_and_private_subne
+ts.png  used on input line 73.
+(pdftex.def)             Requested size: 426.79134pt x 208.35469pt.
+) [12 <./resources/vpc/step_2_vpc_with_public_and_private_subnets.png>]
+\openout2 = `ec2/ec2.aux'.
+
+ (ec2/ec2.tex
+Chapter 5.
+ec2/ec2.tex:7: Undefined control sequence.
+l.7 cloud~\parencite
+                    {aws2022ec2}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<resources/ec2/create-instance-application-and-os-images.png, id=138, 1445.4pt 
+x 745.78625pt>
+File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
+(type png)
+<use resources/ec2/create-instance-application-and-os-images.png>
+Package pdftex.def Info: resources/ec2/create-instance-application-and-os-image
+s.png  used on input line 13.
+(pdftex.def)             Requested size: 426.79134pt x 220.20987pt.
+
+LaTeX Warning: Reference `fig:ec2-os' on page 13 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:ec2-instance' on page 13 undefined on input line 
+23.
+
+[13
+
+
+
+
+ <./resources/ec2/create-instance-application-and-os-images.png>]
+<resources/ec2/create-instance-instance-type.png, id=147, 1445.4pt x 741.77126p
+t>
+File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
+<use resources/ec2/create-instance-instance-type.png>
+Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
+on input line 28.
+(pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
+
+
+LaTeX Warning: Reference `ch:web-app' on page 14 undefined on input line 38.
+
+
+LaTeX Warning: Reference `fig:ec2-keypair' on page 14 undefined on input line 3
+9.
+
+<resources/ec2/create-key-pair.png, id=148, 1445.4pt x 740.7675pt>
+File: resources/ec2/create-key-pair.png Graphic file (type png)
+<use resources/ec2/create-key-pair.png>
+Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line 
+43.
+(pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
+
+LaTeX Warning: Reference `ch:vpc-subnets' on page 14 undefined on input line 48
+.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg) [14
+
+ <./resources/ec2/create-instance-instance-type.png> <./resources/ec2/create-ke
+y-pair.png>]
+<resources/ec2/create-instance-network-settings.png, id=158, 1445.4pt x 740.767
+5pt>
+File: resources/ec2/create-instance-network-settings.png Graphic file (type png
+)
+<use resources/ec2/create-instance-network-settings.png>
+Package pdftex.def Info: resources/ec2/create-instance-network-settings.png  us
+ed on input line 54.
+(pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
+<resources/ec2/keypair.png, id=159, 764.8575pt x 572.1375pt>
+File: resources/ec2/keypair.png Graphic file (type png)
+<use resources/ec2/keypair.png>
+Package pdftex.def Info: resources/ec2/keypair.png  used on input line 61.
+(pdftex.def)             Requested size: 426.79134pt x 319.25116pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+
+LaTeX Warning: Reference `fig:ec2-networking' on page 15 undefined on input lin
+e 66.
+
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+(main.out.pyg) [15
+
+ <./resources/ec2/create-instance-network-settings.png> <./resources/ec2/keypai
+r.png>]
+<resources/ec2/create-instance-configure-storage.png, id=168, 1445.4pt x 740.76
+75pt>
+File: resources/ec2/create-instance-configure-storage.png Graphic file (type pn
+g)
+<use resources/ec2/create-instance-configure-storage.png>
+Package pdftex.def Info: resources/ec2/create-instance-configure-storage.png  u
+sed on input line 77.
+(pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
+
+
+LaTeX Warning: Reference `fig:ec2-storage' on page 16 undefined on input line 8
+2.
+
+[16
+
+ <./resources/ec2/create-instance-configure-storage.png>]
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l sql -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout4 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+
+LaTeX Warning: Reference `fig:ssh-login' on page 17 undefined on input line 103
+.
+
+<resources/ec2/ec2-logged-in.png, id=175, 764.8575pt x 572.1375pt>
+File: resources/ec2/ec2-logged-in.png Graphic file (type png)
+<use resources/ec2/ec2-logged-in.png>
+Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
+7.
+(pdftex.def)             Requested size: 426.79134pt x 319.25116pt.
+
+LaTeX Warning: Reference `fig:ec2-logged-in' on page 17 undefined on input line
+ 112.
+
+[17
+
+ <./resources/ec2/ec2-logged-in.png>]
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/ec2/installing-git.png, id=184, 2890.8pt x 1806.75pt>
+File: resources/ec2/installing-git.png Graphic file (type png)
+<use resources/ec2/installing-git.png>
+Package pdftex.def Info: resources/ec2/installing-git.png  used on input line 1
+22.
+(pdftex.def)             Requested size: 398.33858pt x 248.9458pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/ec2/installing-docker.png, id=185, 2890.8pt x 1471.4975pt>
+File: resources/ec2/installing-docker.png Graphic file (type png)
+<use resources/ec2/installing-docker.png>
+Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
+e 131.
+(pdftex.def)             Requested size: 398.33858pt x 202.75253pt.
+ [18
+
+ <./resources/ec2/installing-git.png> <./resources/ec2/installing-docker.png>]
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/ec2/webapp-clone.png, id=195, 649.42625pt x 222.8325pt>
+File: resources/ec2/webapp-clone.png Graphic file (type png)
+<use resources/ec2/webapp-clone.png>
+Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 144
+.
+(pdftex.def)             Requested size: 355.65944pt x 122.03802pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+<resources/ec2/docker-compose.png, id=196, 1445.4pt x 852.18375pt>
+File: resources/ec2/docker-compose.png Graphic file (type png)
+<use resources/ec2/docker-compose.png>
+Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
+56.
+(pdftex.def)             Requested size: 355.65944pt x 209.69057pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg) [19
+
+ <./resources/ec2/webapp-clone.png> <./resources/ec2/docker-compose.png>]
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg) [20]
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+
+(main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l docker -f latex -P commandprefix=PYG -F tokenmerge -P s
+tripnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+<resources/ec2/php-artisan-migrate.png, id=214, 1445.4pt x 212.795pt>
+File: resources/ec2/php-artisan-migrate.png Graphic file (type png)
+<use resources/ec2/php-artisan-migrate.png>
+Package pdftex.def Info: resources/ec2/php-artisan-migrate.png  used on input l
+ine 179.
+(pdftex.def)             Requested size: 426.79134pt x 62.83241pt.
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+\openout5 = `main.pyg'.
+
+runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o main.out.pyg main.pyg)...executed.
+
+ (main.out.pyg)
+
+LaTeX Warning: Reference `fig:php-artisan-migrate' on page 21 undefined on inpu
+t line 184.
+
+<resources/ec2/digital-ink-ec2.png, id=216, 1445.4pt x 811.03pt>
+File: resources/ec2/digital-ink-ec2.png Graphic file (type png)
+<use resources/ec2/digital-ink-ec2.png>
+Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line 
+190.
+(pdftex.def)             Requested size: 426.79134pt x 239.47453pt.
+) [21
+
+ <./resources/ec2/php-artisan-migrate.png

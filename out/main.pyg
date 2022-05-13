@@ -1,1 +1,1 @@
-stories
+php artisan migrate
