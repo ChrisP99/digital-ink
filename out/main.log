@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  12 MAY 2022 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  13 MAY 2022 15:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1720,6 +1720,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 
 
 (out/_minted-main/7D8B84264F93D12F3EDA94C48BE429D857DAFF7AA972FC494BD14221DF198
+283.pygtex)
+\openout6 = `main.pyg'.
+
+
+(out/_minted-main/CBDA7B98EAD9D888AF239ED0E277862F57DAFF7AA972FC494BD14221DF198
 283.pygtex) [4
 
 ])
@@ -2580,18 +2585,10 @@ Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line
  (systemd/systemd.tex
 \openout6 = `main.pyg'.
 
-runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o out/_minted-main/CBDA7B98EAD9D888AF239ED0E277862F57DAFF7AA972FC494
-BD14221DF198283.pygtex out/main.pyg)...executed.
-
 
 (out/_minted-main/CBDA7B98EAD9D888AF239ED0E277862F57DAFF7AA972FC494BD14221DF198
 283.pygtex)
 \openout6 = `main.pyg'.
-
-runsystem(pygmentize -l zsh -f latex -P commandprefix=PYG -F tokenmerge -P stri
-pnl=False -o out/_minted-main/877C2DF77AD3E08757270BC1AA6C22BC57DAFF7AA972FC494
-BD14221DF198283.pygtex out/main.pyg)...executed.
 
 
 (out/_minted-main/877C2DF77AD3E08757270BC1AA6C22BC57DAFF7AA972FC494BD14221DF198
@@ -3204,9 +3201,6 @@ Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 47F2ADB8B230430C527033627B5B0170;5062.
 
@@ -3221,9 +3215,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31833 strings out of 478553
- 681314 string characters out of 2839088
- 1504593 words of memory out of 3000000
+ 31835 strings out of 478553
+ 681626 string characters out of 2839088
+ 1505938 words of memory out of 3000000
  48879 multiletter control sequences out of 15000+600000
  500531 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3240,7 +3234,7 @@ xmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Support/
 MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (59 pages, 10966019 bytes).
+/main.pdf" (59 pages, 10966042 bytes).
 PDF statistics:
  852 PDF objects out of 1000 (max. 8388607)
  181 named destinations out of 1000 (max. 500000)
