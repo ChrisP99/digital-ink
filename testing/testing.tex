@@ -108,23 +108,13 @@ Scenario: Accessing web app image through CloudFront domain name.
     \centering
     \begin{minted}{cucumber}
 Scenario: Accessing web app image through CloudFront domain name in another region.
-    Given ...
-    When ...
+    Given that the user is on a n
+    When
     Then ...
     \end{minted}
     \label{fig:accessing-image-cloudfront-diff-region}
 \end{figure}
 
-\begin{figure}[!htbp]
-    \centering
-    \begin{minted}{cucumber}
-Scenario: Accessing web app image through CloudFront domain name in another IP address.
-    Given ... (NSLookup test)
-    When ...
-    Then ...
-    \end{minted}
-    \label{fig:accessing-image-cloudfront-diff-ip}
-\end{figure}
 
 \section{Testing RDS}\label{sec:testing-rds}
 
