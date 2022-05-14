@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Updating user information in the database through the web app.}
+\PYG{k}{    Given }\PYG{n+nf}{the user has an account in the web app}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{they change their name and email}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{the information will be updated in the users table in the RDS instance}
+\end{Verbatim}

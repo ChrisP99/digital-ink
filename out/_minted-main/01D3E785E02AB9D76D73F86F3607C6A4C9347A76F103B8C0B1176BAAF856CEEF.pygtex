@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Load Balanancer redirect from Instance 2 to Instance 1}
+\PYG{k}{    Given }\PYG{n+nf}{that the Group}\PYG{l+s}{4}\PYG{n+nf}{\PYGZhy{}Load\PYGZhy{}Balancer service is active}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{Group}\PYG{l+s}{4}\PYG{n+nf}{\PYGZhy{}EC}\PYG{l+s}{2}\PYG{n+nf}{\PYGZhy{}Instance\PYGZhy{}}\PYG{l+s}{2}\PYG{n+nf}{ is shut down}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{traffic should be moved to Group}\PYG{l+s}{4}\PYG{n+nf}{\PYGZhy{}EC}\PYG{l+s}{2}
+\end{Verbatim}

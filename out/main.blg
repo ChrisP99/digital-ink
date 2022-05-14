@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'main.blg'
-[111] biber-darwin:340> INFO - === Fri May 13, 2022, 22:25:14
-[132] Biber.pm:418> INFO - Reading 'main.bcf'
-[237] Biber.pm:972> INFO - Found 13 citekeys in bib section 0
-[256] Biber.pm:4383> INFO - Processing section 0
-[272] Biber.pm:4574> INFO - Looking for bibtex file 'main.bib' for section 0
-[274] bibtex.pm:1713> INFO - LaTeX decoding ...
-[293] bibtex.pm:1518> INFO - Found BibTeX data source '/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/main.bib'
-[451] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[451] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[451] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[451] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[476] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[486] bbl.pm:757> INFO - Output to main.bbl
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[101] biber-darwin:340> INFO - === Sat May 14, 2022, 17:23:36
+[123] Biber.pm:418> INFO - Reading 'main.bcf'
+[210] Biber.pm:972> INFO - Found 20 citekeys in bib section 0
+[226] Biber.pm:4383> INFO - Processing section 0
+[241] Biber.pm:4574> INFO - Looking for bibtex file 'main.bib' for section 0
+[243] bibtex.pm:1713> INFO - LaTeX decoding ...
+[263] bibtex.pm:1518> INFO - Found BibTeX data source '/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/main.bib'
+[449] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[449] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[449] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[449] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[474] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[484] bbl.pm:757> INFO - Output to main.bbl

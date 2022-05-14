@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Creating story information through the web app.}
+\PYG{k}{    Given }\PYG{n+nf}{the user has a digital ink account}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{they create a story on the website}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{their story will be added to the stories table on the RDS instance}
+\end{Verbatim}

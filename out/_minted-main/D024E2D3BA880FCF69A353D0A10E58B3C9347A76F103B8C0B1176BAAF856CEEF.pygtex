@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Creating user information through the web app.}
+\PYG{k}{    Given }\PYG{n+nf}{that the user does not have an account on the web app}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{the user creates an account through the web app}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{their account will be added to the users table on the RDS instance}
+\end{Verbatim}

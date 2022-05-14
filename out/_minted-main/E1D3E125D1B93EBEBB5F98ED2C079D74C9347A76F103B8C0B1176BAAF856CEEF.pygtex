@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Testing that NetworkAlarm activates}
+\PYG{k}{    Given }\PYG{n+nf}{that the NetworkAlarm is active}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{the EC}\PYG{l+s}{2}\PYG{n+nf}{ instance outputs more than }\PYG{l+s}{500}\PYG{n+nf}{ packets of data}
+\PYG{n+nf}{    in }\PYG{l+s}{1}\PYG{n+nf}{ minute}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{the alarm should activate.}
+\end{Verbatim}

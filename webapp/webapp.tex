@@ -91,17 +91,13 @@ user-created stories, and it contains the following 11 columns:
     \item \mintinline{sql}|updated_at|: records what date and time the story was last updated at.
 \end{itemize}
 
-%\begin{figure}[!htbp]
-%    \centering
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/database/stories-records-1}
-%    \end{subfigure}
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/database/stories-records-2}
-%    \end{subfigure}
-%    \caption{\mintinline{sql}|stories| table.}
-%    \label{fig:stories-records}
-%\end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \subfloat{\includegraphics[width=150mm]{resources/database/stories-records-1}}\hfill
+    \subfloat{\includegraphics[width=150mm]{resources/database/stories-records-2}}
+    \caption{\mintinline{sql}|stories| table.}
+    \label{fig:stories-records}
+\end{figure}
 
 \clearpage
 \section{Interface Design}\label{sec:interface}
@@ -111,17 +107,13 @@ When the user initially accesses the web app, they are able to log in or sign up
 This can be seen in Figure~\ref{fig:digital-ink-home-and-sign-up}.
 When a user has created an account, a record is written to the \mintinline{sql}|users| table in the database.
 
-%\begin{figure}[!htbp]
-%    \centering
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/webapp/digital-ink-home}
-%    \end{subfigure}
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/webapp/digital-ink-sign-up}
-%    \end{subfigure}
-%    \caption{\textit{Digital-Ink} home page log in and sign up forms.}
-%    \label{fig:digital-ink-home-and-sign-up}
-%\end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \subfloat{\includegraphics[width=150mm]{resources/webapp/digital-ink-home}}\hfill
+    \subfloat{\includegraphics[width=150mm]{resources/webapp/digital-ink-sign-up}}
+    \caption{\textit{Digital-Ink} home page log in and sign up forms.}
+    \label{fig:digital-ink-home-and-sign-up}
+\end{figure}
 
 \clearpage
 Once a user is signed in, they can create a story.
@@ -130,20 +122,14 @@ image.
 This can be seen in Figure~\ref{fig:digital-ink-create-story}.
 Once a story has been created, it is written to the \mintinline{sql}|stories| table.
 
-%\begin{figure}[!htbp]
-%    \centering
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/webapp/digital-ink-create-story-1}
-%    \end{subfigure}
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/webapp/digital-ink-create-story-2}
-%    \end{subfigure}
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/webapp/digital-ink-create-story-3}
-%    \end{subfigure}
-%    \caption{\textit{Digital-Ink} story creation form.}
-%    \label{fig:digital-ink-create-story}
-%\end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \subfloat{\includegraphics[width=150mm]{resources/webapp/digital-ink-create-story-1}}\hfill
+    \subfloat{\includegraphics[width=150mm]{resources/webapp/digital-ink-create-story-2}}\hfill
+    \includegraphics[width=150mm]{resources/webapp/digital-ink-create-story-3}
+    \caption{\textit{Digital-Ink} story creation form.}
+    \label{fig:digital-ink-create-story}
+\end{figure}
 
 \clearpage
 After this, the user can see all of their uploaded stories on their account page.
@@ -163,14 +149,10 @@ Each story's title, genre, and blurb is shown in a list view.
 A user can click into one of these stories to see the thumbnail image and read the full story.
 These pages can be seen in Figure~\ref{fig:digital-ink-stories-and-story}.
 
-%\begin{figure}[!htbp]
-%    \centering
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/webapp/digital-ink-stories}
-%    \end{subfigure}
-%    \begin{subfigure}
-%        \includegraphics[width=150mm]{resources/webapp/digital-ink-story}
-%    \end{subfigure}
-%    \caption{\textit{Digital-Ink} stories page and story view.}
-%    \label{fig:digital-ink-stories-and-story}
-%\end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \subfloat{\includegraphics[width=150mm]{resources/webapp/digital-ink-stories}}\hfill
+    \subfloat{\includegraphics[width=150mm]{resources/webapp/digital-ink-story}}
+    \caption{\textit{Digital-Ink} stories page and story view.}
+    \label{fig:digital-ink-stories-and-story}
+\end{figure}

@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Testing CloudTrail logs RDS activity.}
+\PYG{k}{    Given }\PYG{n+nf}{that the Group}\PYG{l+s}{4}\PYG{n+nf}{\PYGZhy{}CloudTrail service is active}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{data is added to the RDS database}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{this information is logged through CloudTrail}
+\end{Verbatim}

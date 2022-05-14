@@ -1,7 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{Scenario:}\PYG{n+nf}{ Accessing instance through SSH with .pem file private key.}
-\PYG{k}{    Given }\PYG{n+nf}{that the EC}\PYG{l+s}{2}\PYG{n+nf}{ instance is running on AWS and the user has EC}\PYG{l+s}{2}\PYG{n+nf}{ keypair}
-\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{the user enters the command}
-\PYG{n+nf}{    \PYGZdq{}}\PYG{l+s}{ssh \PYGZhy{}i Group4\PYGZus{}KeyPair.pem ec2\PYGZhy{}user@52.45.13.111}\PYG{n+nf}{\PYGZdq{} in the terminal}
-\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{the user will be logged into the EC}\PYG{l+s}{2}\PYG{n+nf}{ instance}
-\end{Verbatim}

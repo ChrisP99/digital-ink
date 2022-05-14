@@ -154,14 +154,14 @@ Scenario: Creating user information through the web app.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/rds/rds-testing-empty}
-    \caption{RDS before test.}
+    \caption{Empty users table before test.}
     \label{fig:rds-testing-empty}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/rds/rds-testing-user-added}
-    \caption{RDS after test.}
+    \caption{Users table now populated after test.}
     \label{fig:rds-testing-user-added}
 \end{figure}
 
@@ -180,14 +180,14 @@ Scenario: Creating story information through the web app.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/rds/rds-testing-stories-before}
-    \caption{RDS before test.}
+    \caption{Empty stories table before test.}
     \label{fig:rds-testing-stories-empty}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/rds/rds-testing-stories-after}
-    \caption{RDS after test.}
+    \caption{Stories table now populated after test.}
     \label{fig:rds-testing-story-added}
 \end{figure}
 
@@ -273,21 +273,8 @@ Scenario: Testing that NetworkAlarm activates
     \label{fig:cloudwatch-network-alarm-active}
 \end{figure}
 
-\begin{figure}[!htbp]
-    \centering
-    \begin{minted}{cucumber}
-Scenario: Testing that BillingAlarm activates
-    Given that the NetworkAlarm is active
-    When the EC2 instance outputs more than 500 packets of data
-    in 1 minute
-    Then the alarm should activate.
-    \end{minted}
-    \label{fig:cloudwatch-network-alarm-test-2}
-\end{figure}
-
-Two screenshots needed here: CloudWatch BillingAlarm setup and CloudWatch BillingAlarm acitvated.
-
 \clearpage
+
 \section{Testing CloudTrail}\label{sec:testing-cloudtrail}
 \begin{figure}[!htbp]
     \centering
@@ -311,4 +298,58 @@ Scenario: Testing CloudTrail logs RDS activity.
 
 \clearpage
 \section{Testing ELB}\label{sec:testing-elb}
-(Test for turning off instance 1. Test for turning off instance 2.)
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+Scenario: Load Balanancer redirect from Instance 1 to Instance 2
+    Given that the Group4-Load-Balancer service is active
+    When Group4-EC2 is shut down
+    Then traffic should be moved to Group4-EC2-Instance-2
+    \end{minted}
+    \label{fig:elb-test}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/elb/elb-test-stopped-instance}
+    \caption{Stopped Group4-EC2 instance.}
+    \label{fig:elb-test-stopped-instance}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/elb/elb-working}
+    \caption{Web app page still loading through other EC2 instance.}
+    \label{fig:elb-test-working}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+Scenario: Load Balanancer redirect from Instance 2 to Instance 1
+    Given that the Group4-Load-Balancer service is active
+    When Group4-EC2-Instance-2 is shut down
+    Then traffic should be moved to Group4-EC2
+    \end{minted}
+    \label{fig:elb-test-2}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/elb/elb-test-stopped-instance}
+    \caption{Stopped Group4-EC2-Instance-2 instance.}
+    \label{fig:elb-test-stopped-instance-2}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/elb/elb-working}
+    \caption{Web app page still loading through other EC2 instance.}
+    \label{fig:elb-test-working-2}
+\end{figure}
+
+
+

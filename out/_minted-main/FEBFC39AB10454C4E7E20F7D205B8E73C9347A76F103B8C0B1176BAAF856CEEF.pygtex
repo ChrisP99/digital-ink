@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{Scenario:}\PYG{n+nf}{ Deleting story information in the database through the web app.}
+\PYG{k}{    Given }\PYG{n+nf}{the user has an account and a story on the web app}
+\PYG{n+nf}{    }\PYG{k}{When }\PYG{n+nf}{they delete a story associated with their account}
+\PYG{n+nf}{    }\PYG{k}{Then }\PYG{n+nf}{the story will be removed from the stories table in the RDS instance}
+\end{Verbatim}

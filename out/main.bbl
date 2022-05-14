@@ -49,7 +49,7 @@
       \verb https://aws.amazon.com/cloudwatch
       \endverb
     \endentry
-    \entry{amazon2022aws}{online}{}
+    \entry{amazon2022aws3}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
            family={{Amazon Web Services (AWS)}},
@@ -69,17 +69,17 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{AWS Pricing Calculator}
+      \field{title}{AWS Elastic Beanstalk - Deploy Web Applications}
       \field{year}{2022}
       \field{dateera}{ce}
       \verb{urlraw}
-      \verb https://calculator.aws
+      \verb https://aws.amazon.com/elasticbeanstalk/
       \endverb
       \verb{url}
-      \verb https://calculator.aws
+      \verb https://aws.amazon.com/elasticbeanstalk/
       \endverb
     \endentry
-    \entry{amazon2022connect}{online}{}
+    \entry{amazon2022aws2}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
            family={{Amazon Web Services (AWS)}},
@@ -99,17 +99,17 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Connect to the internet using an internet gateway}
+      \field{title}{AWS Identity and Access Management - Amazon Web Services}
       \field{year}{2022}
       \field{dateera}{ce}
       \verb{urlraw}
-      \verb https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+      \verb https://aws.amazon.com/iam/
       \endverb
       \verb{url}
-      \verb https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+      \verb https://aws.amazon.com/iam/
       \endverb
     \endentry
-    \entry{aws2022ec2}{online}{}
+    \entry{amazon2022aws}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
            family={{Amazon Web Services (AWS)}},
@@ -125,6 +125,126 @@
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AWS Pricing Calculator}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://calculator.aws
+      \endverb
+      \verb{url}
+      \verb https://calculator.aws
+      \endverb
+    \endentry
+    \entry{amazon2022cloud}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
+           family={{Amazon Web Services (AWS)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{fullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{bibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \field{extraname}{5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cloud Object Storage - Amazon S3 - Amazon Web Services}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/s3/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/s3/
+      \endverb
+    \endentry
+    \entry{amazon2022connect}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
+           family={{Amazon Web Services (AWS)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{fullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{bibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \field{extraname}{6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Connect to the internet using an internet gateway}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+      \endverb
+      \verb{url}
+      \verb https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+      \endverb
+    \endentry
+    \entry{amazon2022low}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
+           family={{Amazon Web Services (AWS)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{fullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{bibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \field{extraname}{7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Low-Latency Content Delivery Network (CDN) - Amazon AWS}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/cloudfront/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/cloudfront/
+      \endverb
+    \endentry
+    \entry{aws2022ec2}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
+           family={{Amazon Web Services (AWS)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{fullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{bibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \field{extraname}{8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -150,10 +270,10 @@
       \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
       \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
       \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
-      \field{extraname}{5}
+      \field{extraname}{9}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{5}
+      \field{extradate}{9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -166,6 +286,36 @@
       \endverb
       \verb{url}
       \verb https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+      \endverb
+    \endentry
+    \entry{amazon2022cloudtrail}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6e77739a1b9ee2419fe5f08e5b2ef95}{%
+           family={{Amazon Web Services (AWS)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{fullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{bibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorbibnamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authornamehash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \strng{authorfullhash}{b6e77739a1b9ee2419fe5f08e5b2ef95}
+      \field{extraname}{10}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{10}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is AWS CloudTrail?}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
+      \endverb
+      \verb{url}
+      \verb https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
       \endverb
     \endentry
     \entry{anderson2015docker}{article}{}
@@ -242,6 +392,47 @@
       \range{pages}{3}
       \verb{doi}
       \verb 10.1109/4236.612229
+      \endverb
+    \endentry
+    \entry{kraemer2007human}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=822fc239395c161332f21db248dab1a7}{%
+           family={Kraemer},
+           familyi={K\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f741ad28cf7affac3d72529115a0ec03}{%
+           family={Carayon},
+           familyi={C\bibinitperiod},
+           given={Pascale},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7705d3b87c134be95b78a37286c9dfb4}
+      \strng{fullhash}{7705d3b87c134be95b78a37286c9dfb4}
+      \strng{bibnamehash}{7705d3b87c134be95b78a37286c9dfb4}
+      \strng{authorbibnamehash}{7705d3b87c134be95b78a37286c9dfb4}
+      \strng{authornamehash}{7705d3b87c134be95b78a37286c9dfb4}
+      \strng{authorfullhash}{7705d3b87c134be95b78a37286c9dfb4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied ergonomics}
+      \field{number}{2}
+      \field{title}{Human errors and violations in computer and information security: The viewpoint of network administrators and security specialists}
+      \field{volume}{38}
+      \field{year}{2007}
+      \field{pages}{143\bibrangedash 154}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.apergo.2006.03.010
       \endverb
     \endentry
     \entry{laravel2022blade}{online}{}
@@ -423,6 +614,31 @@
       \verb{doi}
       \verb 10.1007/978-3-319-91602-6_7
       \endverb
+    \endentry
+    \entry{thomas2000ssl}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b8ea5da4d2dd29392563f1282ba0a4dd}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b8ea5da4d2dd29392563f1282ba0a4dd}
+      \strng{fullhash}{b8ea5da4d2dd29392563f1282ba0a4dd}
+      \strng{bibnamehash}{b8ea5da4d2dd29392563f1282ba0a4dd}
+      \strng{authorbibnamehash}{b8ea5da4d2dd29392563f1282ba0a4dd}
+      \strng{authornamehash}{b8ea5da4d2dd29392563f1282ba0a4dd}
+      \strng{authorfullhash}{b8ea5da4d2dd29392563f1282ba0a4dd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780471383543}
+      \field{title}{SSL and TLS essentials}
+      \field{year}{2000}
     \endentry
     \entry{widenius2002mysql}{book}{}
       \name{author}{3}{}{%
