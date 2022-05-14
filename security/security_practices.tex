@@ -6,6 +6,29 @@ cyberattacks and to prevent the web app itself from being taken off the web~\par
 It is critical that the best security practices are followed to ensure a high level of security.
 This chapter will detail the security measures taken during the deployment of the AWS architecture.
 
+When configuring EC2, a KeyPair was set up for logging into the instance.
+This KeyPair is stored on a secure \mintinline{zsh}|.pem| file which should only be accessible to those who created
+the EC2 instance.
+The KeyPair is required to log into the instance and, therefore, only the authorised users who are part of the
+development team have access to editing the EC2 instance.
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/ec2/create-key-pair-2}
+        \label{fig:create-keypair-pem}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/log-in-with-key-pair-2}
+        \label{fig:log-in-keypair-pem}
+    \end{minipage}
+    \caption{Creating and using the KeyPair.}
+    \label{fig:create-use-keypair}
+\end{figure}
+
+\clearpage
 EC2 security groups are virtual firewalls used to control incoming and outgoing traffic for the AWS
 deployment~\parencite{amazon2022amazon2}.
 Security groups were implemented which limit connections to HTTP, HTTPS, SSH, and MySQL\@.
@@ -18,26 +41,32 @@ office, rather than eduroam.
 During this deployment, the IP address of eduroam was allowed access due to the location in which the deployment was
 configured.
 
-%Screenshot of security group here
-
-When configuring EC2, a KeyPair was set up for logging into the instance.
-This KeyPair is stored on a secure \mintinline{zsh}|.pem| file which should only be accessible to those who created
-the EC2 instance.
-The KeyPair is required to log into the instance and, therefore, only the authorised users who are part of the
-development team have access to editing the EC2 instance.
-
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/ec2/create-key-pair}
-    \caption{Creating a KeyPair.}
-    \label{fig:create-keypair-pem}
+    \includegraphics[width=\textwidth]{resources/security/security-group-name}
+    \caption{Entering a name and description for the security group.}
+    \label{fig:iam-denied}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/log-in-with-key-pair}
-    \caption{Logging in with the KeyPair.}
-    \label{fig:log-in-keypair-pem}
+    \includegraphics[width=\textwidth]{resources/security/security-group-rules}
+    \caption{Entering inbound and outbound rules for the security group.}
+    \label{fig:iam-denied}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/security/security-group-created}
+    \caption{The newly created security group.}
+    \label{fig:iam-denied}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/security/security-group-associated}
+    \caption{The security group being associated with the EC2 instance.}
+    \label{fig:iam-denied}
 \end{figure}
 
 IAM is an AWS service which provides fine-tuned access control across the entire AWS deployment by creating a policy

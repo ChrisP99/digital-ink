@@ -121,20 +121,14 @@ A similar process is followed whereby the metric of \mintinline{zsh}|EstimatedCh
 
 \clearpage
 This metric will be configured to alarm in the event that the EC2 instance uses more than \$15 every 6 hours.
-This process can be seen in Figures~\ref{fig:cloudwatch-charges-config-1} and~\ref{fig:cloudwatch-charges-config-2}.
+This process can be seen in Figure~\ref{fig:cloudwatch-charges-config}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-config-1}
+    \subfloat{\includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-config-1}}\hfill
+    \subfloat{\includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-config-2}}
     \caption{Configuration of CloudWatch alarm.}
-    \label{fig:cloudwatch-charges-config-1}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-charges-config-2}
-    \caption{Configuration of CloudWatch alarm.}
-    \label{fig:cloudwatch-charges-config-2}
+    \label{fig:cloudwatch-charges-config}
 \end{figure}
 
 \clearpage
