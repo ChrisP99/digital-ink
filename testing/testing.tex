@@ -1,5 +1,4 @@
 \chapter{Testing}\label{ch:testing}
-
 This chapter of the report will detail the testing conducted on the configured AWS services.
 This was done to determine the accuracy and efficiency of the configurations made during the deployment process.
 The testing was conducted by using Gherkin, a language used to define behaviour and test
@@ -23,7 +22,6 @@ EC2, S3, CloudFront, RDS, CloudWatch, and CloudTrail were all tested using this 
 Screenshots are included to illustrate the results of these tests.
 
 \section{Testing EC2}\label{sec:testing-ec2}
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -43,7 +41,6 @@ Scenario: Accessing instance through SSH with .pem file private key.
 \end{figure}
 
 \clearpage
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -63,9 +60,7 @@ Scenario: Accessing web app through EC2 domain name.
 \end{figure}
 
 \clearpage
-
 \section{Testing S3}\label{sec:testing-s3}
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -80,14 +75,11 @@ Scenario: Accessing web app image through S3 domain name.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/s3/s3-image-displayed}
+    \includegraphics[width=125mm]{resources/s3/s3-image-displayed}
     \label{fig:s3-test-photo}
 \end{figure}
 
-\clearpage
-
 \section{Testing CloudFront}\label{sec:testing-cloudfront}
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -102,12 +94,11 @@ Scenario: Accessing web app image through CloudFront domain name.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-website}
+    \includegraphics[width=125mm]{resources/cloudfront/cloudfront-website}
     \label{fig:cloudfront-test-photo}
 \end{figure}
 
 \clearpage
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -148,9 +139,7 @@ Scenario: Accessing web app image through CloudFront domain name in another regi
 \end{figure}
 
 \clearpage
-
 \section{Testing RDS}\label{sec:testing-rds}
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -176,6 +165,7 @@ Scenario: Creating user information through the web app.
     \label{fig:rds-testing-user-added}
 \end{figure}
 
+\clearpage
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -202,8 +192,6 @@ Scenario: Creating story information through the web app.
 \end{figure}
 
 \clearpage
-
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -230,7 +218,6 @@ Scenario: Updating user information in the database through the web app.
 \end{figure}
 
 \clearpage
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -256,10 +243,8 @@ Scenario: Deleting story information in the database through the web app.
     \label{fig:rds-testing-after-story-deletion}
 \end{figure}
 
-\clear
-
+\clearpage
 \section{Testing CloudWatch}\label{sec:testing-cloudwatch}
-
 For the purposes of these tests, alarms were purposefully activated.
 
 \begin{figure}[!htbp]
@@ -277,14 +262,14 @@ Scenario: Testing that NetworkAlarm activates
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-network-alarm-setup}
-    \caption{Stories table before deletion.}
+    \caption{CloudWatch NetworkAlarm setup.}
     \label{fig:cloudwatch-network-alarm-setup}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-network-alarm-active}
-    \caption{Stories table after deletion.}
+    \caption{CloudWatch NetworkAlarm activated.}
     \label{fig:cloudwatch-network-alarm-active}
 \end{figure}
 
@@ -297,13 +282,13 @@ Scenario: Testing that BillingAlarm activates
     in 1 minute
     Then the alarm should activate.
     \end{minted}
-    \label{fig:cloudwatch-network-alarm-test}
+    \label{fig:cloudwatch-network-alarm-test-2}
 \end{figure}
 
+Two screenshots needed here: CloudWatch BillingAlarm setup and CloudWatch BillingAlarm acitvated.
+
+\clearpage
 \section{Testing CloudTrail}\label{sec:testing-cloudtrail}
-
-(One test for each of the metrics we set up.)
-
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
@@ -322,7 +307,8 @@ Scenario: Testing CloudTrail logs RDS activity.
     \label{fig:cloudtrail-test-photo}
 \end{figure}
 
+(Add a screenshot here?)
 
+\clearpage
 \section{Testing ELB}\label{sec:testing-elb}
-
 (Test for turning off instance 1. Test for turning off instance 2.)
