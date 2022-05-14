@@ -132,9 +132,16 @@ Then, MySQL was installed on the EC2 instance in order to sign into the new data
 
 \begin{figure}[!htbp]
     \centering
+    \includegraphics[width=\textwidth]{resources/rds/envupdate.png}
+    \caption{Changing Database Endpoint from Docker to AWS RDS}
+    \label{fig:rds-env-update}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
     \includegraphics[width=\textwidth]{resources/rds/docker.png}
     \caption{Removal of Database from Docker File}
-    \label{fig:rm-docker-compose}
+    \label{fig:rds-rm-docker-compose}
 \end{figure}
 
 After the database was setup, tested and working, we were able to remove the old MySQL docker container from the docker-compose file.
