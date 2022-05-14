@@ -32,8 +32,16 @@ Multiple availability zones were selected to ensure that the database was highly
 
 \begin{figure}[!htbp]
     \centering
+<<<<<<< Updated upstream
+    \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1.png}
+    \caption{Selection of CloudWatch metric for EC2 instance.}
+||||||| constructed merge base
+    \includegraphics[width=\textwidth]{resources/rds-connectivity-1.png}
+    \caption{Selection of CloudWatch metric for EC2 instance.}
+=======
     \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1.png}
     \caption{Selection of VPC and Subnet Groups}
+>>>>>>> Stashed changes
     \label{fig:rds-connect}
 \end{figure}
 
@@ -44,13 +52,6 @@ Multiple availability zones were selected to ensure that the database was highly
     \includegraphics[width=\textwidth]{resources/rds/rds-create-engine.png}
     \caption{Selection of Database Engine}
     \label{fig:rds-engine}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/rds/rds-database-creation.png}
-    \caption{Selection of CloudWatch metric for EC2 instance.}
-    \label{fig:rds-db-create}
 \end{figure}
 
 \begin{figure}[!htbp]
@@ -67,13 +68,6 @@ A micro-sized instance was selected as we must save on AWS billing credit.
     \includegraphics[width=\textwidth]{resources/rds/rds-monthly-costs.png}
     \caption{Estimated Monthly RDS Cost}
     \label{fig:rds-costs}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/rds/rds-mysql-install.png}
-    \caption{Selection of CloudWatch metric for EC2 instance.}
-    \label{fig:rds-msql-install}
 \end{figure}
 
 \begin{figure}[!htbp]
@@ -99,13 +93,26 @@ A micro-sized instance was selected as we must save on AWS billing credit.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwiresources/rds/rds-tables-creation.png}
+    \includegraphics[width=\textwidth]{resources/rds/rds-tables-creation.png}
     \caption{Selection of CloudWatch metric for EC2 instance.}
     \label{fig:rds-tables}
 \end{figure}
 
 
 \begin{figure}[!htbp]
+<<<<<<< Updated upstream
+    \centering
+    \includegraphics[width=\textwidth]{resources/rds/rds-templates.png}
+    \caption{Selection of CloudWatch metric for EC2 instance.}
+    \label{fig:rds-templates}
+\end{figure}
+||||||| constructed merge base
+\centering
+\includegraphics[width=\textwiresources/rds/rds-templates.png}
+\caption{Selection of CloudWatch metric for EC2 instance.}
+\label{fig:rds-templates}
+\end{figure}
+=======
 \centering
 \includegraphics[width=\textwiresources/rds/rds-templates.png}
 \caption{Selection of CloudWatch metric for EC2 instance.}
@@ -133,3 +140,4 @@ Then, MySQL was installed on the EC2 instance in order to sign into the new data
 
 
 TODO: Take screenshot of docker-compose being edited to remove mysql
+>>>>>>> Stashed changes
