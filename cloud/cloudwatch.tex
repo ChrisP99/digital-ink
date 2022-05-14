@@ -6,9 +6,9 @@ CloudWatch collects monitoring and operational data about the application as log
 complete overview of operation health, resource consumption, and the services currently running on AWS\@.
 This is useful for any cloud-based application as it allows developers to set alarms, visualise metric logs,
 troubleshoot errors and, most importantly, identify and correct anomalous behaviour~\parencite{amazon2022amazon}.
+
 An example of CloudWatch usage would be an alarm set to alert developers when a specified resource consumption level
 is over a certain threshold.
-
 For the purposes of the project, multiple CloudWatch alarms will be set up which will allow monitoring for budgeting
 and performance across the various AWS services used.
 
@@ -24,33 +24,32 @@ the packets which are being outputted can be monitored.
 \end{figure}
 
 \clearpage
-
 The metric will be configured to alarm in the event that there is less than 5 packets of data sent per day from the
 instance.
-As the instance currently outputs nearly, 30,000 packets per day, this will be useful to check if the web app has failed.
+As the instance currently outputs nearly, 30,000 packets per day, this will be useful to check if the web app has
+failed.
+Figure~\ref{fig:cloudwatch-metrics-config} details the alarm being configured to activate an alarm when the sum of
+packets sent is less than 5 per day.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-metric-config-1}
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/cloudwatch/cloudwatch-metric-config-1}
+        \label{fig:cloudwatch-metrics-config-1}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/cloudwatch/cloudwatch-metric-config-2}
+        \label{fig:cloudwatch-metrics-config-2}
+    \end{minipage}
     \caption{Configuration of NetworkPacketsOut Metric.}
-    \label{fig:cloudwatch-metrics-config-1}
+    \label{fig:cloudwatch-metrics-config}
 \end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-metric-config-2}
-    \caption{Configuration of NetworkPacketsOut Metric.}
-    \label{fig:cloudwatch-metric-config-2}
-\end{figure}
-
-Figures~\ref{fig:cloudwatch-metrics-config-1} and~\ref{fig:cloudwatch-metric-config-2} detail the alarm being set so that
-when the sum of packets sent is less than 5 per day, the alarm will activate.
 
 In addition to the initial configuration of these CloudWatch alarms, SNS topics will also be set up so that every member
 of the group will be emailed in the event that the alarms activate.
 Figure~\ref{fig:cloudwatch-sns-topic} details this process.
-
-\clearpage
 
 \begin{figure}[!htbp]
     \centering
@@ -59,6 +58,7 @@ Figure~\ref{fig:cloudwatch-sns-topic} details this process.
     \label{fig:cloudwatch-sns-topic}
 \end{figure}
 
+\clearpage
 An email was then sent to all group members upon completion of this form, and the SNS topic was subsequently subscribed
 to, as shown in Figures~\ref{fig:cloudwatch-sns-email} and~\ref{fig:cloudwatch-sns-success}.
 
@@ -77,10 +77,8 @@ to, as shown in Figures~\ref{fig:cloudwatch-sns-email} and~\ref{fig:cloudwatch-s
 \end{figure}
 
 \clearpage
-
 The EC2 instance has also been configured to restart when this alarm activates.
 This is done by automatically re-running the scripts used to start the web app on the instance starting up again.
-
 This process can be seen in Figure~\ref{fig:cloudwatch-ec2-actions}.
 
 \begin{figure}[!htbp]
@@ -100,9 +98,8 @@ This can be seen in Figure~\ref{fig:cloudwatch-description}.
     \label{fig:cloudwatch-description}
 \end{figure}
 
-The alarm has now been set up, and can be seen in the CloudWatch Management Dashboard in Figure~\ref{fig:cloudwatch-network-alarm}.
-
 \clearpage
+The alarm has now been set up, and can be seen in the CloudWatch Management Dashboard in Figure~\ref{fig:cloudwatch-network-alarm}.
 
 \begin{figure}[!htbp]
     \centering
@@ -122,10 +119,9 @@ A similar process is followed whereby the metric of \mintinline{zsh}|EstimatedCh
     \label{fig:cloudwatch-metric-charges}
 \end{figure}
 
+\clearpage
 This metric will be configured to alarm in the event that the EC2 instance uses more than \$15 every 6 hours.
 This process can be seen in Figures~\ref{fig:cloudwatch-charges-config-1} and~\ref{fig:cloudwatch-charges-config-2}.
-
-\clearpage
 
 \begin{figure}[!htbp]
     \centering
@@ -141,10 +137,9 @@ This process can be seen in Figures~\ref{fig:cloudwatch-charges-config-1} and~\r
     \label{fig:cloudwatch-charges-config-2}
 \end{figure}
 
+\clearpage
 In addition to this, alerts will be sent to the same SNS topic configured earlier.
 This can be seen in Figure~\ref{fig:cloudwatch-charges-sns}.
-
-\clearpage
 
 \begin{figure}[!htbp]
     \centering
@@ -163,7 +158,6 @@ A brief description was added to the alarm, as seen in Figure~\ref{fig:cloudwatc
 \end{figure}
 
 \clearpage
-
 The alarm is now live and can be seen in Figure~\ref{fig:cloudwatch-charges-dashboard}.
 
 \begin{figure}[!htbp]

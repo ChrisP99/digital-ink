@@ -1,7 +1,9 @@
 \chapter{CloudFront}\label{ch:cloudfront}
 
-CloudFront will allow for the distribution of static and dynamic web images more efficiently.
-An international network of data centres, referred to as edge locations, are used to deliver content for CloudFront.
+CloudFront is a CDN which allows for the distribution of static and dynamic web images with more efficiency and
+availability.
+An international network of data centres, referred to as edge locations, are used to deliver content for
+CloudFront~\parencite{amazon2022low}.
 An edge location which offers the lowest latency or delay in serving these files will be used.
 This will involve the creation of a CloudFront Distribution.
 
@@ -12,8 +14,6 @@ The "Bucket Policy" option is set to "Yes" to automatically update permissions o
 the OAI.
 These options can be seen configured in Figures~\ref{fig:cloudfront-bucket-policy} and~\ref{fig:cloudfront-origins}.
 
-\clearpage
-
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-bucket-policy}
@@ -21,14 +21,13 @@ These options can be seen configured in Figures~\ref{fig:cloudfront-bucket-polic
     \label{fig:cloudfront-bucket-policy}
 \end{figure}
 
+\clearpage
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-origin}
     \caption{Applying CloudFront origins to S3 bucket.}
     \label{fig:cloudfront-origins}
 \end{figure}
-
-\clearpage
 
 Permissions are then applied to the CloudFront distribution itself.
 Objects are set to be compressed automatically to save space, and for viewing images, permissions are set to be in
@@ -41,6 +40,7 @@ both HTTP and HTTPS, and to only allow \mintinline{zsh}|GET| and \mintinline{zsh
     \label{fig:cloudfront-cache-behaviour}
 \end{figure}
 
+\clearpage
 A cache policy and origin request policy is subsequently applied to the aforementioned permissions.
 The "CachingOptimized" policy is applied for compression.
 Origin Request policy is set to "CORS-S3Origin" in order for CORS to be automatically set up for the S3 bucket,
@@ -62,6 +62,7 @@ No function associations are set due to the lack of CloudFront functions and Lam
     \label{fig:cloudfront-function-association}
 \end{figure}
 
+\clearpage
 The settings for the CloudFront Distribution can now be set.
 In order to ensure high availability, the option "Use all edge locations" is selected, so that images can be distributed
 to the user from the closest edge location in relation to their IP address.
@@ -70,26 +71,25 @@ served from the internet.
 For logging purposes "Standard Logging" is set to "On", and logs are saved to the same S3 bucket.
 Cookie logging is enabled, and IPv6 is set to "On", to allow for more IP addresses to access the CloudFront Distributed
 content.
-These settings can be found in Figures~\ref{fig:cloudfront-setting-1} and~\ref{fig:cloudfront-setting-2}.
-
-\clearpage
+These settings can be found in Figure~\ref{fig:cloudfront-settings}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-settings-1}
-    \caption{Applying CloudFront Settings.}
-    \label{fig:cloudfront-settings-1}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-settings-2}
-    \caption{Applying CloudFront Settings.}
-    \label{fig:cloudfront-setting-2}
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/cloudfront/cloudfront-settings-1}
+        \label{fig:cloudfront-settings-1}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/cloudfront/cloudfront-settings-2}
+        \label{fig:cloudfront-settings-2}
+    \end{minipage}
+    \caption{Applying CloudFront settings.}
+    \label{fig:cloudfront-settings}
 \end{figure}
 
 \clearpage
-
 A CloudFront Distribution has now been created, and can be found in Figure~\ref{fig:cloudfront-created}.
 
 \begin{figure}[!htbp]
@@ -110,14 +110,13 @@ This change can be seen in Figures~\ref{fig:cloudfront-before} and~\ref{fig:clou
     \label{fig:cloudfront-before}
 \end{figure}
 
+\clearpage
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=\textwidth]{resources/cloudfront/cloudfront-after}
     \caption{Image location after CloudFront.}
     \label{fig:cloudfront-after}
 \end{figure}
-
-\clearpage
 
 \begin{figure}[!htbp]
     \centering
@@ -126,9 +125,5 @@ This change can be seen in Figures~\ref{fig:cloudfront-before} and~\ref{fig:clou
     \label{fig:cloudfront-website}
 \end{figure}
 
-As seen in Figure~\ref{fig:cloudfront-website}, the Digital Ink logo is now hosted on CloudFront.
-
-
-
-
-
+As seen in the URL shown within Figure~\ref{fig:cloudfront-website}, the Digital Ink logo image is now hosted on
+CloudFront.
