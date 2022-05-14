@@ -14,3 +14,21 @@ If we do need public access, it is ONLY for GET or PUT requests (Viewing stories
 VPC controlling inbound and outbound traffic
 
 public and private subnets
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1.png}
+    \caption{Selection of VPC and Subnet Groups}
+    \label{fig:rds-connect-2}
+\end{figure}
+
+Public access was turned off to further increase our application's security.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{resources/rds/rds-settings.png}
+    \caption{Credentials for RDS Authentication}
+    \label{fig:rds-settings-2}
+\end{figure}
+
+We selected an automatically generated password to ensure that it was created with current best security practices.
