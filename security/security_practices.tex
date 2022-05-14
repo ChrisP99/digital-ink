@@ -16,6 +16,7 @@ development team have access to editing the EC2 instance.
     \centering
     \begin{minipage}{.5\textwidth}
         \centering
+        \centering
         \includegraphics[width=1\linewidth]{resources/ec2/create-key-pair-2}
         \label{fig:create-keypair-pem}
     \end{minipage}%
@@ -43,30 +44,12 @@ configured.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/security/security-group-name}
-    \caption{Entering a name and description for the security group.}
-    \label{fig:iam-denied}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/security/security-group-rules}
-    \caption{Entering inbound and outbound rules for the security group.}
-    \label{fig:iam-denied}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/security/security-group-created}
-    \caption{The newly created security group.}
-    \label{fig:iam-denied}
-\end{figure}
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/security/security-group-associated}
-    \caption{The security group being associated with the EC2 instance.}
-    \label{fig:iam-denied}
+    \subfloat{\includegraphics[width=\textwidth]{resources/security/security-group-name}}\hfill
+    \subfloat{\includegraphics[width=\textwidth]{resources/security/security-group-rules}}\hfill
+    \subfloat{\includegraphics[width=\textwidth]{resources/security/security-group-created}}\hfill
+    \subfloat{\includegraphics[width=\textwidth]{resources/security/security-group-associated}}
+    \caption{Configuring security group.}
+    \label{fig:security-groups}
 \end{figure}
 
 IAM is an AWS service which provides fine-tuned access control across the entire AWS deployment by creating a policy
