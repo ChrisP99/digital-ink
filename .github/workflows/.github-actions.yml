@@ -30,10 +30,10 @@ jobs:
           args: 
       - name: pdflatex main
         continue-on-error: false
-        compiler: pdflatex
         if: always()
         uses: dante-ev/latex-action@latest
         with:
+          compiler: pdflatex
           extra_system_packages: python3-pygments
           root_file: main.tex
           args: -interaction=nonstopmode -halt-on-error -pdf -f -shell-escape -aux-directory=out -output-directory=out -pdf -latexoption=-f -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -latexoption=-shell-escape
