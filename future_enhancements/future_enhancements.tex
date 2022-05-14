@@ -1,7 +1,39 @@
 \chapter{Future Enhancements}\label{ch:future-enhancements}
-An SSL/TLS certificate could be added, as it was not possible to do this from within the lab tutorial due to a lack of permissions from the root AWS account.
-By adding a certificate we would be able to encrypt the connections to our EC2 instance and increase the security of our application for all users.
 
-We would like to add more roles and users to our IAM, but were limited by the amount that we were able to access.
+SSL and TLS are protocols for establishing safe and secure connections between networked computers and, today, support
+for these protocols is built into most browsers and web servers~\parencite{thomas2000ssl}.
+Adding an SSL or TLS certificate to the web app would greatly increase its security, however, it was not possible to
+implement such a feature during the deployment of the app.
+This was due to the restricted permissions granted to the AWS account used to create this deployment, which
+restricted the ability for certain features to be implemented.
+In future deployments of the web app, it would be greatly beneficial to the security of the app, for both users and the
+app itself, to add an SSL or TLS certificate to encrypt the connections to the EC2 instance.
+This would be especially important in a future deployment if the user-base would be expected to grow in size.
 
-If we were to do the project again, we would use AWS Elastic Beanstalk as it allows automatic orchestration of all the resources needed for a LAMP stack style application such as ours, it also has support for Docker which is a containerization technology that we had used in our application project.
+Another feature which was limited due to restricted permissions was AWS IAM roles.
+IAM is an AWS service which provides fine-tuned access control across the entire AWS deployment by creating a policy
+which specifies which users have permission to access certain features and resources~\parencite{amazon2022aws2}.
+IAM would be very useful if the development team behind \textit{Digital-Ink} was scaled up with future
+deployments, and it is especially appealing due to the fact that it is an entirely free service with no additional
+costs to use.
+
+If we were to redeploy the app again from scratch, we would consider using AWS Elastic Beanstalk.
+EB is a service AWS provides for deploying and scaling web apps automatically.
+EB is currently compatible with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker~\parencite{amazon2022aws3}.
+Considering that \textit{Digital-Ink} uses both PHP and Docker, using EB seems appropriate for future
+deployments of the app.
+Using EB is simple, simply upload the web app code and EB automatically deploys it, including appropriate
+capacity provisioning, load balancing, auto-scaling, and more.
+EB can also be used to automatically scale-up and scale-down the web app, which would be useful as the app
+grows over time.
+In many ways, this automatic handling of the deployment is preferable as it removes the risk of human error
+causing the deployment to fail.
+This is especially helpful as human error is one of the most significant factors in failed deployments of online
+services, and the risk only increases as those services become bigger and harder to manage~\autocite{kraemer2007human}.
+Additionally, like IAM, EB has no additional fee to use, as payment is only necessary for the AWS resources
+configured by EB, not the use of EB itself.
+
+AWS Global Accelerator being implemented to VPC... (requires IAM)
+
+AWS Lambda...
+
