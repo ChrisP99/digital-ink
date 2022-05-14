@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  14 MAY 2022 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  14 MAY 2022 18:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1632,7 +1632,11 @@ Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/testing/testing.a
 ux)
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/future_enhancemen
-ts/future_enhancements.aux)
+ts/future_enhancements.aux
+
+LaTeX Warning: Label `fig:iam-denied' multiply defined.
+
+)
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/conclusion/conclu
 sion.aux))
@@ -1920,60 +1924,60 @@ Overfull \hbox (2.21179pt too wide) detected at line 97
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 113
+Overfull \hbox (2.21179pt too wide) detected at line 117
 \T1/ua1/m/n/10.95 14.10 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 114
+Overfull \hbox (2.21179pt too wide) detected at line 118
 \T1/ua1/m/n/10.95 14.11 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 115
+Overfull \hbox (2.21179pt too wide) detected at line 119
 \T1/ua1/m/n/10.95 14.12 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 116
+Overfull \hbox (2.21179pt too wide) detected at line 120
 \T1/ua1/m/n/10.95 14.13 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 117
+Overfull \hbox (2.21179pt too wide) detected at line 121
 \T1/ua1/m/n/10.95 14.14 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 118
+Overfull \hbox (2.21179pt too wide) detected at line 122
 \T1/ua1/m/n/10.95 14.15 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 119
+Overfull \hbox (2.21179pt too wide) detected at line 123
 \T1/ua1/m/n/10.95 14.16 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 120
+Overfull \hbox (2.21179pt too wide) detected at line 124
 \T1/ua1/m/n/10.95 14.17 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 121
+Overfull \hbox (2.21179pt too wide) detected at line 125
 \T1/ua1/m/n/10.95 14.18 
  []
 
 
-Overfull \hbox (2.21179pt too wide) detected at line 122
+Overfull \hbox (2.21179pt too wide) detected at line 126
 \T1/ua1/m/n/10.95 14.19 
  []
 
-)
+[6])
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
- [6]
+ [7]
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for TS1+ua1 on input line 6
 .
@@ -1981,9 +1985,9 @@ LaTeX Font Info:    Trying to load font information for TS1+ua1 on input line 6
 (/Users/chris/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arial
 /ts1ua1.fd
 File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
-) [7
+) [8
 
-]) [8]
+]) [9]
 \openout2 = `intro/introduction.aux'.
 
  (intro/introduction.tex
@@ -2013,7 +2017,7 @@ Chapter 3.
 
 (out/_minted-main/2338C89D6CB085D90943267EA54EC8836FC5A546B56FCD938E9930171999E
 964.pygtex)
-<resources/database/tables-overview.png, id=475, 218.8175pt x 108.405pt>
+<resources/database/tables-overview.png, id=493, 218.8175pt x 108.405pt>
 File: resources/database/tables-overview.png Graphic file (type png)
 <use resources/database/tables-overview.png>
 Package pdftex.def Info: resources/database/tables-overview.png  used on input 
@@ -2054,7 +2058,7 @@ line 31.
 
 (out/_minted-main/3751FE54B793238AE7C09D28A39D45C56FC5A546B56FCD938E9930171999E
 964.pygtex)
-<resources/database/migrations-records.png, id=488, 474.77374pt x 83.31125pt>
+<resources/database/migrations-records.png, id=506, 474.77374pt x 83.31125pt>
 File: resources/database/migrations-records.png Graphic file (type png)
 <use resources/database/migrations-records.png>
 Package pdftex.def Info: resources/database/migrations-records.png  used on inp
@@ -2110,7 +2114,7 @@ ut line 50.
 
 (out/_minted-main/A85EE4D99BA669DBD96AE527598029B26FC5A546B56FCD938E9930171999E
 964.pygtex)
-<resources/database/users-records.png, id=491, 1031.855pt x 140.525pt>
+<resources/database/users-records.png, id=509, 1031.855pt x 140.525pt>
 File: resources/database/users-records.png Graphic file (type png)
 <use resources/database/users-records.png>
 Package pdftex.def Info: resources/database/users-records.png  used on input li
@@ -2187,13 +2191,13 @@ ase/users-records.png>]
 
 (out/_minted-main/A85EE4D99BA669DBD96AE527598029B26FC5A546B56FCD938E9930171999E
 964.pygtex)
-<resources/database/stories-records-1.png, id=500, 938.50626pt x 77.28876pt>
+<resources/database/stories-records-1.png, id=518, 938.50626pt x 77.28876pt>
 File: resources/database/stories-records-1.png Graphic file (type png)
 <use resources/database/stories-records-1.png>
 Package pdftex.def Info: resources/database/stories-records-1.png  used on inpu
 t line 96.
 (pdftex.def)             Requested size: 426.79134pt x 35.14755pt.
-<resources/database/stories-records-2.png, id=501, 777.90625pt x 82.3075pt>
+<resources/database/stories-records-2.png, id=519, 777.90625pt x 82.3075pt>
 File: resources/database/stories-records-2.png Graphic file (type png)
 <use resources/database/stories-records-2.png>
 Package pdftex.def Info: resources/database/stories-records-2.png  used on inpu
@@ -2217,13 +2221,13 @@ ords-2.png>]
 
 (out/_minted-main/6711F799EB9198AFABA01C3218D1F7FD6FC5A546B56FCD938E9930171999E
 964.pygtex)
-<resources/webapp/digital-ink-home.png, id=512, 805.20825pt x 457.71pt>
+<resources/webapp/digital-ink-home.png, id=531, 805.20825pt x 457.71pt>
 File: resources/webapp/digital-ink-home.png Graphic file (type png)
 <use resources/webapp/digital-ink-home.png>
 Package pdftex.def Info: resources/webapp/digital-ink-home.png  used on input l
 ine 112.
 (pdftex.def)             Requested size: 426.79134pt x 242.6061pt.
-<resources/webapp/digital-ink-sign-up.png, id=513, 784.1295pt x 442.65375pt>
+<resources/webapp/digital-ink-sign-up.png, id=532, 784.1295pt x 442.65375pt>
 File: resources/webapp/digital-ink-sign-up.png Graphic file (type png)
 <use resources/webapp/digital-ink-sign-up.png>
 Package pdftex.def Info: resources/webapp/digital-ink-sign-up.png  used on inpu
@@ -2238,21 +2242,21 @@ t line 113.
 
 (out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
 964.pygtex)
-<resources/webapp/digital-ink-create-story-1.png, id=525, 1002.74625pt x 451.68
+<resources/webapp/digital-ink-create-story-1.png, id=543, 1002.74625pt x 451.68
 75pt>
 File: resources/webapp/digital-ink-create-story-1.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-1.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-1.png  used 
 on input line 127.
 (pdftex.def)             Requested size: 426.79134pt x 192.25067pt.
-<resources/webapp/digital-ink-create-story-2.png, id=526, 1009.97325pt x 405.91
+<resources/webapp/digital-ink-create-story-2.png, id=544, 1009.97325pt x 405.91
 65pt>
 File: resources/webapp/digital-ink-create-story-2.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-2.png>
 Package pdftex.def Info: resources/webapp/digital-ink-create-story-2.png  used 
 on input line 128.
 (pdftex.def)             Requested size: 426.79134pt x 171.53052pt.
-<resources/webapp/digital-ink-create-story-3.png, id=527, 1005.7575pt x 499.867
+<resources/webapp/digital-ink-create-story-3.png, id=545, 1005.7575pt x 499.867
 5pt>
 File: resources/webapp/digital-ink-create-story-3.png Graphic file (type png)
 <use resources/webapp/digital-ink-create-story-3.png>
@@ -2268,19 +2272,19 @@ l-ink-create-story-2.png> <./resources/webapp/digital-ink-create-story-3.png>]
 
 (out/_minted-main/79B8C6F77B24D14985E4EBE1353669CE6FC5A546B56FCD938E9930171999E
 964.pygtex)
-<resources/webapp/digital-ink-account.png, id=538, 988.8945pt x 347.49825pt>
+<resources/webapp/digital-ink-account.png, id=556, 988.8945pt x 347.49825pt>
 File: resources/webapp/digital-ink-account.png Graphic file (type png)
 <use resources/webapp/digital-ink-account.png>
 Package pdftex.def Info: resources/webapp/digital-ink-account.png  used on inpu
 t line 142.
 (pdftex.def)             Requested size: 426.79134pt x 149.97276pt.
-<resources/webapp/digital-ink-stories.png, id=540, 1035.26775pt x 211.38976pt>
+<resources/webapp/digital-ink-stories.png, id=558, 1035.26775pt x 211.38976pt>
 File: resources/webapp/digital-ink-stories.png Graphic file (type png)
 <use resources/webapp/digital-ink-stories.png>
 Package pdftex.def Info: resources/webapp/digital-ink-stories.png  used on inpu
 t line 154.
 (pdftex.def)             Requested size: 426.79134pt x 87.1445pt.
-<resources/webapp/digital-ink-story.png, id=541, 1009.97325pt x 307.74976pt>
+<resources/webapp/digital-ink-story.png, id=559, 1009.97325pt x 307.74976pt>
 File: resources/webapp/digital-ink-story.png Graphic file (type png)
 <use resources/webapp/digital-ink-story.png>
 Package pdftex.def Info: resources/webapp/digital-ink-story.png  used on input 
@@ -2295,7 +2299,7 @@ tories.png> <./resources/webapp/digital-ink-story.png>]
 
 (vpc_subnets/vpc_subnets.tex
 Chapter 4.
-<resources/vpc/blank_elastic.png, id=552, 1864.9675pt x 241.90375pt>
+<resources/vpc/blank_elastic.png, id=570, 1864.9675pt x 241.90375pt>
 File: resources/vpc/blank_elastic.png Graphic file (type png)
 <use resources/vpc/blank_elastic.png>
 Package pdftex.def Info: resources/vpc/blank_elastic.png  used on input line 17
@@ -2307,13 +2311,13 @@ Package pdftex.def Info: resources/vpc/blank_elastic.png  used on input line 17
 
 
  <./resources/vpc/blank_elastic.png>]
-<resources/vpc/vpc_elastic_ip_addresses.png, id=559, 1445.4pt x 629.35126pt>
+<resources/vpc/vpc_elastic_ip_addresses.png, id=577, 1445.4pt x 629.35126pt>
 File: resources/vpc/vpc_elastic_ip_addresses.png Graphic file (type png)
 <use resources/vpc/vpc_elastic_ip_addresses.png>
 Package pdftex.def Info: resources/vpc/vpc_elastic_ip_addresses.png  used on in
 put line 30.
 (pdftex.def)             Requested size: 426.79134pt x 185.82986pt.
-<resources/vpc/elastic_ip_addresses.png, id=560, 1444.39626pt x 704.6325pt>
+<resources/vpc/elastic_ip_addresses.png, id=578, 1444.39626pt x 704.6325pt>
 File: resources/vpc/elastic_ip_addresses.png Graphic file (type png)
 <use resources/vpc/elastic_ip_addresses.png>
 Package pdftex.def Info: resources/vpc/elastic_ip_addresses.png  used on input 
@@ -2323,7 +2327,7 @@ line 39.
 
  <./resources/vpc/vpc_elastic_ip_addresses.png> <./resources/vpc/elastic_ip_add
 resses.png>]
-<resources/vpc/vpc-dashboard.png, id=568, 1067.78925pt x 467.94826pt>
+<resources/vpc/vpc-dashboard.png, id=586, 1067.78925pt x 467.94826pt>
 File: resources/vpc/vpc-dashboard.png Graphic file (type png)
 <use resources/vpc/vpc-dashboard.png>
 Package pdftex.def Info: resources/vpc/vpc-dashboard.png  used on input line 54
@@ -2332,7 +2336,7 @@ Package pdftex.def Info: resources/vpc/vpc-dashboard.png  used on input line 54
  [10
 
  <./resources/vpc/vpc-dashboard.png>]
-<resources/vpc/step_1_select_a_vpc_configuration.png, id=575, 1445.4pt x 709.65
+<resources/vpc/step_1_select_a_vpc_configuration.png, id=594, 1445.4pt x 709.65
 125pt>
 File: resources/vpc/step_1_select_a_vpc_configuration.png Graphic file (type pn
 g)
@@ -2380,7 +2384,7 @@ sed on input line 79.
 
 (out/_minted-main/6E2D21ADC0C580C945B581ED05620C5F57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/step_2_vpc_with_public_and_private_subnets.png, id=576, 1445.4pt
+<resources/vpc/step_2_vpc_with_public_and_private_subnets.png, id=595, 1445.4pt
  x 705.63625pt>
 File: resources/vpc/step_2_vpc_with_public_and_private_subnets.png Graphic file
  (type png)
@@ -2392,13 +2396,13 @@ ts.png  used on input line 104.
 
  <./resources/vpc/step_1_select_a_vpc_configuration.png> <./resources/vpc/step_
 2_vpc_with_public_and_private_subnets.png>]
-<resources/vpc/step_3_create_vpc.png, id=584, 1424.32124pt x 117.94063pt>
+<resources/vpc/step_3_create_vpc.png, id=602, 1424.32124pt x 117.94063pt>
 File: resources/vpc/step_3_create_vpc.png Graphic file (type png)
 <use resources/vpc/step_3_create_vpc.png>
 Package pdftex.def Info: resources/vpc/step_3_create_vpc.png  used on input lin
 e 114.
 (pdftex.def)             Requested size: 426.79134pt x 35.33926pt.
-<resources/vpc/vpc_successfully_created.png, id=585, 1439.3775pt x 184.18813pt>
+<resources/vpc/vpc_successfully_created.png, id=603, 1439.3775pt x 184.18813pt>
 
 File: resources/vpc/vpc_successfully_created.png Graphic file (type png)
 <use resources/vpc/vpc_successfully_created.png>
@@ -2410,7 +2414,7 @@ put line 115.
 
 (out/_minted-main/0C8F76A078DD137BE97989E8CD7049F657DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/your_vpcs.png, id=586, 1445.4pt x 745.78625pt>
+<resources/vpc/your_vpcs.png, id=604, 1445.4pt x 745.78625pt>
 File: resources/vpc/your_vpcs.png Graphic file (type png)
 <use resources/vpc/your_vpcs.png>
 Package pdftex.def Info: resources/vpc/your_vpcs.png  used on input line 125.
@@ -2424,13 +2428,13 @@ ted.png> <./resources/vpc/your_vpcs.png>]
 
 (out/_minted-main/B9498B1B5745641849B9E61A850B16BD57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/internet-gateway-1.png, id=597, 1443.3925pt x 739.76375pt>
+<resources/vpc/internet-gateway-1.png, id=615, 1443.3925pt x 739.76375pt>
 File: resources/vpc/internet-gateway-1.png Graphic file (type png)
 <use resources/vpc/internet-gateway-1.png>
 Package pdftex.def Info: resources/vpc/internet-gateway-1.png  used on input li
 ne 140.
 (pdftex.def)             Requested size: 426.79134pt x 218.73636pt.
-<resources/vpc/internet-gateway-2.png, id=598, 1445.4pt x 294.09875pt>
+<resources/vpc/internet-gateway-2.png, id=616, 1445.4pt x 294.09875pt>
 File: resources/vpc/internet-gateway-2.png Graphic file (type png)
 <use resources/vpc/internet-gateway-2.png>
 Package pdftex.def Info: resources/vpc/internet-gateway-2.png  used on input li
@@ -2460,7 +2464,7 @@ ng>]
 
 (out/_minted-main/079360AA84589BE589A8E40ECBCE828257DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/routes/vpc-public-subnet-2.png, id=606, 1445.4pt x 749.80125pt>
+<resources/vpc/routes/vpc-public-subnet-2.png, id=624, 1445.4pt x 749.80125pt>
 File: resources/vpc/routes/vpc-public-subnet-2.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-subnet-2.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-public-subnet-2.png  used on 
@@ -2481,7 +2485,7 @@ input line 173.
 
 (out/_minted-main/A43D99EE5C51F381B795174212207AEE57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/routes/vpc-private-subnet-2.png, id=607, 1445.4pt x 739.76375pt>
+<resources/vpc/routes/vpc-private-subnet-2.png, id=625, 1445.4pt x 739.76375pt>
 
 File: resources/vpc/routes/vpc-private-subnet-2.png Graphic file (type png)
 <use resources/vpc/routes/vpc-private-subnet-2.png>
@@ -2496,7 +2500,7 @@ Package pdftex.def Info: resources/vpc/routes/vpc-private-subnet-2.png  used on
 
  <./resources/vpc/routes/vpc-public-subnet-2.png> <./resources/vpc/routes/vpc-p
 rivate-subnet-2.png>]
-<resources/vpc/routes/vpc-subnets-2.png, id=614, 1438.37375pt x 384.43625pt>
+<resources/vpc/routes/vpc-subnets-2.png, id=632, 1438.37375pt x 384.43625pt>
 File: resources/vpc/routes/vpc-subnets-2.png Graphic file (type png)
 <use resources/vpc/routes/vpc-subnets-2.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-subnets-2.png  used on input 
@@ -2512,13 +2516,13 @@ line 194.
 
 (out/_minted-main/2029537B83D72FC6133B8D6CA555F90257DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/routes/vpc-public-route.png, id=615, 1441.385pt x 486.81876pt>
+<resources/vpc/routes/vpc-public-route.png, id=633, 1441.385pt x 486.81876pt>
 File: resources/vpc/routes/vpc-public-route.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-route.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-public-route.png  used on inp
 ut line 206.
 (pdftex.def)             Requested size: 426.79134pt x 144.14511pt.
-<resources/vpc/routes/vpc-private-route.png, id=616, 1445.4pt x 485.815pt>
+<resources/vpc/routes/vpc-private-route.png, id=634, 1445.4pt x 485.815pt>
 File: resources/vpc/routes/vpc-private-route.png Graphic file (type png)
 <use resources/vpc/routes/vpc-private-route.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-private-route.png  used on in
@@ -2536,14 +2540,14 @@ lic-route.png> <./resources/vpc/routes/vpc-private-route.png>]
 
 (out/_minted-main/2029537B83D72FC6133B8D6CA555F90257DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/routes/vpc-subnet-public-ass.png, id=626, 1445.4pt x 697.60625pt
+<resources/vpc/routes/vpc-subnet-public-ass.png, id=644, 1445.4pt x 697.60625pt
 >
 File: resources/vpc/routes/vpc-subnet-public-ass.png Graphic file (type png)
 <use resources/vpc/routes/vpc-subnet-public-ass.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-subnet-public-ass.png  used o
 n input line 223.
 (pdftex.def)             Requested size: 426.79134pt x 205.98366pt.
-<resources/vpc/routes/vpc-subnet-private-ass.png, id=627, 1445.4pt x 682.55pt>
+<resources/vpc/routes/vpc-subnet-private-ass.png, id=645, 1445.4pt x 682.55pt>
 File: resources/vpc/routes/vpc-subnet-private-ass.png Graphic file (type png)
 <use resources/vpc/routes/vpc-subnet-private-ass.png>
 Package pdftex.def Info: resources/vpc/routes/vpc-subnet-private-ass.png  used 
@@ -2568,7 +2572,7 @@ on input line 224.
 
 (out/_minted-main/487E03DF26C6D52CBE18D6770F986B9157DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/routes/vpc-public-route-table.png, id=636, 1445.4pt x 485.815pt>
+<resources/vpc/routes/vpc-public-route-table.png, id=655, 1445.4pt x 485.815pt>
 
 File: resources/vpc/routes/vpc-public-route-table.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-route-table.png>
@@ -2580,7 +2584,7 @@ on input line 238.
 
 (out/_minted-main/7470954912B6ED11C6BB67E564D47E1E57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/vpc/routes/vpc-public-route-after.png, id=637, 1445.4pt x 637.38126p
+<resources/vpc/routes/vpc-public-route-after.png, id=656, 1445.4pt x 637.38126p
 t>
 File: resources/vpc/routes/vpc-public-route-after.png Graphic file (type png)
 <use resources/vpc/routes/vpc-public-route-after.png>
@@ -2595,7 +2599,7 @@ c-public-route-after.png>]
 
  (ec2/ec2.tex
 Chapter 5.
-<resources/ec2/create-instance-application-and-os-images.png, id=646, 1445.4pt 
+<resources/ec2/create-instance-application-and-os-images.png, id=664, 1445.4pt 
 x 745.78625pt>
 File: resources/ec2/create-instance-application-and-os-images.png Graphic file 
 (type png)
@@ -2609,14 +2613,14 @@ s.png  used on input line 13.
 
 
  <./resources/ec2/create-instance-application-and-os-images.png>]
-<resources/ec2/create-instance-instance-type.png, id=655, 1445.4pt x 741.77126p
+<resources/ec2/create-instance-instance-type.png, id=673, 1445.4pt x 741.77126p
 t>
 File: resources/ec2/create-instance-instance-type.png Graphic file (type png)
 <use resources/ec2/create-instance-instance-type.png>
 Package pdftex.def Info: resources/ec2/create-instance-instance-type.png  used 
 on input line 28.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
-<resources/ec2/create-key-pair.png, id=658, 1445.4pt x 740.7675pt>
+<resources/ec2/create-key-pair.png, id=676, 1445.4pt x 740.7675pt>
 File: resources/ec2/create-key-pair.png Graphic file (type png)
 <use resources/ec2/create-key-pair.png>
 Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line 
@@ -2630,7 +2634,7 @@ Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line
 
  <./resources/ec2/create-instance-instance-type.png> <./resources/ec2/create-ke
 y-pair.png>]
-<resources/ec2/create-instance-network-settings.png, id=666, 1445.4pt x 739.763
+<resources/ec2/create-instance-network-settings.png, id=684, 1445.4pt x 739.763
 75pt>
 File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 )
@@ -2638,7 +2642,7 @@ File: resources/ec2/create-instance-network-settings.png Graphic file (type png
 Package pdftex.def Info: resources/ec2/create-instance-network-settings.png  us
 ed on input line 54.
 (pdftex.def)             Requested size: 426.79134pt x 218.4316pt.
-<resources/ec2/keypair.png, id=667, 764.8575pt x 572.1375pt>
+<resources/ec2/keypair.png, id=685, 764.8575pt x 572.1375pt>
 File: resources/ec2/keypair.png Graphic file (type png)
 <use resources/ec2/keypair.png>
 Package pdftex.def Info: resources/ec2/keypair.png  used on input line 61.
@@ -2661,7 +2665,7 @@ Package pdftex.def Info: resources/ec2/keypair.png  used on input line 61.
 
  <./resources/ec2/create-instance-network-settings.png> <./resources/ec2/keypai
 r.png>]
-<resources/ec2/create-instance-configure-storage.png, id=675, 1445.4pt x 740.76
+<resources/ec2/create-instance-configure-storage.png, id=693, 1445.4pt x 740.76
 75pt>
 File: resources/ec2/create-instance-configure-storage.png Graphic file (type pn
 g)
@@ -2692,11 +2696,11 @@ sed on input line 77.
 
 (out/_minted-main/95DBB0600960EFD2CF23C5F2058E461657DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/ec2/ec2-logged-in.png, id=683, 743.77875pt x 227.85126pt>
+<resources/ec2/ec2-logged-in.png, id=702, 743.77875pt x 227.85126pt>
 File: resources/ec2/ec2-logged-in.png Graphic file (type png)
 <use resources/ec2/ec2-logged-in.png>
 Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
-7.
+8.
 (pdftex.def)             Requested size: 426.79134pt x 130.74574pt.
  [22
 
@@ -2706,22 +2710,22 @@ Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 10
 
 (out/_minted-main/375269884BBD1784DC9D3017B922DABD57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/ec2/installing-git.png, id=690, 2890.8pt x 1806.75pt>
+<resources/ec2/installing-git.png, id=709, 2890.8pt x 1806.75pt>
 File: resources/ec2/installing-git.png Graphic file (type png)
 <use resources/ec2/installing-git.png>
 Package pdftex.def Info: resources/ec2/installing-git.png  used on input line 1
-22.
+21.
 (pdftex.def)             Requested size: 398.33858pt x 248.9458pt.
 \openout6 = `main.pyg'.
 
 
 (out/_minted-main/B7785276EA9559BAB1F1D88A354C178757DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/ec2/installing-docker.png, id=691, 2890.8pt x 1471.4975pt>
+<resources/ec2/installing-docker.png, id=710, 2890.8pt x 1471.4975pt>
 File: resources/ec2/installing-docker.png Graphic file (type png)
 <use resources/ec2/installing-docker.png>
 Package pdftex.def Info: resources/ec2/installing-docker.png  used on input lin
-e 131.
+e 130.
 (pdftex.def)             Requested size: 398.33858pt x 202.75253pt.
  [23
 
@@ -2736,10 +2740,10 @@ e 131.
 
 (out/_minted-main/C22DE5E8220700CC1C493FD7A945007657DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/ec2/webapp-clone.png, id=699, 649.42625pt x 222.8325pt>
+<resources/ec2/webapp-clone.png, id=717, 649.42625pt x 222.8325pt>
 File: resources/ec2/webapp-clone.png Graphic file (type png)
 <use resources/ec2/webapp-clone.png>
-Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 144
+Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 143
 .
 (pdftex.def)             Requested size: 355.65944pt x 122.03802pt.
 \openout6 = `main.pyg'.
@@ -2762,11 +2766,11 @@ Package pdftex.def Info: resources/ec2/webapp-clone.png  used on input line 144
 
 (out/_minted-main/0C0BB88159F30CA45279CBFEB8083C45DCEA0D38576A7F0D5477B63709AAE
 6D5.pygtex)
-<resources/ec2/docker-compose.png, id=700, 1445.4pt x 852.18375pt>
+<resources/ec2/docker-compose.png, id=718, 1445.4pt x 852.18375pt>
 File: resources/ec2/docker-compose.png Graphic file (type png)
 <use resources/ec2/docker-compose.png>
 Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
-56.
+55.
 (pdftex.def)             Requested size: 355.65944pt x 209.69057pt.
 \openout6 = `main.pyg'.
 
@@ -2805,11 +2809,11 @@ Package pdftex.def Info: resources/ec2/docker-compose.png  used on input line 1
 
 (out/_minted-main/7D8B84264F93D12F3EDA94C48BE429D857DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/ec2/php-artisan-migrate.png, id=710, 1445.4pt x 212.795pt>
+<resources/ec2/php-artisan-migrate.png, id=728, 1445.4pt x 212.795pt>
 File: resources/ec2/php-artisan-migrate.png Graphic file (type png)
 <use resources/ec2/php-artisan-migrate.png>
 Package pdftex.def Info: resources/ec2/php-artisan-migrate.png  used on input l
-ine 179.
+ine 178.
 (pdftex.def)             Requested size: 426.79134pt x 62.83241pt.
 \openout6 = `main.pyg'.
 
@@ -2821,11 +2825,11 @@ ine 179.
 
 (out/_minted-main/7D8B84264F93D12F3EDA94C48BE429D857DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/ec2/digital-ink-ec2.png, id=713, 1445.4pt x 811.03pt>
+<resources/ec2/digital-ink-ec2.png, id=731, 1445.4pt x 811.03pt>
 File: resources/ec2/digital-ink-ec2.png Graphic file (type png)
 <use resources/ec2/digital-ink-ec2.png>
 Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line 
-190.
+189.
 (pdftex.def)             Requested size: 426.79134pt x 239.47453pt.
 ) [25
 
@@ -2844,7 +2848,7 @@ Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line
 
 (out/_minted-main/877C2DF77AD3E08757270BC1AA6C22BC57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/systemd/systemd.png, id=721, 1557.82pt x 990.70125pt>
+<resources/systemd/systemd.png, id=739, 1557.82pt x 990.70125pt>
 File: resources/systemd/systemd.png Graphic file (type png)
 <use resources/systemd/systemd.png>
 Package pdftex.def Info: resources/systemd/systemd.png  used on input line 13.
@@ -2867,7 +2871,7 @@ Package pdftex.def Info: resources/systemd/systemd.png  used on input line 13.
 
  (s3/s3.tex
 Chapter 6.
-<resources/s3/s3-image-displayed.png, id=728, 881.09175pt x 352.9185pt>
+<resources/s3/s3-image-displayed.png, id=746, 881.09175pt x 352.9185pt>
 File: resources/s3/s3-image-displayed.png Graphic file (type png)
 <use resources/s3/s3-image-displayed.png>
 Package pdftex.def Info: resources/s3/s3-image-displayed.png  used on input lin
@@ -2888,7 +2892,7 @@ Chapter 7.
 
 (out/_minted-main/70BF40882E023ED9C350425785A5244E57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/cloudfront/cloudfront-bucket-policy.png, id=739, 1445.4pt x 740.7675
+<resources/cloudfront/cloudfront-bucket-policy.png, id=757, 1445.4pt x 740.7675
 pt>
 File: resources/cloudfront/cloudfront-bucket-policy.png Graphic file (type png)
 
@@ -2902,7 +2906,7 @@ d on input line 19.
 
 
  <./resources/cloudfront/cloudfront-bucket-policy.png>]
-<resources/cloudfront/cloudfront-origin.png, id=746, 1445.4pt x 745.78625pt>
+<resources/cloudfront/cloudfront-origin.png, id=765, 1445.4pt x 745.78625pt>
 File: resources/cloudfront/cloudfront-origin.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-origin.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-origin.png  used on in
@@ -2918,7 +2922,7 @@ put line 27.
 
 (out/_minted-main/7C7465778E7FEA1EC1EE5BAA7D23618B57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/cloudfront/cloudfront-cache-behaviour.png, id=747, 1445.4pt x 739.76
+<resources/cloudfront/cloudfront-cache-behaviour.png, id=766, 1445.4pt x 739.76
 375pt>
 File: resources/cloudfront/cloudfront-cache-behaviour.png Graphic file (type pn
 g)
@@ -2930,13 +2934,13 @@ sed on input line 38.
 
  <./resources/cloudfront/cloudfront-origin.png> <./resources/cloudfront/cloudfr
 ont-cache-behaviour.png>]
-<resources/cloudfront/cloudfront-cache-key.png, id=755, 1445.4pt x 742.775pt>
+<resources/cloudfront/cloudfront-cache-key.png, id=773, 1445.4pt x 742.775pt>
 File: resources/cloudfront/cloudfront-cache-key.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-cache-key.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-cache-key.png  used on
  input line 51.
 (pdftex.def)             Requested size: 426.79134pt x 219.32072pt.
-<resources/cloudfront/cloudfront-function-association.png, id=756, 1443.3925pt 
+<resources/cloudfront/cloudfront-function-association.png, id=774, 1443.3925pt 
 x 742.775pt>
 File: resources/cloudfront/cloudfront-function-association.png Graphic file (ty
 pe png)
@@ -2948,14 +2952,14 @@ ng  used on input line 60.
 
  <./resources/cloudfront/cloudfront-cache-key.png> <./resources/cloudfront/clou
 dfront-function-association.png>]
-<resources/cloudfront/cloudfront-settings-1.png, id=764, 767.86874pt x 609.2762
+<resources/cloudfront/cloudfront-settings-1.png, id=782, 767.86874pt x 609.2762
 5pt>
 File: resources/cloudfront/cloudfront-settings-1.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-settings-1.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-settings-1.png  used o
 n input line 80.
 (pdftex.def)             Requested size: 213.39566pt x 169.32253pt.
-<resources/cloudfront/cloudfront-settings-2.png, id=765, 531.48563pt x 674.52pt
+<resources/cloudfront/cloudfront-settings-2.png, id=783, 531.48563pt x 674.52pt
 >
 File: resources/cloudfront/cloudfront-settings-2.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-settings-2.png>
@@ -2967,13 +2971,13 @@ n input line 85.
 
  <./resources/cloudfront/cloudfront-settings-1.png> <./resources/cloudfront/clo
 udfront-settings-2.png>]
-<resources/cloudfront/cloudfront-created.png, id=773, 1445.4pt x 739.76375pt>
+<resources/cloudfront/cloudfront-created.png, id=791, 1445.4pt x 739.76375pt>
 File: resources/cloudfront/cloudfront-created.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-created.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-created.png  used on i
 nput line 97.
 (pdftex.def)             Requested size: 426.79134pt x 218.4316pt.
-<resources/cloudfront/cloudfront-before.png, id=776, 1445.4pt x 825.0825pt>
+<resources/cloudfront/cloudfront-before.png, id=794, 1445.4pt x 825.0825pt>
 File: resources/cloudfront/cloudfront-before.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-before.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-before.png  used on in
@@ -2983,13 +2987,13 @@ put line 108.
 
  <./resources/cloudfront/cloudfront-created.png> <./resources/cloudfront/cloudf
 ront-before.png>]
-<resources/cloudfront/cloudfront-after.png, id=783, 1445.4pt x 825.0825pt>
+<resources/cloudfront/cloudfront-after.png, id=801, 1445.4pt x 825.0825pt>
 File: resources/cloudfront/cloudfront-after.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-after.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-after.png  used on inp
 ut line 116.
 (pdftex.def)             Requested size: 426.79134pt x 243.62384pt.
-<resources/cloudfront/cloudfront-website.png, id=785, 718.48425pt x 407.121pt>
+<resources/cloudfront/cloudfront-website.png, id=803, 718.48425pt x 407.121pt>
 File: resources/cloudfront/cloudfront-website.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-website.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-website.png  used on i
@@ -3014,7 +3018,7 @@ Chapter 8.
 
 (out/_minted-main/24A680AF88F4FD14578EE82EB4DEF02A57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/cloudwatch/cloudwatch-metric-selection.png, id=793, 1445.4pt x 744.7
+<resources/cloudwatch/cloudwatch-metric-selection.png, id=811, 1445.4pt x 744.7
 825pt>
 File: resources/cloudwatch/cloudwatch-metric-selection.png Graphic file (type p
 ng)
@@ -3028,7 +3032,7 @@ used on input line 21.
 
 
  <./resources/cloudwatch/cloudwatch-metric-selection.png>]
-<resources/cloudwatch/cloudwatch-metric-config-1.png, id=801, 778.91pt x 740.76
+<resources/cloudwatch/cloudwatch-metric-config-1.png, id=820, 778.91pt x 740.76
 75pt>
 File: resources/cloudwatch/cloudwatch-metric-config-1.png Graphic file (type pn
 g)
@@ -3036,7 +3040,7 @@ g)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-metric-config-1.png  u
 sed on input line 38.
 (pdftex.def)             Requested size: 213.39566pt x 202.93742pt.
-<resources/cloudwatch/cloudwatch-metric-config-2.png, id=802, 775.39688pt x 743
+<resources/cloudwatch/cloudwatch-metric-config-2.png, id=821, 775.39688pt x 743
 .77875pt>
 File: resources/cloudwatch/cloudwatch-metric-config-2.png Graphic file (type pn
 g)
@@ -3044,7 +3048,7 @@ g)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-metric-config-2.png  u
 sed on input line 43.
 (pdftex.def)             Requested size: 213.39566pt x 204.693pt.
-<resources/cloudwatch/cloudwatch-sns-topic.png, id=804, 1445.4pt x 744.7825pt>
+<resources/cloudwatch/cloudwatch-sns-topic.png, id=823, 1445.4pt x 744.7825pt>
 File: resources/cloudwatch/cloudwatch-sns-topic.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-sns-topic.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-sns-topic.png  used on
@@ -3056,13 +3060,13 @@ Package pdftex.def Info: resources/cloudwatch/cloudwatch-sns-topic.png  used on
  <./resources/cloudwatch/cloudwatch-metric-config-1.png> <./resources/cloudwatc
 h/cloudwatch-metric-config-2.png> <./resources/cloudwatch/cloudwatch-sns-topic.
 png>]
-<resources/cloudwatch/cloudwatch-email.png, id=815, 860.21375pt x 260.975pt>
+<resources/cloudwatch/cloudwatch-email.png, id=833, 860.21375pt x 260.975pt>
 File: resources/cloudwatch/cloudwatch-email.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-email.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-email.png  used on inp
 ut line 67.
 (pdftex.def)             Requested size: 426.79134pt x 129.48367pt.
-<resources/cloudwatch/cloudwatch-alarm-success.png, id=816, 842.54774pt x 296.9
+<resources/cloudwatch/cloudwatch-alarm-success.png, id=834, 842.54774pt x 296.9
 0926pt>
 File: resources/cloudwatch/cloudwatch-alarm-success.png Graphic file (type png)
 
@@ -3074,14 +3078,14 @@ d on input line 74.
 
  <./resources/cloudwatch/cloudwatch-email.png> <./resources/cloudwatch/cloudwat
 ch-alarm-success.png>]
-<resources/cloudwatch/cloudwatch-ec2-actions.png, id=824, 1445.4pt x 740.7675pt
+<resources/cloudwatch/cloudwatch-ec2-actions.png, id=842, 1445.4pt x 740.7675pt
 >
 File: resources/cloudwatch/cloudwatch-ec2-actions.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-ec2-actions.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-ec2-actions.png  used 
 on input line 86.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-<resources/cloudwatch/cloudwatch-description.png, id=826, 1442.38875pt x 743.77
+<resources/cloudwatch/cloudwatch-description.png, id=844, 1442.38875pt x 743.77
 875pt>
 File: resources/cloudwatch/cloudwatch-description.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-description.png>
@@ -3092,7 +3096,7 @@ on input line 96.
 
  <./resources/cloudwatch/cloudwatch-ec2-actions.png> <./resources/cloudwatch/cl
 oudwatch-description.png>]
-<resources/cloudwatch/cloudwatch-network-alarm-complete.png, id=834, 1444.39626
+<resources/cloudwatch/cloudwatch-network-alarm-complete.png, id=852, 1444.39626
 pt x 741.77126pt>
 File: resources/cloudwatch/cloudwatch-network-alarm-complete.png Graphic file (
 type png)
@@ -3110,7 +3114,7 @@ Package pdftex.def Info: resources/cloudwatch/cloudwatch-network-alarm-complete
 
 (out/_minted-main/2464BE9D66D6AADA21927350E61C457657DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/cloudwatch/cloudwatch-metric-charges.png, id=836, 1445.4pt x 746.79p
+<resources/cloudwatch/cloudwatch-metric-charges.png, id=854, 1445.4pt x 746.79p
 t>
 File: resources/cloudwatch/cloudwatch-metric-charges.png Graphic file (type png
 )
@@ -3131,34 +3135,34 @@ ed on input line 117.
 
  <./resources/cloudwatch/cloudwatch-network-alarm-complete.png> <./resources/cl
 oudwatch/cloudwatch-metric-charges.png>]
-<resources/cloudwatch/cloudwatch-charges-config-1.png, id=844, 1445.4pt x 743.7
-7875pt>
+<resources/cloudwatch/cloudwatch-charges-config-1.png, id=862, 1435.3625pt x 69
+8.61pt>
 File: resources/cloudwatch/cloudwatch-charges-config-1.png Graphic file (type p
 ng)
 <use resources/cloudwatch/cloudwatch-charges-config-1.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-charges-config-1.png  
 used on input line 128.
-(pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
-<resources/cloudwatch/cloudwatch-charges-config-2.png, id=845, 1445.4pt x 740.7
-675pt>
+(pdftex.def)             Requested size: 426.79134pt x 207.71913pt.
+<resources/cloudwatch/cloudwatch-charges-config-2.png, id=863, 1439.3775pt x 64
+0.89438pt>
 File: resources/cloudwatch/cloudwatch-charges-config-2.png Graphic file (type p
 ng)
 <use resources/cloudwatch/cloudwatch-charges-config-2.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-charges-config-2.png  
 used on input line 135.
-(pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
+(pdftex.def)             Requested size: 426.79134pt x 190.03035pt.
  [39
 
  <./resources/cloudwatch/cloudwatch-charges-config-1.png> <./resources/cloudwat
 ch/cloudwatch-charges-config-2.png>]
-<resources/cloudwatch/cloudwatch-charges-sns.png, id=853, 1443.3925pt x 746.79p
+<resources/cloudwatch/cloudwatch-charges-sns.png, id=871, 1443.3925pt x 746.79p
 t>
 File: resources/cloudwatch/cloudwatch-charges-sns.png Graphic file (type png)
 <use resources/cloudwatch/cloudwatch-charges-sns.png>
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-charges-sns.png  used 
 on input line 146.
 (pdftex.def)             Requested size: 426.79134pt x 220.81392pt.
-<resources/cloudwatch/cloudwatch-charges-description.png, id=855, 1445.4pt x 74
+<resources/cloudwatch/cloudwatch-charges-description.png, id=873, 1445.4pt x 74
 4.7825pt>
 File: resources/cloudwatch/cloudwatch-charges-description.png Graphic file (typ
 e png)
@@ -3170,7 +3174,7 @@ g  used on input line 155.
 
  <./resources/cloudwatch/cloudwatch-charges-sns.png> <./resources/cloudwatch/cl
 oudwatch-charges-description.png>]
-<resources/cloudwatch/cloudwatch-charges-dashboard.png, id=863, 1443.3925pt x 7
+<resources/cloudwatch/cloudwatch-charges-dashboard.png, id=882, 1443.3925pt x 7
 43.77875pt>
 File: resources/cloudwatch/cloudwatch-charges-dashboard.png Graphic file (type 
 png)
@@ -3178,7 +3182,7 @@ png)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-charges-dashboard.png 
  used on input line 165.
 (pdftex.def)             Requested size: 355.65944pt x 183.26582pt.
-<resources/cloudwatch/cloudwatch-alarm-example.png, id=865, 1692.3225pt x 1373.
+<resources/cloudwatch/cloudwatch-alarm-example.png, id=884, 1692.3225pt x 1373.
 13pt>
 File: resources/cloudwatch/cloudwatch-alarm-example.png Graphic file (type png)
 
@@ -3204,7 +3208,7 @@ Chapter 9.
 
 (out/_minted-main/D742E63083ED8CCFE607E6C16C476DED57DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/cloudtrail/cloudtrail-general-1.png, id=875, 1445.4pt x 741.77126pt>
+<resources/cloudtrail/cloudtrail-general-1.png, id=893, 1445.4pt x 741.77126pt>
 
 File: resources/cloudtrail/cloudtrail-general-1.png Graphic file (type png)
 <use resources/cloudtrail/cloudtrail-general-1.png>
@@ -3222,20 +3226,20 @@ Package pdftex.def Info: resources/cloudtrail/cloudtrail-general-1.png  used on
 
 (out/_minted-main/15F8657ABFCCFEC4B9E20EFDEB26117157DAFF7AA972FC494BD14221DF198
 283.pygtex)
-<resources/cloudtrail/cloudtrail-general-2.png, id=883, 1445.4pt x 594.22pt>
+<resources/cloudtrail/cloudtrail-general-2.png, id=901, 1445.4pt x 594.22pt>
 File: resources/cloudtrail/cloudtrail-general-2.png Graphic file (type png)
 <use resources/cloudtrail/cloudtrail-general-2.png>
 Package pdftex.def Info: resources/cloudtrail/cloudtrail-general-2.png  used on
  input line 32.
 (pdftex.def)             Requested size: 426.79134pt x 175.45659pt.
-<resources/cloudtrail/cloudtrail-events-1.png, id=885, 832.61063pt x 740.7675pt
+<resources/cloudtrail/cloudtrail-events-1.png, id=903, 832.61063pt x 740.7675pt
 >
 File: resources/cloudtrail/cloudtrail-events-1.png Graphic file (type png)
 <use resources/cloudtrail/cloudtrail-events-1.png>
 Package pdftex.def Info: resources/cloudtrail/cloudtrail-events-1.png  used on 
 input line 50.
 (pdftex.def)             Requested size: 213.39566pt x 189.85963pt.
-<resources/cloudtrail/cloudtrail-events-2.png, id=886, 857.70438pt x 751.80875p
+<resources/cloudtrail/cloudtrail-events-2.png, id=904, 857.70438pt x 751.80875p
 t>
 File: resources/cloudtrail/cloudtrail-events-2.png Graphic file (type png)
 <use resources/cloudtrail/cloudtrail-events-2.png>
@@ -3246,13 +3250,13 @@ input line 55.
 
  <./resources/cloudtrail/cloudtrail-general-2.png> <./resources/cloudtrail/clou
 dtrail-events-1.png> <./resources/cloudtrail/cloudtrail-events-2.png>]
-<resources/cloudtrail/cloudtrail-added.png, id=895, 1445.4pt x 468.75125pt>
+<resources/cloudtrail/cloudtrail-added.png, id=913, 1445.4pt x 468.75125pt>
 File: resources/cloudtrail/cloudtrail-added.png Graphic file (type png)
 <use resources/cloudtrail/cloudtrail-added.png>
 Package pdftex.def Info: resources/cloudtrail/cloudtrail-added.png  used on inp
 ut line 68.
 (pdftex.def)             Requested size: 426.79134pt x 138.40916pt.
-<resources/cloudtrail/cloudtrail-validation-message.png, id=897, 1688.3075pt x 
+<resources/cloudtrail/cloudtrail-validation-message.png, id=915, 1688.3075pt x 
 690.58pt>
 File: resources/cloudtrail/cloudtrail-validation-message.png Graphic file (type
  png)
@@ -3268,20 +3272,20 @@ il-validation-message.png>]
 
  (rds/rds.tex
 Chapter 10.
-<resources/rds/rds-authentication.png, id=904, 1445.4pt x 352.31625pt>
+<resources/rds/rds-authentication.png, id=922, 1445.4pt x 352.31625pt>
 File: resources/rds/rds-authentication.png Graphic file (type png)
 <use resources/rds/rds-authentication.png>
 Package pdftex.def Info: resources/rds/rds-authentication.png  used on input li
 ne 17.
 (pdftex.def)             Requested size: 426.79134pt x 104.02914pt.
-<resources/rds/rds-availability-durability.png, id=905, 1442.38875pt x 335.2525
+<resources/rds/rds-availability-durability.png, id=923, 1442.38875pt x 335.2525
 pt>
 File: resources/rds/rds-availability-durability.png Graphic file (type png)
 <use resources/rds/rds-availability-durability.png>
 Package pdftex.def Info: resources/rds/rds-availability-durability.png  used on
  input line 29.
 (pdftex.def)             Requested size: 426.79134pt x 99.19533pt.
-<resources/rds/rds-connectivity-1.png, id=906, 1445.4pt x 740.7675pt>
+<resources/rds/rds-connectivity-1.png, id=924, 1445.4pt x 740.7675pt>
 File: resources/rds/rds-connectivity-1.png Graphic file (type png)
 <use resources/rds/rds-connectivity-1.png>
 Package pdftex.def Info: resources/rds/rds-connectivity-1.png  used on input li
@@ -3294,48 +3298,48 @@ ne 38.
 
  <./resources/rds/rds-authentication.png> <./resources/rds/rds-availability-dur
 ability.png>]
-<resources/rds/rds-create-engine.png, id=913, 1445.4pt x 743.77875pt>
+<resources/rds/rds-create-engine.png, id=931, 1445.4pt x 743.77875pt>
 File: resources/rds/rds-create-engine.png Graphic file (type png)
 <use resources/rds/rds-create-engine.png>
 Package pdftex.def Info: resources/rds/rds-create-engine.png  used on input lin
 e 47.
 (pdftex.def)             Requested size: 426.79134pt x 219.61711pt.
-<resources/rds/rds-database-creation.png, id=914, 1029.8475pt x 612.2875pt>
+<resources/rds/rds-database-creation.png, id=932, 1029.8475pt x 612.2875pt>
 File: resources/rds/rds-database-creation.png Graphic file (type png)
 <use resources/rds/rds-database-creation.png>
 Package pdftex.def Info: resources/rds/rds-database-creation.png  used on input
  line 54.
 (pdftex.def)             Requested size: 426.79134pt x 253.73955pt.
-<resources/rds/rds-instance-config.png, id=915, 1445.4pt x 363.3575pt>
+<resources/rds/rds-instance-config.png, id=933, 1445.4pt x 363.3575pt>
 File: resources/rds/rds-instance-config.png Graphic file (type png)
 <use resources/rds/rds-instance-config.png>
 Package pdftex.def Info: resources/rds/rds-instance-config.png  used on input l
 ine 61.
 (pdftex.def)             Requested size: 426.79134pt x 107.28932pt.
-<resources/rds/rds-monthly-costs.png, id=916, 1445.4pt x 732.7375pt>
+<resources/rds/rds-monthly-costs.png, id=934, 1445.4pt x 732.7375pt>
 File: resources/rds/rds-monthly-costs.png Graphic file (type png)
 <use resources/rds/rds-monthly-costs.png>
 Package pdftex.def Info: resources/rds/rds-monthly-costs.png  used on input lin
 e 70.
 (pdftex.def)             Requested size: 426.79134pt x 216.35693pt.
-<resources/rds/rds-security-group.png, id=917, 1445.4pt x 361.35pt>
+<resources/rds/rds-security-group.png, id=935, 1445.4pt x 361.35pt>
 File: resources/rds/rds-security-group.png Graphic file (type png)
 <use resources/rds/rds-security-group.png>
 Package pdftex.def Info: resources/rds/rds-security-group.png  used on input li
 ne 79.
 (pdftex.def)             Requested size: 426.79134pt x 106.69656pt.
-<resources/rds/rds-settings.png, id=918, 1444.39626pt x 483.8075pt>
+<resources/rds/rds-settings.png, id=936, 1444.39626pt x 483.8075pt>
 File: resources/rds/rds-settings.png Graphic file (type png)
 <use resources/rds/rds-settings.png>
 Package pdftex.def Info: resources/rds/rds-settings.png  used on input line 86.
 
 (pdftex.def)             Requested size: 426.79134pt x 142.95082pt.
-<resources/rds/rds-storage.png, id=919, 1445.4pt x 679.53876pt>
+<resources/rds/rds-storage.png, id=937, 1445.4pt x 679.53876pt>
 File: resources/rds/rds-storage.png Graphic file (type png)
 <use resources/rds/rds-storage.png>
 Package pdftex.def Info: resources/rds/rds-storage.png  used on input line 95.
 (pdftex.def)             Requested size: 426.79134pt x 200.64883pt.
-<resources/rds/rds-tables-creation.png, id=920, 952.55875pt x 283.0575pt>
+<resources/rds/rds-tables-creation.png, id=938, 952.55875pt x 283.0575pt>
 File: resources/rds/rds-tables-creation.png Graphic file (type png)
 <use resources/rds/rds-tables-creation.png>
 Package pdftex.def Info: resources/rds/rds-tables-creation.png  used on input l
@@ -3346,13 +3350,13 @@ e.png>] [47 <./resources/rds/rds-database-creation.png> <./resources/rds/rds-in
 stance-config.png> <./resources/rds/rds-monthly-costs.png>]
 [48 <./resources/rds/rds-security-group.png> <./resources/rds/rds-settings.png>
  <./resources/rds/rds-storage.png>]
-<resources/rds/rds-templates.png, id=942, 1445.4pt x 737.75626pt>
+<resources/rds/rds-templates.png, id=960, 1445.4pt x 737.75626pt>
 File: resources/rds/rds-templates.png Graphic file (type png)
 <use resources/rds/rds-templates.png>
 Package pdftex.def Info: resources/rds/rds-templates.png  used on input line 11
 4.
 (pdftex.def)             Requested size: 426.79134pt x 217.83884pt.
-<resources/rds/rds-mysql-install.png, id=943, 1029.8475pt x 595.22375pt>
+<resources/rds/rds-mysql-install.png, id=961, 1029.8475pt x 595.22375pt>
 File: resources/rds/rds-mysql-install.png Graphic file (type png)
 <use resources/rds/rds-mysql-install.png>
 Package pdftex.def Info: resources/rds/rds-mysql-install.png  used on input lin
@@ -3363,12 +3367,12 @@ File: resources/rds/rds-database-creation.png Graphic file (type png)
 Package pdftex.def Info: resources/rds/rds-database-creation.png  used on input
  line 133.
 (pdftex.def)             Requested size: 426.79134pt x 253.73955pt.
-<resources/rds/envupdate.png, id=944, 1557.82pt x 990.70125pt>
+<resources/rds/envupdate.png, id=962, 1557.82pt x 990.70125pt>
 File: resources/rds/envupdate.png Graphic file (type png)
 <use resources/rds/envupdate.png>
 Package pdftex.def Info: resources/rds/envupdate.png  used on input line 140.
 (pdftex.def)             Requested size: 142.26378pt x 90.4593pt.
-<resources/rds/docker.png, id=945, 339.2675pt x 730.73pt>
+<resources/rds/docker.png, id=963, 339.2675pt x 730.73pt>
 File: resources/rds/docker.png Graphic file (type png)
 <use resources/rds/docker.png>
 Package pdftex.def Info: resources/rds/docker.png  used on input line 147.
@@ -3386,32 +3390,81 @@ Chapter 11.
 
 
 
-]) [53]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+[]\T1/ua1/m/n/10.95 When the load bal-ancer is vis-ited at [][]http://http://gr
+oup4-load-balancer-
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 55--58
+\T1/ua1/m/n/10.95 1914525647.us-east-1.elb.amazonaws.com/[][], the web-site is 
+shown (elb/elb-
+ []
+
+) [53]
 \openout2 = `security/security_practices.aux'.
 
  (security/security_practices.tex
 Chapter 12.
-File: resources/rds/rds-connectivity-1.png Graphic file (type png)
-<use resources/rds/rds-connectivity-1.png>
-Package pdftex.def Info: resources/rds/rds-connectivity-1.png  used on input li
-ne 20.
+
+LaTeX Warning: Citation 'cavelty2010cyber' on page 54 undefined on input line 5
+.
+
+
+LaTeX Warning: Citation 'amazon2022amazon2' on page 54 undefined on input line 
+10.
+
+\openout6 = `main.pyg'.
+
+
+(out/_minted-main/C467C065303DF3DF7EEC4D52A55D726E57DAFF7AA972FC494BD14221DF198
+283.pygtex)
+File: resources/ec2/create-key-pair.png Graphic file (type png)
+<use resources/ec2/create-key-pair.png>
+Package pdftex.def Info: resources/ec2/create-key-pair.png  used on input line 
+31.
 (pdftex.def)             Requested size: 426.79134pt x 218.72797pt.
-File: resources/rds/rds-settings.png Graphic file (type png)
-<use resources/rds/rds-settings.png>
-Package pdftex.def Info: resources/rds/rds-settings.png  used on input line 29.
+<resources/log-in-with-key-pair.png, id=993, 1445.4pt x 861.2175pt>
+File: resources/log-in-with-key-pair.png Graphic file (type png)
+<use resources/log-in-with-key-pair.png>
+Package pdftex.def Info: resources/log-in-with-key-pair.png  used on input line
+ 38.
+(pdftex.def)             Requested size: 426.79134pt x 254.2935pt.
+<resources/iam-denied.png, id=995, 1139.457pt x 124.0635pt>
+File: resources/iam-denied.png Graphic file (type png)
+<use resources/iam-denied.png>
+Package pdftex.def Info: resources/iam-denied.png  used on input line 50.
+(pdftex.def)             Requested size: 426.79134pt x 46.4688pt.
+<resources/s3_encryption.png, id=996, 393.8715pt x 173.448pt>
+File: resources/s3_encryption.png Graphic file (type png)
+<use resources/s3_encryption.png>
+Package pdftex.def Info: resources/s3_encryption.png  used on input line 61.
+(pdftex.def)             Requested size: 426.79134pt x 187.95622pt.
+ [54
 
-(pdftex.def)             Requested size: 426.79134pt x 142.95082pt.
-) [54
 
 
 
-
-] [55]
+] [55 <./resources/log-in-with-key-pair.png> <./resources/iam-denied.png>]
+<resources/rds_authentication.png, id=1008, 372.79276pt x 144.54pt>
+File: resources/rds_authentication.png Graphic file (type png)
+<use resources/rds_authentication.png>
+Package pdftex.def Info: resources/rds_authentication.png  used on input line 7
+3.
+(pdftex.def)             Requested size: 426.79134pt x 165.48083pt.
+<resources/RDS_password.png, id=1009, 604.2575pt x 322.20375pt>
+File: resources/RDS_password.png Graphic file (type png)
+<use resources/RDS_password.png>
+Package pdftex.def Info: resources/RDS_password.png  used on input line 80.
+(pdftex.def)             Requested size: 426.79134pt x 227.57648pt.
+) [56 <./resources/s3_encryption.png> <./resources/rds_authentication.png>] [57
+ <./resources/RDS_password.png>]
 \openout2 = `cost/cost_breakdown.aux'.
 
  (cost/cost_breakdown.tex
 Chapter 13.
-) [56
+) [58
 
 
 
@@ -3439,7 +3492,7 @@ File: resources/ec2/ec2-logged-in.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/ec2-logged-in.png  used on input line 39
 .
 (pdftex.def)             Requested size: 426.79134pt x 130.74574pt.
- [57
+ [59
 
 
 
@@ -3455,7 +3508,7 @@ File: resources/ec2/digital-ink-ec2.png Graphic file (type png)
 Package pdftex.def Info: resources/ec2/digital-ink-ec2.png  used on input line 
 58.
 (pdftex.def)             Requested size: 426.79134pt x 239.47453pt.
- [58
+ [60
 
 ]
 \openout5 = `main.pyg'.
@@ -3478,7 +3531,7 @@ File: resources/cloudfront/cloudfront-website.png Graphic file (type png)
 Package pdftex.def Info: resources/cloudfront/cloudfront-website.png  used on i
 nput line 97.
 (pdftex.def)             Requested size: 355.65944pt x 201.52863pt.
- [59
+ [61
 
 ]
 \openout5 = `main.pyg'.
@@ -3486,55 +3539,55 @@ nput line 97.
 
 (out/_minted-main/28E85E45603E13B7E907FFD0E7821472C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/cloudfront/cloudfront-test-uk.png, id=1012, 1445.4pt x 809.0225pt>
+<resources/cloudfront/cloudfront-test-uk.png, id=1051, 1445.4pt x 809.0225pt>
 File: resources/cloudfront/cloudfront-test-uk.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-uk.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-test-uk.png  used on i
 nput line 115.
 (pdftex.def)             Requested size: 426.79134pt x 238.88177pt.
-<resources/cloudfront/cloudfront-test-uk-ip.png, id=1013, 713.16437pt x 421.073
+<resources/cloudfront/cloudfront-test-uk-ip.png, id=1052, 713.16437pt x 421.073
 12pt>
 File: resources/cloudfront/cloudfront-test-uk-ip.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-uk-ip.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-test-uk-ip.png  used o
 n input line 122.
 (pdftex.def)             Requested size: 426.79134pt x 251.99046pt.
-<resources/cloudfront/cloudfront-test-us.png, id=1014, 1445.4pt x 850.17625pt>
+<resources/cloudfront/cloudfront-test-us.png, id=1053, 1445.4pt x 850.17625pt>
 File: resources/cloudfront/cloudfront-test-us.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-us.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-test-us.png  used on i
 nput line 129.
 (pdftex.def)             Requested size: 426.79134pt x 251.03333pt.
-<resources/cloudfront/cloudfront-test-us-ip.png, id=1015, 709.65125pt x 444.661
+<resources/cloudfront/cloudfront-test-us-ip.png, id=1054, 709.65125pt x 444.661
 25pt>
 File: resources/cloudfront/cloudfront-test-us-ip.png Graphic file (type png)
 <use resources/cloudfront/cloudfront-test-us-ip.png>
 Package pdftex.def Info: resources/cloudfront/cloudfront-test-us-ip.png  used o
 n input line 136.
 (pdftex.def)             Requested size: 426.79134pt x 267.42981pt.
- [60
+ [62
 
  <./resources/cloudfront/cloudfront-test-uk.png> <./resources/cloudfront/cloudf
-ront-test-uk-ip.png>] [61 <./resources/cloudfront/cloudfront-test-us.png> <./re
+ront-test-uk-ip.png>] [63 <./resources/cloudfront/cloudfront-test-us.png> <./re
 sources/cloudfront/cloudfront-test-us-ip.png>]
 \openout5 = `main.pyg'.
 
 
 (out/_minted-main/D024E2D3BA880FCF69A353D0A10E58B3C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/rds/rds-testing-empty.png, id=1029, 948.04187pt x 337.76187pt>
+<resources/rds/rds-testing-empty.png, id=1068, 948.04187pt x 337.76187pt>
 File: resources/rds/rds-testing-empty.png Graphic file (type png)
 <use resources/rds/rds-testing-empty.png>
 Package pdftex.def Info: resources/rds/rds-testing-empty.png  used on input lin
 e 156.
 (pdftex.def)             Requested size: 426.79134pt x 152.05328pt.
-<resources/rds/rds-testing-user-added.png, id=1030, 1445.4pt x 530.98375pt>
+<resources/rds/rds-testing-user-added.png, id=1069, 1445.4pt x 530.98375pt>
 File: resources/rds/rds-testing-user-added.png Graphic file (type png)
 <use resources/rds/rds-testing-user-added.png>
 Package pdftex.def Info: resources/rds/rds-testing-user-added.png  used on inpu
 t line 163.
 (pdftex.def)             Requested size: 426.79134pt x 156.78468pt.
- [62
+ [64
 
  <./resources/rds/rds-testing-empty.png> <./resources/rds/rds-testing-user-adde
 d.png>]
@@ -3543,21 +3596,21 @@ d.png>]
 
 (out/_minted-main/9F46B7A7D2347D59A801F1EB2A7D2C59C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/rds/rds-testing-stories-before.png, id=1038, 963.09813pt x 357.335pt
+<resources/rds/rds-testing-stories-before.png, id=1078, 963.09813pt x 357.335pt
 >
 File: resources/rds/rds-testing-stories-before.png Graphic file (type png)
 <use resources/rds/rds-testing-stories-before.png>
 Package pdftex.def Info: resources/rds/rds-testing-stories-before.png  used on 
 input line 182.
 (pdftex.def)             Requested size: 426.79134pt x 158.35109pt.
-<resources/rds/rds-testing-stories-after.png, id=1039, 1430.34375pt x 846.16125
+<resources/rds/rds-testing-stories-after.png, id=1079, 1430.34375pt x 846.16125
 pt>
 File: resources/rds/rds-testing-stories-after.png Graphic file (type png)
 <use resources/rds/rds-testing-stories-after.png>
 Package pdftex.def Info: resources/rds/rds-testing-stories-after.png  used on i
 nput line 189.
 (pdftex.def)             Requested size: 426.79134pt x 252.48174pt.
- [63
+ [65
 
  <./resources/rds/rds-testing-stories-before.png> <./resources/rds/rds-testing-
 stories-after.png>]
@@ -3571,13 +3624,13 @@ File: resources/rds/rds-testing-user-added.png Graphic file (type png)
 Package pdftex.def Info: resources/rds/rds-testing-user-added.png  used on inpu
 t line 208.
 (pdftex.def)             Requested size: 426.79134pt x 156.78468pt.
-<resources/rds/rds-testing-update-after.png, id=1047, 1445.4pt x 435.6275pt>
+<resources/rds/rds-testing-update-after.png, id=1087, 1445.4pt x 435.6275pt>
 File: resources/rds/rds-testing-update-after.png Graphic file (type png)
 <use resources/rds/rds-testing-update-after.png>
 Package pdftex.def Info: resources/rds/rds-testing-update-after.png  used on in
 put line 215.
 (pdftex.def)             Requested size: 426.79134pt x 128.62865pt.
- [64
+ [66
 
  <./resources/rds/rds-testing-update-after.png>]
 \openout5 = `main.pyg'.
@@ -3595,7 +3648,7 @@ File: resources/rds/rds-testing-stories-before.png Graphic file (type png)
 Package pdftex.def Info: resources/rds/rds-testing-stories-before.png  used on 
 input line 241.
 (pdftex.def)             Requested size: 426.79134pt x 158.35109pt.
- [65
+ [67
 
 ]
 \openout5 = `main.pyg'.
@@ -3603,7 +3656,7 @@ input line 241.
 
 (out/_minted-main/E1D3E125D1B93EBEBB5F98ED2C079D74C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/cloudwatch/cloudwatch-network-alarm-setup.png, id=1060, 1445.4pt x 7
+<resources/cloudwatch/cloudwatch-network-alarm-setup.png, id=1099, 1445.4pt x 7
 41.77126pt>
 File: resources/cloudwatch/cloudwatch-network-alarm-setup.png Graphic file (typ
 e png)
@@ -3611,7 +3664,7 @@ e png)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-network-alarm-setup.pn
 g  used on input line 264.
 (pdftex.def)             Requested size: 426.79134pt x 219.02435pt.
-<resources/cloudwatch/cloudwatch-network-alarm-active.png, id=1061, 1445.4pt x 
+<resources/cloudwatch/cloudwatch-network-alarm-active.png, id=1100, 1445.4pt x 
 689.57625pt>
 File: resources/cloudwatch/cloudwatch-network-alarm-active.png Graphic file (ty
 pe png)
@@ -3619,7 +3672,7 @@ pe png)
 Package pdftex.def Info: resources/cloudwatch/cloudwatch-network-alarm-active.p
 ng  used on input line 271.
 (pdftex.def)             Requested size: 426.79134pt x 203.61263pt.
- [66
+ [68
 
  <./resources/cloudwatch/cloudwatch-network-alarm-setup.png> <./resources/cloud
 watch/cloudwatch-network-alarm-active.png>]
@@ -3628,13 +3681,13 @@ watch/cloudwatch-network-alarm-active.png>]
 
 (out/_minted-main/56137160407C5E6112404ABFE15ED638C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/cloudtrail/cloudtrail-test.png, id=1069, 1445.4pt x 737.75626pt>
+<resources/cloudtrail/cloudtrail-test.png, id=1108, 1445.4pt x 737.75626pt>
 File: resources/cloudtrail/cloudtrail-test.png Graphic file (type png)
 <use resources/cloudtrail/cloudtrail-test.png>
 Package pdftex.def Info: resources/cloudtrail/cloudtrail-test.png  used on inpu
 t line 292.
 (pdftex.def)             Requested size: 426.79134pt x 217.83884pt.
- [67
+ [69
 
  <./resources/cloudtrail/cloudtrail-test.png>]
 \openout5 = `main.pyg'.
@@ -3642,19 +3695,19 @@ t line 292.
 
 (out/_minted-main/DD4BBD5FA0B376F77072D3D20A1100D4C9347A76F103B8C0B1176BAAF856C
 EEF.pygtex)
-<resources/elb/elb-test-stopped-instance.png, id=1076, 1445.4pt x 290.08376pt>
+<resources/elb/elb-test-stopped-instance.png, id=1115, 1445.4pt x 290.08376pt>
 File: resources/elb/elb-test-stopped-instance.png Graphic file (type png)
 <use resources/elb/elb-test-stopped-instance.png>
 Package pdftex.def Info: resources/elb/elb-test-stopped-instance.png  used on i
 nput line 315.
 (pdftex.def)             Requested size: 426.79134pt x 85.65363pt.
-<resources/elb/elb-working.png, id=1077, 1445.4pt x 814.04124pt>
+<resources/elb/elb-working.png, id=1116, 1445.4pt x 814.04124pt>
 File: resources/elb/elb-working.png Graphic file (type png)
 <use resources/elb/elb-working.png>
 Package pdftex.def Info: resources/elb/elb-working.png  used on input line 322.
 
 (pdftex.def)             Requested size: 426.79134pt x 240.36366pt.
- [68
+ [70
 
  <./resources/elb/elb-test-stopped-instance.png> <./resources/elb/elb-working.p
 ng>]
@@ -3673,38 +3726,61 @@ File: resources/elb/elb-working.png Graphic file (type png)
 Package pdftex.def Info: resources/elb/elb-working.png  used on input line 349.
 
 (pdftex.def)             Requested size: 426.79134pt x 240.36366pt.
-) [69
+) [71
 
 ]
 \openout2 = `future_enhancements/future_enhancements.aux'.
 
  (future_enhancements/future_enhancements.tex
 Chapter 15.
-[70
+<resources/certificate-denied.png, id=1131, 1146.684pt x 96.36pt>
+File: resources/certificate-denied.png Graphic file (type png)
+<use resources/certificate-denied.png>
+Package pdftex.def Info: resources/certificate-denied.png  used on input line 1
+5.
+(pdftex.def)             Requested size: 426.79134pt x 35.86435pt.
+File: resources/iam-denied.png Graphic file (type png)
+<use resources/iam-denied.png>
+Package pdftex.def Info: resources/iam-denied.png  used on input line 29.
+(pdftex.def)             Requested size: 426.79134pt x 46.4688pt.
+[72
 
 
 
 
-]) [71]
+ <./resources/certificate-denied.png>]
+
+LaTeX Warning: Citation 'amazon2022aws4' on page 73 undefined on input line 37.
+
+
+<resources/elb/elb-accelerator.png, id=1139, 1445.4pt x 226.8475pt>
+File: resources/elb/elb-accelerator.png Graphic file (type png)
+<use resources/elb/elb-accelerator.png>
+Package pdftex.def Info: resources/elb/elb-accelerator.png  used on input line 
+48.
+(pdftex.def)             Requested size: 426.79134pt x 66.98174pt.
+) [73
+
+ <./resources/elb/elb-accelerator.png>]
 \openout2 = `conclusion/conclusion.aux'.
 
  (conclusion/conclusion.tex
 Chapter 16.
-<resources/rds/mysql.png, id=1107, 386.44376pt x 235.88126pt>
+<resources/rds/mysql.png, id=1149, 386.44376pt x 235.88126pt>
 File: resources/rds/mysql.png Graphic file (type png)
 <use resources/rds/mysql.png>
 Package pdftex.def Info: resources/rds/mysql.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79134pt x 260.51036pt.
-) [72
+) [74
 
 
 
 
- <./resources/rds/mysql.png>] [73
+ <./resources/rds/mysql.png>] [75
 
 
 
-] [74]
+] [76]
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/main.aux
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
@@ -3755,8 +3831,19 @@ ts/future_enhancements.aux)
 (/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUniversity/CMP6210 - 
 Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out/conclusion/conclu
 sion.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CCC7E7CADC2CAC398C2360B1FF55DBC4;5449.
+(rerunfilecheck)             Checksum: 2B1A3550BD91C2EE62C2E0D1B069EF55;5449.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 runsystem(rm out//main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -3764,10 +3851,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40950 strings out of 478553
- 923993 string characters out of 2839088
- 1607664 words of memory out of 3000000
- 57602 multiletter control sequences out of 15000+600000
+ 41053 strings out of 478553
+ 927661 string characters out of 2839088
+ 1609384 words of memory out of 3000000
+ 57684 multiletter control sequences out of 15000+600000
  531138 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,8n,106p,1195b,2056s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -3780,9 +3867,9 @@ ris/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/arial/ua1
 ri8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (82 pages, 20078561 bytes).
+/main.pdf" (85 pages, 20620625 bytes).
 PDF statistics:
- 1301 PDF objects out of 1440 (max. 8388607)
- 289 named destinations out of 1000 (max. 500000)
- 893 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1345 PDF objects out of 1440 (max. 8388607)
+ 299 named destinations out of 1000 (max. 500000)
+ 928 words of extra memory for PDF output out of 10000 (max. 10000000)
 

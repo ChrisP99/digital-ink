@@ -97,29 +97,36 @@
 \contentsline {figure}{\numberline {10.16}{\ignorespaces Removal of Database from Docker File.\relax }}{51}{figure.caption.89}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Selection of VPC and Subnet Groups.\relax }}{54}{figure.caption.90}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Credentials for RDS Authentication.\relax }}{55}{figure.caption.91}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Creating a KeyPair.\relax }}{55}{figure.caption.90}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Logging in with the KeyPair.\relax }}{55}{figure.caption.91}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Restricted permissions preventing the creation of IAM roles.\relax }}{55}{figure.caption.92}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces S3 bucket encryption settings.\relax }}{56}{figure.caption.93}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Setting up database authentication.\relax }}{56}{figure.caption.94}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Viewing log in details for database authentication.\relax }}{57}{figure.caption.95}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Digital Ink image whilst connected to UK IP.\relax }}{60}{figure.caption.102}%
-\contentsline {figure}{\numberline {14.2}{\ignorespaces UK IP Location.\relax }}{60}{figure.caption.103}%
-\contentsline {figure}{\numberline {14.3}{\ignorespaces Digital Ink image whilst connected to US IP.\relax }}{61}{figure.caption.104}%
-\contentsline {figure}{\numberline {14.4}{\ignorespaces US IP Location.\relax }}{61}{figure.caption.105}%
-\contentsline {figure}{\numberline {14.5}{\ignorespaces Empty users table before test.\relax }}{62}{figure.caption.107}%
-\contentsline {figure}{\numberline {14.6}{\ignorespaces Users table now populated after test.\relax }}{62}{figure.caption.108}%
-\contentsline {figure}{\numberline {14.7}{\ignorespaces Empty stories table before test.\relax }}{63}{figure.caption.110}%
-\contentsline {figure}{\numberline {14.8}{\ignorespaces Stories table now populated after test.\relax }}{63}{figure.caption.111}%
-\contentsline {figure}{\numberline {14.9}{\ignorespaces User before update.\relax }}{64}{figure.caption.113}%
-\contentsline {figure}{\numberline {14.10}{\ignorespaces User after update. Notice that the hashed password remains the same.\relax }}{64}{figure.caption.114}%
-\contentsline {figure}{\numberline {14.11}{\ignorespaces Stories table before deletion.\relax }}{65}{figure.caption.116}%
-\contentsline {figure}{\numberline {14.12}{\ignorespaces Stories table after deletion.\relax }}{65}{figure.caption.117}%
-\contentsline {figure}{\numberline {14.13}{\ignorespaces CloudWatch NetworkAlarm setup.\relax }}{66}{figure.caption.119}%
-\contentsline {figure}{\numberline {14.14}{\ignorespaces CloudWatch NetworkAlarm activated.\relax }}{66}{figure.caption.120}%
-\contentsline {figure}{\numberline {14.15}{\ignorespaces CloudTrail test.\relax }}{67}{figure.caption.122}%
-\contentsline {figure}{\numberline {14.16}{\ignorespaces Stopped Group4-EC2 instance.\relax }}{68}{figure.caption.124}%
-\contentsline {figure}{\numberline {14.17}{\ignorespaces Web app page still loading through other EC2 instance.\relax }}{68}{figure.caption.125}%
-\contentsline {figure}{\numberline {14.18}{\ignorespaces Stopped Group4-EC2-Instance-2 instance.\relax }}{69}{figure.caption.127}%
-\contentsline {figure}{\numberline {14.19}{\ignorespaces Web app page still loading through other EC2 instance.\relax }}{69}{figure.caption.128}%
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Digital Ink image whilst connected to UK IP.\relax }}{62}{figure.caption.106}%
+\contentsline {figure}{\numberline {14.2}{\ignorespaces UK IP Location.\relax }}{62}{figure.caption.107}%
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Digital Ink image whilst connected to US IP.\relax }}{63}{figure.caption.108}%
+\contentsline {figure}{\numberline {14.4}{\ignorespaces US IP Location.\relax }}{63}{figure.caption.109}%
+\contentsline {figure}{\numberline {14.5}{\ignorespaces Empty users table before test.\relax }}{64}{figure.caption.111}%
+\contentsline {figure}{\numberline {14.6}{\ignorespaces Users table now populated after test.\relax }}{64}{figure.caption.112}%
+\contentsline {figure}{\numberline {14.7}{\ignorespaces Empty stories table before test.\relax }}{65}{figure.caption.114}%
+\contentsline {figure}{\numberline {14.8}{\ignorespaces Stories table now populated after test.\relax }}{65}{figure.caption.115}%
+\contentsline {figure}{\numberline {14.9}{\ignorespaces User before update.\relax }}{66}{figure.caption.117}%
+\contentsline {figure}{\numberline {14.10}{\ignorespaces User after update. Notice that the hashed password remains the same.\relax }}{66}{figure.caption.118}%
+\contentsline {figure}{\numberline {14.11}{\ignorespaces Stories table before deletion.\relax }}{67}{figure.caption.120}%
+\contentsline {figure}{\numberline {14.12}{\ignorespaces Stories table after deletion.\relax }}{67}{figure.caption.121}%
+\contentsline {figure}{\numberline {14.13}{\ignorespaces CloudWatch NetworkAlarm setup.\relax }}{68}{figure.caption.123}%
+\contentsline {figure}{\numberline {14.14}{\ignorespaces CloudWatch NetworkAlarm activated.\relax }}{68}{figure.caption.124}%
+\contentsline {figure}{\numberline {14.15}{\ignorespaces CloudTrail test.\relax }}{69}{figure.caption.126}%
+\contentsline {figure}{\numberline {14.16}{\ignorespaces Stopped Group4-EC2 instance.\relax }}{70}{figure.caption.128}%
+\contentsline {figure}{\numberline {14.17}{\ignorespaces Web app page still loading through other EC2 instance.\relax }}{70}{figure.caption.129}%
+\contentsline {figure}{\numberline {14.18}{\ignorespaces Stopped Group4-EC2-Instance-2 instance.\relax }}{71}{figure.caption.131}%
+\contentsline {figure}{\numberline {14.19}{\ignorespaces Web app page still loading through other EC2 instance.\relax }}{71}{figure.caption.132}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Restricted permissions preventing the use of certificates.\relax }}{72}{figure.caption.133}%
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Restricted permissions preventing the creation of IAM roles.\relax }}{72}{figure.caption.134}%
+\contentsline {figure}{\numberline {15.3}{\ignorespaces Restricted permissions preventing the creation of Global Accelerator.\relax }}{73}{figure.caption.135}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {16.1}{\ignorespaces Major Bug Fixes Can Be Small\relax }}{72}{figure.caption.129}%
+\contentsline {figure}{\numberline {16.1}{\ignorespaces Major Bug Fixes Can Be Small\relax }}{74}{figure.caption.136}%

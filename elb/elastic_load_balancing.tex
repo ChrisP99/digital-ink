@@ -8,68 +8,51 @@ to billing and ensure you aren't paying for any additional resources that are no
 
 1. Creation of new AMI
 
-- Selection of AMI previously created and then "Create Instance from AMI" option (elb/elb-instance-from-ami)
-- Given name of "Group4-EC2-Instance-2" (elb/elb-instance-2-name)
-- AMI selected to use same instance as "Group4-EC2" so everything is the same (elb/elb-instance-2-name)
-- Same keypair used, so it is easier to switch between both instances (elb/elb-instance-2-type-and-keypair)
+\begin{itemize}
+    \item Selection of AMI previously created and then "Create Instance from AMI" option (elb/elb-instance-from-ami)
+    \item AMI selected to use same instance as "Group4-EC2" so everything is the same (elb/elb-instance-2-name)
+    \item Same keypair used, so it is easier to switch between both instances (elb/elb-instance-2-type-and-keypair)
     Network Settings
-- VPC set to be Group4 VPC  (created in Section~\ref{ch:vpc}) (elb/elb-instance-2-network-settings)
-- Subnet set to be "Public Subnet 2" (elb/elb-instance-2-network-settings)
-- Public IP auto-assigned (elb/elb-instance-2-network-settings)
-- Existing security group of "Group4-Security-Group" selected to allow HTTP, HTTPS, SSH and MySQL traffic on the
-instance (elb/elb-instance-2-network-settings)
-- Storage remains the same as previous instance (elb/elb-instance-2-storage-config)
-- Second instance now created (elb/elb-instance-2-created)
+    \item VPC set to be Group4 VPC  (created in Section~\ref{ch:vpc}) (elb/elb-instance-2-network-settings)
+    \item Subnet set to be "Public Subnet 2" (elb/elb-instance-2-network-settings)
+    \item Public IP auto-assigned (elb/elb-instance-2-network-settings)
+    \item Existing security group of "Group4-Security-Group" selected to allow HTTP, HTTPS, SSH and MySQL traffic on the
+    instance (elb/elb-instance-2-network-settings)
+    \item Storage remains the same as previous instance (elb/elb-instance-2-storage-config)
+    \item Second instance now created (elb/elb-instance-2-created)
+\end{itemize}
 
 2. Creation of target group
 
 Now that there is 2 instances, they both need to be stored within a target group.
 
-- The Target Group type of "Instances" is selected - this will store both running instances of Digital-Ink in a group
-to be handled by the Load Balancer (elb/elb-target-group-basic-config)
-- Target Group name of "Group4-Target-Group" given (elb/elb-target-group-basic-config)
-- Protocol of HTTP and port 80 given (elb/elb-target-group-basic-config)
-- Group4-VPC selected (elb/elb-vpc)
-- The next screen asks for instances that will be registered to the Target Group to be selected
-- The 2 running instances of Digital Ink are shown and added as targets through the "Include as pending below"
-button (elb/elb-register-targets)
-- Target group now created, and contains both EC2 instances within them (elb/elb-target-group-created)
+\begin{itemize}
+    \item The Target Group type of "Instances" is selected - this will store both running instances of Digital-Ink in a group
+    to be handled by the Load Balancer (elb/elb-target-group-basic-config)
+    \item Target Group name of "Group4-Target-Group" given (elb/elb-target-group-basic-config)
+    \item Protocol of HTTP and port 80 given (elb/elb-target-group-basic-config)
+    \item Group4-VPC selected (elb/elb-vpc)
+    \item The next screen asks for instances that will be registered to the Target Group to be selected
+    \item The 2 running instances of Digital Ink are shown and added as targets through the "Include as pending below"
+    button (elb/elb-register-targets)
+    \item Target group now created, and contains both EC2 instances within them (elb/elb-target-group-created)
+\end{itemize}
 
 3. Creation of Load Balancer
 
-- The Target groups are not associated with a Load Balancer, so one will be created as an Application Load Balancer
-(elb/elb-load-balancer-created)
-- Given the name of "Group4-Load-Balancer' (elb/elb-basic-config)
-- Set to be internet facing and will handle ipv4 addresses (elb/elb-network-mapping)
-- The VPC is selected and public subnet 1 and 2 are applied within each, which are in us-east-1a and us-east-1b
-respectively (Say this makes the web app highly available) (elb/elb-vpc)
-- The security group of Group4-Security-Group is selected, which allows HTTP, HTTPS, SSH and MySQL traffic within
-the load balancer (elb/elb-security-groups-and-listeners)
-- In the event that either of the web apps goes down, it will be forwarded to the Group4-Target-Group, which will then
-display the available instance (elb/elb-security-groups-and-listeners)
-- Could not create Global Accelerator due to permissions issue (Future improvement) (elb/elb-accelerator)
-- Summary (elb/elb-summary)
-- Load balancer created (elb/elb-created)
-- When the load balancer is visited at
-\href{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/}{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/},
-the website is shown (elb/elb-working)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%\begin{figure}[!htbp]
-%    \centering
-%    \includegraphics[width=\textwidth]{resources/find-image}
-%    \caption{Selection of EC2 OS Image.}
-%    \label{fig:ec2-os}
-%\end{figure}
+\begin{itemize}
+    \item The Target groups are not associated with a Load Balancer, so one will be created as an Application Load Balancer
+    (elb/elb-load-balancer-created)
+    \item Given the name of "Group4-Load-Balancer' (elb/elb-basic-config)
+    \item Set to be internet facing and will handle ipv4 addresses (elb/elb-network-mapping)
+    \item The security group of Group4-Security-Group is selected, which allows HTTP, HTTPS, SSH and MySQL traffic within
+    the load balancer (elb/elb-security-groups-and-listeners)
+    \item In the event that either of the web apps goes down, it will be forwarded to the Group4-Target-Group, which will then
+    display the available instance (elb/elb-security-groups-and-listeners)
+    \item Could not create Global Accelerator due to permissions issue (Future improvement) (elb/elb-accelerator)
+    \item Summary (elb/elb-summary)
+    \item Load balancer created (elb/elb-created)
+    \item When the load balancer is visited at
+    \href{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/}{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/},
+    the website is shown (elb/elb-working)
+\end{itemize}
