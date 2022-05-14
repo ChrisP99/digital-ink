@@ -30,7 +30,7 @@ Screenshots are included to illustrate the results of these tests.
 Scenario: Accessing instance through SSH with .pem file private key.
     Given that the EC2 instance is running on AWS and the user has EC2 keypair
     When the user enters the command
-    "ssh -i Group4_KeyPair.pem ec2-user@52.45.13.111" in the terminal
+    "ssh -i Group4_KeyPair.pem ec2-user@35.169.71.228" in the terminal
     Then the user will be logged into the EC2 instance
     \end{minted}
     \label{fig:accessing-instance-ec2}
@@ -50,7 +50,7 @@ Scenario: Accessing instance through SSH with .pem file private key.
 Scenario: Accessing web app through EC2 domain name.
     Given that the web app is running on the EC2 instance
     When the user accesses
-    "http://ec2-52-45-13-111.compute-1.amazonaws.com" in their browser
+    "http://ec2-35-169-71-228.compute-1.amazonaws.com/" in their browser
     Then the web app will be loaded
     \end{minted}
     \label{fig:accessing-web-app-ec2}
@@ -155,103 +155,149 @@ Scenario: Accessing web app image through CloudFront domain name in another regi
     \centering
     \begin{minted}{cucumber}
 Scenario: Creating user information through the web app.
-    Given ...
-    When ...
-    Then ...
+    Given that the user does not have an account on the web app
+    When the user creates an account through the web app
+    Then their account will be added to the users table on the RDS instance
     \end{minted}
     \label{fig:create-user-data}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-empty}
+    \caption{RDS before test.}
+    \label{fig:rds-testing-empty}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-user-added}
+    \caption{RDS after test.}
+    \label{fig:rds-testing-user-added}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
     \begin{minted}{cucumber}
 Scenario: Creating story information through the web app.
-    Given ...
-    When ...
-    Then ...
+    Given the user has a digital ink account
+    When they create a story on the website
+    Then their story will be added to the stories table on the RDS instance
     \end{minted}
     \label{fig:create-story-data}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \begin{minted}{cucumber}
-Scenario: Reading user information from the database into the web app.
-    Given ...
-    When ...
-    Then ...
-    \end{minted}
-    \label{fig:read-user-data}
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-stories-before}
+    \caption{RDS before test.}
+    \label{fig:rds-testing-stories-empty}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \begin{minted}{cucumber}
-Scenario: Reading story information from the database into the web app.
-    Given ...
-    When ...
-    Then ...
-    \end{minted}
-    \label{fig:read-story-data}
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-stories-after}
+    \caption{RDS after test.}
+    \label{fig:rds-testing-story-added}
 \end{figure}
+
+\clearpage
+
 
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
 Scenario: Updating user information in the database through the web app.
-    Given ...
-    When ...
-    Then ...
+    Given the user has an account in the web app
+    When they change their name and email
+    Then the information will be updated in the users table in the RDS instance
     \end{minted}
     \label{fig:update-user-data}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \begin{minted}{cucumber}
-Scenario: Updating story information in the database through the web app.
-    Given ...
-    When ...
-    Then ...
-    \end{minted}
-    \label{fig:update-story-data}
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-user-added}
+    \caption{User before update.}
+    \label{fig:rds-testing-user-before-update}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \begin{minted}{cucumber}
-Scenario: Deleting user information in the database through the web app.
-    Given ...
-    When ...
-    Then ...
-    \end{minted}
-    \label{fig:delete-user-data}
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-update-after}
+    \caption{User after update. Notice that the hashed password remains the same.}
+    \label{fig:rds-testing-user-after-update}
 \end{figure}
+
+\clearpage
 
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
 Scenario: Deleting story information in the database through the web app.
-    Given ...
-    When ...
-    Then ...
+    Given the user has an account and a story on the web app
+    When they delete a story associated with their account
+    Then the story will be removed from the stories table in the RDS instance
     \end{minted}
     \label{fig:delete-story-data}
 \end{figure}
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-stories-after}
+    \caption{Stories table before deletion.}
+    \label{fig:rds-testing-before-story-deletion}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/rds/rds-testing-stories-before}
+    \caption{Stories table after deletion.}
+    \label{fig:rds-testing-after-story-deletion}
+\end{figure}
+
+\clear
+
 \section{Testing CloudWatch}\label{sec:testing-cloudwatch}
 
-(One test for each of the metrics we set up.)
+For the purposes of these tests, alarms were purposefully activated.
 
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
-Scenario:
-    Given ...
-    When ...
-    Then ...
+Scenario: Testing that NetworkAlarm activates
+    Given that the NetworkAlarm is active
+    When the EC2 instance outputs more than 500 packets of data
+    in 1 minute
+    Then the alarm should activate.
     \end{minted}
-    \label{fig:cloudwatch-}
+    \label{fig:cloudwatch-network-alarm-test}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-network-alarm-setup}
+    \caption{Stories table before deletion.}
+    \label{fig:cloudwatch-network-alarm-setup}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudwatch/cloudwatch-network-alarm-active}
+    \caption{Stories table after deletion.}
+    \label{fig:cloudwatch-network-alarm-active}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{minted}{cucumber}
+Scenario: Testing that BillingAlarm activates
+    Given that the NetworkAlarm is active
+    When the EC2 instance outputs more than 500 packets of data
+    in 1 minute
+    Then the alarm should activate.
+    \end{minted}
+    \label{fig:cloudwatch-network-alarm-test}
 \end{figure}
 
 \section{Testing CloudTrail}\label{sec:testing-cloudtrail}
@@ -261,13 +307,21 @@ Scenario:
 \begin{figure}[!htbp]
     \centering
     \begin{minted}{cucumber}
-Scenario:
-    Given ...
-    When ...
-    Then ...
+Scenario: Testing CloudTrail logs RDS activity.
+    Given that the Group4-CloudTrail service is active
+    When data is added to the RDS database
+    Then this information is logged through CloudTrail
     \end{minted}
-    \label{fig:cloudtrail-}
+    \label{fig:cloudtrail-test}
 \end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/cloudtrail/cloudtrail-test}
+    \caption{CloudTrail test.}
+    \label{fig:cloudtrail-test-photo}
+\end{figure}
+
 
 \section{Testing ELB}\label{sec:testing-elb}
 
