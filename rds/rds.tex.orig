@@ -32,16 +32,8 @@ Multiple availability zones were selected to ensure that the database was highly
 
 \begin{figure}[!htbp]
     \centering
-<<<<<<< Updated upstream
-    \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1.png}
-    \caption{Selection of CloudWatch metric for EC2 instance.}
-||||||| constructed merge base
-    \includegraphics[width=\textwidth]{resources/rds-connectivity-1.png}
-    \caption{Selection of CloudWatch metric for EC2 instance.}
-=======
     \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1.png}
     \caption{Selection of VPC and Subnet Groups}
->>>>>>> Stashed changes
     \label{fig:rds-connect}
 \end{figure}
 
@@ -93,30 +85,44 @@ A micro-sized instance was selected as we must save on AWS billing credit.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/rds/rds-tables-creation.png}
+    \includegraphics[width=\textwiresources/rds/rds-tables-creation.png}
     \caption{Selection of CloudWatch metric for EC2 instance.}
     \label{fig:rds-tables}
 \end{figure}
 
 
 \begin{figure}[!htbp]
-<<<<<<< Updated upstream
-    \centering
-    \includegraphics[width=\textwidth]{resources/rds/rds-templates.png}
-    \caption{Selection of CloudWatch metric for EC2 instance.}
-    \label{fig:rds-templates}
-\end{figure}
-||||||| constructed merge base
 \centering
 \includegraphics[width=\textwiresources/rds/rds-templates.png}
 \caption{Selection of CloudWatch metric for EC2 instance.}
 \label{fig:rds-templates}
+<<<<<<< Updated upstream
+\end{figure}
+
+
+MySQL was selected as it was the same database engine that the web application was originally using within Docker.
+
+Then, MySQL was installed on the EC2 instance in order to sign into the new database and create tables.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{resources/rds/rds-mysql-install.png}
+\caption{Installation of MySQL on EC2 Instance}
+\label{fig:rds-msql-install}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{resources/rds/rds-database-creation.png}
+\caption{Creation of database table}
+\label{fig:rds-db-create}
+\end{figure}
+
+
+TODO: Take screenshot of docker-compose being edited to remove mysql
+||||||| constructed merge base
 \end{figure}
 =======
-\centering
-\includegraphics[width=\textwiresources/rds/rds-templates.png}
-\caption{Selection of CloudWatch metric for EC2 instance.}
-\label{fig:rds-templates}
 \end{figure}
 
 
