@@ -10,7 +10,7 @@ jobs:
         if: always()
         run: |
           rm -rfv out/
-          mkdir -p out/availability_zones out/cloud out/conclusion out/cost out/ec2 out/elb out/future_enhancements out/glossary out/intro out/rds out/s3 out/security out/systemd out/testing out/vpc_subnets out/webapp out/_minted-main
+          mkdir -pv out/availability_zones out/cloud out/conclusion out/cost out/ec2 out/elb out/future_enhancements out/glossary out/intro out/rds out/s3 out/security out/systemd out/testing out/vpc_subnets out/webapp out/_minted-main
       - name: pdflatex main
         continue-on-error: true
         if: always()
