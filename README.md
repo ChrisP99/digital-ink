@@ -1,3 +1,5 @@
-# bcuThesisTemplate
+# Digital Ink Report
+![example workflow](https://github.com/ChrisP99/digital-ink/actions/workflows/.github-actions.yml/badge.svg?branch=intellij)
 
-The Repository provides a LaTeX template that can be used by those in the School of Computing and Digital Technology at Birmingham City University. This should aid in the writing of BSc, MSc or PhD reports.
+
+This is our LaTeX report for Digital Ink, the application that runs in Amazon's AWS. Please see [the latest document](./out/main.pdf).
