@@ -38,8 +38,10 @@ jobs:
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape -aux-directory=out -output-directory=out
       - name: Check that PDF exists
+        if: always()
         run: ls -l out/main.pdf
       - uses: actions/upload-artifact@v3
+        if: always()
         with:
           name: LaTeX PDF Document
           path: out/main.pdf
