@@ -1,34 +1,108 @@
 \chapter{Security Practices}\label{ch:security-practices}
-Security Practices stuff to talk about:
+AWS provides a variety of services and tools which can be configured to ensure a high level of security within the
+cloud architecture used for the deployment.
+Cyber security is a vital aspect of any online service as it is important to protect the resources hosted on AWS from
+cyberattacks and to prevent the web app itself from being taken off the web~\parencite{cavelty2010cyber}.
+It is critical that the best security practices are followed to ensure a high level of security.
+This chapter will detail the security measures taken during the deployment of the AWS architecture.
 
-Security groups limiting HTTP, HTTPS, SSH and MySQL. SSH Connections are limited only to one IP (Eduroam's)
+EC2 security groups are virtual firewalls used to control incoming and outgoing traffic for the AWS
+deployment~\parencite{amazon2022amazon2}.
+Security groups were implemented which limit connections to HTTP, HTTPS, SSH, and MySQL\@.
+The HTTP, HTTPS, and MySQL connections were made accessible by public IP addresses as all users who access the web app
+would require these permissions (HTTP and HTTPS to view the web app, and MySQL to query the database through the web
+app).
+The SSH connections are limited to one IP address (eduroam) as the public does not need access.
+In a future deployment, the IP address with permission to access the SSH would be set to a private location, such as an
+office, rather than eduroam.
+During this deployment, the IP address of eduroam was allowed access due to the location in which the deployment was
+configured.
 
-KeyPair for logging into EC2
+%Screenshot of security group here
 
-IAM (But we don't have access)
-
-S3 bucket isn't publicly accessible from the get-go
-
-If we do need public access, it is ONLY for GET or PUT requests (Viewing stories and uploading them)
-
-VPC controlling inbound and outbound traffic
-
-public and private subnets
+When configuring EC2, a KeyPair was set up for logging into the instance.
+This KeyPair is stored on a secure \mintinline{zsh}|.pem| file which should only be accessible to those who created
+the EC2 instance.
+The KeyPair is required to log into the instance and, therefore, only the authorised users who are part of the
+development team have access to editing the EC2 instance.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1}
-    \caption{Selection of VPC and Subnet Groups.}
-    \label{fig:rds-connect-2}
+    \includegraphics[width=\textwidth]{resources/ec2/create-key-pair}
+    \caption{Creating a KeyPair.}
+    \label{fig:create-keypair-pem}
 \end{figure}
 
-Public access was turned off to further increase our application's security.
-
-\begin{figure}
+\begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/rds/rds-settings}
-    \caption{Credentials for RDS Authentication.}
-    \label{fig:rds-settings-2}
+    \includegraphics[width=\textwidth]{resources/log-in-with-key-pair}
+    \caption{Logging in with the KeyPair.}
+    \label{fig:log-in-keypair-pem}
 \end{figure}
 
-We selected an automatically generated password to ensure that it was created with current best security practices.
+IAM is an AWS service which provides fine-tuned access control across the entire AWS deployment by creating a policy
+which specifies which users have permission to access certain features and resources~\parencite{amazon2022aws2}.
+Ideally, this would be implemented for security purposes.
+Unfortunately, this feature could not be used due to restricted permissions.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/iam-denied}
+    \caption{Restricted permissions preventing the creation of IAM roles.}
+    \label{fig:iam-denied}
+\end{figure}
+
+The S3 bucket was configured to use server-side encryption to safely store the data in the bucket.
+This was done by specifying to use an Amazon S3-managed key (SSE-S3), i.e. an encryption key which Amazon S3
+automatically creates, manages, and uses to encrypt the data.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3_encryption}
+    \caption{S3 bucket encryption settings.}
+    \label{fig:s3-encryption}
+\end{figure}
+
+When setting up the RDS for the web app, database authentication was configured to require password authentication.
+This means that direct access to the SQL database requires the use of a master username and a master password generated
+by AWS.
+The process of configuring this can be seen in Figure x.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/rds_authentication}
+    \caption{Setting up database authentication.}
+    \label{fig:setup-rds-auth}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/RDS_password}
+    \caption{Viewing log in details for database authentication.}
+    \label{fig:view-rds-auth}
+\end{figure}
+
+%S3 bucket isn't publicly accessible from the get-go
+%If we do need public access, it is ONLY for GET or PUT requests (Viewing stories and uploading them)
+%
+%VPC controlling inbound and outbound traffic
+%
+%public and private subnets
+%
+%\begin{figure}[!htbp]
+%    \centering
+%    \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1}
+%    \caption{Selection of VPC and Subnet Groups.}
+%    \label{fig:rds-connect-2}
+%\end{figure}
+%
+%Public access was turned off to further increase our application's security.
+%
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=\textwidth]{resources/rds/rds-settings}
+%    \caption{Credentials for RDS Authentication.}
+%    \label{fig:rds-settings-2}
+%\end{figure}
+%
+%We selected an automatically generated password to ensure that it was created with current best security practices.

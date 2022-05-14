@@ -87,10 +87,11 @@ In addition to this, the chosen options are eligible for "Free Tier", which mean
 
 \section{EC2 Login}\label{sec:webapp-setup}
 
-The EC2 instance \mintinline{zsh}|group4-ec2| is now live, and the webapp can be loaded onto it.
-The instance is first logged in to through the use of the \mintinline{zsh}|ssh| command, followed by the
-\mintinline{sql}|-i| argument to specify an identify file, which was generated earlier, and then the public ipv4 address
-of the instance.
+The EC2 instance \mintinline{zsh}|group4-ec2| is now live, and the web app can be loaded onto it.
+The instance is first logged in through the use of the \mintinline{zsh}|ssh| command, followed by the
+\mintinline{sql}|-i| argument to specify an identify file, which was generated earlier, and then the public IPv4 address
+of the EC2 instance.
+The command to log into the instance can seen being executed in Figure~\ref{fig:ssh-login}.
 
 \begin{figure}[!htbp]
     \centering
@@ -100,7 +101,7 @@ ssh -i ~/Desktop/Group4_KeyPair.pem ec2-user@52.45.13.111
     \caption{SSH command to log into EC2 instance.}\label{fig:ssh-login}
 \end{figure}
 
-This command can seen being executed in Figure~\ref{fig:ssh-login}.
+The EC2 instance that has been logged in to can be seen in Figure~\ref{fig:ec2-logged-in}.
 
 \begin{figure}[!htbp]
     \centering
@@ -108,8 +109,6 @@ This command can seen being executed in Figure~\ref{fig:ssh-login}.
     \caption{Logging into EC2 instance.}
     \label{fig:ec2-logged-in}
 \end{figure}
-
-The logged in EC2 instance can be seen in Figure~\ref{fig:ec2-logged-in}.
 
 \clearpage
 \section{Package Setup}\label{sec:web-app-setup}
