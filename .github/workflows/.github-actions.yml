@@ -6,6 +6,9 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
+      - name: Clear AUX directory
+        if: always()
+        run: rm -rf out/
       - name: pdflatex main
         continue-on-error: true
         if: always()
