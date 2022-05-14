@@ -2,7 +2,6 @@
 \usepackage{graphicx,parskip,appendix,float,geometry}
 \usepackage{mwe}
 \usepackage{subfig}
-
 \usepackage{helvet}
 \geometry{
  a4paper,
@@ -10,7 +9,6 @@
  left=35mm,
  top=25mm,
  }
-
 \usepackage[
     backend=biber,
     style=bath,
@@ -18,21 +16,16 @@
     doi=true,
     giveninits=true
 ]{biblatex}
-
 \DefineBibliographyStrings{english}{%
     bibliography = {References},
 }
-
 \addbibresource{main.bib}
-
 \newcommand*{\urlprefix}{Available from: }
 \newcommand*{\urldateprefix}{Accessed }
-
 %\usepackage{natbib} % this package isn't allowed
 \usepackage[outputdir=out]{minted}
 %\usepackage[dvipsnames]{xcolor} % Option clash
 \usepackage{fvextra}
-
 \renewcommand*\familydefault{\sfdefault}
 \usepackage[T1]{fontenc}
 \usepackage[ruled] {algorithm2e}
@@ -44,8 +37,7 @@
 \newcommand{\authorName}{By Adam Cordner,
 Christopher Perry \& Evie Snuggle (Group 4)}
 \newcommand{\reportTitle}{Cloud Computing with AWS}
-\newcommand{\degreeAward}{BSc. (Hons.) in Computer Science } 
-
+\newcommand{\degreeAward}{BSc. (Hons.) in Computer Science }
 \hypersetup{
     pdftitle    = {\reportTitle},
     pdfauthor   = {\authorName},
@@ -55,16 +47,13 @@ Christopher Perry \& Evie Snuggle (Group 4)}
     linkcolor   = colIdentifier,    %NOTE: change (blue) to (colIdentifier) to have links within the document in Black
     citecolor   = colIdentifier,    %NOTE: change (blue) to (colIdentifier) to have citation links within the document in Black
 }
-
 \definecolor{colBackGrnd}{rgb}{1,1,0.8}
 \definecolor{colKeys}{rgb}{0,0,1}
 \definecolor{colIdentifier}{rgb}{0,0,0}
 \definecolor{colComments}{rgb}{0,.5,0}
 \definecolor{colString}{rgb}{0,0,1}
 \definecolor{colWhite}{rgb}{1,1,1}
-
 \newcommand{\MyHookSign}{\hbox{\ensuremath\hookleftarrow}}
-
 \newtheorem{Theorem}{Theorem}
 \newtheorem{Proposition}[Theorem]{Proposition}
 \newtheorem{Lemma}[Theorem]{Lemma}
@@ -73,7 +62,6 @@ Christopher Perry \& Evie Snuggle (Group 4)}
 \newtheorem{Claim}[Theorem]{Claim}
 \newtheorem{Example}[Theorem]{Example}
 \newtheorem{Definition}[Theorem]{Definition}
-
 %NOTE: Setup for including program listings
 \lstset{%
     float=H,
@@ -97,41 +85,30 @@ Christopher Perry \& Evie Snuggle (Group 4)}
     breakautoindent=true, %
     captionpos=b%
 } %\hypersetup{colorlinks=true, citecolor=\color{colIdentifier}}
-
 \sloppy %NOTE: To ensure the Right Hand Margin is used (Especially for long URLS)
 %NOTE: END of the document configuration settings
-
 \titleformat{\chapter}[display]
 {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
-
 \titlespacing*{\chapter}{0pt}{0pt}{10pt}
-
 \begin{document}
-
 \DeclareFieldFormat{url}{%
     \mkbibacro{Available at}\addcolon\space
     \url{#1}%
 }
-
 \DeclareFieldFormat{doi}{%
     \mkbibacro{Available at}\addcolon\space
     \url{https://doi.org/#1}%
 }
-
-
 \DeclareFieldFormat{isbn}{%
     \mkbibacro{Available at}\addcolon\space
     \url{https://isbnsearch.org/isbn/#1}%
 }
-
 \DeclareGraphicsExtensions{.jpg,.png,.gif,.pdf}
-
 \title{\huge{\reportTitle}}
 \author{\authorName}
 \degreetitle{\degreeAward} % Replace with appropriate degree
 \rpttype{BSc}    % Replace PhD / MSc  / BSc.
 \principaladviser{\primaryadvisor}
-
 \beforeabstract
 \afterabstract
 \include{glossary/glossary}
@@ -152,11 +129,8 @@ Christopher Perry \& Evie Snuggle (Group 4)}
 \include{future_enhancements/future_enhancements}
 \include{conclusion/conclusion}
 \printbibliography[heading=bibintoc]
-
 \footnotesize
-
 \addcontentsline{toc}{chapter}{Bibliography}
-
 \normalsize
 %\appendix
 %\include{appendix}

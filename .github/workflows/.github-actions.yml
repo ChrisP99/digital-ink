@@ -38,4 +38,6 @@ jobs:
         if: always()
         with:
           name: LaTeX PDF Document
-          path: out/main.pdf
+          path: |
+          out/main.pdf
+          out/main.log
