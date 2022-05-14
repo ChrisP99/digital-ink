@@ -20,6 +20,7 @@ These options can be seen in Figure~\ref{fig:cloudwatch-general-1}.
     \label{fig:cloudwatch-general-1}
 \end{figure}
 
+\clearpage
 The "Log file validation" option is selected, which ensures that any changes which have been to made to the log file
 that are not from CloudTrail directly are notified to the group.
 These aforementioned notifications have been set up through the creation of new SNS topic
@@ -33,8 +34,6 @@ These options can be seen in Figure~\ref{fig:cloudwatch-general-2}.
     \label{fig:cloudwatch-general-2}
 \end{figure}
 
-\clearpage
-
 Now that the CloudTrail initial setup is complete, the selection of the specific events which will be monitored can be
 configured.
 "Management Events" is firstly selected - this will allow for any read or write events which have been applied on
@@ -42,24 +41,25 @@ the S3 and RDS services to be logged.
 In addition to this, "Insights Events" is also enabled, which will allow for any unusual activity on these services to
 also be logged through the use of the API Call Rate and Error Rate - If they are high, this will be logged via CloudTrail.
 which is of a security benefit to the project.
-
 These settings can be seen configured in Figures~\ref{fig:cloudwatch-events-1} and~\ref{fig:cloudwatch-events-2}.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\textwidth]{resources/cloudtrail/cloudtrail-events-1}
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/cloudtrail/cloudtrail-events-1}
+        \label{fig:cloudwatch-events-1}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{resources/cloudtrail/cloudtrail-events-2}
+        \label{fig:cloudwatch-events-2}
+    \end{minipage}
     \caption{Configuring CloudTrail events.}
-    \label{fig:cloudwatch-events-1}
+    \label{fig:cloudwatch-events}
 \end{figure}
 
-
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/cloudtrail/cloudtrail-events-2}
-    \caption{Configuring CloudTrail events.}
-    \label{fig:cloudwatch-events-2}
-\end{figure}
-
+\clearpage
 The CloudTrail has now been added and is now monitoring for any activity.
 This can be seen in Figure~\ref{fig:cloudtrail-added}.
 
