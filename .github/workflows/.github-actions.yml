@@ -19,15 +19,6 @@ jobs:
           extra_system_packages: python3-pygments
           root_file: main.tex
           args: -interaction=nonstopmode -shell-escape
-      - name: bibtex main
-          continue-on-error: true
-          if: always()
-          uses: dante-ev/latex-action@latest
-          with:
-            extra_system_packages: python3-pygments
-            root_file: main
-            compiler: bibtex
-            args: out/% -include-directory=out
       - name: biber main
         continue-on-error: true
         if: always()
