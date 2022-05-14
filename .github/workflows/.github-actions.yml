@@ -47,3 +47,4 @@ jobs:
           path: |
             out/main.pdf
             out/main.log
+            out/main.blg
