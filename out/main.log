@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  14 MAY 2022 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.20)  14 MAY 2022 00:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3609,9 +3609,6 @@ sion.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5AC48DEDD04745579D7F606E3761C4E9;5352.
 
@@ -3628,7 +3625,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  32073 strings out of 478553
  711982 string characters out of 2839088
- 1498315 words of memory out of 3000000
+ 1498316 words of memory out of 3000000
  48973 multiletter control sequences out of 15000+600000
  500531 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3641,7 +3638,7 @@ texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Library/Application Suppor
 t/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "/Users/chris/Library/CloudStorage/OneDrive-BirminghamCityUni
 versity/CMP6210 - Cloud Computing/2022-05-04 Cloud Computing Report (Group)/out
-/main.pdf" (70 pages, 16484551 bytes).
+/main.pdf" (70 pages, 16484556 bytes).
 PDF statistics:
  1044 PDF objects out of 1200 (max. 8388607)
  222 named destinations out of 1000 (max. 500000)
