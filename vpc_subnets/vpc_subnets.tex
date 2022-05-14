@@ -109,17 +109,17 @@ Clicking the \textbf{Create VPC} button now will generate the VPC with the speci
 \clearpage
 After this, AWS takes a few minutes to generate the VPC\@.
 
-\begin{figure}[!htbp]
-    \centering
-    \begin{subfigure}
-        \includegraphics[width=150mm]{resources/vpc/step_3_create_vpc}
-    \end{subfigure}
-    \begin{subfigure}
-        \includegraphics[width=150mm]{resources/vpc/vpc_successfully_created}
-    \end{subfigure}
-    \caption{Generating the VPC.}
-    \label{fig:vpc-step-3-and-4}
-\end{figure}
+%\begin{figure}[!htbp]
+%    \centering
+%    \begin{subfigure}
+%        \includegraphics[width=150mm]{resources/vpc/step_3_create_vpc}
+%    \end{subfigure}
+%    \begin{subfigure}
+%        \includegraphics[width=150mm]{resources/vpc/vpc_successfully_created}
+%    \end{subfigure}
+%    \caption{Generating the VPC.}
+%    \label{fig:vpc-step-3-and-4}
+%\end{figure}
 
 Navigating from here to the Your VPCs page shows two available VPCs: the VPC created by the AWS sandbox
 environment, which will not be used, and the VPC which has just been created, named \mintinline{zsh}|Group4_VPC|.
@@ -205,17 +205,17 @@ The Create Route Table page can be navigated to from the VPC Management Console.
 Two route tables are created, one at a time, called \mintinline{zsh}|Public route| and \mintinline{zsh}|Private route|
 with the previously created VPC\@.
 
-\begin{figure}[!htbp]
-    \centering
-    \begin{subfigure}
-        \includegraphics[width=150mm]{resources/vpc/routes/vpc-public-route}
-    \end{subfigure}
-    \begin{subfigure}
-        \includegraphics[width=150mm]{resources/vpc/routes/vpc-private-route}
-    \end{subfigure}
-    \caption{Creating a public route table and a private route table.}
-    \label{fig:vpc-public-route-private-route}
-\end{figure}
+%\begin{figure}[!htbp]
+%    \centering
+%    \begin{subfigure}
+%        \includegraphics[width=150mm]{resources/vpc/routes/vpc-public-route}
+%    \end{subfigure}
+%    \begin{subfigure}
+%        \includegraphics[width=150mm]{resources/vpc/routes/vpc-private-route}
+%    \end{subfigure}
+%    \caption{Creating a public route table and a private route table.}
+%    \label{fig:vpc-public-route-private-route}
+%\end{figure}
 
 \clearpage
 Once the two route tables have been created, the public and private subnets must be associated with the corresponding
@@ -226,17 +226,17 @@ On the Edit Subnet Associations page, the two public subnets are selected, and t
 clicked.
 This process is then repeated for \mintinline{zsh}|Private route|.
 
-\begin{figure}[!htbp]
-    \centering
-    \begin{subfigure}
-        \includegraphics[width=150mm]{resources/vpc/routes/vpc-subnet-public-ass}
-    \end{subfigure}
-    \begin{subfigure}
-        \includegraphics[width=150mm]{resources/vpc/routes/vpc-subnet-private-ass}
-    \end{subfigure}
-    \caption{Associating the public and private subnets with the public and private route tables.}
-    \label{fig:vpc-public-ass-private-ass}
-\end{figure}
+%\begin{figure}[!htbp]
+%    \centering
+%    \begin{subfigure}
+%        \includegraphics[width=150mm]{resources/vpc/routes/vpc-subnet-public-ass}
+%    \end{subfigure}
+%    \begin{subfigure}
+%        \includegraphics[width=150mm]{resources/vpc/routes/vpc-subnet-private-ass}
+%    \end{subfigure}
+%    \caption{Associating the public and private subnets with the public and private route tables.}
+%    \label{fig:vpc-public-ass-private-ass}
+%\end{figure}
 
 \clearpage
 Lastly, the \mintinline{zsh}|Public route| must be updated to allow all public traffic that attempts to access the VPC
