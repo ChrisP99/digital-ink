@@ -33,7 +33,7 @@ jobs:
           args: -interaction=nonstopmode -halt-on-error -pdf -f -shell-escape -aux-directory=out -output-directory=out -pdf -latexoption=-f -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -latexoption=-shell-escape
       - name: Check that PDF exists
         if: always()
-        run: ls -l out/main.pdf
+        run: if [ "$(cat out/main.pdf | wc -l)" -gt "1000" ]; then echo "$(cat out/main.pdf | wc -l)"; else exit 42; fi
       - uses: actions/upload-artifact@v3
         if: always()
         with:
