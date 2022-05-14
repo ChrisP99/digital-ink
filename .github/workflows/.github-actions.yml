@@ -39,3 +39,7 @@ jobs:
           args: -interaction=nonstopmode -shell-escape -aux-directory=out -output-directory=out
       - name: Check that PDF exists
         run: ls -l out/main.pdf
+      - uses: actions/upload-artifact@v3
+        with:
+          name: LaTeX PDF Document
+          path: out/main.pdf
