@@ -39,5 +39,5 @@ jobs:
         with:
           name: LaTeX PDF Document
           path: |
-          out/main.pdf
-          out/main.log
+            out/main.pdf
+            out/main.log
