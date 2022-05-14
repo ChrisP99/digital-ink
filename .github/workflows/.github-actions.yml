@@ -30,6 +30,7 @@ jobs:
           args: 
       - name: pdflatex main
         continue-on-error: false
+        compiler: pdflatex
         if: always()
         uses: dante-ev/latex-action@latest
         with:
