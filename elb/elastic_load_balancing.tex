@@ -6,9 +6,9 @@ available regardless of how many users visit.
 It is also possible to scale down the resources again, after the spike in usage has passed, to save money when it comes
 to billing and ensure you aren't paying for any additional resources that are not being used.
 
-1. Creation of new AMI
+\section{Step 1: Creation of new AMI}
 
-\begin{itemize}
+\begin{enumerate}
 	\item Selection of AMI previously created and then "Create Instance from AMI" option \begin{figure}[H]
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-instance-from-ami.png}
@@ -54,19 +54,19 @@ to billing and ensure you aren't paying for any additional resources that are no
 	\end{figure}
 \end{itemize}
 
-2. Creation of target group
+\section{Step 2: Creation of target group}
 
-Now that there is 2 instances, they both need to be stored within a target group.
+Now that there are 2 instances, they both need to be stored within a target group.
 
 \begin{itemize}
 	\item The Target Group type of "Instances" is selected - this will store both running instances of Digital-Ink in a group
-	      to be handled by the Load Balancer (elb/elb-target-group-basic-config)
-	\item Target Group name of "Group4-Target-Group" given (elb/elb-target-group-basic-config)
+	      to be handled by the Load Balancer
+	\item Target Group name of "Group4-Target-Group" given
 	\item Protocol of HTTP and port 80 given \begin{figure}[H]
-	      \centering
-	      \includegraphics[width=\textwidth]{resources/elb/elb-basic-config.png}
-	      \caption{Unknown 1}
-	      \label{fig:elb-basic-config}
+												 \centering
+												 \includegraphics[width=\textwidth]{resources/elb/elb-target-group-basic-config.png}
+												 \caption{Setting Target Type, Protocol \& Port}
+												 \label{fig:elb-target-group-basic-config}
 	\end{figure}
 	\item Group4-VPC selected \begin{figure}[H]
 	      \centering
@@ -79,53 +79,53 @@ Now that there is 2 instances, they both need to be stored within a target group
 	      button \begin{figure}[H]
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-register-targets.png}
-	      \caption{Elastic Load Balancing}
+	      \caption{Include as Pending Below}
 	      \label{fig:elb-register-targets}
 	\end{figure}
 	\item Target group now created, and contains both EC2 instances within them \begin{figure}[H]
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-target-group-created.png}
-	      \caption{Elastic Load Balancing}
+	      \caption{Target Groups Success}
 	      \label{fig:elb-target-group-create}
 	\end{figure}
 \end{itemize}
 
-3. Creation of Load Balancer
+\section{Step 3: Creation of Load Balancer}
 
 \begin{itemize}
 	\item The Target groups are not associated with a Load Balancer, so one will be created as an Application Load Balancer
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-load-balancer-creation.png}
-	      	\caption{Elastic Load Balancing}
+	      	\caption{No Load Balancer Configured Warning}
 	      	\label{fig:elb-load-bal-create}
 	      \end{figure}
 	\item Given the name of "Group4-Load-Balancer' \begin{figure}[H]
-	      \centering
-	      \includegraphics[width=\textwidth]{resources/elb/elb-target-group-basic-config.png}
-	      \caption{Elastic Load Balancing}
-	      \label{fig:elb-target-group-basic-config}
+													   \centering
+													   \includegraphics[width=\textwidth]{resources/elb/elb-basic-config.png}
+													   \caption{Load Balancer Creation}
+													   \label{fig:elb-creation-config}
 	\end{figure}
 	\item Set to be internet facing and will handle IPv4 addresses \begin{figure}[H]
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-network-mapping.png}
-	      \caption{Elastic Load Balancing}
+	      \caption{Load Balancer Network Mapping}
 	      \label{fig:elb-networ-mapping}
 	\end{figure}
 	\item The security group of Group4-Security-Group is selected, which allows HTTP, HTTPS, SSH and MySQL traffic within
-	      the load balancer (elb/elb-security-groups-and-listeners)
+	      the load balancer
 	\item In the event that either of the web apps goes down, it will be forwarded to the Group4-Target-Group, which will then
 	      display the available instance \begin{figure}[H]
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-security-groups-and-listeners.png}
-	      \caption{Elastic Load Balancing}
+	      \caption{Listeners and Routing Configuration}
 	      \label{fig:elb-security-groups}
 	\end{figure}
-	\item Could not create Global Accelerator due to permissions issue (Future improvement)
+	\item Could not create Global Accelerator due to permissions issue (Future improvement, please see Chapter~\ref{ch:future-enhancements})
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-accelerator.png}
-	      	\caption{Elastic Load Balancing}
+	      	\caption{There Was a Problem Creating Global Accelerator}
 	      	\label{fig:elb-accelerators}
 	      \end{figure}
 	\item Summary
@@ -133,7 +133,7 @@ Now that there is 2 instances, they both need to be stored within a target group
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-summary.png}
-	      	\caption{Elastic Load Balancing}
+	      	\caption{Final Load Balancing Summary}
 	      	\label{fig:elb-summary}
 	      \end{figure}
 
@@ -142,7 +142,7 @@ Now that there is 2 instances, they both need to be stored within a target group
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-created.png}
-	      	\caption{Elastic Load Balancing}
+	      	\caption{Load Balancer List View}
 	      	\label{fig:elb-created}
 	      \end{figure}
 
@@ -152,18 +152,14 @@ Now that there is 2 instances, they both need to be stored within a target group
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-working.png}
-	      	\caption{Elastic Load Balancing}
+	      	\caption{Load Balancer Basic Functionality Test}
 	      	\label{fig:elb-working}
 	      \end{figure}
 \end{itemize}
 
+\section{Step 4: In-Depth Testing of Load Balancer}
 
-
-
-
-
-
-
+By stopping individual instances, we are able to test the functionality of the load balancer to ensure that it is functioning correctly. When one instance goes down, the other instance should automatically respond to further requests to ensure application's service is not affected.
 
 \begin{figure}[H]
 	\centering
