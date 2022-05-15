@@ -34,7 +34,7 @@ July\or August\or September\or October\or November\or December\fi
 \def\titlep{%
     \normalfont
     \thispagestyle{empty}%
-    {\transparent{0.4}\includegraphics[width=65mm]{bculogo}}
+    {\transparent{0.4}\includegraphics[width=65mm]{bculogo_narrow.png}}
     %\caption{svg image}
     \null\vskip1in%
     \begin{flushleft}
@@ -50,7 +50,7 @@ July\or August\or September\or October\or November\or December\fi
         \vfill
         \vskip 0.5in
         \@submitdate,
-        \\CMP6210 Cloud Computing 2021–2022
+        \\CMP6210 Cloud Computing 2021\textemdash2022
         \\Module Coordinator: Dr Khaled Mahbub
         \newline
         \\Student IDs: 18109958, 18103708, 18128599
