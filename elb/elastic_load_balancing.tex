@@ -52,13 +52,13 @@ to billing and ensure you aren't paying for any additional resources that are no
 	      \caption{Second Instance Creation Success}
 	      \label{fig:elb-instance-2-create}
 	\end{figure}
-\end{itemize}
+\end{enumerate}
 
 \section{Step 2: Creation of target group}
 
 Now that there are 2 instances, they both need to be stored within a target group.
 
-\begin{itemize}
+\begin{enumerate}
 	\item The Target Group type of "Instances" is selected - this will store both running instances of Digital-Ink in a group
 	      to be handled by the Load Balancer
 	\item Target Group name of "Group4-Target-Group" given
@@ -88,11 +88,11 @@ Now that there are 2 instances, they both need to be stored within a target grou
 	      \caption{Target Groups Success}
 	      \label{fig:elb-target-group-create}
 	\end{figure}
-\end{itemize}
+\end{enumerate}
 
 \section{Step 3: Creation of Load Balancer}
 
-\begin{itemize}
+\begin{enumerate}
 	\item The Target groups are not associated with a Load Balancer, so one will be created as an Application Load Balancer
 	      \begin{figure}[H]
 	      	\centering
