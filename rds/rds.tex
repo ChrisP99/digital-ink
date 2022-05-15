@@ -23,7 +23,6 @@ the database should begin provisioning.
         \caption{Selection of RDS Authentication Option.}
         \label{fig:rds-auth}
     \end{figure}\nolinebreak
-    \nolinebreak
     Password authentication was used for the RDS instance as we did not have permission from the root user to create IAM
     roles within this lab environment.
     In the future, it would be recommended to select one of the other options to improve security, however this was not
@@ -36,7 +35,6 @@ the database should begin provisioning.
         \caption{Selection RDS Multiple Availability Zone.}
         \label{fig:rds-avail}
     \end{figure}\nolinebreak
-    \nolinebreak
     Multiple availability zones were selected to ensure that the database was highly available.
 
     \item
@@ -46,7 +44,6 @@ the database should begin provisioning.
         \caption{Selection of VPC and Subnet Groups.}
         \label{fig:rds-connecting}
     \end{figure}\nolinebreak
-    \nolinebreak
     Public access was turned off to further increase our application's security.
 
     \item
@@ -74,7 +71,6 @@ the database should begin provisioning.
         \caption{Selection of RDS Instance Size.}
         \label{fig:rds-instance-conf}
     \end{figure}\nolinebreak
-    \nolinebreak
     A micro-sized instance was selected as we must save on AWS billing credit where possible.
 
     \item
@@ -84,7 +80,6 @@ the database should begin provisioning.
         \caption{Estimated Monthly RDS Cost.}
         \label{fig:rds-costs}
     \end{figure}\nolinebreak
-    \nolinebreak
     This is the estimated cost of the RDS instance for a month.
 
     \item
@@ -103,7 +98,6 @@ the database should begin provisioning.
         \caption{Credentials for RDS Authentication.}
         \label{fig:rds-settings}
     \end{figure}\nolinebreak
-    \nolinebreak
     We selected an automatically generated password to ensure that it was created with current best security practices.
 
     \item
@@ -113,7 +107,6 @@ the database should begin provisioning.
         \caption{Selection of Storage Parameters.}
         \label{fig:rds-storage}
     \end{figure}\nolinebreak
-    \nolinebreak
     A selection of how much storage the RDS instance is able to access should be made.
     We decided that, due to billing constraints, we should go as small as possible but with size to automatically grow if
     the application was presented with more users.
