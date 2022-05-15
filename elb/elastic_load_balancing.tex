@@ -9,19 +9,19 @@ to billing and ensure you aren't paying for any additional resources that are no
 1. Creation of new AMI
 
 \begin{itemize}
-	\item Selection of AMI previously created and then "Create Instance from AMI" option \begin{figure}[!htbp]
+	\item Selection of AMI previously created and then "Create Instance from AMI" option \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-instance-from-ami.png}
 	      \caption{Creation of Instance from AMI Image}
 	      \label{fig:elb-instance-from-ami}
 	\end{figure}
-	\item AMI selected to use same instance as "Group4-EC2" so everything is the same \begin{figure}[!htbp]
+	\item AMI selected to use same instance as "Group4-EC2" so everything is the same \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-instance-2-name.png}
 	      \caption{Elastic Load Balancing}
 	      \label{fig:elb-instance-2-name}
 	\end{figure}
-	\item Same keypair used, so it is easier to switch between both instances \begin{figure}[!htbp]
+	\item Same keypair used, so it is easier to switch between both instances \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-instance-2-type-and-keypair.png}
 	      \caption{Elastic Load Balancing}
@@ -32,7 +32,7 @@ to billing and ensure you aren't paying for any additional resources that are no
 	\item Subnet set to be "Public Subnet 2"
 	\item Public IP auto-assigned
 	\item Existing security group of "Group4-Security-Group" selected to allow HTTP, HTTPS, SSH and MySQL traffic on the
-	      instance \begin{figure}[!htbp]
+	      instance \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-instance-2-network-settings.png}
 	      \caption{Elastic Load Balancing}
@@ -40,13 +40,13 @@ to billing and ensure you aren't paying for any additional resources that are no
 	\end{figure}
 	\item Storage remains the same as previous instance
 
-	      \begin{figure}[!htbp]
+	      \begin{figure}
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-instance-2-storage-config.png}
 	      	\caption{Elastic Load Balancing}
 	      	\label{fig:elb-instance-2-storage}
 	      \end{figure}
-	\item Second instance now created \begin{figure}[!htbp]
+	\item Second instance now created \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-instance-2-created.png}
 	      \caption{Elastic Load Balancing}
@@ -62,13 +62,13 @@ Now that there is 2 instances, they both need to be stored within a target group
 	\item The Target Group type of "Instances" is selected - this will store both running instances of Digital-Ink in a group
 	      to be handled by the Load Balancer (elb/elb-target-group-basic-config)
 	\item Target Group name of "Group4-Target-Group" given (elb/elb-target-group-basic-config)
-	\item Protocol of HTTP and port 80 given \begin{figure}[!htbp]
+	\item Protocol of HTTP and port 80 given \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-basic-config.png}
 	      \caption{Elastic Load Balancing}
 	      \label{fig:elb-basic-config}
 	\end{figure}
-	\item Group4-VPC selected \begin{figure}[!htbp]
+	\item Group4-VPC selected \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-vpc.png}
 	      \caption{Elastic Load Balancing}
@@ -76,13 +76,13 @@ Now that there is 2 instances, they both need to be stored within a target group
 	\end{figure}
 	\item The next screen asks for instances that will be registered to the Target Group to be selected
 	\item The 2 running instances of Digital Ink are shown and added as targets through the "Include as pending below"
-	      button \begin{figure}[!htbp]
+	      button \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-register-targets.png}
 	      \caption{Elastic Load Balancing}
 	      \label{fig:elb-register-targets}
 	\end{figure}
-	\item Target group now created, and contains both EC2 instances within them \begin{figure}[!htbp]
+	\item Target group now created, and contains both EC2 instances within them \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-target-group-created.png}
 	      \caption{Elastic Load Balancing}
@@ -94,19 +94,19 @@ Now that there is 2 instances, they both need to be stored within a target group
 
 \begin{itemize}
 	\item The Target groups are not associated with a Load Balancer, so one will be created as an Application Load Balancer
-	      \begin{figure}[!htbp]
+	      \begin{figure}
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-load-balancer-creation.png}
 	      	\caption{Elastic Load Balancing}
 	      	\label{fig:elb-load-bal-create}
 	      \end{figure}
-	\item Given the name of "Group4-Load-Balancer' \begin{figure}[!htbp]
+	\item Given the name of "Group4-Load-Balancer' \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-target-group-basic-config.png}
 	      \caption{Elastic Load Balancing}
 	      \label{fig:elb-target-group-basic-config}
 	\end{figure}
-	\item Set to be internet facing and will handle IPv4 addresses \begin{figure}[!htbp]
+	\item Set to be internet facing and will handle IPv4 addresses \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-network-mapping.png}
 	      \caption{Elastic Load Balancing}
@@ -115,14 +115,14 @@ Now that there is 2 instances, they both need to be stored within a target group
 	\item The security group of Group4-Security-Group is selected, which allows HTTP, HTTPS, SSH and MySQL traffic within
 	      the load balancer (elb/elb-security-groups-and-listeners)
 	\item In the event that either of the web apps goes down, it will be forwarded to the Group4-Target-Group, which will then
-	      display the available instance \begin{figure}[!htbp]
+	      display the available instance \begin{figure}
 	      \centering
 	      \includegraphics[width=\textwidth]{resources/elb/elb-security-groups-and-listeners.png}
 	      \caption{Elastic Load Balancing}
 	      \label{fig:elb-security-groups}
 	\end{figure}
 	\item Could not create Global Accelerator due to permissions issue (Future improvement)
-	      \begin{figure}[!htbp]
+	      \begin{figure}
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-accelerator.png}
 	      	\caption{Elastic Load Balancing}
@@ -130,7 +130,7 @@ Now that there is 2 instances, they both need to be stored within a target group
 	      \end{figure}
 	\item Summary
 
-	      \begin{figure}[!htbp]
+	      \begin{figure}
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-summary.png}
 	      	\caption{Elastic Load Balancing}
@@ -139,7 +139,7 @@ Now that there is 2 instances, they both need to be stored within a target group
 
 
 	\item Load balancer created
-	      \begin{figure}[!htbp]
+	      \begin{figure}
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-created.png}
 	      	\caption{Elastic Load Balancing}
@@ -149,7 +149,7 @@ Now that there is 2 instances, they both need to be stored within a target group
 	\item When the load balancer is visited at
 	      \href{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/}{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/},
 	      the website is shown
-	      \begin{figure}[!htbp]
+	      \begin{figure}
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-working.png}
 	      	\caption{Elastic Load Balancing}
@@ -165,13 +165,13 @@ Now that there is 2 instances, they both need to be stored within a target group
 
 
 
-\begin{figure}[!htbp]
+\begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{resources/elb/elb-test-stopped-instance.png}
 	\caption{Elastic Load Balancing}
 	\label{fig:elb-stopped-instance}
 \end{figure}
-\begin{figure}[!htbp]
+\begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{resources/elb/elb-test-stopped-instance-2.png}
 	\caption{Elastic Load Balancing}
