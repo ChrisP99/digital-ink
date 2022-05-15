@@ -22,7 +22,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-authentication.png}
         \caption{Selection of RDS Authentication Option.}
         \label{fig:rds-auth}
-    \end{figure}\nolinebreak
+    \end{figure}
     Password authentication was used for the RDS instance as we did not have permission from the root user to create IAM
     roles within this lab environment.
     In the future, it would be recommended to select one of the other options to improve security, however this was not
@@ -34,7 +34,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-availability-durability}
         \caption{Selection RDS Multiple Availability Zone.}
         \label{fig:rds-avail}
-    \end{figure}\nolinebreak
+    \end{figure}
     Multiple availability zones were selected to ensure that the database was highly available.
 
     \item
@@ -43,7 +43,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-connectivity-1}
         \caption{Selection of VPC and Subnet Groups.}
         \label{fig:rds-connecting}
-    \end{figure}\nolinebreak
+    \end{figure}
     Public access was turned off to further increase our application's security.
 
     \item
@@ -52,7 +52,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-create-engine}
         \caption{Selection of Database Engine.}
         \label{fig:rds-engine}
-    \end{figure}\nolinebreak
+    \end{figure}
     MySQL was chosen as it is the same database engine as our project used within \mintinline{zsh}|docker-compose|, so it should be the most compatible.
 
     \item
@@ -61,7 +61,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-templates}
         \caption{Selection of Database Template}
         \label{fig:rds-templates}
-    \end{figure}\nolinebreak
+    \end{figure}
     The database template Dev/Test was selected as it was the cheapest tier that still had support for multiple availability zones. From our testing, the free tier is not actually free and it has no support for multiple-AZ deployment.
 
     \item
@@ -70,7 +70,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-instance-config}
         \caption{Selection of RDS Instance Size.}
         \label{fig:rds-instance-conf}
-    \end{figure}\nolinebreak
+    \end{figure}
     A micro-sized instance was selected as we must save on AWS billing credit where possible.
 
     \item
@@ -79,7 +79,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-monthly-costs}
         \caption{Estimated Monthly RDS Cost.}
         \label{fig:rds-costs}
-    \end{figure}\nolinebreak
+    \end{figure}
     This is the estimated cost of the RDS instance for a month.
 
     \item
@@ -88,7 +88,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-security-group}
         \caption{Selection RDS Security Group.}
         \label{fig:rds-security}
-    \end{figure}\nolinebreak
+    \end{figure}
     The VPC security group must be selected for the database.
 
     \item
@@ -97,7 +97,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-settings}
         \caption{Credentials for RDS Authentication.}
         \label{fig:rds-settings}
-    \end{figure}\nolinebreak
+    \end{figure}
     We selected an automatically generated password to ensure that it was created with current best security practices.
 
     \item
@@ -106,7 +106,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-storage}
         \caption{Selection of Storage Parameters.}
         \label{fig:rds-storage}
-    \end{figure}\nolinebreak
+    \end{figure}
     A selection of how much storage the RDS instance is able to access should be made.
     We decided that, due to billing constraints, we should go as small as possible but with size to automatically grow if
     the application was presented with more users.
@@ -117,7 +117,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/rds-tables-creation}
         \caption{Creation of RDS Tables.}
         \label{fig:rds-tables}
-    \end{figure}\nolinebreak
+    \end{figure}
     MySQL was selected as it was the same database engine that the web application was originally using within Docker.
 
     \section{Accessing the New Database}\label{sec:accessing-the-new-database}
@@ -129,7 +129,7 @@ the database should begin provisioning.
     \includegraphics[width=\textwidth]{resources/rds/rds-mysql-install}
     \caption{Installation of MySQL on EC2 Instance.}
     \label{fig:rds-msql-install}
-    \end{figure}\nolinebreak
+    \end{figure}
     We had installed MySQL manually on the EC2 instance to give us access to the \mintinline{zsh}|mysql| command to allow us to sign into the database. We used the following command: \mintinline{zsh}|mysql -h \$ENDPOINT -u admin -p\$PASSWORD|.
 
     \item
@@ -138,7 +138,7 @@ the database should begin provisioning.
     \includegraphics[width=\textwidth]{resources/rds/rds-database-creation}
     \caption{Creation of database table.}
     \label{fig:rds-db-create-2}
-    \end{figure}\nolinebreak
+    \end{figure}
     Our application required a database table to be created manually before we could run our database migrations, so we ran the following command within the RDS SQL environment: \mintinline{sql}|CREATE DATABASE group4_db;|.
 
     \item
@@ -147,7 +147,7 @@ the database should begin provisioning.
         \includegraphics[width=\textwidth]{resources/rds/envupdate}
         \caption{Changing Database Endpoint from Docker to AWS RDS.}
         \label{fig:rds-env-update}
-    \end{figure}\nolinebreak
+    \end{figure}
     After the database was set up, tested and working, we were able to remove the old MySQL docker container from the
     docker-compose file.
 
@@ -157,6 +157,6 @@ the database should begin provisioning.
         \includegraphics[width=50mm]{resources/rds/docker}
         \caption{Removal of Database from Docker File.}
         \label{fig:rds-rm-docker-compose}
-    \end{figure}\nolinebreak
+    \end{figure}
     As we no longer needed the old database within the \mintinline{zsh}|docker-compose.yml| file, we were able to remove the container and use only Amazon's RBS.
 \end{enumerate}
