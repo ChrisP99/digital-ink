@@ -94,7 +94,7 @@ Now that there are 2 instances, they both need to be stored within a target grou
 \section{Step 3: Creation of Load Balancer}
 
 \begin{enumerate}
-	\item The Target groups are not associated with a Load Balancer, so one will be created as an Application Load Balancer
+	\item The Target groups are not associated with a Load Balancer, so one will be created as an Application Load Balancer\nolinebreak
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-load-balancer-creation.png}
@@ -122,7 +122,7 @@ Now that there are 2 instances, they both need to be stored within a target grou
 	      \caption{Listeners and Routing Configuration}
 	      \label{fig:elb-security-groups}
 	\end{figure}
-	\item Could not create Global Accelerator due to permissions issue (Future improvement, please see Chapter~\ref{ch:future-enhancements})
+	\item Could not create Global Accelerator due to permissions issue (Future improvement, please see Chapter~\ref{ch:future-enhancements})\nolinebreak
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-accelerator.png}
@@ -130,8 +130,7 @@ Now that there are 2 instances, they both need to be stored within a target grou
 	      	\label{fig:elb-accelerators}
 	      \end{figure}
 	\pagebreak
-	\item Summary
-
+	\item Summary\nolinebreak
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-summary.png}
@@ -140,7 +139,7 @@ Now that there are 2 instances, they both need to be stored within a target grou
 	      \end{figure}
 
 
-	\item Load balancer created
+	\item Load balancer created\nolinebreak
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-created.png}
@@ -150,7 +149,7 @@ Now that there are 2 instances, they both need to be stored within a target grou
 	\pagebreak
 	\item When the load balancer is visited at
 	      \href{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/}{http://http://group4-load-balancer-1914525647.us-east-1.elb.amazonaws.com/},
-	      the website is shown
+	      the website is shown\nolinebreak
 	      \begin{figure}[H]
 	      	\centering
 	      	\includegraphics[width=\textwidth]{resources/elb/elb-working.png}
@@ -161,14 +160,13 @@ Now that there are 2 instances, they both need to be stored within a target grou
 \pagebreak
 \section{Step 4: In-Depth Testing of Load Balancer}
 
-By stopping individual instances, we are able to test the functionality of the load balancer to ensure that it is functioning correctly. When one instance goes down, the other instance should automatically respond to further requests to ensure application's service is not affected.
-
+By stopping individual instances, we are able to test the functionality of the load balancer to ensure that it is functioning correctly. When one instance goes down, the other instance should automatically respond to further requests to ensure application's service is not affected.\nolinebreak
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{resources/elb/elb-test-stopped-instance.png}
 	\caption{Elastic Load Balancing}
 	\label{fig:elb-stopped-instance}
-\end{figure}
+\end{figure}\nolinebreak
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{resources/elb/elb-test-stopped-instance-2.png}

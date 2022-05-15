@@ -18,11 +18,11 @@ S3 is perhaps the most popular AWS service and used by many SaaS applications ac
 Instagram, Facebook, Discord and Twitter are all known for using S3 or S3-style storage.
 The advent of object storage has created an almost de-facto standard, which has lead for the creation of many
 'S3-compatible' or 'S3-like' competitor solutions, such as those run by Google Cloud and Microsoft Azure.
-
+\pagebreak
 \begin{enumerate}
     \section{Creating an S3 Bucket}
 
-        \item Setting up an encryption key to be managed by AWS was the most secure option.
+        \item Setting up an encryption key to be managed by AWS was the most secure option.\nolinebreak
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=\textwidth]{resources/s3/s3_encryption.PNG}
@@ -31,7 +31,7 @@ The advent of object storage has created an almost de-facto standard, which has 
             \end{figure}
 
 
-    \item Enabling server-side encryption
+    \item Enabling server-side encryption\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-versioning-encrypting.png}
@@ -39,7 +39,7 @@ The advent of object storage has created an almost de-facto standard, which has 
             \label{fig:s3-versioning-encrypting}
         \end{figure}
 
-    \item Setting object ownership used the recommended option as all of our images should be public, so fine-grain ACL control was not needed.
+    \item Setting object ownership used the recommended option as all of our images should be public, so fine-grain ACL control was not needed.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-object-ownership.png}
@@ -48,7 +48,7 @@ The advent of object storage has created an almost de-facto standard, which has 
         \end{figure}
 
 
-    \item Allowing public read access to the S3 bucket, as all of our images should be public static assets, no private assets are needed.
+    \item Allowing public read access to the S3 bucket, as all of our images should be public static assets, no private assets are needed.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-public-access.png}
@@ -57,7 +57,7 @@ The advent of object storage has created an almost de-facto standard, which has 
         \end{figure}
 
 
-    \item S3 bucket has been created successfully.
+    \item S3 bucket has been created successfully.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-created.png}
@@ -69,7 +69,7 @@ The advent of object storage has created an almost de-facto standard, which has 
     \section{Using S3 URLs within Code}
 
 
-    \item Now that S3 bucket has been created, images must be uploaded.
+    \item Now that S3 bucket has been created, images must be uploaded.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-image-upload.png}
@@ -78,7 +78,7 @@ The advent of object storage has created an almost de-facto standard, which has 
         \end{figure}
 
 
-    \item Double-check the upload summary to ensure only the correct images will be uploaded.
+    \item Double-check the upload summary to ensure only the correct images will be uploaded.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-upload-summary.png}
@@ -86,7 +86,7 @@ The advent of object storage has created an almost de-facto standard, which has 
             \label{fig:s3-upload-summary}
         \end{figure}
 
-    \item Wait for images to upload.
+    \item Wait for images to upload.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-uploading.png}
@@ -94,7 +94,7 @@ The advent of object storage has created an almost de-facto standard, which has 
             \label{fig:s3-uploading}
         \end{figure}
 
-    \item If successful, message shows indicating success.
+    \item If successful, message shows indicating success.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-uploaded.png}
@@ -102,7 +102,7 @@ The advent of object storage has created an almost de-facto standard, which has 
             \label{fig:s3-uploaded}
         \end{figure}
 
-    \item Now that images have been uploaded, we must change the asset image paths in code to point to S3 instead of using local storage.
+    \item Now that images have been uploaded, we must change the asset image paths in code to point to S3 instead of using local storage.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-url-change.png}
@@ -112,7 +112,7 @@ The advent of object storage has created an almost de-facto standard, which has 
 
     \section{Testing S3 Working}
 
-    \item To test S3 is working, the URL may be visited in a browser for confirmation.
+    \item To test S3 is working, the URL may be visited in a browser for confirmation.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/s3-image-displayed.png}
@@ -121,7 +121,7 @@ The advent of object storage has created an almost de-facto standard, which has 
         \end{figure}
 
 
-    \item Ensure that S3 billing is not too high, which will depend on how many GiB of images are uploaded.
+    \item Ensure that S3 billing is not too high, which will depend on how many GiB of images are uploaded.\nolinebreak
         \begin{figure}[H]
             \centering
             \includegraphics[width=\textwidth]{resources/s3/Screenshot 2022-05-14 at 6.45.18 pm.png}
