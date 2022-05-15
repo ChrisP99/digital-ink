@@ -30,7 +30,7 @@ A vertical scaling approach was taken to scaling the application deployment up t
 Vertical scaling refers to increasing the instance size.
 The only two services which are required to be scaled up to accomplish this are EC2 and RDS, due to the increase
 in users and demand.
-For EC2, an additional three instances were added, and all instances were scaled up to the \mintline{zsh}|t2.medium|
+For EC2, an additional three instances were added, and all instances were scaled up to the \mintinline{zsh}|t2.medium|
 instance type, which provides 4 GB of RAM each.
 This gives the web app a total memory of 20 GB of RAM, which is enough to comfortably handle the expected
 increase in users accessing the web app.
@@ -52,7 +52,7 @@ A similar approach was taken when scaling the application up to 1 million users.
 The total number of EC2 instances was doubled and the instance type for each was changed to
 \mintinline{zsh}|t3.xlarge|.
 At 16 GB of memory per instance, a total of 160 GB of memory is available.
-For scaling up to 1 million users, the RDS instance type was changed to \mintline{zsh}|db.t3.medium|.
+For scaling up to 1 million users, the RDS instance type was changed to \mintinline{zsh}|db.t3.medium|.
 This gives the database an additional 3 GB of memory, making it able to handle more concurrent
 requests from a larger number of users.
 The total RDS storage was increased by a further 20 GB, making a total of 100 GB of storage.
