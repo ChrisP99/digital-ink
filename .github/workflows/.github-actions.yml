@@ -4,14 +4,14 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git repository
+      - name: 🧹 Setup - Clone Git repository
         uses: actions/checkout@v2
-      - name: Clear AUX directory
+      - name: 🧹 Setup - Clear aux directory in 'out/'
         if: always()
         run: |
           rm -rfv out/
           mkdir -pv out/availability_zones out/cloud out/conclusion out/cost out/ec2 out/elb out/future_enhancements out/glossary out/intro out/rds out/s3 out/security out/systemd out/testing out/vpc_subnets out/webapp out/_minted-main
-      - name: Build - pdflatex main (pre-build, errors allowed)
+      - name: 🚧 Build - pdflatex main (pre-build, errors allowed)
         continue-on-error: true
         if: always()
         uses: dante-ev/latex-action@latest
@@ -19,7 +19,7 @@ jobs:
           extra_system_packages: python3-pygments
           root_file: main.tex
           args: -interaction=nonstopmode -shell-escape
-      - name: Build - biber main
+      - name: 🏗 Build - biber main
         continue-on-error: true
         if: always()
         uses: dante-ev/latex-action@latest
@@ -28,7 +28,7 @@ jobs:
           root_file: main
           compiler: biber
           args: 
-      - name: Build - pdflatex main
+      - name: 🏗 Build - pdflatex main
         continue-on-error: false
         if: always()
         uses: dante-ev/latex-action@latest
@@ -37,10 +37,11 @@ jobs:
           extra_system_packages: python3-pygments
           root_file: main.tex
           args: -interaction=nonstopmode -halt-on-error -pdf -f -shell-escape -aux-directory=out -output-directory=out -pdf -latexoption=-f -latexoption=-file-line-error -latexoption=-interaction=nonstopmode -latexoption=-shell-escape
-      - name: Check that PDF exists
+      - name: 🔍 Verify - Check that PDF exists
         if: always()
         run: if [ "$(cat out/main.pdf | wc -l)" -gt "1000" ]; then echo "$(cat out/main.pdf | wc -l)"; else exit 42; fi
-      - uses: actions/upload-artifact@v3
+      - name: 📦 Upload PDF & Logs as Build Artifacts
+        uses: actions/upload-artifact@v3
         if: always()
         with:
           name: LaTeX PDF Document
