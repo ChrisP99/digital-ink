@@ -1,14 +1,24 @@
-\chapter{Conclusion}
+\chapter{Conclusion}\label{ch:conclusion}
+This report illustrates the ease of which a full-stack web application can be developed and deployed from the
+ground up with the best industry standards using AWS\@.
+Being able to create a highly available, fault-resistant service is crucial for businesses trying to serve SaaS
+applications to their users, and this report demonstrates how this can be done by any developer today.
+The security policies that can be enabled easily within AWS, as well as how easy it is to create a robust fault-tolerant
+infrastructure from within AWS, makes it an ideal platform for all web developers to at least consider using.
 
-The development of this report illustrates the ease of which a full-stack web application can be developed from the ground up using best industry standards. Being able to create a highly available, fault-resistant service is crucial for businesses trying to serve a SaaS or likewise application to their users. The security policies that can be enabled easily within AWS as well as how easy it is to create a robust fault-tolerant infrastructure from within AWS makes it ideal.
-In summary, we believe that the project went very well with a few improvements we wish we could make, see Chapter~\ref{ch:future-enhancements}, however within the limitations we had we were able to implement everything we wanted to.
+The project was highly successful, as all the necessary services to deploy \textit{Digital-Ink} were deployed in an
+efficient, secure, and highly-available manner.
+Additionally, the deployments were configured optimally, and this can be seen from the reasonable cost estimates made
+for all scales of deployment.
+The testing conducted on the deployed web application also highlight the accuracy to which the individual AWS services
+were utilised.
 
-If we were to do this again, we would strive to be more aware of how much the infrastructure is costing during development, as almost half of the \$100 budget was used during this initial development, without any real users.
+Unfortunately, there were limitations to this deployment.
+Several of these have been detailed within Chapter~\ref{ch:future-enhancements} Future Enhancements.
+Notably, several of these enhancements were intended to be implemented when the deployment process began, however, the
+accounts granted had restricted access to several of the features which were intended to be used.
 
-During development, we must also be more careful to ensure our IDE's are able to check spelling and evaluate our code before we make changes, as our group had spent hours on this trivial bug (Figure~\ref{fig:bug-fudge}) during the setup of RDS:
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=\textwidth]{resources/rds/mysql.png}
-    \caption{Major Bug Fixes Can be Small}
-    \label{fig:bug-fudge}
-\end{figure}
+In a future deployment of \textit{Digital-Ink}, it would be important to continue to be aware of the costs accumulated
+by utilising the different infrastructure services.
+Fortunately, the time and services spent configuring this deployment did not use up a significant amount of costs, and
+estimates for future deployments are positive.

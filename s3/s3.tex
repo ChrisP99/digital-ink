@@ -1,6 +1,5 @@
 \chapter{Simple Storage Service (S3)}\label{ch:simple-storage-service}
 
-\section{What is Simple Storage Service (S3)?}
 AWS S3 is a form of cloud-based object storage.
 This is a style of network filesystem that treats each file as a separate object with a unique ID, which allows each
 object to be served individually over a network with a single URL, which can also be enhanced with a content delivery
@@ -18,118 +17,115 @@ S3 is perhaps the most popular AWS service and used by many SaaS applications ac
 Instagram, Facebook, Discord and Twitter are all known for using S3 or S3-style storage.
 The advent of object storage has created an almost de-facto standard, which has lead for the creation of many
 'S3-compatible' or 'S3-like' competitor solutions, such as those run by Google Cloud and Microsoft Azure.
+
 \pagebreak
-\begin{enumerate}
-    \section{Creating an S3 Bucket}
+\section{Creating an S3 Bucket}\label{sec:creating-an-s3-bucket}
 
-        \item Setting up an encryption key to be managed by AWS was the most secure option.\nolinebreak
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=\textwidth]{resources/s3/s3_encryption.PNG}
-                \caption{Setting up S3 Encryption Key}
-                \label{fig:s3-image-2}
-            \end{figure}
+An important aspect of S3 is the encryption it provides.
+When setting up S3 it can be specified whether or not to use a server-side encryption key.
+Setting up an encryption key to be managed by AWS was the most secure option, so it was selected.
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3_encryption}
+    \caption{Setting up the S3 encryption key.}
+    \label{fig:s3-image-2}
+\end{figure}
 
-    \item Enabling server-side encryption\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-versioning-encrypting.png}
-            \caption{Setting up S3 Versioning and Encryption Settings}
-            \label{fig:s3-versioning-encrypting}
-        \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-versioning-encrypting}
+    \caption{Setting up S3 versioning and encryption settings.}
+    \label{fig:s3-versioning-encrypting}
+\end{figure}
 
-    \item Setting object ownership used the recommended option as all of our images should be public, so fine-grain ACL control was not needed.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-object-ownership.png}
-            \caption{Setting S3 Object Ownership}
-            \label{fig:s3-object-ownership}
-        \end{figure}
+\pagebreak
+When configuring an S3 bucket, the object ownership was must specified.
+For setting object ownership, the recommended option was used.
+This makes all of the images public, so fine-grain ACL control is not needed.
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=125mm]{resources/s3/s3-object-ownership}
+    \caption{Setting up S3 object ownership.}
+    \label{fig:s3-object-ownership}
+\end{figure}
 
-    \item Allowing public read access to the S3 bucket, as all of our images should be public static assets, no private assets are needed.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-public-access.png}
-            \caption{Allowing Public Read Access}
-            \label{fig:s3-public-access}
-        \end{figure}
+Additionally, public read access to the S3 bucket was allowed, as all of the images are be public static assets and no
+private assets are needed.
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=125mm]{resources/s3/s3-public-access}
+    \caption{Allowing public read access for images.}
+    \label{fig:s3-public-access}
+\end{figure}
 
-    \item S3 bucket has been created successfully.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-created.png}
-            \caption{S3 Bucket Successfully Created}
-            \label{fig:s3-created}
-        \end{figure}
+After these configurations were set up, the S3 bucket was created with the name \mintinline{zsh}|group4-digital-ink-s3|.
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=125mm]{resources/s3/s3-created}
+    \caption{Viewing the created S3 bucket.}
+    \label{fig:s3-created}
+\end{figure}
 
-    \section{Using S3 URLs within Code}
+\pagebreak
+\section{Utilising S3 URLs}
+Now that the S3 bucket has been created to the needs of the web app, images must be uploaded to it.
+Image files for the \texit{Digital-Ink} logo and external social media links were uploaded to the bucket.
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-image-upload}
+    \caption{Uploading static image assets to the S3 bucket.}
+    \label{fig:s3-image-upload}
+\end{figure}
 
-    \item Now that S3 bucket has been created, images must be uploaded.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-image-upload.png}
-            \caption{Uploading Static Assets to S3 Bucket}
-            \label{fig:s3-image-upload}
-        \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-upload-summary}
+    \caption{Viewing the assets to be uploaded to the S3 bucket.}
+    \label{fig:s3-upload-summary}
+\end{figure}
 
+\pagebreak
+After the necessary files have been selected, they can be uploaded.
+If no errors occur during this process, a message shows indicating success.
+Once this has been done, all files attached to the bucket can be seen from the bucket page.
 
-    \item Double-check the upload summary to ensure only the correct images will be uploaded.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-upload-summary.png}
-            \caption{Uploading all Static Assets to S3 Bucket}
-            \label{fig:s3-upload-summary}
-        \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-uploading}
+    \caption{S3 uploading in progress.}
+    \label{fig:s3-uploading}
+\end{figure}
 
-    \item Wait for images to upload.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-uploading.png}
-            \caption{S3 Uploading in Progress}
-            \label{fig:s3-uploading}
-        \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-uploaded}
+    \caption{S3 successful upload and file summary.}
+    \label{fig:s3-uploaded}
+\end{figure}
 
-    \item If successful, message shows indicating success.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-uploaded.png}
-            \caption{S3 Upload Success}
-            \label{fig:s3-uploaded}
-        \end{figure}
+\pagebreak
+Now that images have been uploaded to the bucket, they can be used within the web app.
+To do this, the asset image paths within the code of the web app must be changed to point to the S3 bucket
+rather than the local storage.
 
-    \item Now that images have been uploaded, we must change the asset image paths in code to point to S3 instead of using local storage.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-url-change.png}
-            \caption{Changing Image Paths within Code}
-            \label{fig:s3-url-change}
-        \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-url-change}
+    \caption{Changing image paths within the web app code.}
+    \label{fig:s3-url-change}
+\end{figure}
 
-    \section{Testing S3 Working}
+To test that this use of S3 is working, the URL generated by the bucket which is hosting the image may be visited in a
+browser for confirmation.
 
-    \item To test S3 is working, the URL may be visited in a browser for confirmation.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/s3-image-displayed.png}
-            \caption{Image access through S3}
-            \label{fig:s3-image}
-        \end{figure}
-
-
-    \item Ensure that S3 billing is not too high, which will depend on how many GiB of images are uploaded.\nolinebreak
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{resources/s3/Screenshot 2022-05-14 at 6.45.18 pm.png}
-            \caption{Billing Estimate for S3 Services}
-            \label{fig:s3-billing}
-        \end{figure}
-\end{enumerate}
-
-\section{Content Distribution Network (CDN)}
-For adding a content distribution network to our S3 bucket, please see Chapter~\ref{ch:cloudfront}.
-
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=\textwidth]{resources/s3/s3-image-displayed}
+    \caption{Accessing an image using the S3 bucket URL.}
+    \label{fig:s3-image}
+\end{figure}
